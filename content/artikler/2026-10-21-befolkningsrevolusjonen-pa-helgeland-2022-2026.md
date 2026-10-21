@@ -3,6 +3,7 @@ title: 📈 Befolkningsrevolusjonen på Helgeland (2022–2026)
 summary: "Korgfjellet som det nye demografiske skillet: Sør-Helgeland vokser –
   Nord-Helgeland stagnerer"
 image: /images/helgeland_demografi_korgfjellet.png
+kicker: " Innsikt &amp; Demografi"
 date: 2026-10-21
 ---
 **Publisert på ibyn.no | Seksjon: Innsikt &amp; Demografi**  
