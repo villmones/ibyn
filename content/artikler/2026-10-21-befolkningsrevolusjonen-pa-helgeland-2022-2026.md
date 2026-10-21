@@ -49,7 +49,8 @@ Dersom vi bruker **Korgfjellet** – det tradisjonelle fjellpasset og kommunegre
 
 ## 🏙️ Kommune for kommune: Hvem vokser og hvem krymper?
 
-\--Image of: --Kommunevis Endring
+![Helgeland Demografi Illustrasjon](../images/befolkning_kommuner_endring.png)
+
 
 Tabellen under viser den eksakte befolkningsutviklingen for hver enkelt kommune fra 1\. januar 2022 til 1\. januar 2026, sortert etter absolutt vekst:
 
