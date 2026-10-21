@@ -462,6 +462,91 @@
             .lead-story-content, .full-article-inner { padding: 1.4rem; }
             .paper-dateline { flex-direction: column; text-align: center; gap: 0.2rem; }
         }
+
+        /* Toppseksjon med 2 kolonner på PC */
+        .top-section-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr; /* Venstre kolonne er dobbelt så bred som høyre */
+            gap: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        /* Toppsak til venstre */
+        .lead-story {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-top: 4px solid var(--accent-color);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .lead-story img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+            display: block;
+            border-bottom: 1px solid var(--border-color);
+            cursor: zoom-in;
+        }
+
+        .lead-story-content {
+            padding: 1.8rem;
+        }
+
+        .lead-story h1 {
+            font-size: 2.1rem;
+            line-height: 1.2;
+            margin-bottom: 0.75rem;
+        }
+
+        .lead-story .ingress {
+            font-size: 1.15rem;
+            color: #2d2d2d;
+            line-height: 1.5;
+        }
+
+        /* Sekundærsak i høyre kolonne */
+        .secondary-story {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-top: 4px solid var(--text-color);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 1.5rem;
+        }
+
+        .secondary-story img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            display: block;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 1rem;
+            cursor: zoom-in;
+        }
+
+        .secondary-story h2 {
+            font-size: 1.3rem;
+            line-height: 1.3;
+            margin-bottom: 0.6rem;
+        }
+
+        .secondary-story .ingress {
+            font-size: 0.95rem;
+            color: #333333;
+            line-height: 1.45;
+        }
+
+        /* Responsiv mobilvisning (bryter til 1 kolonne på små skjermer) */
+        @media (max-width: 768px) {
+            .top-section-grid {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 <body>
@@ -640,8 +725,7 @@
             });
         }
 
-// Render Frontpage (Top Story + Secondary story + News Grid)
-        function renderFrontpage() {
+function renderFrontpage() {
             const leadContainer = document.getElementById('lead-article-container');
             const gridContainer = document.getElementById('cms-articles-container');
 
@@ -650,29 +734,55 @@
                 return;
             }
 
-            // 1. Toppsak (alltid den aller nyeste)
+            // 1. Toppsak (nr. 1) og sekundærsak (nr. 2)
             const newest = allArticles[0];
+            const secondary = allArticles.length > 1 ? allArticles[1] : null;
+
             const newestImg = resolveImageUrl(newest.image);
             const newestSummary = getSummary(newest);
 
-            leadContainer.innerHTML = `
+            let topSectionHtml = `<div class="top-section-grid">`;
+
+            // Venstre kolonne: Stor toppsak
+            topSectionHtml += `
                 <article class="lead-story">
-                    ${newestImg ? `<a href="#${encodeURIComponent(newest.slug)}" class="image-link"><img src="${newestImg}" alt="${newest.title}"></a>` : ''}
-                    <div class="lead-story-content">
-                        <span class="kicker">${newest.kicker || 'AKTUELT'}</span>
-                        <h1><a href="#${encodeURIComponent(newest.slug)}" class="article-link">${newest.title}</a></h1>
-                        ${newestSummary ? `<p class="ingress">${newestSummary}</p>` : ''}
-                        ${newest.date ? `<div class="byline">Publisert ${formatNorwegianDate(newest.date)}</div>` : ''}
+                    <div>
+                        ${newestImg ? `<a href="#${encodeURIComponent(newest.slug)}" class="image-link"><img src="${newestImg}" alt="${newest.title}"></a>` : ''}
+                        <div class="lead-story-content">
+                            <span class="kicker">${newest.kicker || 'AKTUELT'}</span>
+                            <h1><a href="#${encodeURIComponent(newest.slug)}" class="article-link">${newest.title}</a></h1>
+                            ${newestSummary ? `<p class="ingress">${newestSummary}</p>` : ''}
+                        </div>
                     </div>
+                    ${newest.date ? `<div class="byline" style="margin: 0 1.8rem 1.8rem;">Publisert ${formatNorwegianDate(newest.date)}</div>` : ''}
                 </article>
             `;
 
-            // 2. Resten av artiklene (fra og med artikkel nr. 2) havner i rutenettet under, 
-            // slik at toppsaken aldri dupliseres!
-            const remainingArticles = allArticles.slice(1);
+            // Høyre kolonne: Sekundærsak (hvis den finnes)
+            if (secondary) {
+                const secImg = resolveImageUrl(secondary.image);
+                const secSummary = getSummary(secondary);
+                topSectionHtml += `
+                    <article class="secondary-story">
+                        <div>
+                            <span class="kicker">${secondary.kicker || 'NYHETER'}</span>
+                            <h2><a href="#${encodeURIComponent(secondary.slug)}" class="article-link">${secondary.title}</a></h2>
+                            ${secImg ? `<a href="#${encodeURIComponent(secondary.slug)}" class="image-link"><img src="${secImg}" alt="${secondary.title}"></a>` : ''}
+                            ${secSummary ? `<p class="ingress">${secSummary}</p>` : ''}
+                        </div>
+                        ${secondary.date ? `<div class="byline">Publisert ${formatNorwegianDate(secondary.date)}</div>` : ''}
+                    </article>
+                `;
+            }
+
+            topSectionHtml += `</div>`;
+            leadContainer.innerHTML = topSectionHtml;
+
+            // 2. Resten av artiklene (fra og med sak nr. 3) havner i rutenettet under
+            const remainingArticles = allArticles.slice(2);
 
             if (remainingArticles.length === 0) {
-                gridContainer.innerHTML = '<p style="color: var(--muted-color); font-style: italic;">Flere artikler kommer senere.</p>';
+                gridContainer.innerHTML = '';
                 setupImageZoom();
                 return;
             }
@@ -697,7 +807,8 @@
             
             setupImageZoom();
         }
-
+        
+        
         function renderSingleArticle(slug) {
             const article = allArticles.find(a => a.slug === slug);
             const fullContainer = document.getElementById('full-article-container');
