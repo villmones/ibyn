@@ -368,6 +368,7 @@
         }
 
         // Parse YAML Frontmatter and Markdown body from raw .md file
+// Parse YAML Frontmatter and Markdown body from raw .md file
         function parseFrontmatter(rawText, filename) {
             const slug = filename.replace(/\.md$/, '');
             const frontmatterRegex = /^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/;
@@ -392,30 +393,41 @@
                 let multilineBuffer = [];
 
                 for (const line of lines) {
+                    // Match top-level YAML key (no leading spaces)
                     const keyValMatch = line.match(/^([a-zA-Z0-9_-]+):\s*(.*)$/);
                     if (keyValMatch) {
-                        // Save previous multiline field if applicable
+                        // Save previous field before starting a new one
                         if (currentKey && multilineBuffer.length > 0) {
-                            metadata[currentKey] = multilineBuffer.join('\n').trim();
+                            metadata[currentKey] = multilineBuffer
+                                .join(' ')
+                                .replace(/^["']([\s\S]*)["']$/, '$1')
+                                .trim();
                             multilineBuffer = [];
                         }
                         currentKey = keyValMatch[1].trim();
                         let val = keyValMatch[2].trim();
-                        val = val.replace(/^["'](.*)["']$/, '$1');
 
-                        if (val === '|' || val === '>' || val === '|-') {
-                            // Start of multiline block in YAML
+                        if (val === '|' || val === '>' || val === '|-' || val === '>-') {
+                            // Start of YAML block scalar; content starts on next line
                             multilineBuffer = [];
+                        } else if (val !== '') {
+                            // Keep the first line in the buffer so continuation lines append to it
+                            multilineBuffer = [val];
                         } else {
-                            metadata[currentKey] = val;
+                            multilineBuffer = [];
                         }
-                    } else if (currentKey) {
-                        multilineBuffer.push(line.replace(/^\s{2}/, ''));
+                    } else if (currentKey && (line.startsWith(' ') || line.startsWith('\t'))) {
+                        // Indented continuation line belonging to currentKey
+                        multilineBuffer.push(line.trim());
                     }
                 }
 
+                // Save the last field in the YAML block
                 if (currentKey && multilineBuffer.length > 0) {
-                    metadata[currentKey] = multilineBuffer.join('\n').trim();
+                    metadata[currentKey] = multilineBuffer
+                        .join(' ')
+                        .replace(/^["']([\s\S]*)["']$/, '$1')
+                        .trim();
                 }
             }
             return metadata;
