@@ -29,6 +29,22 @@
             line-height: 1.6;
         }
 
+        /* Papiravis Topplinje (Datolinje / Årgang) */
+        .paper-dateline {
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--muted-color);
+            border-bottom: 1px solid var(--border-color);
+            padding: 0.4rem 1rem;
+            display: flex;
+            justify-content: space-between;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
         /* Masthead / Header med værwidget */
         header {
             background-color: #ffffff;
@@ -93,8 +109,8 @@
         }
 
         .weather-widget img {
-            width: 32px;
-            height: 32px;
+            width: 36px;
+            height: 36px;
         }
 
         .weather-info {
@@ -109,7 +125,7 @@
         }
 
         .weather-location {
-            font-size: 0.75rem;
+            font-size: 0.72rem;
             color: var(--muted-color);
             text-transform: uppercase;
             letter-spacing: 0.5px;
@@ -437,10 +453,17 @@
             .masthead-title { font-size: 2.5rem; }
             .lead-story h1, .full-article h1 { font-size: 1.75rem; }
             .lead-story-content, .full-article-inner { padding: 1.4rem; }
+            .paper-dateline { flex-direction: column; text-align: center; gap: 0.2rem; }
         }
     </style>
 </head>
 <body>
+
+    <!-- Papiravis Datolinje -->
+    <div class="paper-dateline">
+        <span id="current-date-string">Mosjøen, 2026</span>
+        <span>Årgang 1 &bull; Nr. 1</span>
+    </div>
 
     <header>
         <div class="masthead-inner">
@@ -491,21 +514,34 @@
 
         let allArticles = [];
 
-        // Hent værdata fra Yr.no (Mosjøen koordinater: Lat 65.83, Lon 13.16)
+        // Generer klassisk papiravis-datolinje på norsk
+        function updatePaperDateline() {
+            const now = new Date();
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            let dateStr = now.toLocaleDateString('no-NO', options);
+            // Stor bokstav på ukedagen
+            dateStr = dateStr.charAt(0).toUpperCase() + dateStr.slice(1);
+            document.getElementById('current-date-string').textContent = `Mosjøen, ${dateStr}`;
+        }
+
+        // Hent værdata fra Yr.no med stabil ikon-håndtering
         async function fetchWeather() {
             try {
-                const res = await fetch('https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=65.83&lon=13.16', {
+                const res = await fetch('https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=65.8396&lon=13.1534', {
                     headers: { 'User-Agent': 'ibyn.no weather-widget contact@ibyn.no' }
                 });
                 if (!res.ok) return;
-                const data = res.json ? await res.json() : null;
+                const data = await res.json();
+                
                 if (data && data.properties && data.properties.timeseries) {
                     const current = data.properties.timeseries[0];
                     const temp = current.data.instant.details.air_temperature;
-                    const symbolCode = current.data.next_1_hours ? current.data.next_1_hours.summary.symbol_code : 'clearsky_day';
+                    const nextHour = current.data.next_1_hours || current.data.next_6_hours;
+                    const symbolCode = nextHour ? nextHour.summary.symbol_code : 'clearsky_day';
                     
                     document.getElementById('yr-weather-temp').textContent = Math.round(temp) + '°C';
-                    document.getElementById('yr-weather-icon').src = `https://raw.githubusercontent.com/yr/weather-symbols/1.0.0/svg/osmc/${symbolCode}.svg`;
+                    // Yr offisielle SVG-ikoner
+                    document.getElementById('yr-weather-icon').src = `https://cdn.jsdelivr.net/gh/YR/weather-symbols@v8.0.2/dist/svg/${symbolCode}.svg`;
                 }
             } catch (e) {
                 console.error('Klarte ikke å hente værdata:', e);
@@ -715,6 +751,7 @@
 
         window.addEventListener('hashchange', handleRoute);
         document.addEventListener('DOMContentLoaded', () => {
+            updatePaperDateline();
             loadArticles();
             fetchWeather();
         });
