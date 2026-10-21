@@ -115,7 +115,7 @@ Selv om Nord-Helgeland samlet stagnerer, finnes det to klare lyspunkter:
 
 ---
 
-## 🎯 Konklusjon og politiske konsekvenser for `ibyn.no`
+## 🎯 Konklusjon og politiske konsekvenser
 
 Demografikartet over Helgeland (2022–2026) utfordrer etablerte politiske sannheter:
 
