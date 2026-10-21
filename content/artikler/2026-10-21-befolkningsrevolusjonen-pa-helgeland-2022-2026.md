@@ -13,7 +13,7 @@ date: 2026-10-21
 
 Ferske registreringstall fra Statistisk sentralbyrå (SSB) avslører en slående og uventet demografisk utvikling på Helgeland de siste fire årene.
 
-Dersom vi bruker **Korgfjellet** – det tradisjonelle fjellpasset og kommunegrensen mellom Vefsn og Hemnes – som vannskille, viser tallene to helt ulike regionale verdener:
+Dersom vi bruker **Korgfjellet** – fjellet og kommunegrensen mellom Vefsn og Hemnes – som vannskille, viser tallene to helt ulike regionale verdener:
 
 * **Sør-Helgeland (sør for Korgfjellet):** Har opplevd en samlet befolkningsvekst på **+731 innbyggere (+1,82 %)** fra 2022 til 2026.
 * **Nord-Helgeland (nord for Korgfjellet):** Har i samme periode hatt en netto stagnering og svak nedgang på **\-20 innbyggere (-0,06 %)**.
