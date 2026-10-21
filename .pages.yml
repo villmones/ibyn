@@ -1,8 +1,7 @@
-collections:
+content:
   - name: artikler
     label: Artikkelarkiv
     path: content/artikler
-    format: frontmatter
     fields:
       - name: title
         label: Overskrift
