@@ -8,16 +8,24 @@ image: /images/statsbudsjettet_helgeland_illustration.png
 kicker: " Innsikt &amp; Råvarer / Økonomi"
 date: 2026-10-21
 ---
+Nedenfor finner du en komplett og oppdatert oversikt over bevilgninger, rammetilskudd, frie inntekter og særskilte prosjektmidler for **Vefsn, Grane og Hattfjelldal**, samt for **alle øvrige kommuner på Helgeland**.
+
+---
+
 ## 1\. Vefsn, Grane og Hattfjelldal (Indre Helgeland)
 
 ### 🔵 Vefsn kommune
 
-* **Frie inntekter (anslag 2027):** **1 193 073 000 kr** (\~1,193 milliarder kroner). Dette utgjør en oppgavekorrigert nominell vekst på **+53,2 millioner kroner (+4,7 %)** sammenlignet med 2026.
+* **Frie inntekter (anslag 2027):** **1 193 073 000 kr** (\~1,193 milliarder kroner). Dette er en oppgavekorrigert nominell vekst på **+53,2 millioner kroner (+4,7 %)** fra 2026.
 * **Rammetilskudd (Kap. 571):** **593 588 000 kr** (\~593,6 mill. kr).
-* **Sentrale samferdsels- og beredskapsposter:**  
-  * **FOT-ruter (Mosjøen lufthavn, Kjærstad):** Inngår i den samlede nasjonale bevilgningen på **2 583,1 mill. kr** over Kap. 1310, post 70 for kjøp av innenlandske flyruter. Regjeringen slår fast i budsjettteksten at de vil *«særskilt vurdere kravene til FOT-ruter fra nærliggende lufthavner i lys av åpningen av ny lufthavn ved Mo i Rana»*.
-  * **Testarena for elfly:** Kjærstad og Horvnes berøres av bevilgningen på **51,9 mill. kr** til Luftfartstilsynet og Avinor for prosjektet *«Norge som testarena for null- og lavutslippsluftfart»*.
-  * **E6 Helgeland:** Statens vegvesen settes av midler til restarbeider, utbedringer på E6 Flyum–Lille Majavatn og generell tilrettelegging langs E6-aksen.
+* **Spesifikke kultur- og museumsbevilgninger:**  
+  * **Helgeland Museum – Nytt museumsanlegg i Mosjøen:** Bevilges **7,0 millioner kroner** i tilleggsbevilgning over Kultur- og likestillingsdepartementets kap. 322, post 70 (*Nasjonale kulturbygg*). Midlene går til å realisere siste fase av det nye anlegget (oppgradering av Mjaavatnanlegget i Sjøgata og nybygg i Skjervgata) som blir hovedbase for museumsfaglig utvikling på Helgeland.
+  * **Helgeland Museum (driftsstøtte):** Det ordinære driftstilskuddet til Helgeland Museum over *Det nasjonale museumsnettverket* (kap. 328, post 70) økes fra 22,55 mill. kr til **23,21 millioner kroner** i 2027.
+* **Sentrale samferdsels-, justis- og beredskapsposter:**  
+  * **FOT-ruter (Mosjøen lufthavn, Kjærstad):** Inngår i den samlede nasjonale bevilgningen på **2 583,1 mill. kr** over Kap. 1310, post 70 for kjøp av innenlandske flyruter.
+  * **Testarena for elfly:** Kjærstad berøres av bevilgningen på **51,9 mill. kr** til Luftfartstilsynet og Avinor til prosjektet *«Norge som testarena for null- og lavutslippsluftfart»*.
+  * **Nytt fengsel i Mosjøen:** Justis- og beredskapsdepartementet viderefører utredningsmidlene for konsept og lokalisering av nytt fengsel.
+  * **E6 Helgeland:** Statens vegvesen settes av midler til utbedringer og tilrettelegging langs E6-aksen.
 * **Barnehagesatsing:** Maksimalprisen for barnehage i distriktskommuner som Vefsn settes til **700 kr per måned** (7 700 kr/år) fra 1\. januar 2027.
 
 ### 🟢 Grane kommune
@@ -32,14 +40,14 @@ date: 2026-10-21
 * **Frie inntekter (anslag 2027):** **151 134 000 kr** (\~151,1 mill. kr), en vekst på **+5,5 millioner kroner (+3,8 %)**.
 * **Rammetilskudd (Kap. 571):** **95 393 000 kr** (\~95,4 mill. kr).
 * **Særskilte statlige poster:**  
-  * **Sørsamisk kunnskapspark:** Over Kunnskapsdepartementets budsjett (Kap. 222, post 01) bevilges det øremerkede driftsmidler til **Sørsamisk kunnskapspark i Hattfjelldal**.
+  * **Sørsamisk kunnskapspark:** Over Kunnskapsdepartementets kap. 222, post 01 bevilges det **18,5 millioner kroner** til drift av Sørsamisk kunnskapspark i Hattfjelldal (inkludert en økning på 3,7 mill. kr grunnet økt elevtall og fjernundervisning).
 * **Barnehage:** Maksimalpris **700 kr/måned**.
 
 ---
 
 ## 2\. Resten av Helgeland (Kommune for kommune)
 
-Oversikten under viser overføringene over Kommunal- og distriktsdepartementets kapittel 571 for de øvrige Helgelandskommunene:
+Tabellen under viser overføringene over Kommunal- og distriktsdepartementets kapittel 571 (Grønt hefte) for de øvrige Helgelandskommunene:
 
 | Kommune       | Rammetilskudd 2027 (kr) | Anslag Frie Inntekter 2027 (kr) | Vekst fra 2026 (%)          |
 | ------------- | ----------------------- | ------------------------------- | --------------------------- |
@@ -61,18 +69,21 @@ Oversikten under viser overføringene over Kommunal- og distriktsdepartementets 
 
 ---
 
-## 3\. Store regionale enkeltprosjekter på Helgeland i 2027
+## 3\. Store regionale kulturinstitusjoner og enkeltprosjekter på Helgeland i 2027
 
-1. **Ny lufthavn ved Mo i Rana (Fagerlia):**  
-  * Over Samferdselsdepartementets **Kap. 1315, post 71** (Tilskudd til Avinor) foreslås det bevilget **185,1 millioner kroner** i 2027 øremerket ferdigstilling, testing og klargjøring for drift av ny lufthavn i Fagerlia (planlagt åpning høsten 2027).
-  * Vedtatt kostnadsramme er **5 389 mill. 2027-kr**, men Avinors seneste prognoser indikerer at sluttkostnaden vil overskride rammen.
-2. **Kjøp av flyruter (FOT-nettet):**  
-  * Totalt **2 583,1 millioner kroner** bevilges til statlig kjøp av flyruter i Norge (Kap. 1310, post 70). Ny anbudskonkurranse for Nord-Norge lyses ut i 2027 med oppstart 1\. november 2028.
-3. **Nordland fylkeskommune:**  
-  * Nordland fylkeskommune får et samlet rammetilskudd på **5 812 954 000 kr** (\~5,81 mrd. kr), inkludert et Nord-Norge-tilskudd på **435 mill. kr**.
-  * Anslag på samlede frie inntekter for Nordland fylkeskommune i 2027 er **8 048 043 000 kr** (\~8,05 mrd. kr).
-  * Fylkeskommunen mottar ferjeavløysingsmidler over rammetilskuddet for **Toventunnelen** mellom Vefsn og Leirfjord.
-
+1. **Helgeland Museum (Mosjøen):**  
+  * **7,0 mill. kr** i øremerket statlig investeringstilskudd over Post 70 (*Nasjonale kulturbygg*) for å sluttføre det nye museumsanlegget i Skjervgata/Sjøgata.
+  * **23,21 mill. kr** i ordinært driftstilskudd over Det nasjonale museumsnettverket.
+2. **Nordland Teater (Mo i Rana):**  
+  * **39,73 mill. kr** i samlet driftstilskudd over Kultur- og likestillingsdepartementets kap. 323, post 70 (inkludert et særskilt husleietilskudd på 3,23 mill. kr).
+3. **Ny lufthavn ved Mo i Rana (Fagerlia):**  
+  * Over Samferdselsdepartementets **Kap. 1315, post 71** (Tilskudd til Avinor) foreslås det **185,1 millioner kroner** i 2027 øremerket ferdigstilling og klargjøring til åpning.
+4. **Landsdelsmusikerordningen i Nord-Norge:**  
+  * **28,19 mill. kr** bevilges over kap. 323, post 60 for drift av landsdelsmusikerne.
+5. **Figurteateret i Nordland:**  
+  * **8,98 mill. kr** over kap. 320, post 75.
+6. **Toventunnelen og Nordland fylkeskommune:**  
+  * Nordland fylkeskommune får et samlet rammetilskudd på **5 812 954 000 kr** (\~5,81 mrd. kr) og mottar årlige ferjeavløysingsmidler over rammetilskuddet for å finansiere Toventunnelen mellom Vefsn og Leirfjord.
 ---
 
 **Kilde:** Regjeringens forslag til statsbudsjett 2027 (Prop. 1 S og Grønt hefte H-2580 N)
