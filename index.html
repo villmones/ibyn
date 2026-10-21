@@ -748,7 +748,16 @@
                     })
                 );
 
-                allArticles.sort((a, b) => new Date(b.date || 0).getTime() - new Date(a.date || 0).getTime());
+                // Sørg for at nyeste dato alltid kommer først
+                allArticles.sort((a, b) => {
+                    const timeA = a.date ? new Date(a.date).getTime() : 0;
+                    const timeB = b.date ? new Date(b.date).getTime() : 0;
+                    // Hvis datoene er like, sorter på filnavn (alfabetisk/omvendt)
+                    if (timeB === timeA) {
+                        return b.slug.localeCompare(a.slug);
+                    }
+                    return timeB - timeA;
+                });
 
                 renderFrontpage();
                 handleRoute();
