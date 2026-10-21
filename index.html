@@ -640,6 +640,7 @@
             });
         }
 
+// Render Frontpage (Top Story + Secondary story + News Grid)
         function renderFrontpage() {
             const leadContainer = document.getElementById('lead-article-container');
             const gridContainer = document.getElementById('cms-articles-container');
@@ -649,6 +650,7 @@
                 return;
             }
 
+            // 1. Toppsak (alltid den aller nyeste)
             const newest = allArticles[0];
             const newestImg = resolveImageUrl(newest.image);
             const newestSummary = getSummary(newest);
@@ -665,7 +667,17 @@
                 </article>
             `;
 
-            gridContainer.innerHTML = allArticles.map(art => {
+            // 2. Resten av artiklene (fra og med artikkel nr. 2) havner i rutenettet under, 
+            // slik at toppsaken aldri dupliseres!
+            const remainingArticles = allArticles.slice(1);
+
+            if (remainingArticles.length === 0) {
+                gridContainer.innerHTML = '<p style="color: var(--muted-color); font-style: italic;">Flere artikler kommer senere.</p>';
+                setupImageZoom();
+                return;
+            }
+
+            gridContainer.innerHTML = remainingArticles.map(art => {
                 const imgUrl = resolveImageUrl(art.image);
                 const summaryText = getSummary(art);
                 return `
@@ -682,6 +694,7 @@
                     </article>
                 `;
             }).join('');
+            
             setupImageZoom();
         }
 
