@@ -1,6 +1,8 @@
+media: images
 content:
   - name: artikler
     label: Artikkelarkiv
+    type: collection
     path: content/artikler
     fields:
       - name: title
@@ -9,11 +11,10 @@ content:
         required: true
       - name: date
         label: Publiseringstidspunkt
-        type: datetime
-        required: true
+        type: date
       - name: kicker
         label: Kicker (Kategori)
         type: string
       - name: body
         label: Innhold
-        type: string
+        type: rich-text
