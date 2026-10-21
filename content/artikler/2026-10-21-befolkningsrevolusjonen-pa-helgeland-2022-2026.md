@@ -11,8 +11,6 @@ date: 2026-10-21
 
 ---
 
-![Helgeland Demografi Illustrasjon](../images/helgeland_demografi_korgfjellet.png)
-
 Ferske registreringstall fra Statistisk sentralbyrå (SSB) avslører en slående og uventet demografisk utvikling på Helgeland de siste fire årene.
 
 Dersom vi bruker **Korgfjellet** – det tradisjonelle fjellpasset og kommunegrensen mellom Vefsn og Hemnes – som vannskille, viser tallene to helt ulike regionale verdener:
@@ -85,7 +83,7 @@ Vefsn står for den største enkelte befolkningsveksten på hele Helgeland de si
 
 Dette drives av flere samvirkende faktorer:
 
-* **Milliardinvesteringer i industri og grønn teknologi:** Alcoa Mosjøens satsinger på resirkulering og støperi, kombinert med Gen2 Energys hydrogenetablering, har skapt stor etterspørsel etter fagfolk og lærlinger.
+* **Milliardinvesteringer i industri og grønn teknologi:** Alcoa Mosjøens satsinger på resirkulering og støperi har skapt stor etterspørsel etter fagfolk og lærlinger.
 * **Fylkeskommunale og kommunale samfunnsløft:** Utbyggingen av nye Mosjøen videregående skole til over 1,2 milliarder kroner og kjempeanlegget **Kippermoen Arena** (17 200 m²) gir byen en tiltrekningskraft på barnefamilier og ungdom.
 * **Sentralt knutepunkt:** Mosjøens rolle som handels-, kultur- og kommunikasjonssenter (E6, Nordlandsbanen og Kjærstad lufthavn) gjør byen til en naturlig magnet for Indre Helgeland.
 
