@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ibyn.no – Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn</title>
+    <title>iByn.no – Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn</title>
+    <!-- Favicon med iB -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%23ffffff'/><text x='50%' y='58%' dominant-baseline='middle' text-anchor='middle' font-family='Georgia, serif' font-weight='bold' font-size='62' fill='%23b91c1c'>iB</text></svg>">
     <!-- Include Marked.js to parse Markdown content into HTML -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
@@ -472,7 +474,7 @@
 
     <header>
         <div class="masthead-inner">
-            <a href="#" class="masthead-title">ibyn<span>.no</span></a>
+            <a href="#" class="masthead-title">iByn<span>.no</span></a>
             <div class="masthead-sub">Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn</div>
         </div>
         <!-- Yr Weather Widget for Mosjøen -->
@@ -509,7 +511,7 @@
     </div>
 
     <footer>
-        &copy; 2026 ibyn.no – Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn
+        &copy; 2026 iByn.no – Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn
     </footer>
 
     <script>
@@ -530,7 +532,7 @@
         async function fetchWeather() {
             try {
                 const res = await fetch('https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=65.8396&lon=13.1534', {
-                    headers: { 'User-Agent': 'ibyn.no weather-widget contact@ibyn.no' }
+                    headers: { 'User-Agent': 'iByn.no weather-widget contact@ibyn.no' }
                 });
                 if (!res.ok) return;
                 const data = await res.json();
@@ -545,239 +547,4 @@
 
                     let emoji = '⛅';
                     if (symbolCode.includes('rain') || symbolCode.includes('sleet')) emoji = '🌧️';
-                    else if (symbolCode.includes('snow')) emoji = '🌨️';
-                    else if (symbolCode.includes('cloud')) emoji = '☁️';
-                    else if (symbolCode.includes('fair') || symbolCode.includes('clearsky')) emoji = '☀️';
-
-                    document.getElementById('weather-emoji').textContent = emoji;
-                }
-            } catch (e) {
-                console.error('Klarte ikke å hente værdata:', e);
-            }
-        }
-
-        function resolveImageUrl(imagePath) {
-            if (!imagePath) return '';
-            if (imagePath.startsWith('http://') || imagePath.startsWith('https://')) return imagePath;
-            return `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/main/${imagePath.replace(/^\/+/, '')}`;
-        }
-
-        function getSummary(article) {
-            if (article.summary && article.summary.trim() !== '') return article.summary.trim();
-            if (!article.body) return '';
-            const plain = article.body.replace(/!\[.*?\]\(.*?\)/g, '').replace(/\[([^\]]+)\]\(.*?\)/g, '$1').replace(/[#>*_`~-]/g, '').trim();
-            const firstParagraph = plain.split(/\n\s*\n/)[0] || plain;
-            return firstParagraph.length > 220 ? firstParagraph.substring(0, 220) + '…' : firstParagraph;
-        }
-
-        function parseFrontmatter(rawText, filename) {
-            const slug = filename.replace(/\.md$/, '');
-            const frontmatterRegex = /^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/;
-            const match = rawText.match(frontmatterRegex);
-
-            const metadata = { slug, title: 'Uten tittel', summary: '', image: '', date: '', kicker: 'NYHETER', body: rawText };
-
-            if (match) {
-                const yamlBlock = match[1];
-                metadata.body = match[2].trim();
-
-                const lines = yamlBlock.split(/\r?\n/);
-                let currentKey = null;
-                let multilineBuffer = [];
-
-                const saveField = (key, buffer) => {
-                    if (!key || buffer.length === 0) return;
-                    const joinChar = (key === 'body') ? '\n' : ' ';
-                    metadata[key] = buffer.join(joinChar).replace(/^["']([\s\S]*)["']$/, '$1').trim();
-                };
-
-                for (const line of lines) {
-                    const keyValMatch = line.match(/^([a-zA-Z0-9_-]+):\s*(.*)$/);
-                    if (keyValMatch) {
-                        saveField(currentKey, multilineBuffer);
-                        multilineBuffer = [];
-                        currentKey = keyValMatch[1].trim();
-                        let val = keyValMatch[2].trim();
-                        if (val === '|' || val === '>' || val === '|-' || val === '>-') {
-                            multilineBuffer = [];
-                        } else if (val !== '') {
-                            multilineBuffer = [val];
-                        }
-                    } else if (currentKey && (line.startsWith(' ') || line.startsWith('\t') || line.trim() === '')) {
-                        multilineBuffer.push(line.replace(/^\s{2}/, ''));
-                    }
-                }
-                saveField(currentKey, multilineBuffer);
-                if (metadata.body) metadata.body = metadata.body.replace(/\\([#*_`~\[\]()>-])/g, '$1');
-            }
-            return metadata;
-        }
-
-        function formatNorwegianDate(dateStr) {
-            if (!dateStr) return '';
-            const parsed = new Date(dateStr);
-            if (isNaN(parsed.getTime())) return dateStr;
-            return parsed.toLocaleDateString('no-NO', { day: 'numeric', month: 'long', year: 'numeric' });
-        }
-
-        function openLightbox(imgSrc) {
-            document.getElementById('lightbox-img').src = imgSrc;
-            document.getElementById('image-lightbox').style.display = 'flex';
-        }
-
-        function closeLightbox() {
-            document.getElementById('image-lightbox').style.display = 'none';
-        }
-
-        function setupImageZoom() {
-            const articleImages = document.querySelectorAll('.article-body img, .full-article-hero, .lead-story img, .news-card img');
-            articleImages.forEach(img => {
-                img.style.cursor = 'zoom-in';
-                img.onclick = (e) => { e.stopPropagation(); openLightbox(img.src); };
-            });
-        }
-
-        function renderFrontpage() {
-            const leadContainer = document.getElementById('lead-article-container');
-            const gridContainer = document.getElementById('cms-articles-container');
-
-            if (allArticles.length === 0) {
-                gridContainer.innerHTML = '<p>Ingen publiserte artikler ennå.</p>';
-                return;
-            }
-
-            const newest = allArticles[0];
-            const newestImg = resolveImageUrl(newest.image);
-            const newestSummary = getSummary(newest);
-
-            leadContainer.innerHTML = `
-                <article class="lead-story">
-                    ${newestImg ? `<a href="#${encodeURIComponent(newest.slug)}" class="image-link"><img src="${newestImg}" alt="${newest.title}"></a>` : ''}
-                    <div class="lead-story-content">
-                        <span class="kicker">${newest.kicker || 'AKTUELT'}</span>
-                        <h1><a href="#${encodeURIComponent(newest.slug)}" class="article-link">${newest.title}</a></h1>
-                        ${newestSummary ? `<p class="ingress">${newestSummary}</p>` : ''}
-                        ${newest.date ? `<div class="byline">Publisert ${formatNorwegianDate(newest.date)}</div>` : ''}
-                    </div>
-                </article>
-            `;
-
-            gridContainer.innerHTML = allArticles.map(art => {
-                const imgUrl = resolveImageUrl(art.image);
-                const summaryText = getSummary(art);
-                return `
-                    <article class="news-card">
-                        ${imgUrl ? `<a href="#${encodeURIComponent(art.slug)}" class="image-link"><img src="${imgUrl}" alt="${art.title}"></a>` : ''}
-                        <div class="news-card-content">
-                            <div>
-                                <span class="kicker">${art.kicker || 'NYHETER'}</span>
-                                <h2><a href="#${encodeURIComponent(art.slug)}" class="article-link">${art.title}</a></h2>
-                                ${summaryText ? `<p class="ingress">${summaryText}</p>` : ''}
-                            </div>
-                            ${art.date ? `<div class="byline">Publisert ${formatNorwegianDate(art.date)}</div>` : ''}
-                        </div>
-                    </article>
-                `;
-            }).join('');
-            setupImageZoom();
-        }
-
-        function renderSingleArticle(slug) {
-            const article = allArticles.find(a => a.slug === slug);
-            const fullContainer = document.getElementById('full-article-container');
-
-            if (!article) {
-                window.location.hash = '';
-                return;
-            }
-
-            const imgUrl = resolveImageUrl(article.image);
-            const hasDedicatedSummary = article.summary && article.summary.trim() !== '';
-
-            fullContainer.innerHTML = `
-                <article class="full-article">
-                    ${imgUrl ? `<img src="${imgUrl}" alt="${article.title}" class="full-article-hero">` : ''}
-                    <div class="full-article-inner">
-                        <span class="kicker">${article.kicker || 'NYHETER'}</span>
-                        <h1>${article.title}</h1>
-                        ${hasDedicatedSummary ? `<p class="lead-ingress">${article.summary}</p>` : ''}
-                        ${article.date ? `<div class="byline">Publisert ${formatNorwegianDate(article.date)}</div>` : ''}
-                        <div class="article-body">${marked.parse(article.body || '')}</div>
-                    </div>
-                </article>
-            `;
-            setupImageZoom();
-        }
-
-        function handleRoute() {
-            const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
-            const frontpageView = document.getElementById('frontpage-view');
-            const singleArticleView = document.getElementById('single-article-view');
-
-            if (hash && allArticles.some(a => a.slug === hash)) {
-                renderSingleArticle(hash);
-                frontpageView.style.display = 'none';
-                singleArticleView.style.display = 'block';
-                window.scrollTo(0, 0);
-            } else {
-                frontpageView.style.display = 'block';
-                singleArticleView.style.display = 'none';
-            }
-        }
-
-        async function loadArticles() {
-            const gridContainer = document.getElementById('cms-articles-container');
-            try {
-                const apiUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${ARTICLES_PATH}`;
-                const response = await fetch(apiUrl);
-                if (!response.ok) throw new Error(`Kunne ikke hente artikkelmappen`);
-                const files = await response.json();
-                const mdFiles = files.filter(file => file.name.endsWith('.md'));
-
-                if (mdFiles.length === 0) {
-                    gridContainer.innerHTML = '<p>Ingen publiserte artikler ennå.</p>';
-                    return;
-                }
-
-                allArticles = await Promise.all(
-                    mdFiles.map(async (file) => {
-                        const res = await fetch(file.download_url);
-                        const text = await res.text();
-                        return parseFrontmatter(text, file.name);
-                    })
-                );
-
-                // Robust sortering etter dato (nyeste øverst)
-                allArticles.sort((a, b) => {
-                    const parseDateNum = (dateStr) => {
-                        if (!dateStr) return 0;
-                        const clean = dateStr.toString().split('T')[0].replace(/[^0-9]/g, '');
-                        return parseInt(clean || '0', 10);
-                    };
-
-                    const numA = parseDateNum(a.date);
-                    const numB = parseDateNum(b.date);
-
-                    if (numB !== numA) {
-                        return numB - numA;
-                    }
-                    return b.slug.localeCompare(a.slug);
-                });
-
-                renderFrontpage();
-                handleRoute();
-            } catch (error) {
-                console.error('Error loading articles:', error);
-                gridContainer.innerHTML = '<p>Kunne ikke laste inn artikler akkurat nå.</p>';
-            }
-        }
-
-        window.addEventListener('hashchange', handleRoute);
-        document.addEventListener('DOMContentLoaded', () => {
-            updatePaperDateline();
-            loadArticles();
-            fetchWeather();
-        });
-    </script>
-</body>
-</html>
+                    else if (symbolCode.includes('snow')) emoji = '🌨
