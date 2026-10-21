@@ -4,7 +4,7 @@ summary: "Korgfjellet som det nye demografiske skillet: Sør-Helgeland vokser �
   Nord-Helgeland stagnerer"
 image: /images/helgeland_demografi_korgfjellet.png
 kicker: " Innsikt &amp; Demografi"
-date: 2026-10-21
+date: 2026-10-21 21:00
 ---
 **Publisert på ibyn.no | Seksjon: Innsikt &amp; Demografi**  
 *Data hentet fra Statistisk sentralbyrå (SSB) per 1\. januar 2022 til 1\. januar 2026.*
