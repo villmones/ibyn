@@ -46,7 +46,7 @@
             align-items: center;
             flex-wrap: nowrap;
             gap: 1rem;
-            max-width: 1100px;
+            max-width: 1140px;
             margin: 0 auto;
             overflow: hidden;
         }
@@ -140,7 +140,7 @@
 
         /* Main Container */
         main {
-            max-width: 1100px;
+            max-width: 1140px;
             margin: 2rem auto;
             padding: 0 1rem;
         }
@@ -149,20 +149,20 @@
         .kicker {
             display: inline-block;
             font-family: system-ui, -apple-system, sans-serif;
-            font-size: 0.78rem;
+            font-size: 0.75rem;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 1px;
             color: var(--accent-color);
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.45rem;
         }
 
         .byline {
             font-family: system-ui, -apple-system, sans-serif;
-            font-size: 0.85rem;
+            font-size: 0.82rem;
             color: var(--muted-color);
             margin-top: 1rem;
-            padding-top: 0.75rem;
+            padding-top: 0.7rem;
             border-top: 1px solid var(--border-color);
         }
 
@@ -183,16 +183,39 @@
             overflow: hidden;
         }
 
-        /* Top section with 2 columns on desktop */
-        .top-section-grid {
+        /* NEWSPAPER FRONTPAGE LAYOUT: 
+           Left area (2 columns wide) + Right independent 3rd column (1 column wide) */
+        .newspaper-layout {
             display: grid;
             grid-template-columns: 2fr 1fr;
             gap: 1.5rem;
-            margin-bottom: 2.5rem;
+            align-items: start;
+            margin-bottom: 3rem;
+        }
+
+        /* Left 2-column area */
+        .left-two-columns {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        /* Sub-columns 1 and 2 directly underneath the Lead Story */
+        .left-sub-columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
             align-items: start;
         }
 
-        /* Lead story on the left */
+        /* Independent vertical column stack (used for Col 1, Col 2, and Col 3) */
+        .article-column {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        /* Lead Story spanning the 2 left columns at the top */
         .lead-story {
             background: var(--card-bg);
             border: 1px solid var(--border-color);
@@ -205,19 +228,18 @@
 
         .lead-story img {
             width: 100%;
-            height: 340px;
+            max-height: 400px;
             object-fit: cover;
             display: block;
             border-bottom: 1px solid var(--border-color);
-            cursor: zoom-in;
         }
 
         .lead-story-content {
-            padding: 1.8rem;
+            padding: 1.8rem 2rem;
         }
 
         .lead-story h1 {
-            font-size: 2.1rem;
+            font-size: 2.2rem;
             line-height: 1.2;
             margin-bottom: 0.75rem;
         }
@@ -225,83 +247,30 @@
         .lead-story .ingress {
             font-size: 1.15rem;
             color: #2d2d2d;
-            line-height: 1.5;
+            line-height: 1.55;
         }
 
-        /* Secondary story in the right column */
-        .secondary-story {
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-top: 4px solid var(--text-color);
-            box-shadow: 0 2px 6px rgba(0,0,0,0.04);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            padding: 1.5rem;
-        }
-
-        .secondary-story img {
-            width: 100%;
-            height: 170px;
-            object-fit: cover;
-            display: block;
-            border-bottom: 1px solid var(--border-color);
-            margin-bottom: 1rem;
-            cursor: zoom-in;
-        }
-
-        .secondary-story h2 {
-            font-size: 1.35rem;
-            line-height: 1.3;
-            margin-bottom: 0.6rem;
-        }
-
-        .secondary-story .ingress {
-            font-size: 0.95rem;
-            color: #333333;
-            line-height: 1.45;
-        }
-
-        /* Section Title */
-        .section-header {
-            font-family: system-ui, -apple-system, sans-serif;
-            font-size: 1rem;
-            font-weight: 800;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            border-bottom: 2px solid var(--text-color);
-            padding-bottom: 0.4rem;
-            margin-bottom: 1.5rem;
-        }
-
-        /* News grid with Masonry flow (no vertical gaps) */
-        .news-grid {
-            column-count: 3;
-            column-gap: 1.5rem;
-            margin-bottom: 3rem;
-        }
-
+        /* Standard News Card inside any single column */
         .news-card {
             background: var(--card-bg);
             border: 1px solid var(--border-color);
-            display: inline-block;
-            width: 100%;
-            margin-bottom: 1.5rem;
+            border-top: 3px solid var(--text-color);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
             box-shadow: 0 1px 4px rgba(0,0,0,0.03);
-            break-inside: avoid;
         }
 
         .news-card img {
             width: 100%;
-            height: 200px;
+            height: 195px;
             object-fit: cover;
             display: block;
             border-bottom: 1px solid var(--border-color);
-            cursor: zoom-in;
         }
 
         .news-card-content {
-            padding: 1.5rem;
+            padding: 1.4rem;
             display: flex;
             flex-direction: column;
             flex-grow: 1;
@@ -311,11 +280,11 @@
         .news-card h2 {
             font-size: 1.35rem;
             line-height: 1.3;
-            margin-bottom: 0.65rem;
+            margin-bottom: 0.6rem;
         }
 
         .news-card .ingress {
-            font-size: 1rem;
+            font-size: 0.98rem;
             color: #333333;
             line-height: 1.5;
         }
@@ -500,7 +469,9 @@
         }
 
         @media (max-width: 900px) {
-            .news-grid { column-count: 2; }
+            .newspaper-layout {
+                grid-template-columns: 1fr;
+            }
         }
 
         @media (max-width: 768px) {
@@ -510,11 +481,12 @@
             .lead-story h1, .full-article h1 { font-size: 1.75rem; }
             .lead-story-content, .full-article-inner { padding: 1.4rem; }
             .paper-dateline { flex-direction: column; text-align: center; gap: 0.2rem; }
-            .top-section-grid { grid-template-columns: 1fr; }
         }
 
-        @media (max-width: 600px) {
-            .news-grid { column-count: 1; }
+        @media (max-width: 640px) {
+            .left-sub-columns {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -523,7 +495,7 @@
     <!-- Newspaper Dateline -->
     <div class="paper-dateline">
         <span id="current-date-string">Mosjøen, 2026</span>
-        <span>Årgang 1</span>
+        <span>Årgang 1 &bull; Nr. 1</span>
         <span style="font-weight: normal; color: #71717a;">KI-generert innhold basert på offentlig informasjon</span>
     </div>
 
@@ -545,9 +517,7 @@
     <main>
         <!-- FRONTPAGE VIEW -->
         <div id="frontpage-view">
-            <div id="lead-article-container"></div>
-            <h2 class="section-header">Siste artikler</h2>
-            <div id="cms-articles-container" class="news-grid">
+            <div id="newspaper-frontpage">
                 <div class="loading-state">Henter siste saker...</div>
             </div>
         </div>
@@ -613,7 +583,7 @@
             }
         }
 
-        // Resolve image path from local deployment or GitHub raw fallback
+        // Resolve image path from local deployment
         function resolveImageUrl(imagePath) {
             if (!imagePath) return '';
             if (imagePath.startsWith('http://') || imagePath.startsWith('https://')) return imagePath;
@@ -701,24 +671,40 @@
             });
         }
 
+        // Helper to build HTML for a single 1-column news card
+        function buildCardHtml(art) {
+            const imgUrl = resolveImageUrl(art.image);
+            const summaryText = getSummary(art);
+            return `
+                <article class="news-card">
+                    ${imgUrl ? `<a href="#${encodeURIComponent(art.slug)}" class="image-link"><img src="${imgUrl}" alt="${art.title}"></a>` : ''}
+                    <div class="news-card-content">
+                        <div>
+                            <span class="kicker">${art.kicker || 'NYHETER'}</span>
+                            <h2><a href="#${encodeURIComponent(art.slug)}" class="article-link">${art.title}</a></h2>
+                            ${summaryText ? `<p class="ingress">${summaryText}</p>` : ''}
+                        </div>
+                        ${art.date ? `<div class="byline">Publisert ${formatNorwegianDate(art.date)}</div>` : ''}
+                    </div>
+                </article>
+            `;
+        }
+
+        // Render Frontpage with independent columns (no vertical gaps)
         function renderFrontpage() {
-            const leadContainer = document.getElementById('lead-article-container');
-            const gridContainer = document.getElementById('cms-articles-container');
+            const frontpageContainer = document.getElementById('newspaper-frontpage');
 
             if (allArticles.length === 0) {
-                gridContainer.innerHTML = '<p>Ingen publiserte artikler ennå.</p>';
+                frontpageContainer.innerHTML = '<p>Ingen publiserte artikler ennå.</p>';
                 return;
             }
 
+            // 1. Lead story (spans top of Column 1 & 2)
             const newest = allArticles[0];
-            const secondary = allArticles.length > 1 ? allArticles[1] : null;
-
             const newestImg = resolveImageUrl(newest.image);
             const newestSummary = getSummary(newest);
 
-            let topSectionHtml = `<div class="top-section-grid">`;
-
-            topSectionHtml += `
+            const leadHtml = `
                 <article class="lead-story">
                     <div>
                         ${newestImg ? `<a href="#${encodeURIComponent(newest.slug)}" class="image-link"><img src="${newestImg}" alt="${newest.title}"></a>` : ''}
@@ -728,53 +714,54 @@
                             ${newestSummary ? `<p class="ingress">${newestSummary}</p>` : ''}
                         </div>
                     </div>
-                    ${newest.date ? `<div class="byline" style="margin: 0 1.8rem 1.8rem;">Publisert ${formatNorwegianDate(newest.date)}</div>` : ''}
+                    ${newest.date ? `<div class="byline" style="margin: 0 2rem 1.8rem;">Publisert ${formatNorwegianDate(newest.date)}</div>` : ''}
                 </article>
             `;
 
-            if (secondary) {
-                const secImg = resolveImageUrl(secondary.image);
-                const secSummary = getSummary(secondary);
-                topSectionHtml += `
-                    <article class="secondary-story">
-                        <div>
-                            <span class="kicker">${secondary.kicker || 'NYHETER'}</span>
-                            <h2><a href="#${encodeURIComponent(secondary.slug)}" class="article-link">${secondary.title}</a></h2>
-                            ${secImg ? `<a href="#${encodeURIComponent(secondary.slug)}" class="image-link"><img src="${secImg}" alt="${secondary.title}"></a>` : ''}
-                            ${secSummary ? `<p class="ingress">${secSummary}</p>` : ''}
-                        </div>
-                        ${secondary.date ? `<div class="byline">Publisert ${formatNorwegianDate(secondary.date)}</div>` : ''}
-                    </article>
-                `;
-            }
+            // Distribute remaining articles across Column 3 (right) and Sub-columns 1 & 2 (left below lead)
+            // Since the Lead Story takes up the top of Col 1 & 2, we place the first two remaining articles 
+            // into Column 3 so it fills up alongside the Lead Story, then distribute evenly:
+            const col1Articles = [];
+            const col2Articles = [];
+            const col3Articles = [];
 
-            topSectionHtml += `</div>`;
-            leadContainer.innerHTML = topSectionHtml;
+            const remaining = allArticles.slice(1);
+            remaining.forEach((art, index) => {
+                if (index === 0 || index === 1) {
+                    // Fill right-hand 3rd column first to match the height of the Lead Story
+                    col3Articles.push(art);
+                } else {
+                    // Cycle remaining articles across Col 1, Col 2, and Col 3
+                    const mod = (index - 2) % 3;
+                    if (mod === 0) col1Articles.push(art);
+                    else if (mod === 1) col2Articles.push(art);
+                    else col3Articles.push(art);
+                }
+            });
 
-            const remainingArticles = allArticles.slice(2);
-
-            if (remainingArticles.length === 0) {
-                gridContainer.innerHTML = '';
-                return;
-            }
-
-            gridContainer.innerHTML = remainingArticles.map(art => {
-                const imgUrl = resolveImageUrl(art.image);
-                const summaryText = getSummary(art);
-                return `
-                    <article class="news-card">
-                        ${imgUrl ? `<a href="#${encodeURIComponent(art.slug)}" class="image-link"><img src="${imgUrl}" alt="${art.title}"></a>` : ''}
-                        <div class="news-card-content">
-                            <div>
-                                <span class="kicker">${art.kicker || 'NYHETER'}</span>
-                                <h2><a href="#${encodeURIComponent(art.slug)}" class="article-link">${art.title}</a></h2>
-                                ${summaryText ? `<p class="ingress">${summaryText}</p>` : ''}
+            frontpageContainer.innerHTML = `
+                <div class="newspaper-layout">
+                    <!-- Left 2-column area: Lead Story on top, Col 1 & Col 2 directly below -->
+                    <div class="left-two-columns">
+                        ${leadHtml}
+                        ${(col1Articles.length > 0 || col2Articles.length > 0) ? `
+                            <div class="left-sub-columns">
+                                <div class="article-column">
+                                    ${col1Articles.map(buildCardHtml).join('')}
+                                </div>
+                                <div class="article-column">
+                                    ${col2Articles.map(buildCardHtml).join('')}
+                                </div>
                             </div>
-                            ${art.date ? `<div class="byline">Publisert ${formatNorwegianDate(art.date)}</div>` : ''}
-                        </div>
-                    </article>
-                `;
-            }).join('');
+                        ` : ''}
+                    </div>
+
+                    <!-- Right 3rd column: Independent vertical stack starting from the very top -->
+                    <div class="article-column">
+                        ${col3Articles.map(buildCardHtml).join('')}
+                    </div>
+                </div>
+            `;
         }
 
         function renderSingleArticle(slug) {
@@ -788,8 +775,6 @@
 
             const imgUrl = resolveImageUrl(article.image);
             const hasDedicatedSummary = article.summary && article.summary.trim() !== '';
-
-            // Rewrite relative '../images/' paths in markdown body so they load from root '/images/'
             const normalizedBody = (article.body || '').replace(/\(\.\.\/images\//g, '(/images/');
 
             fullContainer.innerHTML = `
@@ -825,11 +810,11 @@
 
         // Load articles using jsDelivr package index (avoids GitHub API 403 rate limits)
         async function loadArticles() {
-            const gridContainer = document.getElementById('cms-articles-container');
+            const frontpageContainer = document.getElementById('newspaper-frontpage');
             try {
                 let mdFileNames = [];
 
-                // Primary method: jsDelivr flat file index (no rate limit)
+                // Primary method: jsDelivr flat file index
                 const cdnRes = await fetch(`https://data.jsdelivr.com/v1/package/gh/${GITHUB_OWNER}/${GITHUB_REPO}@main/flat`);
                 if (cdnRes.ok) {
                     const cdnData = await cdnRes.json();
@@ -837,7 +822,6 @@
                         .filter(f => f.name.startsWith(`/${ARTICLES_PATH}/`) && f.name.endsWith('.md'))
                         .map(f => f.name.split('/').pop());
                 } else {
-                    // Fallback to GitHub API if jsDelivr is unreachable
                     const ghRes = await fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${ARTICLES_PATH}`);
                     if (!ghRes.ok) throw new Error('Kunne ikke hente artikkeloversikt');
                     const ghFiles = await ghRes.json();
@@ -845,11 +829,10 @@
                 }
 
                 if (mdFileNames.length === 0) {
-                    gridContainer.innerHTML = '<p>Ingen publiserte artikler ennå.</p>';
+                    frontpageContainer.innerHTML = '<p>Ingen publiserte artikler ennå.</p>';
                     return;
                 }
 
-                // Fetch each markdown file directly from Cloudflare Pages local path (with raw GitHub fallback)
                 allArticles = await Promise.all(
                     mdFileNames.map(async (filename) => {
                         let res = await fetch(`/${ARTICLES_PATH}/${filename}`);
@@ -876,7 +859,7 @@
                 handleRoute();
             } catch (error) {
                 console.error('Error loading articles:', error);
-                gridContainer.innerHTML = '<p>Kunne ikke laste inn artikler akkurat nå.</p>';
+                frontpageContainer.innerHTML = '<p>Kunne ikke laste inn artikler akkurat nå.</p>';
             }
         }
 
