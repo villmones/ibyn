@@ -119,7 +119,7 @@ Selv om Nord-Helgeland samlet stagnerer, finnes det to klare lyspunkter:
 Demografikartet over Helgeland (2022–2026) utfordrer etablerte politiske sannheter:
 
 1. **Vekstmotoren ligger sør for Korgfjellet:** Sør-Helgeland, med Vefsn og Alstahaug i spissen, har vist en formidabel evne til å tiltrekke og beholde innbyggere (+731 personer).
-2. **Statlig silotenking må opphøre:** Når staten truer med å kutte akuttfunksjoner på sykehuset i Mosjøen eller redusere flytilbudet på Kjærstad, angriper de den regionen på Helgeland som faktiske leverer reell befolkningsvekst og eksportinntekter til storsamfunnet.
+2. **Statlig silotenking må opphøre:** Når staten kutter akuttfunksjoner på sykehuset i Mosjøen eller redusere flytilbudet på Kjærstad, angriper de den regionen på Helgeland som faktiske leverer reell befolkningsvekst og eksportinntekter til storsamfunnet.
 3. **Pendlings- og bo-regionene må styrkes:** Den høye veksten i randkommunene rundt byene (som Leirfjord, Dønna og Nesna) viser at folk ønsker å bo i trygge lokalsamfunn dersom infrastrukturen (veier, ferjer og skoler) legger til rette for pendling.
 
 ---
