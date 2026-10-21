@@ -23,4 +23,4 @@ content:
         type: date
       - name: body
         label: Hele artikkelen (Brødtekst)
-        type: rich-text
+        type: text
