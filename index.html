@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iByn.no – Nyheter og samfunn i Mosjøen og Vefsn</title>
+    <title>ibyn.no – Nyheter og samfunn i Mosjøen og Vefsn</title>
     <!-- Include Marked.js to parse Markdown content into HTML -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
@@ -29,11 +29,18 @@
             line-height: 1.6;
         }
 
-        /* Masthead / Header */
+        /* Masthead / Header med værwidget */
         header {
             background-color: #ffffff;
             border-bottom: 3px solid var(--text-color);
-            padding: 1.8rem 1rem 1.2rem;
+            padding: 1.5rem 1rem 1.2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+
+        .masthead-inner {
             text-align: center;
         }
 
@@ -42,7 +49,6 @@
             font-size: 3.5rem;
             font-weight: 900;
             letter-spacing: -1px;
-            text-transform: uppercase;
             color: var(--text-color);
             text-decoration: none;
             cursor: pointer;
@@ -58,7 +64,55 @@
             color: var(--muted-color);
             text-transform: uppercase;
             letter-spacing: 1.5px;
-            margin-top: 0.3rem;
+            margin-top: 0.2rem;
+        }
+
+        /* Yr Weather Widget i header */
+        .weather-widget {
+            position: absolute;
+            right: 1.5rem;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: 0.9rem;
+            color: var(--text-color);
+            background: #f8fafc;
+            border: 1px solid var(--border-color);
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            text-decoration: none;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+            transition: background 0.15s;
+        }
+
+        .weather-widget:hover {
+            background: #f1f5f9;
+        }
+
+        .weather-widget img {
+            width: 32px;
+            height: 32px;
+        }
+
+        .weather-info {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+        }
+
+        .weather-temp {
+            font-weight: 700;
+            font-size: 1rem;
+        }
+
+        .weather-location {
+            font-size: 0.75rem;
+            color: var(--muted-color);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
 
         /* Main Container */
@@ -121,6 +175,7 @@
             object-fit: cover;
             display: block;
             border-bottom: 1px solid var(--border-color);
+            cursor: zoom-in;
         }
 
         .lead-story-content {
@@ -174,6 +229,7 @@
             object-fit: cover;
             display: block;
             border-bottom: 1px solid var(--border-color);
+            cursor: zoom-in;
         }
 
         .news-card-content {
@@ -270,7 +326,41 @@
             line-height: 1.3;
         }
 
-        /* Make images inside article body clickable with zoom cursor */
+        /* Kompakt og lesevennlig tabell-styling */
+        .article-body table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: 0.9rem;
+            margin: 1.5rem 0;
+            background-color: #ffffff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+        }
+
+        .article-body th, 
+        .article-body td {
+            padding: 8px 12px;
+            border: 1px solid var(--border-color);
+            text-align: left;
+        }
+
+        .article-body th {
+            background-color: #f1f5f9;
+            font-weight: 700;
+            color: #1e293b;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 0.5px;
+        }
+
+        .article-body tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+
+        .article-body tr:hover {
+            background-color: #f1f5f9;
+        }
+
         .article-body img {
             max-width: 100%;
             height: auto;
@@ -284,7 +374,7 @@
             opacity: 0.92;
         }
 
-        /* LIGHTBOX POPUP MODAL STYLING */
+        /* LIGHTBOX POPUP MODAL */
         #image-lightbox {
             display: none;
             position: fixed;
@@ -341,134 +431,108 @@
             margin-top: 3rem;
         }
 
-        @media (max-width: 640px) {
+        @media (max-width: 768px) {
+            header { padding: 1rem; }
+            .weather-widget { position: static; transform: none; margin-top: 0.8rem; }
             .masthead-title { font-size: 2.5rem; }
             .lead-story h1, .full-article h1 { font-size: 1.75rem; }
             .lead-story-content, .full-article-inner { padding: 1.4rem; }
-        }
-
-        /* Kompakt og lesevennlig tabell-styling */
-        .article-body table {
-            width: 100%;
-            border-collapse: collapse;
-            font-family: system-ui, -apple-system, sans-serif;
-            font-size: 0.9rem; /* Litt mindre skriftstørrelse for å få plass til mer */
-            margin: 1.5rem 0;
-            background-color: #ffffff;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
-        }
-
-        .article-body th, 
-        .article-body td {
-            padding: 8px 12px; /* Redusert polstring (mindre luft) for flere linjer */
-            border: 1px solid var(--border-color);
-            text-align: left;
-        }
-
-        .article-body th {
-            background-color: #f1f5f9;
-            font-weight: 700;
-            color: #1e293b;
-            text-transform: uppercase;
-            font-size: 0.8rem;
-            letter-spacing: 0.5px;
-        }
-
-        .article-body tr:nth-child(even) {
-            background-color: #f8fafc; /* Vekselsvis bakgrunnsfarge for bedre lesbarhet */
-        }
-
-        .article-body tr:hover {
-            background-color: #f1f5f9;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <a href="#" class="masthead-title">iByn<span>.no</span></a>
-        <div class="masthead-sub">Uavhengig lokalavis for Mosjøen og Vefsn</div>
+        <div class="masthead-inner">
+            <a href="#" class="masthead-title">ibyn<span>.no</span></a>
+            <div class="masthead-sub">Uavhengig lokalavis for Mosjøen og Vefsn</div>
+        </div>
+        <!-- Yr Weather Widget for Mosjøen -->
+        <a href="https://www.yr.no/nb/værvarsel/daglig-tabell/1-79188/Norge/Nordland/Vefsn/Mosjøen" target="_blank" class="weather-widget" title="Se fullt værvarsel på Yr.no" id="yr-weather-link">
+            <img id="yr-weather-icon" src="" alt="Værivon">
+            <div class="weather-info">
+                <span class="weather-temp" id="yr-weather-temp">--°C</span>
+                <span class="weather-location">Mosjøen</span>
+            </div>
+        </a>
     </header>
 
     <main>
         <!-- FRONTPAGE VIEW -->
         <div id="frontpage-view">
-            <!-- Newest article displayed as top story -->
             <div id="lead-article-container"></div>
-
             <h2 class="section-header">Siste artikler</h2>
-            
-            <!-- Grid of articles showing image, heading and ingress -->
             <div id="cms-articles-container" class="news-grid">
                 <div class="loading-state">Henter siste saker...</div>
             </div>
         </div>
 
-        <!-- FULL ARTICLE VIEW (shown when clicking a headline) -->
+        <!-- FULL ARTICLE VIEW -->
         <div id="single-article-view">
             <a href="#" class="back-button">&larr; Tilbake til forsiden</a>
             <div id="full-article-container"></div>
         </div>
     </main>
 
-    <!-- LIGHTBOX POPUP CONTAINER -->
+    <!-- LIGHTBOX MODAL -->
     <div id="image-lightbox" onclick="closeLightbox()">
         <button class="close-lightbox" onclick="closeLightbox()">&times;</button>
         <img id="lightbox-img" src="" alt="Forstørret bilde">
     </div>
 
     <footer>
-        &copy; 2026 iByn.no – Publisert via Cloudflare Pages
+        &copy; 2026 ibyn.no – Publisert via Cloudflare Pages
     </footer>
 
     <script>
-        // GitHub repository settings
         const GITHUB_OWNER = 'villmones';
         const GITHUB_REPO = 'ibyn';
         const ARTICLES_PATH = 'content/artikler';
 
         let allArticles = [];
 
-        // Normalize image URL so images uploaded to 'images/' work reliably
-        function resolveImageUrl(imagePath) {
-            if (!imagePath) return '';
-            if (imagePath.startsWith('http://') || imagePath.startsWith('https://')) {
-                return imagePath;
+        // Hent værdata fra Yr.no (Mosjøen koordinater: Lat 65.83, Lon 13.16)
+        async function fetchWeather() {
+            try {
+                const res = await fetch('https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=65.83&lon=13.16', {
+                    headers: { 'User-Agent': 'ibyn.no weather-widget contact@ibyn.no' }
+                });
+                if (!res.ok) return;
+                const data = res.json ? await res.json() : null;
+                if (data && data.properties && data.properties.timeseries) {
+                    const current = data.properties.timeseries[0];
+                    const temp = current.data.instant.details.air_temperature;
+                    const symbolCode = current.data.next_1_hours ? current.data.next_1_hours.summary.symbol_code : 'clearsky_day';
+                    
+                    document.getElementById('yr-weather-temp').textContent = Math.round(temp) + '°C';
+                    // Yr symbol ikon URL
+                    document.getElementById('yr-weather-icon').src = `https://raw.githubusercontent.com/yr/weather-symbols/1.0.0/svg/osmc/${symbolCode}.svg`;
+                }
+            } catch (e) {
+                console.error('Klarte ikke å hente værdata:', e);
             }
-            const cleanPath = imagePath.replace(/^\/+/, '');
-            return `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/main/${cleanPath}`;
         }
 
-        // Extract plain text fallback summary if 'summary' field is empty
+        function resolveImageUrl(imagePath) {
+            if (!imagePath) return '';
+            if (imagePath.startsWith('http://') || imagePath.startsWith('https://')) return imagePath;
+            return `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/main/${imagePath.replace(/^\/+/, '')}`;
+        }
+
         function getSummary(article) {
-            if (article.summary && article.summary.trim() !== '') {
-                return article.summary.trim();
-            }
+            if (article.summary && article.summary.trim() !== '') return article.summary.trim();
             if (!article.body) return '';
-            const plain = article.body
-                .replace(/!\[.*?\]\(.*?\)/g, '')
-                .replace(/\[([^\]]+)\]\(.*?\)/g, '$1')
-                .replace(/[#>*_`~-]/g, '')
-                .trim();
+            const plain = article.body.replace(/!\[.*?\]\(.*?\)/g, '').replace(/\[([^\]]+)\]\(.*?\)/g, '$1').replace(/[#>*_`~-]/g, '').trim();
             const firstParagraph = plain.split(/\n\s*\n/)[0] || plain;
             return firstParagraph.length > 220 ? firstParagraph.substring(0, 220) + '…' : firstParagraph;
         }
 
-        // Parse YAML Frontmatter and Markdown body from raw .md file
         function parseFrontmatter(rawText, filename) {
             const slug = filename.replace(/\.md$/, '');
             const frontmatterRegex = /^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/;
             const match = rawText.match(frontmatterRegex);
 
-            const metadata = {
-                slug: slug,
-                title: 'Uten tittel',
-                summary: '',
-                image: '',
-                date: '',
-                kicker: 'NYHETER',
-                body: rawText
-            };
+            const metadata = { slug, title: 'Uten tittel', summary: '', image: '', date: '', kicker: 'NYHETER', body: rawText };
 
             if (match) {
                 const yamlBlock = match[1];
@@ -481,10 +545,7 @@
                 const saveField = (key, buffer) => {
                     if (!key || buffer.length === 0) return;
                     const joinChar = (key === 'body') ? '\n' : ' ';
-                    metadata[key] = buffer
-                        .join(joinChar)
-                        .replace(/^["']([\s\S]*)["']$/, '$1')
-                        .trim();
+                    metadata[key] = buffer.join(joinChar).replace(/^["']([\s\S]*)["']$/, '$1').trim();
                 };
 
                 for (const line of lines) {
@@ -494,7 +555,6 @@
                         multilineBuffer = [];
                         currentKey = keyValMatch[1].trim();
                         let val = keyValMatch[2].trim();
-
                         if (val === '|' || val === '>' || val === '|-' || val === '>-') {
                             multilineBuffer = [];
                         } else if (val !== '') {
@@ -504,54 +564,36 @@
                         multilineBuffer.push(line.replace(/^\s{2}/, ''));
                     }
                 }
-
                 saveField(currentKey, multilineBuffer);
-
-                if (metadata.body) {
-                    metadata.body = metadata.body.replace(/\\([#*_`~\[\]()>-])/g, '$1');
-                }
+                if (metadata.body) metadata.body = metadata.body.replace(/\\([#*_`~\[\]()>-])/g, '$1');
             }
             return metadata;
         }
 
-        // Format date string into Norwegian readable format
         function formatNorwegianDate(dateStr) {
             if (!dateStr) return '';
             const parsed = new Date(dateStr);
             if (isNaN(parsed.getTime())) return dateStr;
-            return parsed.toLocaleDateString('no-NO', {
-                day: 'numeric',
-                month: 'long',
-                year: 'numeric'
-            });
+            return parsed.toLocaleDateString('no-NO', { day: 'numeric', month: 'long', year: 'numeric' });
         }
 
-        // LIGHTBOX FUNCTIONS
         function openLightbox(imgSrc) {
-            const lightbox = document.getElementById('image-lightbox');
-            const lightboxImg = document.getElementById('lightbox-img');
-            lightboxImg.src = imgSrc;
-            lightbox.style.display = 'flex';
+            document.getElementById('lightbox-img').src = imgSrc;
+            document.getElementById('image-lightbox').style.display = 'flex';
         }
 
         function closeLightbox() {
-            const lightbox = document.getElementById('image-lightbox');
-            lightbox.style.display = 'none';
+            document.getElementById('image-lightbox').style.display = 'none';
         }
 
-        // Attach click listeners to all article body images after rendering
         function setupImageZoom() {
-            const articleImages = document.querySelectorAll('.article-body img, .full-article-hero');
+            const articleImages = document.querySelectorAll('.article-body img, .full-article-hero, .lead-story img, .news-card img');
             articleImages.forEach(img => {
                 img.style.cursor = 'zoom-in';
-                img.onclick = (e) => {
-                    e.stopPropagation();
-                    openLightbox(img.src);
-                };
+                img.onclick = (e) => { e.stopPropagation(); openLightbox(img.src); };
             });
         }
 
-        // Render Frontpage
         function renderFrontpage() {
             const leadContainer = document.getElementById('lead-article-container');
             const gridContainer = document.getElementById('cms-articles-container');
@@ -567,16 +609,10 @@
 
             leadContainer.innerHTML = `
                 <article class="lead-story">
-                    ${newestImg ? `
-                        <a href="#${encodeURIComponent(newest.slug)}" class="image-link">
-                            <img src="${newestImg}" alt="${newest.title}">
-                        </a>
-                    ` : ''}
+                    ${newestImg ? `<a href="#${encodeURIComponent(newest.slug)}" class="image-link"><img src="${newestImg}" alt="${newest.title}"></a>` : ''}
                     <div class="lead-story-content">
                         <span class="kicker">${newest.kicker || 'AKTUELT'}</span>
-                        <h1>
-                            <a href="#${encodeURIComponent(newest.slug)}" class="article-link">${newest.title}</a>
-                        </h1>
+                        <h1><a href="#${encodeURIComponent(newest.slug)}" class="article-link">${newest.title}</a></h1>
                         ${newestSummary ? `<p class="ingress">${newestSummary}</p>` : ''}
                         ${newest.date ? `<div class="byline">Publisert ${formatNorwegianDate(newest.date)}</div>` : ''}
                     </div>
@@ -588,17 +624,11 @@
                 const summaryText = getSummary(art);
                 return `
                     <article class="news-card">
-                        ${imgUrl ? `
-                            <a href="#${encodeURIComponent(art.slug)}" class="image-link">
-                                <img src="${imgUrl}" alt="${art.title}">
-                            </a>
-                        ` : ''}
+                        ${imgUrl ? `<a href="#${encodeURIComponent(art.slug)}" class="image-link"><img src="${imgUrl}" alt="${art.title}"></a>` : ''}
                         <div class="news-card-content">
                             <div>
                                 <span class="kicker">${art.kicker || 'NYHETER'}</span>
-                                <h2>
-                                    <a href="#${encodeURIComponent(art.slug)}" class="article-link">${art.title}</a>
-                                </h2>
+                                <h2><a href="#${encodeURIComponent(art.slug)}" class="article-link">${art.title}</a></h2>
                                 ${summaryText ? `<p class="ingress">${summaryText}</p>` : ''}
                             </div>
                             ${art.date ? `<div class="byline">Publisert ${formatNorwegianDate(art.date)}</div>` : ''}
@@ -606,9 +636,9 @@
                     </article>
                 `;
             }).join('');
+            setupImageZoom();
         }
 
-        // Render Single Full Article View
         function renderSingleArticle(slug) {
             const article = allArticles.find(a => a.slug === slug);
             const fullContainer = document.getElementById('full-article-container');
@@ -633,12 +663,9 @@
                     </div>
                 </article>
             `;
-
-            // Enable zoom popup on all images inside this article
             setupImageZoom();
         }
 
-        // Handle routing
         function handleRoute() {
             const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
             const frontpageView = document.getElementById('frontpage-view');
@@ -655,18 +682,12 @@
             }
         }
 
-        // Fetch articles
         async function loadArticles() {
             const gridContainer = document.getElementById('cms-articles-container');
-
             try {
                 const apiUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${ARTICLES_PATH}`;
                 const response = await fetch(apiUrl);
-
-                if (!response.ok) {
-                    throw new Error(`Kunne ikke hente artikkelmappen (${response.status})`);
-                }
-
+                if (!response.ok) throw new Error(`Kunne ikke hente artikkelmappen`);
                 const files = await response.json();
                 const mdFiles = files.filter(file => file.name.endsWith('.md'));
 
@@ -683,15 +704,10 @@
                     })
                 );
 
-                allArticles.sort((a, b) => {
-                    const dateA = new Date(a.date || 0).getTime();
-                    const dateB = new Date(b.date || 0).getTime();
-                    return dateB - dateA;
-                });
+                allArticles.sort((a, b) => new Date(b.date || 0).getTime() - new Date(a.date || 0).getTime());
 
                 renderFrontpage();
                 handleRoute();
-
             } catch (error) {
                 console.error('Error loading articles:', error);
                 gridContainer.innerHTML = '<p>Kunne ikke laste inn artikler akkurat nå.</p>';
@@ -699,7 +715,10 @@
         }
 
         window.addEventListener('hashchange', handleRoute);
-        document.addEventListener('DOMContentLoaded', loadArticles);
+        document.addEventListener('DOMContentLoaded', () => {
+            loadArticles();
+            fetchWeather();
+        });
     </script>
 </body>
 </html>
