@@ -542,8 +542,15 @@
                     const symbolCode = nextHour ? nextHour.summary.symbol_code : 'clearsky_day';
                     
                     document.getElementById('yr-weather-temp').textContent = Math.round(temp) + '°C';
-                    // Yr offisielle SVG-ikoner
-                    document.getElementById('yr-weather-icon').src = `https://cdn.jsdelivr.net/gh/YR/weather-symbols@v8.0.2/dist/svg/${symbolCode}.svg`;
+
+                    // Velg en passende emoji basert på Yr-symbolkoden
+                    let emoji = '⛅';
+                    if (symbolCode.includes('rain') || symbolCode.includes('sleet')) emoji = '🌧️';
+                    else if (symbolCode.includes('snow')) emoji = '🌨️';
+                    else if (symbolCode.includes('cloud')) emoji = '☁️';
+                    else if (symbolCode.includes('fair') || symbolCode.includes('clearsky')) emoji = '☀️';
+
+                    document.getElementById('weather-emoji').textContent = emoji;
                 }
             } catch (e) {
                 console.error('Klarte ikke å hente værdata:', e);
