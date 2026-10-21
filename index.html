@@ -1,13 +1,23 @@
+Det er notert! Jeg har nå satt opp den komplette `index.html`-koden på nytt, der absolutt alle endringer er på plass:
+
+1. **Ekte 3-spalters avis-layout** (med toppsak og underspalter til venstre, og en helt uavhengig 3. spalte til høyre som fyller seg naturlig oppover).
+2. **Korrekt stor B (`iByn.no`)** i både tittel, header, footer og favicon.
+3. **Optimert værmodul** for Mosjøen sentrum.
+4. **Feilfri innlasting** via jsDelivr som unngår 403-feil fra GitHub.
+
+### Hele `index.html`-koden:
+
+```html
 <!DOCTYPE html>
 <html lang="no">
 <head>
     <meta charset="UTF-8">
-    <!-- Open Graph / Facebook Meta Tagger for deling -->
+    <!-- Open Graph / Facebook Meta Tags -->
     <meta property="og:title" content="iByn.no – Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn">
     <meta property="og:description" content="Uavhengig faktabasert kanal for Mosjøen og Vefsn.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.ibyn.no/">
-    <meta property="og:image" content="https://www.ibyn.no/images/ibyn-logo.png"> <!-- Husk å ha et standard delingsbilde i images-mappen, eller bytt ut med url til toppsaksbilde -->
+    <meta property="og:image" content="https://www.ibyn.no/images/ibyn-logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iByn.no – Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn</title>
     <!-- Favicon with iB -->
@@ -189,8 +199,7 @@
             overflow: hidden;
         }
 
-        /* NEWSPAPER FRONTPAGE LAYOUT: 
-           Left area (2 columns wide) + Right independent 3rd column (1 column wide) */
+        /* NEWSPAPER FRONTPAGE LAYOUT */
         .newspaper-layout {
             display: grid;
             grid-template-columns: 2fr 1fr;
@@ -199,14 +208,12 @@
             margin-bottom: 3rem;
         }
 
-        /* Left 2-column area */
         .left-two-columns {
             display: flex;
             flex-direction: column;
             gap: 1.5rem;
         }
 
-        /* Sub-columns 1 and 2 directly underneath the Lead Story */
         .left-sub-columns {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -214,14 +221,12 @@
             align-items: start;
         }
 
-        /* Independent vertical column stack (used for Col 1, Col 2, and Col 3) */
         .article-column {
             display: flex;
             flex-direction: column;
             gap: 1.5rem;
         }
 
-        /* Lead Story spanning the 2 left columns at the top */
         .lead-story {
             background: var(--card-bg);
             border: 1px solid var(--border-color);
@@ -256,7 +261,6 @@
             line-height: 1.55;
         }
 
-        /* Standard News Card inside any single column */
         .news-card {
             background: var(--card-bg);
             border: 1px solid var(--border-color);
@@ -725,8 +729,6 @@
             `;
 
             // Distribute remaining articles across Column 3 (right) and Sub-columns 1 & 2 (left below lead)
-            // Since the Lead Story takes up the top of Col 1 & 2, we place the first two remaining articles 
-            // into Column 3 so it fills up alongside the Lead Story, then distribute evenly:
             const col1Articles = [];
             const col2Articles = [];
             const col3Articles = [];
@@ -878,3 +880,5 @@
     </script>
 </body>
 </html>
+
+```
