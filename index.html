@@ -46,28 +46,30 @@
         }
 
         /* Masthead / Header med værwidget */
+/* Masthead / Header med værwidget (kompakt) */
         header {
             background-color: #ffffff;
             border-bottom: 3px solid var(--text-color);
-            padding: 1.5rem 1rem 1.2rem;
+            padding: 0.8rem 1rem 0.7rem; /* Redusert luft oppe og nede */
             display: flex;
             flex-direction: column;
             align-items: center;
             position: relative;
         }
 
-        .masthead-inner {
-            text-align: center;
-        }
-
         .masthead-title {
             font-family: 'Times New Roman', Times, serif;
-            font-size: 3.5rem;
+            font-size: 3rem; /* Litt strammere tittelstørrelse */
             font-weight: 900;
             letter-spacing: -1px;
             color: var(--text-color);
             text-decoration: none;
             cursor: pointer;
+            line-height: 1.1;
+        }
+
+        .masthead-inner {
+            text-align: center;
         }
 
         .masthead-title span {
