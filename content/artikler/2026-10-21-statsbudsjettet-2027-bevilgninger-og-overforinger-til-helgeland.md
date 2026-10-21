@@ -73,4 +73,6 @@ Oversikten under viser overføringene over Kommunal- og distriktsdepartementets 
   * Anslag på samlede frie inntekter for Nordland fylkeskommune i 2027 er **8 048 043 000 kr** (\~8,05 mrd. kr).
   * Fylkeskommunen mottar ferjeavløysingsmidler over rammetilskuddet for **Toventunnelen** mellom Vefsn og Leirfjord.
 
+---
+
 **Kilde:** Regjeringens forslag til statsbudsjett 2027 (Prop. 1 S og Grønt hefte H-2580 N)
