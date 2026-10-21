@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iByn.no – Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn</title>
+    <title>ibyn.no – Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn</title>
     <!-- Include Marked.js to parse Markdown content into HTML -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
@@ -29,47 +29,54 @@
             line-height: 1.6;
         }
 
-        /* Papiravis Topplinje (Datolinje / Årgang) */
+        /* Papiravis Topplinje */
         .paper-dateline {
             font-family: system-ui, -apple-system, sans-serif;
-            font-size: 0.8rem;
+            font-size: 0.75rem;
             font-weight: 600;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
             color: var(--muted-color);
             border-bottom: 1px solid var(--border-color);
             padding: 0.4rem 1rem;
             display: flex;
             justify-content: space-between;
+            align-items: center;
+            flex-wrap: nowrap;
+            gap: 1rem;
             max-width: 1100px;
             margin: 0 auto;
+            overflow: hidden;
         }
 
-        /* Masthead / Header med værwidget */
-/* Masthead / Header med værwidget (kompakt) */
+        .paper-dateline span {
+            white-space: nowrap;
+        }
+
+        /* Masthead / Header med værwidget (kompakt) */
         header {
             background-color: #ffffff;
             border-bottom: 3px solid var(--text-color);
-            padding: 0.8rem 1rem 0.7rem; /* Redusert luft oppe og nede */
+            padding: 0.8rem 1rem 0.7rem;
             display: flex;
             flex-direction: column;
             align-items: center;
             position: relative;
         }
 
+        .masthead-inner {
+            text-align: center;
+        }
+
         .masthead-title {
             font-family: 'Times New Roman', Times, serif;
-            font-size: 3rem; /* Litt strammere tittelstørrelse */
+            font-size: 3rem;
             font-weight: 900;
             letter-spacing: -1px;
             color: var(--text-color);
             text-decoration: none;
             cursor: pointer;
             line-height: 1.1;
-        }
-
-        .masthead-inner {
-            text-align: center;
         }
 
         .masthead-title span {
@@ -108,11 +115,6 @@
 
         .weather-widget:hover {
             background: #f1f5f9;
-        }
-
-        .weather-widget img {
-            width: 36px;
-            height: 36px;
         }
 
         .weather-info {
@@ -464,16 +466,17 @@
     <!-- Papiravis Datolinje -->
     <div class="paper-dateline">
         <span id="current-date-string">Mosjøen, 2026</span>
-        <span>Årgang 1</span>
+        <span>Årgang 1 &bull; Nr. 1</span>
+        <span style="font-weight: normal; color: #71717a;">KI-generert innhold basert på offentlig informasjon</span>
     </div>
 
     <header>
         <div class="masthead-inner">
-            <a href="#" class="masthead-title">iByn<span>.no</span></a>
+            <a href="#" class="masthead-title">ibyn<span>.no</span></a>
             <div class="masthead-sub">Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn</div>
         </div>
         <!-- Yr Weather Widget for Mosjøen -->
-        <a href="https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/1-252958/Norge/Nordland/Vefsn/Mosj%C3%B8en" target="_blank" class="weather-widget" title="Se fullt værvarsel på Yr.no for Mosjøen">
+        <a href="https://www.yr.no/nb/værvarsel/daglig-tabell/1-115206/Norge/Nordland/Vefsn/Mosjøen" target="_blank" class="weather-widget" title="Se fullt værvarsel på Yr.no for Mosjøen">
             <span style="font-size: 1.5rem;" id="weather-emoji">⛅</span>
             <div class="weather-info">
                 <span class="weather-temp" id="yr-weather-temp">--°C</span>
@@ -506,7 +509,7 @@
     </div>
 
     <footer>
-        &copy; 2026 iByn.no – Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn
+        &copy; 2026 ibyn.no – Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn
     </footer>
 
     <script>
@@ -516,17 +519,14 @@
 
         let allArticles = [];
 
-        // Generer klassisk papiravis-datolinje på norsk
         function updatePaperDateline() {
             const now = new Date();
             const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
             let dateStr = now.toLocaleDateString('no-NO', options);
-            // Stor bokstav på ukedagen
             dateStr = dateStr.charAt(0).toUpperCase() + dateStr.slice(1);
             document.getElementById('current-date-string').textContent = `Mosjøen, ${dateStr}`;
         }
 
-        // Hent værdata fra Yr.no med stabil ikon-håndtering
         async function fetchWeather() {
             try {
                 const res = await fetch('https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=65.8396&lon=13.1534', {
@@ -543,7 +543,6 @@
                     
                     document.getElementById('yr-weather-temp').textContent = Math.round(temp) + '°C';
 
-                    // Velg en passende emoji basert på Yr-symbolkoden
                     let emoji = '⛅';
                     if (symbolCode.includes('rain') || symbolCode.includes('sleet')) emoji = '🌧️';
                     else if (symbolCode.includes('snow')) emoji = '🌨️';
@@ -748,9 +747,8 @@
                     })
                 );
 
-                // Ekstra robust dato-parser for å sikre riktig rekkefølge (nyeste øverst)
+                // Robust sortering etter dato (nyeste øverst)
                 allArticles.sort((a, b) => {
-                    // Gjør om dato til tall (f.eks. "2026-10-21" blir 20261021) for 100% sikker sortering
                     const parseDateNum = (dateStr) => {
                         if (!dateStr) return 0;
                         const clean = dateStr.toString().split('T')[0].replace(/[^0-9]/g, '');
@@ -761,11 +759,18 @@
                     const numB = parseDateNum(b.date);
 
                     if (numB !== numA) {
-                        return numB - numA; // Største tall (nyeste dato) først
+                        return numB - numA;
                     }
-                    // Hvis datoene er helt identiske, ta den nyeste basert på filnavn/slug
                     return b.slug.localeCompare(a.slug);
                 });
+
+                renderFrontpage();
+                handleRoute();
+            } catch (error) {
+                console.error('Error loading articles:', error);
+                gridContainer.innerHTML = '<p>Kunne ikke laste inn artikler akkurat nå.</p>';
+            }
+        }
 
         window.addEventListener('hashchange', handleRoute);
         document.addEventListener('DOMContentLoaded', () => {
