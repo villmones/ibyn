@@ -1,5 +1,4 @@
-media: images
-content:
+collections:
   - name: artikler
     label: Artikkelarkiv
     path: content/artikler
