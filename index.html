@@ -232,6 +232,7 @@
             object-fit: cover;
             display: block;
             border-bottom: 1px solid var(--border-color);
+            cursor: zoom-in;
         }
 
         .full-article-inner {
@@ -269,11 +270,58 @@
             line-height: 1.3;
         }
 
-        .full-article .article-body img {
+        /* Make images inside article body clickable with zoom cursor */
+        .article-body img {
             max-width: 100%;
             height: auto;
             margin: 1.5rem 0;
             border-radius: 2px;
+            cursor: zoom-in;
+            transition: opacity 0.2s;
+        }
+
+        .article-body img:hover {
+            opacity: 0.92;
+        }
+
+        /* LIGHTBOX POPUP MODAL STYLING */
+        #image-lightbox {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(4px);
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            cursor: zoom-out;
+        }
+
+        #image-lightbox img {
+            max-width: 92vw;
+            max-height: 90vh;
+            object-fit: contain;
+            border-radius: 4px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+            cursor: default;
+        }
+
+        #image-lightbox .close-lightbox {
+            position: absolute;
+            top: 1.5rem;
+            right: 2rem;
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: 2.5rem;
+            color: #ffffff;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0.5rem;
+            line-height: 1;
         }
 
         .loading-state {
@@ -315,7 +363,7 @@
 
             <h2 class="section-header">Siste artikler</h2>
             
-            <!-- Grid of articles showing image, headline and summary -->
+            <!-- Grid of articles showing image, heading and ingress -->
             <div id="cms-articles-container" class="news-grid">
                 <div class="loading-state">Henter siste saker...</div>
             </div>
@@ -328,6 +376,12 @@
         </div>
     </main>
 
+    <!-- LIGHTBOX POPUP CONTAINER -->
+    <div id="image-lightbox" onclick="closeLightbox()">
+        <button class="close-lightbox" onclick="closeLightbox()">&times;</button>
+        <img id="lightbox-img" src="" alt="Forstørret bilde">
+    </div>
+
     <footer>
         &copy; 2026 iByn.no – Publisert via Cloudflare Pages
     </footer>
@@ -338,7 +392,6 @@
         const GITHUB_REPO = 'ibyn';
         const ARTICLES_PATH = 'content/artikler';
 
-        // Store loaded articles in memory for instant navigation
         let allArticles = [];
 
         // Normalize image URL so images uploaded to 'images/' work reliably
@@ -357,7 +410,6 @@
                 return article.summary.trim();
             }
             if (!article.body) return '';
-            // Strip markdown formatting and grab the first paragraph
             const plain = article.body
                 .replace(/!\[.*?\]\(.*?\)/g, '')
                 .replace(/\[([^\]]+)\]\(.*?\)/g, '$1')
@@ -368,7 +420,6 @@
         }
 
         // Parse YAML Frontmatter and Markdown body from raw .md file
-// Parse YAML Frontmatter and Markdown body from raw .md file
         function parseFrontmatter(rawText, filename) {
             const slug = filename.replace(/\.md$/, '');
             const frontmatterRegex = /^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/;
@@ -392,42 +443,37 @@
                 let currentKey = null;
                 let multilineBuffer = [];
 
+                const saveField = (key, buffer) => {
+                    if (!key || buffer.length === 0) return;
+                    const joinChar = (key === 'body') ? '\n' : ' ';
+                    metadata[key] = buffer
+                        .join(joinChar)
+                        .replace(/^["']([\s\S]*)["']$/, '$1')
+                        .trim();
+                };
+
                 for (const line of lines) {
-                    // Match top-level YAML key (no leading spaces)
                     const keyValMatch = line.match(/^([a-zA-Z0-9_-]+):\s*(.*)$/);
                     if (keyValMatch) {
-                        // Save previous field before starting a new one
-                        if (currentKey && multilineBuffer.length > 0) {
-                            metadata[currentKey] = multilineBuffer
-                                .join(' ')
-                                .replace(/^["']([\s\S]*)["']$/, '$1')
-                                .trim();
-                            multilineBuffer = [];
-                        }
+                        saveField(currentKey, multilineBuffer);
+                        multilineBuffer = [];
                         currentKey = keyValMatch[1].trim();
                         let val = keyValMatch[2].trim();
 
                         if (val === '|' || val === '>' || val === '|-' || val === '>-') {
-                            // Start of YAML block scalar; content starts on next line
                             multilineBuffer = [];
                         } else if (val !== '') {
-                            // Keep the first line in the buffer so continuation lines append to it
                             multilineBuffer = [val];
-                        } else {
-                            multilineBuffer = [];
                         }
-                    } else if (currentKey && (line.startsWith(' ') || line.startsWith('\t'))) {
-                        // Indented continuation line belonging to currentKey
-                        multilineBuffer.push(line.trim());
+                    } else if (currentKey && (line.startsWith(' ') || line.startsWith('\t') || line.trim() === '')) {
+                        multilineBuffer.push(line.replace(/^\s{2}/, ''));
                     }
                 }
 
-                // Save the last field in the YAML block
-                if (currentKey && multilineBuffer.length > 0) {
-                    metadata[currentKey] = multilineBuffer
-                        .join(' ')
-                        .replace(/^["']([\s\S]*)["']$/, '$1')
-                        .trim();
+                saveField(currentKey, multilineBuffer);
+
+                if (metadata.body) {
+                    metadata.body = metadata.body.replace(/\\([#*_`~\[\]()>-])/g, '$1');
                 }
             }
             return metadata;
@@ -445,7 +491,32 @@
             });
         }
 
-        // Render Frontpage (Lead story + News Grid with image, heading and ingress)
+        // LIGHTBOX FUNCTIONS
+        function openLightbox(imgSrc) {
+            const lightbox = document.getElementById('image-lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            lightboxImg.src = imgSrc;
+            lightbox.style.display = 'flex';
+        }
+
+        function closeLightbox() {
+            const lightbox = document.getElementById('image-lightbox');
+            lightbox.style.display = 'none';
+        }
+
+        // Attach click listeners to all article body images after rendering
+        function setupImageZoom() {
+            const articleImages = document.querySelectorAll('.article-body img, .full-article-hero');
+            articleImages.forEach(img => {
+                img.style.cursor = 'zoom-in';
+                img.onclick = (e) => {
+                    e.stopPropagation();
+                    openLightbox(img.src);
+                };
+            });
+        }
+
+        // Render Frontpage
         function renderFrontpage() {
             const leadContainer = document.getElementById('lead-article-container');
             const gridContainer = document.getElementById('cms-articles-container');
@@ -455,7 +526,6 @@
                 return;
             }
 
-            // 1. Top Story (newest article)
             const newest = allArticles[0];
             const newestImg = resolveImageUrl(newest.image);
             const newestSummary = getSummary(newest);
@@ -478,7 +548,6 @@
                 </article>
             `;
 
-            // 2. News Grid (all articles with image, heading and ingress)
             gridContainer.innerHTML = allArticles.map(art => {
                 const imgUrl = resolveImageUrl(art.image);
                 const summaryText = getSummary(art);
@@ -529,9 +598,12 @@
                     </div>
                 </article>
             `;
+
+            // Enable zoom popup on all images inside this article
+            setupImageZoom();
         }
 
-        // Handle switching between Frontpage and Full Article based on URL hash
+        // Handle routing
         function handleRoute() {
             const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
             const frontpageView = document.getElementById('frontpage-view');
@@ -548,7 +620,7 @@
             }
         }
 
-        // Fetch all Markdown files from GitHub repository
+        // Fetch articles
         async function loadArticles() {
             const gridContainer = document.getElementById('cms-articles-container');
 
@@ -568,7 +640,6 @@
                     return;
                 }
 
-                // Fetch raw content for each markdown file concurrently
                 allArticles = await Promise.all(
                     mdFiles.map(async (file) => {
                         const res = await fetch(file.download_url);
@@ -577,7 +648,6 @@
                     })
                 );
 
-                // Sort articles newest first based on date
                 allArticles.sort((a, b) => {
                     const dateA = new Date(a.date || 0).getTime();
                     const dateB = new Date(b.date || 0).getTime();
@@ -593,7 +663,6 @@
             }
         }
 
-        // Listen for hash changes when user clicks a headline or "Tilbake til forsiden"
         window.addEventListener('hashchange', handleRoute);
         document.addEventListener('DOMContentLoaded', loadArticles);
     </script>
