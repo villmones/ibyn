@@ -31,7 +31,8 @@ date: 2026-10-21
 
 
 ---
-
+## **Sammenlikningsdiagram**
+![Reisetidsanalyse Helgeland](../images/reisetider_helgeland.png)
 ---
 
 ## **Metodikk og Datagrunnlag**
