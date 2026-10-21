@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kildearkiv & AI-søketjeneste – ibyn.no</title>
+    <style>
+        :root {
+            --bg-color: #f8f9fa;
+            --text-color: #1a1a1a;
+            --accent-color: #b91c1c;
+            --muted-color: #555555;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .paper-dateline {
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--muted-color);
+            border-bottom: 1px solid var(--border-color);
+            padding: 0.4rem 1rem;
+            display: flex;
+            justify-content: space-between;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #ffffff;
+            border-bottom: 3px solid var(--text-color);
+            padding: 0.8rem 1rem 0.7rem;
+            text-align: center;
+        }
+
+        .masthead-title {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3rem;
+            font-weight: 900;
+            letter-spacing: -1px;
+            color: var(--text-color);
+            text-decoration: none;
+        }
+
+        .masthead-title span {
+            color: var(--accent-color);
+        }
+
+        .masthead-sub {
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: 0.9rem;
+            color: var(--muted-color);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-top: 0.2rem;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2.5rem auto;
+            padding: 0 1rem;
+        }
+
+        .search-box-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-top: 4px solid var(--accent-color);
+            padding: 2.5rem;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .intro-text {
+            font-family: system-ui, -apple-system, sans-serif;
+            color: var(--muted-color);
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 0.75rem;
+        }
+
+        input[type="text"] {
+            flex-grow: 1;
+            padding: 0.8rem 1rem;
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            outline: none;
+        }
+
+        input[type="text"]:focus {
+            border-color: var(--accent-color);
+        }
+
+        button {
+            background-color: var(--text-color);
+            color: #ffffff;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+
+        button:hover {
+            background-color: var(--accent-color);
+        }
+
+        .response-container {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: 2rem;
+            margin-top: 1.5rem;
+            display: none;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+        }
+
+        .response-container h3 {
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: 1.1rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            color: var(--accent-color);
+        }
+
+        .response-content {
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+
+        .back-link {
+            display: inline-block;
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: 0.9rem;
+            color: var(--accent-color);
+            text-decoration: none;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            border-top: 1px solid var(--border-color);
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: 0.85rem;
+            color: var(--muted-color);
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="paper-dateline">
+        <span>Mosjøen</span>
+        <span>Kildearkiv &bull; Styredokumenter 2018–2026</span>
+        <span style="color: #71717a;">KI-søk basert på offentlige kilder</span>
+    </div>
+
+    <header>
+        <a href="/" class="masthead-title">ibyn<span>.no</span></a>
+        <div class="masthead-sub">Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn</div>
+    </header>
+
+    <main>
+        <a href="/" class="back-link">&larr; Tilbake til forsiden</a>
+
+        <div class="search-box-card">
+            <h1>Spør i kildearkivet</h1>
+            <p class="intro-text">Still spørsmål direkte til de offisielle styredokumentene og rapportene (2018–2026). Tjenesten henter ut dokumenterte fakta.</p>
+            
+            <div class="input-group">
+                <input type="text" id="query-input" placeholder="F.eks. Hva var sakene om psykisk helsevern i 2018?" onkeydown="if(event.key === 'Enter') performSearch();">
+                <button onclick="performSearch()">Søk</button>
+            </div>
+
+            <div id="response-box" class="response-container">
+                <h3>Svar basert på kildene:</h3>
+                <div id="response-text" class="response-content">Søker i dokumentene...</div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2026 ibyn.no – Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn
+    </footer>
+
+    <script>
+        function performSearch() {
+            const query = document.getElementById('query-input').value.trim();
+            const responseBox = document.getElementById('response-box');
+            const responseText = document.getElementById('response-text');
+
+            if (!query) return;
+
+            responseBox.style.display = 'block';
+            responseText.innerHTML = '<em>Analyserer kildemateriale fra styredokumentene...</em>';
+
+            // Her kan du koble opp mot en sikker backend eller Gemini API-endepunkt 
+            // som spør mot notatbokens kilder.
+            setTimeout(() => {
+                responseText.innerHTML = `Dette er en simulert svarmodul koblet mot databasen for <strong>Styredokumenter HSYK (2018–2026)</strong>. 
+                <br><br>Søkeforespørselen din («<em>${query}</em>») ble mottatt. For full live-integrasjon mot kildene kan du legge inn en sikker API-nøkkel for Gemini i denne script-blokken.`;
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
