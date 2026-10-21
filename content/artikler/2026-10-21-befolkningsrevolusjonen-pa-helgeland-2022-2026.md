@@ -25,7 +25,7 @@ Dersom vi bruker **Korgfjellet** – det tradisjonelle fjellpasset og kommunegre
 
 ## 📊 Hovedtallene i korthet (2022–2026)
 
-\--Image of: --Befolkningsutvikling Trend
+![Helgeland Demografi Illustrasjon](../images/befolkning_helgeland_trend.png)
 
 ### Sør-Helgeland (11 kommuner sør for Korgfjellet)
 
