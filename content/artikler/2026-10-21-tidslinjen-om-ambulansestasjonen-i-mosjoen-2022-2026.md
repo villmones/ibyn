@@ -1,10 +1,9 @@
 ---
-title: Tidslinjen om ambulansestasjonen i Mosjøen (2022–2026)
+title: "Tidslinjen om ambulansestasjonen i Mosjøen (2022–2026): Fra
+  Arbeidstilsynets pålegg til «90 cm-konflikten»"
 date: 2026-10-21
 kicker: POLITIKK
 ---
-# Tidslinjen om ambulansestasjonen i Mosjøen (2022–2026): Fra Arbeidstilsynets pålegg til «90 cm-konflikten»
-
 **Saken om ny ambulansestasjon i Mosjøen har i over fire år vært preget av endrede strategi- og finansieringsvedtak, steile fronter mellom helseforetak og vertskommune, samt svært krevende arbeidsforhold for personellet.**
 
 Nedenfor finner du den komplette kronologiske oversikten med eksakte datoer, styresaksnumre, vedtatte kostnadsrammer og sentrale argumenter fra administrasjonen, styret og lokalsamfunnet.
