@@ -5,7 +5,7 @@ summary: Saken om ny ambulansestasjon i Mosjøen har i over fire år vært prege
   av endrede strategi- og finansieringsvedtak, steile fronter mellom
   helseforetak og vertskommune, samt svært krevende arbeidsforhold for
   personellet.
-image: /images/20251213_161536.jpg
+image: /images/brutte_lofter_ambulansestasjon.png
 kicker: HELSE
 date: 2026-10-21
 ---
