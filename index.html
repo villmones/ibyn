@@ -275,21 +275,21 @@
             margin-bottom: 1.5rem;
         }
 
-        /* News Grid for Articles */
+/* Nyhetsrutenett som fyller opp alle tomrom (Masonry-flyt) */
         .news-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 1.5rem;
+            column-count: 3; /* 3 spalter på stor PC-skjerm */
+            column-gap: 1.5rem;
             margin-bottom: 3rem;
         }
 
         .news-card {
             background: var(--card-bg);
             border: 1px solid var(--border-color);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
+            display: inline-block; /* Viktig for at flerspalte-flyten ikke kuttet av kort midt i */
+            width: 100%;
+            margin-bottom: 1.5rem; /* Avstand mellom kortene nedover */
             box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+            break-inside: avoid; /* Hindrer at et kort blir delt midt i over to spalter */
         }
 
         .news-card img {
@@ -500,6 +500,20 @@
             margin-top: 3rem;
         }
 
+        
+        /* Responsiv tilpasning for mindre skjermer */
+        @media (max-width: 900px) {
+            .news-grid {
+                column-count: 2; /* 2 spalter på nettbrett */
+            }
+        }
+
+        @media (max-width: 600px) {
+            .news-grid {
+                column-count: 1; /* 1 spalte på mobil */
+            }
+        }
+        
         @media (max-width: 768px) {
             header { padding: 1rem; }
             .weather-widget { position: static; transform: none; margin-top: 0.8rem; }
