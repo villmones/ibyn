@@ -346,6 +346,41 @@
             .lead-story h1, .full-article h1 { font-size: 1.75rem; }
             .lead-story-content, .full-article-inner { padding: 1.4rem; }
         }
+
+        /* Kompakt og lesevennlig tabell-styling */
+        .article-body table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: 0.9rem; /* Litt mindre skriftstørrelse for å få plass til mer */
+            margin: 1.5rem 0;
+            background-color: #ffffff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+        }
+
+        .article-body th, 
+        .article-body td {
+            padding: 8px 12px; /* Redusert polstring (mindre luft) for flere linjer */
+            border: 1px solid var(--border-color);
+            text-align: left;
+        }
+
+        .article-body th {
+            background-color: #f1f5f9;
+            font-weight: 700;
+            color: #1e293b;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 0.5px;
+        }
+
+        .article-body tr:nth-child(even) {
+            background-color: #f8fafc; /* Vekselsvis bakgrunnsfarge for bedre lesbarhet */
+        }
+
+        .article-body tr:hover {
+            background-color: #f1f5f9;
+        }
     </style>
 </head>
 <body>
