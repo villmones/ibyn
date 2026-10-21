@@ -750,21 +750,20 @@
                     })
                 );
 
-                // Robust sortering etter dato (nyeste øverst)
+
+// Skuddsikker sortering: Nyeste dato og klokkeslett kommer alltid øverst
                 allArticles.sort((a, b) => {
-                    const parseDateNum = (dateStr) => {
-                        if (!dateStr) return 0;
-                        const clean = dateStr.toString().split('T')[0].replace(/[^0-9]/g, '');
-                        return parseInt(clean || '0', 10);
-                    };
+                    // Gjør om til ekte tidspunkt (millisekunder siden 1970). Mangler dato, settes den til 0.
+                    const dateA = a.date ? new Date(a.date).getTime() : 0;
+                    const dateB = b.date ? new Date(b.date).getTime() : 0;
 
-                    const numA = parseDateNum(a.date);
-                    const numB = parseDateNum(b.date);
-
-                    if (numB !== numA) {
-                        return numB - numA;
+                    // Hvis datoene er nøyaktig på sekundet like, sorter alfabetisk på tittel slik at det blir stabilt
+                    if (dateB === dateA) {
+                        return (a.title || '').localeCompare(b.title || '');
                     }
-                    return b.slug.localeCompare(a.slug);
+
+                    // Største tall (den nyeste datoen) havner øverst
+                    return dateB - dateA;
                 });
 
                 renderFrontpage();
