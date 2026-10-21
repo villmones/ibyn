@@ -748,24 +748,24 @@
                     })
                 );
 
-                // Sørg for at nyeste dato alltid kommer først
+                // Ekstra robust dato-parser for å sikre riktig rekkefølge (nyeste øverst)
                 allArticles.sort((a, b) => {
-                    const timeA = a.date ? new Date(a.date).getTime() : 0;
-                    const timeB = b.date ? new Date(b.date).getTime() : 0;
-                    // Hvis datoene er like, sorter på filnavn (alfabetisk/omvendt)
-                    if (timeB === timeA) {
-                        return b.slug.localeCompare(a.slug);
-                    }
-                    return timeB - timeA;
-                });
+                    // Gjør om dato til tall (f.eks. "2026-10-21" blir 20261021) for 100% sikker sortering
+                    const parseDateNum = (dateStr) => {
+                        if (!dateStr) return 0;
+                        const clean = dateStr.toString().split('T')[0].replace(/[^0-9]/g, '');
+                        return parseInt(clean || '0', 10);
+                    };
 
-                renderFrontpage();
-                handleRoute();
-            } catch (error) {
-                console.error('Error loading articles:', error);
-                gridContainer.innerHTML = '<p>Kunne ikke laste inn artikler akkurat nå.</p>';
-            }
-        }
+                    const numA = parseDateNum(a.date);
+                    const numB = parseDateNum(b.date);
+
+                    if (numB !== numA) {
+                        return numB - numA; // Største tall (nyeste dato) først
+                    }
+                    // Hvis datoene er helt identiske, ta den nyeste basert på filnavn/slug
+                    return b.slug.localeCompare(a.slug);
+                });
 
         window.addEventListener('hashchange', handleRoute);
         document.addEventListener('DOMContentLoaded', () => {
