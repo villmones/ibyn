@@ -9,12 +9,18 @@ content:
         label: Overskrift
         type: string
         required: true
+      - name: summary
+        label: Ingress (kort oppsummering på forsiden)
+        type: text
+      - name: image
+        label: Hovedbilde
+        type: image
+      - name: kicker
+        label: Kicker (Kategori, f.eks. INDUSTRI eller LOKALT)
+        type: string
       - name: date
         label: Publiseringstidspunkt
         type: date
-      - name: kicker
-        label: Kicker (Kategori)
-        type: string
       - name: body
-        label: Innhold
+        label: Hele artikkelen (Brødtekst)
         type: rich-text
