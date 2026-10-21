@@ -708,7 +708,8 @@
                         ${newestImg ? `<a href="#${encodeURIComponent(newest.slug)}" class="image-link"><img src="${newestImg}" alt="${newest.title}"></a>` : ''}
                         <div class="lead-story-content">
                             <span class="kicker">${newest.kicker || 'AKTUELT'}</span>
-                            <h1><a href="#${encodeURIComponent(newest.slug)}" class="article-link">${newest.title}</a></h1>${newestSummary ? `<p class="ingress">${newestSummary}</p>` : ''}
+                            <h1><a href="#${encodeURIComponent(newest.slug)}" class="article-link">${newest.title}</a></h1>
+                            ${newestSummary ? `<p class="ingress">${newestSummary}</p>` : ''}
                         </div>
                     </div>
                     ${newest.date ? `<div class="byline" style="margin: 0 1.8rem 1.8rem;">Publisert ${formatNorwegianDate(newest.date)}</div>` : ''}
@@ -722,7 +723,8 @@
                     <article class="secondary-story">
                         <div>
                             <span class="kicker">${secondary.kicker || 'NYHETER'}</span>
-                            <h2><a href="#${encodeURIComponent(secondary.slug)}" class="article-link">${secondary.title}</a></h2>${secImg ? `<a href="#${encodeURIComponent(secondary.slug)}" class="image-link"><img src="${secImg}" alt="${secondary.title}"></a>` : ''}
+                            <h2><a href="#${encodeURIComponent(secondary.slug)}" class="article-link">${secondary.title}</a></h2>
+                            ${secImg ? `<a href="#${encodeURIComponent(secondary.slug)}" class="image-link"><img src="${secImg}" alt="${secondary.title}"></a>` : ''}
                             ${secSummary ? `<p class="ingress">${secSummary}</p>` : ''}
                         </div>
                         ${secondary.date ? `<div class="byline">Publisert ${formatNorwegianDate(secondary.date)}</div>` : ''}
@@ -750,7 +752,8 @@
                         <div class="news-card-content">
                             <div>
                                 <span class="kicker">${art.kicker || 'NYHETER'}</span>
-                                <h2><a href="#${encodeURIComponent(art.slug)}" class="article-link">${art.title}</a></h2>${summaryText ? `<p class="ingress">${summaryText}</p>` : ''}
+                                <h2><a href="#${encodeURIComponent(art.slug)}" class="article-link">${art.title}</a></h2>
+                                ${summaryText ? `<p class="ingress">${summaryText}</p>` : ''}
                             </div>
                             ${art.date ? `<div class="byline">Publisert ${formatNorwegianDate(art.date)}</div>` : ''}
                         </div>
@@ -777,3 +780,79 @@
                 <article class="full-article">
                     ${imgUrl ? `<img src="${imgUrl}" alt="${article.title}" class="full-article-hero">` : ''}
                     <div class="full-article-inner">
+                        <span class="kicker">${article.kicker || 'NYHETER'}</span>
+                        <h1>${article.title}</h1>
+                        ${hasDedicatedSummary ? `<p class="lead-ingress">${article.summary}</p>` : ''}
+                        ${article.date ? `<div class="byline">Publisert ${formatNorwegianDate(article.date)}</div>` : ''}
+                        <div class="article-body">${marked.parse(article.body || '')}</div>
+                    </div>
+                </article>
+            `;
+            setupImageZoom();
+        }
+
+        function handleRoute() {
+            const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
+            const frontpageView = document.getElementById('frontpage-view');
+            const singleArticleView = document.getElementById('single-article-view');
+
+            if (hash && allArticles.some(a => a.slug === hash)) {
+                renderSingleArticle(hash);
+                frontpageView.style.display = 'none';
+                singleArticleView.style.display = 'block';
+                window.scrollTo(0, 0);
+            } else {
+                frontpageView.style.display = 'block';
+                singleArticleView.style.display = 'none';
+            }
+        }
+
+        async function loadArticles() {
+            const gridContainer = document.getElementById('cms-articles-container');
+            try {
+                const apiUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${ARTICLES_PATH}`;
+                const response = await fetch(apiUrl);
+                if (!response.ok) throw new Error(`Kunne ikke hente artikkelmappen`);
+                const files = await response.json();
+                const mdFiles = files.filter(file => file.name.endsWith('.md'));
+
+                if (mdFiles.length === 0) {
+                    gridContainer.innerHTML = '<p>Ingen publiserte artikler ennå.</p>';
+                    return;
+                }
+
+                allArticles = await Promise.all(
+                    mdFiles.map(async (file) => {
+                        const res = await fetch(file.download_url);
+                        const text = await res.text();
+                        return parseFrontmatter(text, file.name);
+                    })
+                );
+
+                allArticles.sort((a, b) => {
+                    const dateA = a.date ? new Date(a.date).getTime() : 0;
+                    const dateB = b.date ? new Date(b.date).getTime() : 0;
+
+                    if (dateB === dateA) {
+                        return (a.title || '').localeCompare(b.title || '');
+                    }
+                    return dateB - dateA;
+                });
+
+                renderFrontpage();
+                handleRoute();
+            } catch (error) {
+                console.error('Error loading articles:', error);
+                gridContainer.innerHTML = '<p>Kunne ikke laste inn artikler akkurat nå.</p>';
+            }
+        }
+
+        window.addEventListener('hashchange', handleRoute);
+        document.addEventListener('DOMContentLoaded', () => {
+            updatePaperDateline();
+            loadArticles();
+            fetchWeather();
+        });
+    </script>
+</body>
+</html>
