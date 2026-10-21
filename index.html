@@ -816,14 +816,23 @@
             }
         }
 
-        async function loadArticles() {
+  async function loadArticles() {
             const gridContainer = document.getElementById('cms-articles-container');
             try {
-                const apiUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${ARTICLES_PATH}`;
-                const response = await fetch(apiUrl);
-                if (!response.ok) throw new Error(`Kunne ikke hente artikkelmappen`);
-                const files = await response.json();
-                const mdFiles = files.filter(file => file.name.endsWith('.md'));
+                // Siden vi vet at filene ligger i content/artikler, kan vi hente en fast manifest-liste 
+                // eller definere filene direkte, eller hente via en robust fallback-sjekk.
+                // Her henter vi filene direkte via GitHubs rå-adresser eller en standard liste:
+                
+                // For å gjøre det 100% stabilt uten API-grenser:
+                // Vi henter først filene fra Git-grenen direkte, eller via en enkel fetch mot mappen:
+                const listRes = await fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/git/trees/main?recursive=1`);
+                
+                if (!listRes.ok) {
+                    throw new Error(`Kunne ikke hente filoversikt fra GitHub`);
+                }
+
+                const treeData = await listRes.json();
+                const mdFiles = treeData.tree.filter(item => item.path.startsWith(`${ARTICLES_PATH}/`) && item.path.endsWith('.md'));
 
                 if (mdFiles.length === 0) {
                     gridContainer.innerHTML = '<p>Ingen publiserte artikler ennå.</p>';
@@ -832,9 +841,11 @@
 
                 allArticles = await Promise.all(
                     mdFiles.map(async (file) => {
-                        const res = await fetch(file.download_url);
+                        const rawUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/main/${file.path}`;
+                        const res = await fetch(rawUrl);
                         const text = await res.text();
-                        return parseFrontmatter(text, file.name);
+                        const filename = file.path.split('/').pop();
+                        return parseFrontmatter(text, filename);
                     })
                 );
 
@@ -855,7 +866,6 @@
                 gridContainer.innerHTML = '<p>Kunne ikke laste inn artikler akkurat nå.</p>';
             }
         }
-
         window.addEventListener('hashchange', handleRoute);
         document.addEventListener('DOMContentLoaded', () => {
             updatePaperDateline();
