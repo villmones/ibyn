@@ -1,9 +1,9 @@
 ---
-title: "# 📊 Statsbudsjettet 2027: Bevilgninger og overføringer til Helgeland"
-summary: "**Ingress:** I regjeringens forslag til statsbudsjett for 2027 legges
-  de økonomiske rammene for kommuneøkonomi, samferdsel og statlige overføringer
-  på Helgeland. Her er den komplette oversikten over hva Vefsn, Grane og
-  Hattfjelldal mottar – og hvordan tallene ser ut for resten av Helgeland."
+title: "📊 Statsbudsjettet 2027: Bevilgninger og overføringer til Helgeland"
+summary: I regjeringens forslag til statsbudsjett for 2027 legges de økonomiske
+  rammene for kommuneøkonomi, samferdsel og statlige overføringer på Helgeland.
+  Her er den komplette oversikten over hva Vefsn, Grane og Hattfjelldal mottar –
+  og hvordan tallene ser ut for resten av Helgeland.
 kicker: " Innsikt &amp; Råvarer / Økonomi"
 date: 2026-10-21
 ---
