@@ -1,5 +1,5 @@
 ---
-title: Reisetidsanalyse lokasjon for akuttsykehus på Helgeland
+title: Reisetidsanalyse for akuttsykehus på Helgeland
 summary: Denne rapporten sammenstiller og analyserer reisetidene for de fem
   aktuelle sykehuslokaliseringene på Helgeland. Beregningene er basert på ferske
   befolkningstall fra Statistisk sentralbyrå (SSB per 1.1.2026, totalt 76 539
