@@ -4,6 +4,8 @@ summary: Som Nord-Norges største landbaserte industriarbeidsplass står Alcoa
   Mosjøen i en nøkkelrolle for både den lokale velferden i Vefsn og den grønne
   omstillingen i Europa. Men hva kreves egentlig for at aluminiumsverket i Byn
   skal fortsette å levere i verdensklasse de neste tiårene?
+image: /images/alcoa_mosjoen_framtid_illustration-1.png
+kicker: INDUSTRI
 date: 2026-10-21
 ---
 ### 1\. Et transnasjonalt industriknutepunkt
