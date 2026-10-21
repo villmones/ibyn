@@ -10,7 +10,7 @@ date: 2026-10-21
 
 ---
 
-![Helgeland Demografi Illustrasjon](../images/reisetider_helgeland.png)
+![Helgeland Demografi Illustrasjon](../images/helgeland_demografi_korgfjellet.png)
 
 Ferske registreringstall fra Statistisk sentralbyrå (SSB) avslører en slående og uventet demografisk utvikling på Helgeland de siste fire årene.
 
