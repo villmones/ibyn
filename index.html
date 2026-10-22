@@ -994,22 +994,28 @@
             setupImageZoom();
         }
 
-        function handleRoute() {
-            const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
-            const frontpageView = document.getElementById('frontpage-view');
-            const singleArticleView = document.getElementById('single-article-view');
+function handleRoute() {
+    const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
 
-            if (hash && allArticles.some(a => a.slug === hash)) {
-                renderSingleArticle(hash);
-                frontpageView.style.display = 'none';
-                singleArticleView.style.display = 'block';
-                window.scrollTo(0, 0);
-            } else {
-                frontpageView.style.display = 'block';
-                singleArticleView.style.display = 'none';
-                renderFrontpage();
-            }
-        }
+    // Hvis brukeren er på ai.html, stopp umiddelbart så skriptet ikke rører den
+    if (window.location.pathname.includes('ai.html')) {
+        return;
+    }
+
+    const frontpageView = document.getElementById('frontpage-view');
+    const singleArticleView = document.getElementById('single-article-view');
+
+    if (hash && allArticles.some(a => a.slug === hash)) {
+        renderSingleArticle(hash);
+        frontpageView.style.display = 'none';
+        singleArticleView.style.display = 'block';
+        window.scrollTo(0, 0);
+    } else {
+        frontpageView.style.display = 'block';
+        singleArticleView.style.display = 'none';
+        renderFrontpage();
+    }
+}
 
         // Load articles using jsDelivr package index
         async function loadArticles() {
