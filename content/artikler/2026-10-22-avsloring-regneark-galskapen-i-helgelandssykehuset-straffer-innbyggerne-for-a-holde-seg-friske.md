@@ -5,6 +5,7 @@ summary: Mens Vefsn, Grane og Hattfjelldal tar den tyngste støyten i
   eldreomsorgen etter akuttkuttet i Mosjøen, sitter ledelsen i
   Helgelandssykehuset og fortviler over «tapte kunder» i sine egne regneark.
   Velkommen til helseforetakenes absurde butikk-økonomi.
+image: /images/regneark_galskap_helgelandssykehuset-1.png
 kicker: HELSE
 date: 2026-10-22
 ---
