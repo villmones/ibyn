@@ -1015,56 +1015,89 @@ function handleRoute() {
 }
 
 
-// Load articles using GitHub API first for instant updates, with jsDelivr as fallback
+// Load articles with SHA cache-busting and SPA fallback protection
         async function loadArticles() {
             const frontpageContainer = document.getElementById('newspaper-frontpage');
             try {
-                let mdFileNames = [];
+                let fileEntries = []; // Array of { name, sha }
 
-                // 1. Try GitHub API first so new articles appear immediately
-                const ghRes = await fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${ARTICLES_PATH}`, {
-                    cache: 'no-store'
-                });
+                // 1. Query GitHub API with timestamp to prevent CDN caching
+                const ghRes = await fetch(
+                    `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${ARTICLES_PATH}?t=${Date.now()}`,
+                    { cache: 'no-store' }
+                );
 
                 if (ghRes.ok) {
                     const ghFiles = await ghRes.json();
-                    mdFileNames = ghFiles.filter(f => f.name.endsWith('.md')).map(f => f.name);
+                    fileEntries = ghFiles
+                        .filter(f => f.name.endsWith('.md'))
+                        .map(f => ({ name: f.name, sha: f.sha }));
+                    console.log(`Loaded ${fileEntries.length} articles via GitHub API`);
                 } else {
-                    // 2. Fallback to jsDelivr package index if GitHub API rate limit is reached
-                    const cdnRes = await fetch(`https://data.jsdelivr.com/v1/package/gh/${GITHUB_OWNER}/${GITHUB_REPO}@main/flat`);
+                    console.warn('GitHub API rate-limited or unavailable, purging and using jsDelivr fallback...');
+                    // Request jsDelivr cache purge before fetching flat index
+                    await fetch(`https://purge.jsdelivr.net/gh/${GITHUB_OWNER}/${GITHUB_REPO}@main/`).catch(() => {});
+                    const cdnRes = await fetch(`https://data.jsdelivr.com/v1/package/gh/${GITHUB_OWNER}/${GITHUB_REPO}@main/flat?t=${Date.now()}`, {
+                        cache: 'no-store'
+                    });
                     if (!cdnRes.ok) throw new Error('Could not fetch article list');
                     const cdnData = await cdnRes.json();
-                    mdFileNames = cdnData.files
+                    fileEntries = cdnData.files
                         .filter(f => f.name.startsWith(`/${ARTICLES_PATH}/`) && f.name.endsWith('.md'))
-                        .map(f => f.name.split('/').pop());
+                        .map(f => ({ name: f.name.split('/').pop(), sha: f.hash || Date.now() }));
+                    console.log(`Loaded ${fileEntries.length} articles via jsDelivr fallback`);
                 }
 
-                if (mdFileNames.length === 0) {
+                if (fileEntries.length === 0) {
                     frontpageContainer.innerHTML = '<p>Ingen publiserte artikler ennå.</p>';
                     return;
                 }
 
                 allArticles = await Promise.all(
-                    mdFileNames.map(async (filename) => {
-                        let res = await fetch(`/${ARTICLES_PATH}/${filename}`, { cache: 'no-cache' });
-                        if (!res.ok) {
-                            res = await fetch(`https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/main/${ARTICLES_PATH}/${filename}`, { cache: 'no-cache' });
+                    fileEntries.map(async ({ name, sha }) => {
+                        let text = '';
+
+                        // Try fetching directly from raw GitHub with unique SHA/cache-buster first for instant updates
+                        const rawUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/main/${ARTICLES_PATH}/${encodeURIComponent(name)}?v=${sha}`;
+                        let res = await fetch(rawUrl, { cache: 'no-store' });
+
+                        if (res.ok) {
+                            text = await res.text();
                         }
-                        const text = await res.text();
-                        return parseFrontmatter(text, filename);
+
+                        // Fallback to local static path if raw fetch failed
+                        if (!text || !text.trim().startsWith('---')) {
+                            const localRes = await fetch(`/${ARTICLES_PATH}/${encodeURIComponent(name)}?v=${sha}`, { cache: 'no-store' });
+                            if (localRes.ok) {
+                                const localText = await localRes.text();
+                                // Prevent SPA HTML fallback from being parsed as an article
+                                if (!localText.trim().toLowerCase().startsWith('<!doctype')) {
+                                    text = localText;
+                                }
+                            }
+                        }
+
+                        return parseFrontmatter(text, name);
                     })
                 );
 
-                // Sort newest first by date and time
-                allArticles.sort((a, b) => {
-                    const dateA = a.date ? new Date(a.date).getTime() : 0;
-                    const dateB = b.date ? new Date(b.date).getTime() : 0;
+                // Filter out any empty/failed reads
+                allArticles = allArticles.filter(a => a.title !== 'Uten tittel' || a.body.trim() !== '');
 
-                    if (dateB === dateA) {
+                // Sort newest first by date (articles missing a date get sorted last)
+                allArticles.sort((a, b) => {
+                    const timeA = a.date ? new Date(a.date).getTime() : 0;
+                    const timeB = b.date ? new Date(b.date).getTime() : 0;
+                    const validA = isNaN(timeA) ? 0 : timeA;
+                    const validB = isNaN(timeB) ? 0 : timeB;
+
+                    if (validB === validA) {
                         return (b.slug || '').localeCompare(a.slug || '');
                     }
-                    return dateB - dateA;
+                    return validB - validA;
                 });
+
+                console.table(allArticles.slice(0, 8).map(a => ({ slug: a.slug, date: a.date, kicker: a.kicker, title: a.title.substring(0, 35) })));
 
                 renderCategoryNav();
                 handleRoute();
@@ -1073,7 +1106,6 @@ function handleRoute() {
                 frontpageContainer.innerHTML = '<p>Kunne ikke laste inn artikler akkurat nå.</p>';
             }
         }
-
         window.addEventListener('hashchange', handleRoute);
         document.addEventListener('DOMContentLoaded', () => {
             updatePaperDateline();
