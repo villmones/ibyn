@@ -219,23 +219,30 @@
     </footer>
 
     <script>
-        function performSearch() {
-            const query = document.getElementById('query-input').value.trim();
-            const responseBox = document.getElementById('response-box');
-            const responseText = document.getElementById('response-text');
+async function performSearch() {
+    const query = document.getElementById('query-input').value.trim();
+    const responseBox = document.getElementById('response-box');
+    const responseText = document.getElementById('response-text');
 
-            if (!query) return;
+    if (!query) return;
 
-            responseBox.style.display = 'block';
-            responseText.innerHTML = '<em>Analyserer kildemateriale fra styredokumentene...</em>';
+    responseBox.style.display = 'block';
+    responseText.innerHTML = '<em>Søker i kildearkivet...</em>';
 
-            // Her kan du koble opp mot en sikker backend eller Gemini API-endepunkt 
-            // som spør mot notatbokens kilder.
-            setTimeout(() => {
-                responseText.innerHTML = `Dette er en simulert svarmodul koblet mot databasen for <strong>Styredokumenter HSYK (2018–2026)</strong>. 
-                <br><br>Søkeforespørselen din («<em>${query}</em>») ble mottatt. For full live-integrasjon mot kildene kan du legge inn en sikker API-nøkkel for Gemini i denne script-blokken.`;
-            }, 1000);
-        }
+    try {
+        const res = await fetch('/search', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ query })
+        });
+        const data = await res.json();
+
+            // Formater svaret pent (bytt ut linjeskift med HTML)
+            responseText.innerHTML = data.answer ? data.answer.replace(/\n/g, '<br>') : data.error;
+    } catch (e) {
+        responseText.innerHTML = 'Kunne ikke koble til søketjenesten akkurat nå.';
+    }
+}
     </script>
 </body>
 </html>
