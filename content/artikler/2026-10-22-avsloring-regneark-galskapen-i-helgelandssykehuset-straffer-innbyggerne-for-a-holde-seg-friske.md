@@ -67,3 +67,21 @@ Men tallene og historikken viser at kommunen har hatt helt rett hele veien:
 2. **Snu silotenkingen:** Det er Vefsn kommune som tenker helhetlig helsepark, beredskap og langsiktig samfunnsutvikling – mens Helgelandssykehuset sitter fast i bedriftsøkonomisk silotenking der pasienter er DRG-poeng og kommuner er leietakere som skal skvises.
 
 **Budskapet til ordføreren og kommunestyret i Vefsn må være krystallklart:** Ikke la dere pelle på nesen av regneark-akrobatene i Helse Nord. Fortsett den tøffe linjen! Krev at staten og helseforetaket tar sitt lovpålagte ansvar for en trygg beredskap på Indre Helgeland – uten at kommunens innbyggere må betale regningen to ganger.
+
+
+### 📚 **Kilder og kildegrunnlag**
+
+Artikkelen bygger på offentlige styredokumenter, virksomhetsrapporter og registerdata fra Helgelandssykehuset HF (HSYK), Helse Nord RHF, Statistisk sentralbyrå (SSB) og Vefsn kommune:
+
+1. **Helgelandssykehuset HF – Styresak 74-2026 / Virksomhetsrapport august 2026:**  
+  * *Oversikt over pasientstrømmer:* Dokumenterer en økning på 191 % i pasientoverføringer ut av Vefsn kommune etter nedleggelsen (Tabell 8.2), samt månedlig resultatrapportering for Innsatsstyrt Finansiering (ISF).
+2. **Helgelandssykehuset HF – Styresaker om funksjons- og oppgavefordeling (2023–2025):**  
+  * *Styresak 2/2025 (24.01.2025):* Vedtak om overføring av somatisk akutt- og døgnbehandling fra Mosjøen til Sandnessjøen og Mo i Rana.
+  * *Styresak 9/2023 &amp; Styresak 114/2024:* Beslutningsgrunnlag for rammer og besparelsesberegninger ved flytting av sengeposter.
+3. **Helgelandssykehuset HF – Styresaker om Ambulansestasjon Mosjøen:**  
+  * *Styresak 108-2022, Sak 11-2023, Sak 97-2023, Sak 43-2024 og Sak 48-2025:* Prosessdokumentasjon for ombygging/leie av ambulansestasjon, vurdering av Arbeidstilsynets pålegg, samt vedtatt minimumsramme på 35 mill. kr.
+4. **Referater og leserinnlegg vedrørende leieavtale og arealbyggesak (2026):**  
+  * *Notater og uttalelser om «90 cm-saken» og leieforslaget:* Omtale av Vefsn formannskaps avslag på dispensasjonssøknad, ordfører Rune Krutås avvisning av leiekravet på 30 mill. kr over 25 år, og direktør Lena E. Nielsens redegjørelse for sykehusets økonomiske rammer.
+5. **Transport, geografi og befolkningsdata:**  
+  * *Statistisk sentralbyrå (SSB) &amp; Befolning\_Kommuner.csv:* Kommunale befolkningstall per 1.1.2026 for Helgeland.
+  * *Oslo Economics (2018) &amp; Prehospitale Tjenester HSYK (2018):* Utredninger om reisetidsmatriser, transporttider og tilgjengelighet i akutte situasjoner.
