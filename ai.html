@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kildearkiv & KI-søketjeneste – ibyn.no</title>
+    <title>Helse Nord & Helgelandssykehuset (2016–2026) – ibyn.no</title>
     <style>
         :root {
             --bg-color: #f8f9fa;
             --text-color: #1a1a1a;
-            --accent-color: #1e3a8a; /* Dyp, profesjonell blåtone i stedet for rød */
-            --accent-hover: #1e40af;
+            --accent-color: #b91c1c;
             --muted-color: #555555;
             --card-bg: #ffffff;
             --border-color: #e2e8f0;
@@ -26,8 +25,10 @@
             background-color: var(--bg-color);
             color: var(--text-color);
             line-height: 1.6;
+            overflow-y: scroll;
         }
 
+        /* Newspaper Dateline */
         .paper-dateline {
             font-family: system-ui, -apple-system, sans-serif;
             font-size: 0.75rem;
@@ -39,15 +40,45 @@
             padding: 0.4rem 1rem;
             display: flex;
             justify-content: space-between;
-            max-width: 1100px;
+            align-items: center;
+            flex-wrap: nowrap;
+            gap: 1rem;
+            max-width: 1140px;
             margin: 0 auto;
+            overflow: hidden;
         }
 
+        .paper-dateline span {
+            white-space: nowrap;
+        }
+
+        /* Masthead / Header */
         header {
             background-color: #ffffff;
             border-bottom: 3px solid var(--text-color);
-            padding: 0.8rem 1rem 0.7rem;
-            text-align: center;
+            padding: 0.8rem 1rem 0.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header-content-wrapper {
+            width: 100%;
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .masthead-inner {
+            text-align: left;
+            border: 0;
+            display: flex;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 1rem;
         }
 
         .masthead-title {
@@ -57,6 +88,8 @@
             letter-spacing: -1px;
             color: var(--text-color);
             text-decoration: none;
+            cursor: pointer;
+            line-height: 1.1;
         }
 
         .masthead-title span {
@@ -69,9 +102,42 @@
             color: var(--muted-color);
             text-transform: uppercase;
             letter-spacing: 1.5px;
-            margin-top: 0.2rem;
         }
 
+        /* Category Navigation Bar */
+        .category-nav {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            border-top: 1px solid var(--border-color);
+            padding-top: 0.6rem;
+            margin-top: 0.6rem;
+            width: 100%;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+
+        .cat-link {
+            background: none;
+            border: none;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--muted-color);
+            padding: 0.3rem 0.8rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            text-decoration: none;
+        }
+
+        .cat-link:hover, .cat-link.active {
+            background-color: var(--accent-color);
+            color: white;
+        }
+
+        /* Main Container */
         main {
             max-width: 800px;
             margin: 2.5rem auto;
@@ -81,7 +147,7 @@
         .search-box-card {
             background: var(--card-bg);
             border: 1px solid var(--border-color);
-            border-top: 4px solid var(--accent-color);
+            border-top: 4px solid #1e3a8a; /* Blå toppkant for AI/Arkiv */
             padding: 2.5rem;
             box-shadow: 0 2px 6px rgba(0,0,0,0.04);
             margin-bottom: 2rem;
@@ -104,7 +170,7 @@
         .archive-scope {
             font-family: system-ui, -apple-system, sans-serif;
             background: #f1f5f9;
-            border-left: 4px solid var(--accent-color);
+            border-left: 4px solid #1e3a8a;
             padding: 1rem 1.25rem;
             text-align: left;
             font-size: 0.95rem;
@@ -122,7 +188,7 @@
             align-items: center;
             justify-content: center;
             gap: 0.6rem;
-            background-color: var(--accent-color);
+            background-color: #1e3a8a; /* Dyp blå knappe-farge */
             color: #ffffff;
             border: none;
             padding: 1rem 2rem;
@@ -136,21 +202,22 @@
         }
 
         .notebook-btn:hover {
-            background-color: var(--accent-hover);
+            background-color: #1e40af;
             transform: translateY(-2px);
         }
 
-        .back-link {
-            display: inline-block;
+        .back-button {
+            display: inline-flex;
+            align-items: center;
             font-family: system-ui, -apple-system, sans-serif;
             font-size: 0.9rem;
+            font-weight: 600;
             color: var(--accent-color);
             text-decoration: none;
             margin-bottom: 1.5rem;
-            font-weight: 600;
         }
 
-        .back-link:hover {
+        .back-button:hover {
             text-decoration: underline;
         }
 
@@ -164,27 +231,40 @@
             margin-top: 3rem;
         }
 
-        @media (max-width: 640px) {
+        @media (max-width: 768px) {
+            header { padding: 1rem; }
+            .masthead-inner { flex-direction: column; align-items: flex-start; gap: 0.2rem; }
+            .masthead-title { font-size: 2.5rem; }
+            .paper-dateline { flex-direction: column; text-align: center; gap: 0.2rem; }
             .search-box-card { padding: 1.5rem; }
-            h1 { font-size: 1.6rem; }
         }
     </style>
 </head>
 <body>
 
+    <!-- Newspaper Dateline -->
     <div class="paper-dateline">
-        <span>Mosjøen</span>
-        <span>Kildearkiv &bull; Helse Nord & Helgelandssykehuset</span>
-        <span style="color: #71717a;">Møtedokumenter</span>
+        <span id="current-date-string">Mosjøen, 2026</span>
+        <span style="font-weight: normal; color: #71717a;">Helse Nord & Helgelandssykehuset (2016–2026)</span>
     </div>
 
     <header>
-        <a href="/" class="masthead-title">ibyn<span>.no</span></a>
-        <div class="masthead-sub">Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn</div>
+        <div class="header-content-wrapper">
+            <div class="masthead-inner">
+                <a href="/" class="masthead-title">iByn<span>.no</span></a>
+                <div class="masthead-sub">Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn</div>
+            </div>
+
+            <!-- Category Navigation Bar -->
+            <nav class="category-nav" id="category-nav">
+                <a href="/" class="cat-link">Forsiden</a>
+                <a href="/ai.html" class="cat-link active">Helsearkiv (AI)</a>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <a href="/" class="back-link">&larr; Tilbake til forsiden</a>
+        <a href="/" class="back-button">&larr; Tilbake til forsiden</a>
 
         <div class="search-box-card">
             <h1>Helse Nord - HSYK (2016–2026)</h1>
@@ -199,7 +279,7 @@
             </div>
             
             <!-- Byt ut # med din faktiske delingslenke fra NotebookLM -->
-            <a href="https://notebook.google.com/notebook/f726be33-32ab-426e-8e73-e04d5e2220a7" target="_blank" class="notebook-btn">
+            <a href="SKriv_Inn_Din_NotebookLM_Lenke_Her" target="_blank" class="notebook-btn">
                 <span>Åpne AI-Kildearkivet</span>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
             </a>
@@ -207,8 +287,16 @@
     </main>
 
     <footer>
-        &copy; 2026 ibyn.no – Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn
+        &copy; 2026 iByn.no – Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn
     </footer>
 
+    <script>
+        // Dynamically set today's date in dateline
+        const now = new Date();
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        let dateStr = now.toLocaleDateString('no-NO', options);
+        dateStr = dateStr.charAt(0).toUpperCase() + dateStr.slice(1);
+        document.getElementById('current-date-string').textContent = `Mosjøen, ${dateStr}`;
+    </script>
 </body>
 </html>
