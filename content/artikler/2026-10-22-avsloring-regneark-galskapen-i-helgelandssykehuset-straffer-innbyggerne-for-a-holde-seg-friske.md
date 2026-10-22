@@ -63,7 +63,7 @@ Lokalpolitikerne i Vefsn kommune har fått hard medfart fra sykehusbyråkratene 
 
 Men tallene og historikken viser at kommunen har hatt helt rett hele veien:
 
-1. **Vefsn er vekstmotoren:** Vefsn er den eneste sykehusbyen på Helgeland med registrert befolkningsvekst de siste årene, mens andre kommuner har opplevd nedgang.
+1. **Vefsn er vekstmotoren:** Vefsn er sykehusbyen på Helgeland med størst registrert befolkningsvekst de siste årene, mens andre kommuner har opplevd nedgang.
 2. **Snu silotenkingen:** Det er Vefsn kommune som tenker helhetlig helsepark, beredskap og langsiktig samfunnsutvikling – mens Helgelandssykehuset sitter fast i bedriftsøkonomisk silotenking der pasienter er DRG-poeng og kommuner er leietakere som skal skvises.
 
 **Budskapet til ordføreren og kommunestyret i Vefsn må være krystallklart:** Ikke la dere pelle på nesen av regneark-akrobatene i Helse Nord. Fortsett den tøffe linjen! Krev at staten og helseforetaket tar sitt lovpålagte ansvar for en trygg beredskap på Indre Helgeland – uten at kommunens innbyggere må betale regningen to ganger.
