@@ -829,7 +829,7 @@
             kickers.forEach(k => {
                 html += `<button class="cat-link ${currentCategory === k ? 'active' : ''}" onclick="filterCategory('${k}')">${k}</button>`;
             });
-            html += `<a href="/ai.html" class="cat-link" style="text-decoration:none;">AI-Assistent</a>`;
+            html += `<a href="/ai.html" class="cat-link" style="text-decoration: none;" onclick="window.location.href='/ai.html'; return false;">AI-Assistent</a>`;
             navContainer.innerHTML = html;
         }
 
