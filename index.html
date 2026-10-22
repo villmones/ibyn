@@ -35,7 +35,7 @@
             background-color: var(--bg-color);
             color: var(--text-color);
             line-height: 1.6;
-            overflow-y: scroll; /* Tvinger frem rullefeltet alltid, slik at venstrekant aldri hopper */
+            overflow-y: scroll;
         }
 
         /* Newspaper Dateline */
@@ -62,7 +62,7 @@
             white-space: nowrap;
         }
 
-        /* Masthead / Header with weather widget */
+        /* Masthead / Header with weather and flight widgets */
         header {
             background-color: #ffffff;
             border-bottom: 3px solid var(--text-color);
@@ -70,12 +70,13 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            position: relative;
         }
 
         .header-content-wrapper {
             width: 100%;
             max-width: 1140px;
+            margin: 0 auto;
+            padding: 0 1rem;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
@@ -114,6 +115,59 @@
             letter-spacing: 1.5px;
         }
 
+        /* Header Widgets Container (Weather + Flights) */
+        .header-widgets {
+            position: absolute;
+            right: 1rem;
+            top: 0.2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
+
+        /* Widgets (Weather & Flights) */
+        .header-widget {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: 0.85rem;
+            color: var(--text-color);
+            background: #f8fafc;
+            border: 1px solid var(--border-color);
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            text-decoration: none;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+            transition: background 0.15s;
+        }
+
+        .header-widget:hover {
+            background: #f1f5f9;
+        }
+
+        .widget-info {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+        }
+
+        .widget-main-text {
+            font-weight: 700;
+            font-size: 0.95rem;
+        }
+
+        .widget-sub-text {
+            font-size: 0.72rem;
+            color: var(--muted-color);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .delayed {
+            color: var(--accent-color);
+        }
+
         /* Category Navigation Bar - Left aligned */
         .category-nav {
             display: flex;
@@ -144,48 +198,6 @@
         .cat-link:hover, .cat-link.active {
             background-color: var(--accent-color);
             color: white;
-        }
-
-        /* Yr Weather Widget in header */
-        .weather-widget {
-            position: absolute;
-            right: 0;
-            top: 0.2rem;
-            display: flex;
-            align-items: center;
-            gap: 0.6rem;
-            font-family: system-ui, -apple-system, sans-serif;
-            font-size: 0.9rem;
-            color: var(--text-color);
-            background: #f8fafc;
-            border: 1px solid var(--border-color);
-            padding: 0.4rem 0.8rem;
-            border-radius: 6px;
-            text-decoration: none;
-            box-shadow: 0 1px 2px rgba(0,0,0,0.02);
-            transition: background 0.15s;
-        }
-
-        .weather-widget:hover {
-            background: #f1f5f9;
-        }
-
-        .weather-info {
-            display: flex;
-            flex-direction: column;
-            line-height: 1.2;
-        }
-
-        .weather-temp {
-            font-weight: 700;
-            font-size: 1rem;
-        }
-
-        .weather-location {
-            font-size: 0.72rem;
-            color: var(--muted-color);
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
         }
 
         /* Main Container */
@@ -334,11 +346,11 @@
 
         /* Single Article View (Full Story) */
         #single-article-view {
-             display: none;
-             width: 100%;
-             max-width: 800px;
-             margin: 0 0 3rem 0; /* Tvinger artikkelen til å starte helt til venstre i flukt med headeren */
-         }
+            display: none;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 0 3rem 0;
+        }
 
         .back-button {
             display: inline-flex;
@@ -582,11 +594,17 @@
             .newspaper-layout {
                 grid-template-columns: 1fr;
             }
+            .header-widgets {
+                position: static;
+                margin-top: 0.8rem;
+                width: 100%;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+            }
         }
 
         @media (max-width: 768px) {
             header { padding: 1rem; }
-            .weather-widget { position: static; transform: none; margin-bottom: 0.8rem; }
             .masthead-inner { flex-direction: column; align-items: flex-start; gap: 0.2rem; }
             .masthead-title { font-size: 2.5rem; }
             .lead-story h1, .full-article h1 { font-size: 1.75rem; }
@@ -622,14 +640,26 @@
                 <button class="cat-link active" onclick="filterCategory('ALL')">Alle</button>
             </nav>
 
-            <!-- Yr Weather Widget for Mosjøen -->
-            <a href="https://www.yr.no/nb/værvarsel/daglig-tabell/1-252958/Norge/Nordland/Vefsn/Mosjøen" target="_blank" class="weather-widget" title="Se fullt værvarsel på Yr.no for Mosjøen">
-                <span style="font-size: 1.5rem;" id="weather-emoji">⛅</span>
-                <div class="weather-info">
-                    <span class="weather-temp" id="yr-weather-temp">--°C</span>
-                    <span class="weather-location">Mosjøen</span>
-                </div>
-            </a>
+            <!-- Header Widgets (Weather + MJF Flights) -->
+            <div class="header-widgets">
+                <!-- Yr Weather Widget for Mosjøen -->
+                <a href="https://www.yr.no/nb/værvarsel/daglig-tabell/1-252958/Norge/Nordland/Vefsn/Mosjøen" target="_blank" class="header-widget" title="Se fullt værvarsel på Yr.no for Mosjøen">
+                    <span style="font-size: 1.4rem;" id="weather-emoji">⛅</span>
+                    <div class="widget-info">
+                        <span class="widget-main-text" id="yr-weather-temp">--°C</span>
+                        <span class="widget-sub-text">Mosjøen</span>
+                    </div>
+                </a>
+
+                <!-- Avinor Flight Widget for Kjærstad (MJF) -->
+                <a href="https://www.avinor.no/flyplass/mosjoen/flytider/" target="_blank" class="header-widget" title="Se alle flytider på Avinor.no for Mosjøen lufthavn, Kjærstad">
+                    <span style="font-size: 1.4rem;">✈️</span>
+                    <div class="widget-info">
+                        <span class="widget-main-text" id="mjf-flight-time">--:--</span>
+                        <span class="widget-sub-text" id="mjf-flight-info">Kjærstad MJF</span>
+                    </div>
+                </a>
+            </div>
         </div>
     </header>
 
@@ -701,6 +731,51 @@
                 }
             } catch (e) {
                 console.error('Error fetching weather data:', e);
+            }
+        }
+
+        // Fetch live flight data for Mosjøen lufthavn, Kjærstad (MJF) via Avinor open feed proxy
+        async function fetchFlightData() {
+            try {
+                // Bruker Avinors åpne RSS/XML-feed for Mosjøen (MJF) via en sikker CORS-proxy
+                const proxyUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent('https://avinor.no/flightfeed/v1/airport/MJF');
+                const res = await fetch(proxyUrl);
+                if (!res.ok) return;
+                const data = await res.json();
+                
+                if (data && data.contents) {
+                    const parser = new DOMParser();
+                    const xml = parser.parseFromString(data.contents, 'text/xml');
+                    const flights = xml.getElementsByTagName('flight');
+
+                    if (flights.length > 0) {
+                        // Finn neste fly (ankomst/avgang)
+                        const nextFlight = flights[0];
+                        const type = nextFlight.getAttribute('domInt') === 'D' ? 'ANK' : 'FLY'; // Eller les ut fra schedule
+                        const scheduleTime = nextFlight.getElementsByTagName('scheduleTime')[0]?.textContent || '';
+                        const flightId = nextFlight.getElementsByTagName('flightId')[0]?.textContent || 'MJF';
+                        const delayedTime = nextFlight.getElementsByTagName('delayedTime')[0]?.textContent;
+                        const status = nextFlight.getElementsByTagName('status')[0]?.textContent || '';
+
+                        const timeFormatted = scheduleTime ? scheduleTime.substring(11, 16) : '--:--';
+                        const timeEl = document.getElementById('mjf-flight-time');
+                        const infoEl = document.getElementById('mjf-flight-info');
+
+                        if (delayedTime && delayedTime !== scheduleTime) {
+                            const newTime = delayedTime.substring(11, 16);
+                            timeEl.textContent = newTime;
+                            timeEl.classList.add('delayed');
+                            infoEl.textContent = `${flightId} (Forsinket)`;
+                        } else {
+                            timeEl.textContent = timeFormatted;
+                            infoEl.textContent = `${flightId} Kjærstad`;
+                        }
+                    }
+                }
+            } catch (e) {
+                // Fallvisning hvis Avinor-feed midlertidig ikke svarer
+                document.getElementById('mjf-flight-time').textContent = 'MJF';
+                document.getElementById('mjf-flight-info').textContent = 'Se Avinor.no';
             }
         }
 
@@ -1041,6 +1116,7 @@
             updatePaperDateline();
             loadArticles();
             fetchWeather();
+            fetchFlightData();
         });
     </script>
 </body>
