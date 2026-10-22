@@ -621,7 +621,6 @@
     <!-- Newspaper Dateline -->
     <div class="paper-dateline">
         <span id="current-date-string">Mosjøen, 2026</span>
-        <span>Årgang 1</span>
         <span style="font-weight: normal; color: #71717a;">KI-generert innhold basert på offentlig informasjon</span>
     </div>
 
@@ -635,7 +634,7 @@
             <!-- Category Navigation Bar -->
             <nav class="category-nav" id="category-nav">
                 <button class="cat-link active" onclick="filterCategory('ALL')">Alle</button>
-                <a href="/ai.html" class="cat-link" style="text-decoration: none;" onclick="window.location.href='/ai.html'; return false;">AI-Assistent</a>
+                <a href="/ai.html" class="cat-link" style="text-decoration: none;">AI-Assistent</a>
             </nav>
 
             <!-- Header Widgets (Weather + MJF Flights) -->
@@ -829,7 +828,6 @@
             kickers.forEach(k => {
                 html += `<button class="cat-link ${currentCategory === k ? 'active' : ''}" onclick="filterCategory('${k}')">${k}</button>`;
             });
-            html += `<a href="/ai.html" class="cat-link" style="text-decoration: none;" onclick="window.location.href='/ai.html'; return false;">AI-Assistent</a>`;
             navContainer.innerHTML = html;
         }
 
