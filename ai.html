@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kildearkiv & AI-søketjeneste – ibyn.no</title>
+    <title>Kildearkiv & KI-søketjeneste – ibyn.no</title>
     <style>
         :root {
             --bg-color: #f8f9fa;
             --text-color: #1a1a1a;
-            --accent-color: #b91c1c;
+            --accent-color: #1e3a8a; /* Dyp, profesjonell blåtone i stedet for rød */
+            --accent-hover: #1e40af;
             --muted-color: #555555;
             --card-bg: #ffffff;
             --border-color: #e2e8f0;
@@ -96,15 +97,31 @@
             font-family: system-ui, -apple-system, sans-serif;
             color: var(--muted-color);
             font-size: 1.05rem;
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
             line-height: 1.6;
+        }
+
+        .archive-scope {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: #f1f5f9;
+            border-left: 4px solid var(--accent-color);
+            padding: 1rem 1.25rem;
+            text-align: left;
+            font-size: 0.95rem;
+            color: #334155;
+            margin-bottom: 2rem;
+            border-radius: 0 6px 6px 0;
+        }
+
+        .archive-scope strong {
+            color: var(--text-color);
         }
 
         .notebook-btn {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            gap: 0.5rem;
+            gap: 0.6rem;
             background-color: var(--accent-color);
             color: #ffffff;
             border: none;
@@ -119,7 +136,7 @@
         }
 
         .notebook-btn:hover {
-            background-color: #991b1b;
+            background-color: var(--accent-hover);
             transform: translateY(-2px);
         }
 
@@ -146,14 +163,19 @@
             color: var(--muted-color);
             margin-top: 3rem;
         }
+
+        @media (max-width: 640px) {
+            .search-box-card { padding: 1.5rem; }
+            h1 { font-size: 1.6rem; }
+        }
     </style>
 </head>
 <body>
 
     <div class="paper-dateline">
         <span>Mosjøen</span>
-        <span>Kildearkiv &bull; Styredokumenter 2018–2026</span>
-        <span style="color: #71717a;">Offisielle kilder</span>
+        <span>Kildearkiv &bull; Helse Nord & Helgelandssykehuset</span>
+        <span style="color: #71717a;">Møtedokumenter</span>
     </div>
 
     <header>
@@ -165,10 +187,16 @@
         <a href="/" class="back-link">&larr; Tilbake til forsiden</a>
 
         <div class="search-box-card">
-            <h1>Åpne iByn Kildearkiv (AI)</h1>
+            <h1>Helse Nord - HSYK (2016–2026)</h1>
             <p class="intro-text">
-                Utforsk det komplette arkivet av offisielle styredokumenter og rapporter (2018–2026) direkte i vår dedikerte AI-søketjeneste. Tjenesten gir deg dokumenterte svar med direkte kildehenvisninger.
+                Utforsk det dedikerte kildearkivet for helseforetakene i regionen. Tjenesten gir deg dokumenterte svar med direkte kildehenvisninger og innsikt basert på offisielle beslutninger.
             </p>
+
+            <div class="archive-scope">
+                <strong>Innhold i arkivet:</strong><br>
+                &bull; Foretaksmøter i Helse Nord RHF<br>
+                &bull; Styremøter i Helgelandssykehuset HF
+            </div>
             
             <!-- Byt ut # med din faktiske delingslenke fra NotebookLM -->
             <a href="https://notebook.google.com/notebook/f726be33-32ab-426e-8e73-e04d5e2220a7" target="_blank" class="notebook-btn">
