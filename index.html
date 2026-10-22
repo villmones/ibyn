@@ -819,6 +819,7 @@
             });
         }
 
+
         // Build category menu dynamically based on available articles
         function renderCategoryNav() {
             const navContainer = document.getElementById('category-nav');
@@ -828,6 +829,10 @@
             kickers.forEach(k => {
                 html += `<button class="cat-link ${currentCategory === k ? 'active' : ''}" onclick="filterCategory('${k}')">${k}</button>`;
             });
+            
+            // Add the AI link permanently at the end of the menu
+            html += `<a href="/ai.html" class="cat-link">AI-Assistent</a>`;
+            
             navContainer.innerHTML = html;
         }
 
