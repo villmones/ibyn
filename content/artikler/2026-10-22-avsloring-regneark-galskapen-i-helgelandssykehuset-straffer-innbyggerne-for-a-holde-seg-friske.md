@@ -7,6 +7,9 @@ summary: Mens Vefsn, Grane og Hattfjelldal tar den tyngste støyten i
   Velkommen til helseforetakenes absurde butikk-økonomi.
 image: /images/regneark_galskap_helgelandssykehuset.png
 kicker: HELSE
+date: |-
+  	
+  2026-10-22 18:00
 ---
 Da somatisk akuttmottak og medisinsk sengepost i Mosjøen ble stengt, var det med høytidelige løfter fra helseforetaket om et mer bærekraftig helsevesen. Men under overflaten skjuler det seg et økonomisk system som er så forvridd at det strider mot all sunn fornuft.
 
