@@ -3,8 +3,13 @@ export async function onRequest(context) {
     const url = new URL(context.request.url);
     const slug = url.pathname.replace(/^\/+|\/+$/g, '');
 
-    // Ignore static pages like ai / ai.html so they are not treated as article slugs
-    if (!slug || slug === 'ai' || slug === 'ai.html' || slug.includes('.')) {
+    // Hvis adressen er /ai eller /ai.html, hent og vis selve ai.html-filen direkte!
+    if (slug === 'ai' || slug === 'ai.html') {
+        return context.env.ASSETS.fetch(new URL('/ai.html', context.request.url));
+    }
+
+    // Ikke gjør noe med vanlige filer (bilder, css osv.)
+    if (!slug || slug.includes('.')) {
         return context.next();
     }
 
