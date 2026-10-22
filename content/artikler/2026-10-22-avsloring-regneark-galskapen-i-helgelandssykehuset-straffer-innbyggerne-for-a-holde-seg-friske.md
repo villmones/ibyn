@@ -1,6 +1,6 @@
 ---
-title: AVSLØRING Regneark-galskapen i Helgelandssykehuset – Straffer innbyggerne
-  for å holde seg friske!
+title: Regneark-galskapen i Helgelandssykehuset – Straffer innbyggerne for å
+  holde seg friske!
 summary: Mens Vefsn, Grane og Hattfjelldal tar den tyngste støyten i
   eldreomsorgen etter akuttkuttet i Mosjøen, sitter ledelsen i
   Helgelandssykehuset og fortviler over «tapte kunder» i sine egne regneark.
