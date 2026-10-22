@@ -827,6 +827,8 @@
             kickers.forEach(k => {
                 html += `<button class="cat-link ${currentCategory === k ? 'active' : ''}" onclick="filterCategory('${k}')">${k}</button>`;
             });
+            // Legg til en fast AI-knapp i menyen
+            html += `<a href="/ai.html" class="cat-link" style="text-decoration: none;">AI / Assistent</a>`;
             navContainer.innerHTML = html;
         }
 
