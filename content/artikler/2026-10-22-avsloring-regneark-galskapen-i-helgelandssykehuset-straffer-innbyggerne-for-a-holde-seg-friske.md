@@ -72,7 +72,7 @@ Lokalpolitikerne i Vefsn kommune har fått hard medfart fra sykehusbyråkratene 
 
 Men tallene og historikken viser at kommunen har hatt helt rett hele veien:
 
-1. **Vefsn er vekstmotoren:** Vefsn er den eneste sykehusbyen på Helgeland med registrert befolkningsvekst de siste årene, mens andre kommuner på Helgeland har opplevd nedgang.
+1. **Vefsn er vekstmotoren:** Vefsn er den sykehusbyen på Helgeland med sterkest befolkningsvekst de siste årene, mens andre kommuner på Helgeland har opplevd nedgang.
 2. **Snu silotenkingen:** Det er Vefsn kommune som tenker helhetlig helsepark, beredskap og langsiktig samfunnsutvikling – mens Helgelandssykehuset sitter fast i bedriftsøkonomisk silotenking der pasienter er DRG-poeng og kommuner er leietakere som skal skvises.
 
 **Budskapet til ordføreren og kommunestyret i Vefsn må være krystallklart:** Ikke la dere pelle på nesen av regneark-akrobatene i Helse Nord. Fortsett den tøffe linjen! Krev at staten og helseforetaket tar sitt lovpålagte ansvar for en trygg beredskap på Indre Helgeland – uten at kommunens innbyggere må betale regningen to ganger.
@@ -81,7 +81,7 @@ Men tallene og historikken viser at kommunen har hatt helt rett hele veien:
 
 ### Kildeliste / Dokumentgrunnlag
 
-* **Virksomhetsrapport per september 2026 (Styresak 86-2026):** Behandlet i styremøtet i Helgelandssykehuset HF 28\. oktober 2026\. Inneholder kapittel 8 «Inntektsanalyse: Utviklingen i aktivitetsinntekter per september 2026» samt resultatstatus og bemanningsmålinger per 3\. kvartal.
+* **Virksomhetsrapport per september 2026 (Styresak 86-2026):** Behandles i styremøtet i Helgelandssykehuset HF 28\. oktober 2026\. Inneholder kapittel 8 «Inntektsanalyse: Utviklingen i aktivitetsinntekter per september 2026» samt resultatstatus og bemanningsmålinger per 3\. kvartal.
 * **Virksomhetsrapport per august 2026 (Styresak 74-2026):** Inkluderer styrets bestilling av særskilt inntektsanalyse for aktivitetsinntekter og status for strakstiltak.
 * **Styresak 108-2022, 11-2023, 43-2024 og 48-2025:** Dokumenterer prosessen, kostnadsrammene og leiemodellene for ambulansestasjonen i Mosjøen.
 * **SSB befolkningsstatistikk 2026 &amp; Oslo Economics rapport:** Befolkningsendringer, transportanalyser og reisetidsberegninger for Helgeland.
