@@ -72,8 +72,18 @@
             position: relative;
         }
 
+        /* Wrap header content to match 1140px max-width and align left */
+        .header-content-wrapper {
+            width: 100%;
+            max-width: 1140px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            position: relative;
+        }
+
         .masthead-inner {
-            text-align: center;
+            text-align: left;
             border: 0;
         }
 
@@ -102,10 +112,10 @@
             margin-bottom: 0.8rem;
         }
 
-        /* Category Navigation Bar */
+        /* Category Navigation Bar - Left aligned */
         .category-nav {
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
             flex-wrap: wrap;
             gap: 0.5rem;
             border-top: 1px solid var(--border-color);
@@ -137,8 +147,8 @@
         /* Yr Weather Widget in header */
         .weather-widget {
             position: absolute;
-            right: 1.5rem;
-            top: 1.2rem;
+            right: 0;
+            top: 0.2rem;
             display: flex;
             align-items: center;
             gap: 0.6rem;
@@ -597,24 +607,26 @@
     </div>
 
     <header>
-        <div class="masthead-inner">
-            <a href="#" class="masthead-title" onclick="filterCategory('ALL'); return false;">iByn<span>.no</span></a>
-            <div class="masthead-sub">Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn</div>
-            
-            <!-- Category Navigation Bar -->
-            <nav class="category-nav" id="category-nav">
-                <button class="cat-link active" onclick="filterCategory('ALL')">Alle</button>
-            </nav>
-        </div>
-
-        <!-- Yr Weather Widget for Mosjøen -->
-        <a href="https://www.yr.no/nb/værvarsel/daglig-tabell/1-252958/Norge/Nordland/Vefsn/Mosjøen" target="_blank" class="weather-widget" title="Se fullt værvarsel på Yr.no for Mosjøen">
-            <span style="font-size: 1.5rem;" id="weather-emoji">⛅</span>
-            <div class="weather-info">
-                <span class="weather-temp" id="yr-weather-temp">--°C</span>
-                <span class="weather-location">Mosjøen</span>
+        <div class="header-content-wrapper">
+            <div class="masthead-inner">
+                <a href="#" class="masthead-title" onclick="filterCategory('ALL'); return false;">iByn<span>.no</span></a>
+                <div class="masthead-sub">Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn</div>
+                
+                <!-- Category Navigation Bar -->
+                <nav class="category-nav" id="category-nav">
+                    <button class="cat-link active" onclick="filterCategory('ALL')">Alle</button>
+                </nav>
             </div>
-        </a>
+
+            <!-- Yr Weather Widget for Mosjøen -->
+            <a href="https://www.yr.no/nb/værvarsel/daglig-tabell/1-252958/Norge/Nordland/Vefsn/Mosjøen" target="_blank" class="weather-widget" title="Se fullt værvarsel på Yr.no for Mosjøen">
+                <span style="font-size: 1.5rem;" id="weather-emoji">⛅</span>
+                <div class="weather-info">
+                    <span class="weather-temp" id="yr-weather-temp">--°C</span>
+                    <span class="weather-location">Mosjøen</span>
+                </div>
+            </a>
+        </div>
     </header>
 
     <main>
@@ -646,7 +658,7 @@
         const GITHUB_OWNER = 'villmones';
         const GITHUB_REPO = 'ibyn';
         const ARTICLES_PATH = 'content/artikler';
-        const MAX_FRONTPAGE_ARTICLES = 15; // Begrenser forsiden til siste 15 saker
+        const MAX_FRONTPAGE_ARTICLES = 15;
 
         let allArticles = [];
         let currentCategory = 'ALL';
@@ -790,7 +802,7 @@
 
         function filterCategory(cat) {
             currentCategory = cat;
-            window.location.hash = ''; // Nullstill eventuell artikkelvisning
+            window.location.hash = '';
             renderCategoryNav();
             renderFrontpage();
         }
@@ -805,8 +817,7 @@
                     <div class="news-card-content">
                         <div>
                             <span class="kicker">${art.kicker || 'NYHETER'}</span>
-                            <h2><a href="#${encodeURIComponent(art.slug)}" class="article-link">${art.title}</a></h2>
-                            ${summaryText ? `<p class="ingress">${summaryText}</p>` : ''}
+                            <h2><a href="#${encodeURIComponent(art.slug)}" class="article-link">${art.title}</a></h2>${summaryText ? `<p class="ingress">${summaryText}</p>` : ''}
                         </div>
                         ${art.date ? `<div class="byline">Publisert ${formatNorwegianDate(art.date)}</div>` : ''}
                     </div>
@@ -818,13 +829,11 @@
         function renderFrontpage() {
             const frontpageContainer = document.getElementById('newspaper-frontpage');
 
-            // Filtrer etter valgt kategori
             let filtered = allArticles;
             if (currentCategory !== 'ALL') {
                 filtered = allArticles.filter(a => (a.kicker || 'NYHETER').toUpperCase() === currentCategory);
             }
 
-            // Begrens til f.eks. de siste 15 på forsiden
             const displayArticles = filtered.slice(0, MAX_FRONTPAGE_ARTICLES);
 
             if (displayArticles.length === 0) {
@@ -832,7 +841,6 @@
                 return;
             }
 
-            // 1. Lead story (spans top of Column 1 & 2)
             const newest = displayArticles[0];
             const newestImg = resolveImageUrl(newest.image);
             const newestSummary = getSummary(newest);
@@ -843,15 +851,13 @@
                         ${newestImg ? `<a href="#${encodeURIComponent(newest.slug)}" class="image-link"><img src="${newestImg}" alt="${newest.title}"></a>` : ''}
                         <div class="lead-story-content">
                             <span class="kicker">${newest.kicker || 'AKTUELT'}</span>
-                            <h1><a href="#${encodeURIComponent(newest.slug)}" class="article-link">${newest.title}</a></h1>
-                            ${newestSummary ? `<p class="ingress">${newestSummary}</p>` : ''}
+                            <h1><a href="#${encodeURIComponent(newest.slug)}" class="article-link">${newest.title}</a></h1>${newestSummary ? `<p class="ingress">${newestSummary}</p>` : ''}
                         </div>
                     </div>
                     ${newest.date ? `<div class="byline" style="margin: 0 2rem 1.8rem;">Publisert ${formatNorwegianDate(newest.date)}</div>` : ''}
                 </article>
             `;
 
-            // Distribute remaining articles across Column 3 (right) and Sub-columns 1 & 2 (left below lead)
             const col1Articles = [];
             const col2Articles = [];
             const col3Articles = [];
@@ -876,8 +882,7 @@
             frontpageContainer.innerHTML = `
                 <div class="newspaper-layout">
                     <div class="left-two-columns">
-                        ${leadHtml}
-                        ${(col1Articles.length > 0 || col2Articles.length > 0) ? `
+                        ${leadHtml}${(col1Articles.length > 0 || col2Articles.length > 0) ? `
                             <div class="left-sub-columns">
                                 <div class="article-column">
                                     ${col1Articles.map(buildCardHtml).join('')}
@@ -928,108 +933,10 @@
                     ${imgUrl ? `<img src="${imgUrl}" alt="${article.title}" class="full-article-hero">` : ''}
                     <div class="full-article-inner">
                         <span class="kicker">${article.kicker || 'NYHETER'}</span>
-                        <h1>${article.title}</h1>
-                        ${hasDedicatedSummary ? `<p class="lead-ingress">${article.summary}</p>` : ''}
+                        <h1>${article.title}</h1>${hasDedicatedSummary ? `<p class="lead-ingress">${article.summary}</p>` : ''}
                         ${article.date ? `<div class="byline">Publisert ${formatNorwegianDate(article.date)}</div>` : ''}
                         
                         <div class="share-bar">
                             <span class="share-label">Del sak:</span>
                             <a href="${fbShareHref}" target="_blank" rel="noopener noreferrer" class="share-btn fb" title="Del på Facebook">
-                                <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                            </a>
-                            <a href="${xShareHref}" target="_blank" rel="noopener noreferrer" class="share-btn x" title="Del på X (Twitter)">
-                                <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                            </a>
-                            <button onclick="copyArticleLink('${cleanShareUrl}')" class="share-btn copy" title="Kopier lenke">
-                                <svg viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
-                            </button>
-                            <span id="copy-toast" class="copy-toast">Lenke kopiert!</span>
-                        </div>
-
-                        <div class="article-body">${marked.parse(normalizedBody)}</div>
-                    </div>
-                </article>
-            `;
-            setupImageZoom();
-        }
-
-        function handleRoute() {
-            const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
-            const frontpageView = document.getElementById('frontpage-view');
-            const singleArticleView = document.getElementById('single-article-view');
-
-            if (hash && allArticles.some(a => a.slug === hash)) {
-                renderSingleArticle(hash);
-                frontpageView.style.display = 'none';
-                singleArticleView.style.display = 'block';
-                window.scrollTo(0, 0);
-            } else {
-                frontpageView.style.display = 'block';
-                singleArticleView.style.display = 'none';
-                renderFrontpage();
-            }
-        }
-
-        // Load articles using jsDelivr package index
-        async function loadArticles() {
-            const frontpageContainer = document.getElementById('newspaper-frontpage');
-            try {
-                let mdFileNames = [];
-
-                const cdnRes = await fetch(`https://data.jsdelivr.com/v1/package/gh/${GITHUB_OWNER}/${GITHUB_REPO}@main/flat`);
-                if (cdnRes.ok) {
-                    const cdnData = await cdnRes.json();
-                    mdFileNames = cdnData.files
-                        .filter(f => f.name.startsWith(`/${ARTICLES_PATH}/`) && f.name.endsWith('.md'))
-                        .map(f => f.name.split('/').pop());
-                } else {
-                    const ghRes = await fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${ARTICLES_PATH}`);
-                    if (!ghRes.ok) throw new Error('Kunne ikke hente artikkeloversikt');
-                    const ghFiles = await ghRes.json();
-                    mdFileNames = ghFiles.filter(f => f.name.endsWith('.md')).map(f => f.name);
-                }
-
-                if (mdFileNames.length === 0) {
-                    frontpageContainer.innerHTML = '<p>Ingen publiserte artikler ennå.</p>';
-                    return;
-                }
-
-                allArticles = await Promise.all(
-                    mdFileNames.map(async (filename) => {
-                        let res = await fetch(`/${ARTICLES_PATH}/${filename}`);
-                        if (!res.ok) {
-                            res = await fetch(`https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/main/${ARTICLES_PATH}/${filename}`);
-                        }
-                        const text = await res.text();
-                        return parseFrontmatter(text, filename);
-                    })
-                );
-
-                // Sort newest first by date and time
-                allArticles.sort((a, b) => {
-                    const dateA = a.date ? new Date(a.date).getTime() : 0;
-                    const dateB = b.date ? new Date(b.date).getTime() : 0;
-
-                    if (dateB === dateA) {
-                        return (b.slug || '').localeCompare(a.slug || '');
-                    }
-                    return dateB - dateA;
-                });
-
-                renderCategoryNav();
-                handleRoute();
-            } catch (error) {
-                console.error('Error loading articles:', error);
-                frontpageContainer.innerHTML = '<p>Kunne ikke laste inn artikler akkurat nå.</p>';
-            }
-        }
-
-        window.addEventListener('hashchange', handleRoute);
-        document.addEventListener('DOMContentLoaded', () => {
-            updatePaperDateline();
-            loadArticles();
-            fetchWeather();
-        });
-    </script>
-</body>
-</html>
+                                <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-
