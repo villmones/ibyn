@@ -167,9 +167,8 @@
             font-family: system-ui, -apple-system, sans-serif;
             font-size: 0.82rem;
             color: var(--muted-color);
-            margin-top: 1rem;
-            padding-top: 0.7rem;
-            border-top: 1px solid var(--border-color);
+            margin-top: 0.6rem;
+            margin-bottom: 1rem;
         }
 
         /* Clickable Headlines & Images */
@@ -339,11 +338,11 @@
         }
 
         .full-article .lead-ingress {
-            font-size: 1.25rem;
+            font-size: 1.2rem;
             font-weight: 600;
             color: #222222;
             line-height: 1.55;
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
         }
 
         .full-article .article-body {
@@ -351,6 +350,8 @@
             line-height: 1.75;
             color: #1f1f1f;
             margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
         }
 
         .full-article .article-body p {
@@ -411,32 +412,30 @@
             opacity: 0.92;
         }
 
-        /* Share Bar Styling */
+        /* Smaller Share Bar Styling */
         .share-bar {
             display: flex;
             align-items: center;
-            gap: 0.75rem;
-            margin-top: 2.5rem;
-            padding-top: 1.2rem;
-            border-top: 1px solid var(--border-color);
+            gap: 0.5rem;
+            margin: 1.2rem 0 0.5rem 0;
             font-family: system-ui, -apple-system, sans-serif;
         }
 
         .share-label {
-            font-size: 0.85rem;
+            font-size: 0.78rem;
             font-weight: 600;
             color: var(--muted-color);
             text-transform: uppercase;
             letter-spacing: 0.5px;
-            margin-right: 0.25rem;
+            margin-right: 0.2rem;
         }
 
         .share-btn {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 38px;
-            height: 38px;
+            width: 30px;
+            height: 30px;
             border-radius: 50%;
             color: white;
             text-decoration: none;
@@ -451,8 +450,8 @@
         }
 
         .share-btn svg {
-            width: 18px;
-            height: 18px;
+            width: 14px;
+            height: 14px;
             fill: currentColor;
         }
 
@@ -463,10 +462,10 @@
         /* Copy confirmation tooltip */
         .copy-toast {
             display: none;
-            font-size: 0.8rem;
+            font-size: 0.78rem;
             color: #16a34a;
             font-weight: 600;
-            margin-left: 0.5rem;
+            margin-left: 0.4rem;
             animation: fadeInOut 2s ease;
         }
 
@@ -864,9 +863,8 @@
                         <h1>${article.title}</h1>
                         ${hasDedicatedSummary ? `<p class="lead-ingress">${article.summary}</p>` : ''}
                         ${article.date ? `<div class="byline">Publisert ${formatNorwegianDate(article.date)}</div>` : ''}
-                        <div class="article-body">${marked.parse(normalizedBody)}</div>
                         
-                        <!-- Share Bar with Icons -->
+                        <!-- Share Bar positioned between ingress and article body -->
                         <div class="share-bar">
                             <span class="share-label">Del sak:</span>
                             <a href="${fbShareHref}" target="_blank" rel="noopener noreferrer" class="share-btn fb" title="Del på Facebook">
@@ -880,6 +878,8 @@
                             </button>
                             <span id="copy-toast" class="copy-toast">Lenke kopiert!</span>
                         </div>
+
+                        <div class="article-body">${marked.parse(normalizedBody)}</div>
                     </div>
                 </article>
             `;
