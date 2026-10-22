@@ -995,11 +995,6 @@
 function handleRoute() {
     const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
 
-    // Hvis brukeren er på ai.html, stopp umiddelbart så skriptet ikke rører den
-    if (window.location.pathname.includes('ai.html')) {
-        return;
-    }
-
     const frontpageView = document.getElementById('frontpage-view');
     const singleArticleView = document.getElementById('single-article-view');
 
