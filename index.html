@@ -428,6 +428,7 @@
             background-color: #ffffff;
             box-shadow: 0 1px 3px rgba(0,0,0,0.04);
         }
+        
 
         .article-body th, 
         .article-body td {
@@ -614,6 +615,32 @@
                 grid-template-columns: 1fr;
             }
         }
+
+/* FORHINDRE AT MOBILEN DRAS SIDEVERTS */
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Tving alle bilder til å holde seg innenfor skjermen */
+    .article-body img, .lead-story img, .news-card img, .full-article-hero {
+        max-width: 100% !important;
+        height: auto !important;
+        box-sizing: border-box;
+    }
+
+    /* Gjør tabeller scrollbare i stedet for å sprenge mobilrammen */
+    .article-body table {
+        max-width: 100%;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    /* Hindrer lange ord eller lenker i å dytte siden ut */
+    .article-body p, .article-body li, h1, h2, h3 {
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }        
     </style>
 </head>
 <body>
