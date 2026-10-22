@@ -1,13 +1,12 @@
 // Safe Cloudflare Pages Function for Open Graph tags
 export async function onRequest(context) {
-  const { request, env, next } = context;
-  const url = new URL(request.url);
-  const path = url.pathname.replace(/^\/+|\/+$/g, "");
+    const url = new URL(context.request.url);
+    const slug = url.pathname.replace(/^\/+|\/+$/g, '');
 
-  // 1. Always pass through frontpage and static files untouched
-  if (!path || path === "index.html" || path.includes("/") || path.includes(".")) {
-    return next();
-  }
+    // Ignore static pages like ai / ai.html so they are not treated as article slugs
+    if (!slug || slug === 'ai' || slug === 'ai.html' || slug.includes('.')) {
+        return context.next();
+    }
 
   try {
     // 2. Fetch the base index.html directly from static assets
