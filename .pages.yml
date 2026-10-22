@@ -20,7 +20,7 @@ content:
         type: string
       - name: date
         label: Publiseringstidspunkt
-        type: datetime
+        type: date
       - name: body
         label: Hele artikkelen (Brødtekst)
         type: text
