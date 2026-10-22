@@ -5,7 +5,7 @@ summary: I regjeringens forslag til statsbudsjett for 2027 legges de økonomiske
   Her er den komplette oversikten over hva Vefsn, Grane og Hattfjelldal mottar –
   og hvordan tallene ser ut for resten av Helgeland.
 image: /images/statsbudsjettet_helgeland_illustration.png
-kicker: " Innsikt &amp; Råvarer / Økonomi"
+kicker: Økonomi
 date: 2026-10-21
 ---
 Nedenfor finner du en komplett og oppdatert oversikt over bevilgninger, rammetilskudd, frie inntekter og særskilte prosjektmidler for **Vefsn, Grane og Hattfjelldal**, samt for **alle øvrige kommuner på Helgeland**.
