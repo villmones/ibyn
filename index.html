@@ -164,10 +164,6 @@
             letter-spacing: 0.5px;
         }
 
-        .delayed {
-            color: var(--accent-color);
-        }
-
         /* Category Navigation Bar - Left aligned */
         .category-nav {
             display: flex;
@@ -652,11 +648,11 @@
                 </a>
 
                 <!-- Avinor Flight Widget for Kjærstad (MJF) -->
-                <a href="https://www.avinor.no/flyplass/mosjoen/flytider/" target="_blank" class="header-widget" title="Se alle flytider på Avinor.no for Mosjøen lufthavn, Kjærstad">
+                <a href="https://www.avinor.no/flyplass/mosjoen/flytider/" target="_blank" class="header-widget" title="Se live ankomster og avganger på Avinor.no for Mosjøen lufthavn, Kjærstad">
                     <span style="font-size: 1.4rem;">✈️</span>
                     <div class="widget-info">
-                        <span class="widget-main-text" id="mjf-flight-time">--:--</span>
-                        <span class="widget-sub-text" id="mjf-flight-info">Kjærstad MJF</span>
+                        <span class="widget-main-text">MJF</span>
+                        <span class="widget-sub-text">Flytider</span>
                     </div>
                 </a>
             </div>
@@ -731,51 +727,6 @@
                 }
             } catch (e) {
                 console.error('Error fetching weather data:', e);
-            }
-        }
-
-        async function fetchFlightData() {
-            try {
-                // Henter direkte fra Avinor sin offentlige JSON-flyt for Mosjøen (MJF) via sikker proxy
-                const proxyUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent('https://avinor.no/flightfeed/v1/airport/MJF');
-                const res = await fetch(proxyUrl);
-                if (!res.ok) return;
-                const data = await res.json();
-                
-                if (data && data.contents) {
-                    const xml = new DOMParser().parseFromString(data.contents, 'text/xml');
-                    const flights = xml.getElementsByTagName('flight');
-
-                    if (flights.length > 0) {
-                        const nextFlight = flights[0];
-                        
-                        // Sjekk om det er ankomst (A) eller avgang (D/B)
-                        const arrDep = nextFlight.getElementsByTagName('arrDep')[0]?.textContent || '';
-                        const type = (arrDep === 'A' || arrDep.toLowerCase().includes('arrival')) ? 'ANK' : 'AVG';
-                        
-                        const scheduleTime = nextFlight.getElementsByTagName('scheduleTime')[0]?.textContent || '';
-                        const delayedTime = nextFlight.getElementsByTagName('delayedTime')[0]?.textContent;
-                        const flightId = nextFlight.getElementsByTagName('flightId')[0]?.textContent || '';
-
-                        const timeStr = scheduleTime ? scheduleTime.substring(11, 16) : '--:--';
-                        const timeEl = document.getElementById('mjf-flight-time');
-                        const infoEl = document.getElementById('mjf-flight-info');
-
-                        if (delayedTime && delayedTime !== scheduleTime) {
-                            const newTime = delayedTime.substring(11, 16);
-                            timeEl.textContent = `${type} ${newTime}`;
-                            timeEl.classList.add('delayed');
-                            infoEl.textContent = `${flightId} (Forsinket)`;
-                        } else {
-                            timeEl.textContent = `${type} ${timeStr}`;
-                            infoEl.textContent = `${flightId} Kjærstad`;
-                        }
-                    }
-                }
-            } catch (e) {
-                // Hvis Avinor-feed ikke svarer akkurat nå
-                document.getElementById('mjf-flight-time').textContent = 'MJF Flytider';
-                document.getElementById('mjf-flight-info').textContent = 'Se Avinor.no';
             }
         }
 
@@ -1116,7 +1067,6 @@
             updatePaperDateline();
             loadArticles();
             fetchWeather();
-            fetchFlightData();
         });
     </script>
 </body>
