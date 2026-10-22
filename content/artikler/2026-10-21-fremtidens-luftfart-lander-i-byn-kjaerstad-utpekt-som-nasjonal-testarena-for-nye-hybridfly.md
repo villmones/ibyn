@@ -38,7 +38,7 @@ At staten, Avinor og Luftfartstilsynet plasserer testarenaen nettopp på Kjærst
 
 * **Kortbanenettets teknologiske renessanse:** Mens enkelte konsulentrapporter har foreslått å sentralisere regionaltrafikken til nye storerullebaner, beviser Avinors testprogram at fremtidens klimavennlige flyutvikling tvert imot er skreddersydd for kortbanenettet.
 * **Kjærstads strategiske plassering:** Med sin etablerte infrastruktur, plassering midt på Helgeland og tilknytning til helse, beredskap og tungindustri, er Mosjøen lufthavn perfekt rigget for å ta i bruk fremtidens lavutslippsluftfart først.
-* **Sømløs punkt-til-punkt-reising:** Kombinasjonen av Kjærstad og kaianlegg som Horvnes viser at fremtidens grønne luftfart vil knytte kysten og innlandet direkte sammen uten behov for lange bilturer over Korgfjellet.
+* **Sømløs punkt-til-punkt-reising:** Kombinasjonen av Kjærstad og kaianlegg som Horvnes viser at fremtidens grønne luftfart vil knytte kysten og innlandet direkte sammen uten behov for lange bilturer.
 
 – *Det viktige er at vi får testet teknologien under ulike forhold og i ulike deler av luftfartssystemet. Det skal gi oss kunnskap om hva som kreves av infrastruktur, luftrom og regelverk når nye flytyper er klare for ordinær drift i Norge*, uttaler Karianne Helland Strand, konserndirektør for bærekraft og infrastruktur i Avinor.
 
