@@ -46,4 +46,4 @@ At staten, Avinor og Luftfartstilsynet plasserer testarenaen nettopp på Kjærst
 
 ### Oppsummering
 
-For innbyggerne og næringslivet i Mosjøen og Vefsn er beskjeden fra Avinor krystallklar: **Kjærstad er ikke gårsdagens flyplass – det er morgendagens testlaboratorium.**
+For innbyggerne og næringslivet i Mosjøen og Vefsn er beskjeden fra Avinor krystallklar: **Kjærstad er ikke en nedleggelseskandidat, men spydspissen for fremtidens utslippsfrie luftfart.**
