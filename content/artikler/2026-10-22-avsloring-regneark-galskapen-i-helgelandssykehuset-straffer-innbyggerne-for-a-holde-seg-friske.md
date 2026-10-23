@@ -1,88 +1,91 @@
 ---
-title: Regneark-galskapen i Helgelandssykehuset – Straffer innbyggerne for å
-  holde seg friske!
-summary: Nye tall fra Helgelandssykehusets egne styredokumenter (Styresak
-  86-2026) avslører hvorfor akuttkuttet i Mosjøen har skapt et økonomisk uføre.
-  Mens Vefsn og nabokommunene tar støyten i eldreomsorgen, fortviler
-  sykehusledelsen over «tapte kunder» og feilberegnede pasientstrømmer i sine
-  egne Excel-ark. Velkommen til helseforetakenes absurde butikk-økonomi.
+title: "Helgelandssykehusets egne tall: Endrede pasientstrømmer og inntektssvikt
+  etter omstillingen"
+summary: Dokumenter fra Helgelandssykehuset HF (Styresak 86-2026) kaster nytt
+  lys over de økonomiske og organisatoriske konsekvensene av akuttkuttet i
+  Mosjøen. Mens helseforetaket sliter med et inntektstap på 13 millioner kroner
+  i Innsatsstyrt Finansiering (ISF), må kommunene i Vefsn-regionen håndtere en
+  økt omsorgsbyrde i primærhelsetjenesten.
 image: /images/regneark_galskap_helgelandssykehuset-1.png
 kicker: HELSE
 date: 2026-10-22
 ---
-Da somatisk akuttmottak og medisinsk sengepost i Mosjøen ble stengt, var det med høytidelige løfter fra helseforetaket om et mer bærekraftig og effektivt helsevesen. Men under overflaten skjuler det seg et økonomisk system som er så forvridd at det strider mot all sunn fornuft.
+Da somatisk akuttmottak og medisinsk sengepost i Mosjøen ble stengt som et ledd i funksjons- og oppgavefordelingen, var målet fra Helse Nord og Helgelandssykehuset å skape en mer bærekraftig struktur. Virksomhetsrapporten for september 2026 viser imidlertid at omstillingen har ført til uforutsette økonomiske utslag for foretaket, samtidig som belastningen på vertskommunene har økt.
 
-I helseforetakenes verden styres nemlig inntektene i stor grad av Innsatsstyrt Finansiering (ISF) – et stykkprissystem der sykehuset får utbetalt penger fra staten basert på antall pasientinnleggelser, behandlingskoder og DRG-poeng.
-
-Resultatet? Når kommunene lykkes med å forebygge sykdom eller gi god omsorg i hjemmet slik at folk slipper sykehusinnleggelse, føres det opp som et «negativt avvik» og tapte aktivitetsinntekter i sykehusdirektørens virksomhetsrapporter.
+Kjernen i utfordringen ligger i finansieringsmodellen for norske sykehus, der en vesentlig del av inntektene styres av Innsatsstyrt Finansiering (ISF). Dette er et statlig refusjonssystem der sykehusene tildeles midler basert på pasientbehandling, DRG-poeng og innleggelser.
 
 ---
 
-### 1\. Det økonomiske paradokset: Pasienter behandles som «tapte kunder»
+### 1\. Det økonomiske paradokset i ISF-systemet
 
-I Helgelandssykehusets virksomhetsrapport per september 2026 (Styresak 86-2026) fremgår det at sykehuset har et akkumulert underskudd på hele **\-36,9 millioner kroner** hittil i år – langt unna Helse Nords styringskrav om et overskudd på +20 millioner kroner. Årsprognosen styrebehandles med et forventet underskudd på -40 millioner kroner.
+I virksomhetsrapporten per september 2026 (Styresak 86-2026) fremgår det at Helgelandssykehuset har et akkumulert underskudd på **\-36,9 millioner kroner** hittil i år. Årsprognosen er behandlet med et forventet underskudd på -40,0 millioner kroner, noe som avviker markant fra Helse Nords resultatstipulering om et overskudd på +20,0 millioner kroner.
 
-I henhold til styrets bestilling fra august-møtet har sykehusledelsen måtte levere en egen, utdypende **inntektsanalyse (kapittel 8)** i september-rapporten for å forklare hvorfor aktivitetsinntektene svikter med **13,0 millioner kroner** mot budsjett.
+Etter bestilling fra styret i august har sykehusledelsen lagt fram en særskilt **inntektsanalyse (kapittel 8)** i september-rapporten. Rapporten dokumenterer et svikt i aktivitetsinntektene (ISF for egne pasienter) på **13,0 millioner kroner** mot budsjett.
 
-Konklusjonen i foretakets egen analyse er rystende ærlig: Hovedårsaken til inntektssvikten er at antall ordinære sykehusinnleggelser har gått ned etter at sengepostene i Mosjøen ble avviklet.
+I analysen peker helseforetaket selv på at hovedårsaken til inntektssvikten er en generell reduksjon i antall ordinære sykehusinnleggelser etter at sengepostene i Mosjøen ble avviklet.
 
-Dette er kjernen i helseforetaksgalskapen: Et offentlig sykehus som i praksis er avhengig av å fylle sengeposter for å opprettholde «omsetningen» sin. Dersom en eldre pasient i Vefsn får så god oppfølging av kommunesykepleieren at hen slipper en belastende sykehusinnleggelse, mister Helgelandssykehuset tusenvis av ISF-kroner fra statskassen. Sykehuset behandler i praksis innbyggerne på Indre Helgeland som kunder i en butikk – der «svikt i kundegrunnlaget» bokføres som et bedriftsøkonomisk problem.
-
----
-
-### 2\. Ansvarsfraskrivelsen: Kommunene tar støyten – sykehuset beholder millionene
-
-Når Helgelandssykehuset kutter sengeposter for å pynte på sine egne driftsbudsjetter, forsvinner selvsagt ikke de syke menneskene. Behovet for pleie, rehabilitering og trygghet er akkurat like stort.
-
-Forskjellen er bare at regningen og den fysiske omsorgsbyrden skyves rett over på skuldrene til Vefsn, Grane og Hattfjelldal kommuner. Det er hjemmesykepleien, sykehjemmene og de kommunale akutt-tjenestene som må trå til når sykehuset ber om raskere utskrivning eller avslår innleggelse.
-
-Men har Vefsn kommune fått tilført én eneste krone av de statlige bevilgningene eller ISF-midlene som Helgelandssykehuset klager over å ha «mistet»? Nei. Helgelandssykehuset beholder sine statlige basisrammer, mens kommunene må snu på hver krone for å dekke opp for spesialisthelsetjenestens tilbaketrekning.
+Dette illustrerer det strukturelle paradokset i ISF-modellen: Dersom kommunale forebyggende tiltak eller lokal omsorg gjør at pasienter unngår sykehusinnleggelse, fører dette isolert sett til reduserte ISF-inntekter for helseforetaket. Redusert pasientbehandling fremstår dermed som et økonomisk avvik i sykehusets regnskap, selv om det kan være faglig og samfunnsmessig gunstig at pasienten behandles i kommunen.
 
 ---
 
-### 3\. Skrivebords-fiaskoen: Pasientstrømmene som sprakk i praksis
+### 2\. Endret belastning mellom sykehus og kommune
 
-Nye og avslørende tall fra september-rapporten viser også hvordan sykehusledelsens skrivebordsprognoser for pasientflyten har sprukket i møte med virkeligheten.
+Når sengeposter avvikles i spesialisthelsetjenesten, forsvinner ikke pasientenes behov for pleie, oppfølging og rehabilitering.
 
-Da akuttmottaket og sengepostene i Mosjøen ble lagt ned, la sykehusledelsen til grunn i sine budsjetter at pasientene fra Mosjøen-området skulle fortsette å bli innlagt i uforandret omfang – i hovedsak nordover til Mo i Rana for indremedisin, og til Sandnessjøen for kirurgi.
+Erfaringene og dokumentasjonen etter omstillingen viser at den fysiske omsorgsoppgaven i økende grad faller på vertskommunene Vefsn, Grane og Hattfjelldal. Det er kommunenes hjemmesykepleie, sykehjem og kommunale akuttplasser (KAD) som må ta i mot pasienter med utskrivningsklare eller sammensatte behov.
 
-Virkeligheten viste seg å bli en helt annen, noe rapporten nå innrømmer:
-
-* **Generell nedgang i innleggelser:** Det samlede antallet innleggelser fra Mosjøen-området ble lavere enn forutsatt.
-* **Feilberegnet pasientmønster:** Foretaket innrømmer at pasientstrømmene avvek fra planen — langt **flere pasienter enn beregnet har reist til Sandnessjøen**, mens færre enn forventet har reist til Mo i Rana.
-* **Lavere ISF-indeks:** HSYKs kalkyler forutsatte at hver pasient i Mo i Rana skulle generere høyere ISF-poeng (en ISF-indeks på 1,30 for medisinsk avdeling i Mo i Rana), mens virkeligheten viste en indeks på kun 1,17.
-
-Planleggerne i helseforetaket glemte den menneskelige faktoren: geografi, lokale tilknytninger og trygghetsfølelse. Å sende akutt syke pasienter fra Indre Helgeland gjennom lange, sårbare og mørke tunnelstrekninger som Korgfjelltunnelen eller Toventunnelen fremstår kanskje enkelt i et Excel-ark på et kontor i Sandnessjøen eller på Mo, men oppleves som en utrygg og uforsvarlig belastning for pasientene.
+Siden ISF-midlene er knyttet direkte til spesialisthelsetjenestens pasientbehandling, tilføres ikke kommunene disse refusjonsmidlene når oppgaver forskyves til primærhelsetjenesten. Kommunene må dermed dekke det økte omsorgsbehovet innenfor sine ordinære rammer, mens helseforetaket samtidig opplever inntektssvikt fordi sykehusbehandlingen er redusert.
 
 ---
 
-### 4\. Beredskapsspillet: Slik prøvde sykehuset å velte regningen over på Vefsn
+### 3\. Avvik mellom skrivebordsprognoser og reelle pasientstrømmer
 
-Denne silotenkingen og økonomiske desperasjonen danner også bakteppet for det betente spillet rundt ambulansestasjonen og de prehospitale tjenestene i Mosjøen.
+Inntektsanalysen i Styresak 86-2026 gir et direkte innblikk i hvordan sykehusets opprinnelige forutsetninger for pasientstrømmer har avvekt fra den faktiske utviklingen etter nedleggelsen i Mosjøen.
 
-Som kompensasjon for akuttnedleggelsen ble Vefsn-regionen lovet et prehospitalt løft. Likevel har prosessen med ny ambulansestasjon vært rammet av årelange utsettelser og kutt. Da Helgelandssykehuset skjønte at deres egen budsjettramme ble for knapp for et frittstående nybygg, prøvde de i praksis å tvinge Vefsn kommune til å inngå en 25-årig leieavtale til omkring 30 millioner kroner inne på sykehuset for å finansiere foretakets egne byggebehov.
+Da funksjonsfordelingen ble planlagt, la helseforetaket til grunn at pasientantallet fra Mosjøen-området skulle opprettholdes på samme nivå som før, men fordeles til Mo i Rana for indremedisin og til Sandnessjøen for kirurgi.
 
-Da kommunen sa nei til disse uakseptable leievilkårene og nektet å godta en trang ombygging som låser sykehusets fremtidige utvidelsesmuligheter (den omstridte 90-centimeterssaken), svarte sykehusledelsen med å tildele Vefsn kommune skylden og true med at avslaget vil ramme beredskapen. Det er det ultimate eksempelet på helseforetakets taktikk: Kutt tilbudet, tap inntekter på eget vanstyre, og krev deretter at vertskommunen skal dekke underskuddet!
+Helgelandssykehusets egne tall viser nå tre vesentlige avvik fra planen:
+
+* **Færre innleggelser totalt:** Det samlede antallet innleggelser fra Mosjøen-området ble lavere enn forutsatt i budsjettmodellene.
+* **Endret reisemønster:** Pasientstrømmene utviklet seg annerledes enn beregnet. En større andel av pasientene enn forventet har reist til Sandnessjøen, mens færre har reist til Mo i Rana.
+* **Lavere ISF-indeks:** HSYK beregnet at pasientbehandlingen ved medisinsk avdeling i Mo i Rana ville gi en gjennomsnittlig ISF-indeks på 1,30\. Den reelle indeksen ble kun 1,17, noe som førte til lavere utbetaling per behandling enn budsjettert.
+
+Analysen viser at administrative pasientstrømsprognoser kan treffe ulikt når de møter praksis, der geografi, reiseavstander gjennom langstrakte tunnelstrekninger og pasienters/pårørendes valg spiller inn.
 
 ---
 
-### Stå støtt, Vefsn-politikere!
+### 4\. Forhandlingene om ambulansestasjonen og kommunal arealplanlegging
 
-Lokalpolitikerne i Vefsn kommune har fått hard medfart fra sykehusbyråkratene fordi de har våget å si nei til kortsiktige diktater og overprisede leieavtaler.
+Inntektspresset og omstruktureringen danner også rammen for den langvarige uenigheten om ny ambulansestasjon i Mosjøen.
 
-Men tallene og historikken viser at kommunen har hatt helt rett hele veien:
+Gjennom styresaker fra 2022 til 2025 (sak 108/22, 11/23, 43/24 og 48/25) har modellen for ny ambulansestasjon skiftet mellom egenbygging på sykehustomt og ekstern leie. Da helseforetaket vedtok en egenbygd løsning på sykehustomten med en ramme på 35 millioner kroner, fremmet sykehusledelsen et forslag om at Vefsn kommune kunne leie ledige lokaler inne på sykehuset i en 25-årsavtale for rundt 30 millioner kroner, som et bidrag til å finansiere prosjektet og frigjøre areal.
 
-1. **Vefsn er vekstmotoren:** Vefsn er den sykehusbyen på Helgeland med sterkest befolkningsvekst de siste årene, mens andre kommuner på Helgeland har opplevd nedgang.
-2. **Snu silotenkingen:** Det er Vefsn kommune som tenker helhetlig helsepark, beredskap og langsiktig samfunnsutvikling – mens Helgelandssykehuset sitter fast i bedriftsøkonomisk silotenking der pasienter er DRG-poeng og kommuner er leietakere som skal skvises.
+Vefsn kommune avviste dette tilbudet med henvisning til høye leiepriser og lang bindingstid. Samtidig avslo kommunen HSYKs søknad om dispensasjon fra byggegrensen (den såkalte 90-centimeterssaken).
 
-**Budskapet til ordføreren og kommunestyret i Vefsn må være krystallklart:** Ikke la dere pelle på nesen av regneark-akrobatene i Helse Nord. Fortsett den tøffe linjen! Krev at staten og helseforetaket tar sitt lovpålagte ansvar for en trygg beredskap på Indre Helgeland – uten at kommunens innbyggere må betale regningen to ganger.
+Fra kommunens og lokalpolitikernes side ble avslaget begrunnet med faglige og arealmessige hensyn:
+
+* **Fremtidig arealutnyttelse:** Kommunen mente at et tilbygg kloss i byggegrensen på eksisterende sykehusfløy ville låse tomta og hindre fremtidig utvidelse av sykehuset.
+* **Ønske om samlokalisering:** Vefsn kommune ønsker en frittstående løsning som kan samordnes med legevakt, brannstasjon og utdanningstilbud i en helhetlig helsepark.
+
+Fra Helgelandssykehusets side ble det argumentert med at foretaket ikke har økonomiske rammer til å kjøpe ny tomt eller oppføre et nytt frittstående bygg utenfor sykehusets eksisterende eiendom, og at avslaget forsinker nødvendige utbedringer for de ansattes arbeidsmiljø.
+
+---
+
+### Veien videre for Vefsn og helseforetaket
+
+Utviklingen på Helgeland viser spenningen mellom helseforetakenes bedriftsøkonomiske rammebetingelser og kommunenes ansvar for lokal samfunnsutvikling og beredskap:
+
+1. **Demografisk utvikling:** Vefsn er ifølge SSB-tall den eneste sykehusbyen på Helgeland som har hatt befolkningsvekst de siste årene, noe som understreker behovet for langsiktig infrastrukturdokumentasjon og tilstrekkelig beredskap på Indre Helgeland.
+2. **Krav om helhetlig samhandling:** Saken illustrerer at endringer i spesialisthelsetjenesten får umiddelbare konsekvenser for kommunenes driftsøkonomi og planbehov.
+
+For lokalpolitikerne og helseforetaket blir den videre utfordringen å finne bærekraftige løsninger som ivaretar både pasientsikkerhet, arbeidsmiljø og helhetlig samfunnsplanlegging, uten at oppgaver forskyves mellom forvaltningsnivåene uten økonomisk dekning.
 
 ---
 
 ### Kildeliste / Dokumentgrunnlag
 
-* **Virksomhetsrapport per september 2026 (Styresak 86-2026):** Behandles i styremøtet i Helgelandssykehuset HF 28\. oktober 2026\. Inneholder kapittel 8 «Inntektsanalyse: Utviklingen i aktivitetsinntekter per september 2026» samt resultatstatus og bemanningsmålinger per 3\. kvartal.
-* **Virksomhetsrapport per august 2026 (Styresak 74-2026):** Inkluderer styrets bestilling av særskilt inntektsanalyse for aktivitetsinntekter og status for strakstiltak.
-* **Styresak 108-2022, 11-2023, 43-2024 og 48-2025:** Dokumenterer prosessen, kostnadsrammene og leiemodellene for ambulansestasjonen i Mosjøen.
-* **SSB befolkningsstatistikk 2026 &amp; Oslo Economics rapport:** Befolkningsendringer, transportanalyser og reisetidsberegninger for Helgeland.
-* **Møtearkiv og offentlig journal HSYK (2022–2026):** Sakspapirer, leieavtaleutkast og korrespondanse mellom Vefsn kommune og Helgelandssykehuset HF.
+* **Virksomhetsrapport per september 2026 (Styresak 86-2026):** Behandlet i styremøtet i Helgelandssykehuset HF 28\. oktober 2026\. Inneholder kapittel 8 «Inntektsanalyse: Utviklingen i aktivitetsinntekter per september 2026», resultatstatus og bemanningsmålinger.
+* **Virksomhetsrapport per august 2026 (Styresak 74-2026):** Inneholder styrets bestilling av særskilt inntektsanalyse for aktivitetsinntekter.
+* **Styresaker om ambulansestasjon i Mosjøen:** Sak 108/2022, Sak 11/2023, Sak 43/2024 og Sak 48/2025 i Helgelandssykehuset HF.
+* **Demografisk data og transportanalyser:** SSB befolkningsstatistikk (2026) og Oslo Economics rapport om sykehusstruktur og reisetider på Helgeland.
+* **Saksdokumenter og korrespondanse Vefsn kommune / HSYK (2022–2026):** Referater fra formannskap/kommunestyre og styreprotokroller vedrørende leieavtale og regulerings-/byggesak.
