@@ -37,8 +37,7 @@ Arealregnskapet slår fast at Vefsn kommune har måtte innføre en egen «kø-or
 Hvorfor klarer ikke kommunen å frigjøre mer areal? Svaret ligger i det statlige planbyråkratiet:
 
 * **Statlige og regionale restriksjoner:** Kun 2 prosent av Vefsns samlede areal er dyrket mark. Rigide statlige og regionale føringer – som Statsforvalterens jordvernstrategi, NVEs vassdrags- og flomveiledere (knyttet til det vernede Vefsnavassdraget) og båndlegging til friluftsliv og naturmangfold (som Lomsdal-Visten) – gjør at kommunens planavdeling møter krevende innsigelser og langdrag hver gang nye områder som Nyland Øst, Holandsvika eller Øya skal reguleres.
-* **Paradokset:** Samtidig som staten krever at kommunene skal tilrettelegge for det grønne skiftet og grønn industri, gjør de statlige motsagnene og arealrestriksjonene at næringsarealer blir en mangelvare.
-
+* **Paradokset:** Samtidig som staten forventer at kommunene skal legge til rette for grønn industri og nye arbeidsplasser, gjør statlige innsigelser og arealrestriksjoner at tilgjengelige næringsarealer blir en mangelvare.
 ---
 
 ### 3\. Beredskapsfellen: Kommunen planlegger som knutepunkt, men mister akuttmedisin
