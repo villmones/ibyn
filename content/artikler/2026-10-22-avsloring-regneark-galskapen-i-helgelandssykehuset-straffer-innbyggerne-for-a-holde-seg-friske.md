@@ -1,6 +1,6 @@
 ---
-title: "Helgelandssykehusets egne tall: Endrede pasientstrømmer og inntektssvikt
-  etter omstillingen"
+title: "🏥Helgelandssykehusets egne tall: Endrede pasientstrømmer og
+  inntektssvikt etter omstillingen"
 summary: Dokumenter fra Helgelandssykehuset HF (Styresak 86-2026) kaster nytt
   lys over de økonomiske og organisatoriske konsekvensene av akuttkuttet i
   Mosjøen. Mens helseforetaket sliter med et inntektstap på 13 millioner kroner
