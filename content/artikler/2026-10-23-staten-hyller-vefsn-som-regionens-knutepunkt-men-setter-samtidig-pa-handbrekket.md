@@ -49,8 +49,8 @@ I samfunnsdelens kapittel om beredskap (Fokus 8) viser Vefsn kommune til regjeri
 Vefsn kommune har fulgt opp ved å prioritere helhetlige ROS-analyser, sikring av vannkilder som Langvatnet og Tovenfjellet, og styrking av det kommunale beredskapsrådet.
 
 **Men her oppstår et markant statlig paradoks:**
-**
-*Staten krever at Vefsn kommune skal være et robust beredskapsnav i sørfylket, særlig gitt kommunens nøkkelposisjon som knutepunkt for E6, Nordlandsbanen, industri og infrastruktur.**
+
+* Staten krever at Vefsn kommune skal være et robust beredskapsnav i sørfylket, særlig gitt kommunens nøkkelposisjon som knutepunkt for E6, Nordlandsbanen, industri og infrastruktur.**
 * Samtidig har staten ved Helse Nord bygd ned den lokale akuttmedisinske beredskapen i Mosjøen, og dratt ut prosessen med den nye ambulansestasjonen i årevis. Kommunen pålegges å være forberedt på kriser, mens den statlige akuttkjeden i lokalsamfunnet svekkes.
 
 ---
