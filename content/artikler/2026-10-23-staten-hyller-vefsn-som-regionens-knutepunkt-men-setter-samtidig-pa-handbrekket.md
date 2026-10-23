@@ -6,7 +6,7 @@ summary: Mens regjeringen og statlige etater pålegger Vefsn kommune stadig
   lokale helsetilbudet, båndlegger næringsarealer og skyver regningen over på
   kommunekassen. Vefsn kommunes egne planarkiver avslører et krevende spenn
   mellom statlige pålegg og den kommunale hverdagen.
-image: /images/vekst_i_sør.jpg
+image: /images/vefsn_statlig_paradoks_illustrasjon.png
 kicker: SAMFUNN
 date: 2026-10-23
 ---
