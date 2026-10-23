@@ -84,7 +84,7 @@ For lokalpolitikerne og helseforetaket blir den videre utfordringen å finne bæ
 
 ### Kildeliste / Dokumentgrunnlag
 
-* **Virksomhetsrapport per september 2026 (Styresak 86-2026):** Behandlet i styremøtet i Helgelandssykehuset HF 28\. oktober 2026\. Inneholder kapittel 8 «Inntektsanalyse: Utviklingen i aktivitetsinntekter per september 2026», resultatstatus og bemanningsmålinger.
+* **Virksomhetsrapport per september 2026 (Styresak 86-2026):** Behandles i styremøtet i Helgelandssykehuset HF 28\. oktober 2026\. Inneholder kapittel 8 «Inntektsanalyse: Utviklingen i aktivitetsinntekter per september 2026», resultatstatus og bemanningsmålinger.
 * **Virksomhetsrapport per august 2026 (Styresak 74-2026):** Inneholder styrets bestilling av særskilt inntektsanalyse for aktivitetsinntekter.
 * **Styresaker om ambulansestasjon i Mosjøen:** Sak 108/2022, Sak 11/2023, Sak 43/2024 og Sak 48/2025 i Helgelandssykehuset HF.
 * **Demografisk data og transportanalyser:** SSB befolkningsstatistikk (2026) og Oslo Economics rapport om sykehusstruktur og reisetider på Helgeland.
