@@ -5,7 +5,6 @@ image: /images/vekst_i_sør.jpg
 kicker: SAMFUNN
 date: 2026-10-21
 ---
-**Publisert på ibyn.no | Seksjon: Innsikt &amp; Demografi**  
 *Data hentet fra Statistisk sentralbyrå (SSB) per 1\. januar 2022 til 1\. januar 2026.*
 
 ---
