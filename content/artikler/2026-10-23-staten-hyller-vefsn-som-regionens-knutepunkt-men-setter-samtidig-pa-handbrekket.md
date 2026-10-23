@@ -42,7 +42,7 @@ Hvorfor klarer ikke kommunen å frigjøre mer areal? Svaret ligger i det statlig
 
 ### 3\. Beredskapsfellen: Kommunen planlegger som knutepunkt, men mister akuttmedisin
 
-I *Kommuneplanens samfunnsdel (2026–2038)* slår Vefsn kommune fast at areal- og samfunnsplanleggingen skal bygge opp under Mosjøen som et industrielt og logistisk «regionsenter og knutepunkt» på Helgeland – forankret i den statlige infrastrukturen med E6, Nordlandsbanen, dypvannshavn og flyplass.
+I *Kommuneplanens samfunnsdel (2026–2038)* slår Vefsn kommune fast at areal- og samfunnsplanleggingen skal bygge opp under Mosjøen som et industrielt og logistisk «regionsenter og knutepunkt» på Helgeland – forankret i den statlige infrastrukturen med E6, Nordlandsbanen og flyplass.
 
 Samtidig viser kommunen til regjeringens Totalberedskapsmelding (Meld. St. 9 2024–2025), der staten stiller strenge forventninger til kommunenes rollespill i landets sivile beredskap. Kommunene pålegges et utvidet ansvar for alt fra forsyningssikkerhet og drikkevann til krisehåndtering ved naturhendelser. Vefsn har fulgt opp dette med helhetlige ROS-analyser, sikring av vannkilder og styrket beredskapsråd.
 
