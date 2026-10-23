@@ -30,12 +30,14 @@
             padding: 0;
         }
 
+        /* FORHINDRE AT MOBILEN DRAS SIDEVERTS */
         body {
             font-family: 'Georgia', serif;
             background-color: var(--bg-color);
             color: var(--text-color);
             line-height: 1.6;
             overflow-y: scroll;
+            overflow-x: hidden;
         }
 
         /* Newspaper Dateline */
@@ -418,7 +420,14 @@
             line-height: 1.3;
         }
 
-        /* Compact and readable table styling */
+        /* Tving alle bilder til å holde seg innenfor skjermen */
+        .article-body img, .lead-story img, .news-card img, .full-article-hero {
+            max-width: 100% !important;
+            height: auto !important;
+            box-sizing: border-box;
+        }
+
+        /* Gjør tabeller scrollbare i stedet for å sprenge mobilrammen */
         .article-body table {
             width: 100%;
             border-collapse: collapse;
@@ -427,8 +436,11 @@
             margin: 1.5rem 0;
             background-color: #ffffff;
             box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+            max-width: 100%;
+            display: block;
+            overflow-x: auto;
+            white-space: nowrap;
         }
-        
 
         .article-body th, 
         .article-body td {
@@ -465,6 +477,12 @@
 
         .article-body img:hover {
             opacity: 0.92;
+        }
+
+        /* Hindrer lange ord eller lenker i å dytte siden ut */
+        .article-body p, .article-body li, h1, h2, h3 {
+            overflow-wrap: break-word;
+            word-break: break-word;
         }
 
         /* Smaller Share Bar Styling */
@@ -615,32 +633,6 @@
                 grid-template-columns: 1fr;
             }
         }
-
-/* FORHINDRE AT MOBILEN DRAS SIDEVERTS */
-    body {
-        overflow-x: hidden;
-    }
-
-    /* Tving alle bilder til å holde seg innenfor skjermen */
-    .article-body img, .lead-story img, .news-card img, .full-article-hero {
-        max-width: 100% !important;
-        height: auto !important;
-        box-sizing: border-box;
-    }
-
-    /* Gjør tabeller scrollbare i stedet for å sprenge mobilrammen */
-    .article-body table {
-        max-width: 100%;
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
-    }
-
-    /* Hindrer lange ord eller lenker i å dytte siden ut */
-    .article-body p, .article-body li, h1, h2, h3 {
-        overflow-wrap: break-word;
-        word-break: break-word;
-    }        
     </style>
 </head>
 <body>
@@ -661,7 +653,7 @@
             <!-- Category Navigation Bar -->
             <nav class="category-nav" id="category-nav">
                 <button class="cat-link active" onclick="filterCategory('ALL')">Alle</button>
-                <a href="/ai.html" class="cat-link style="text-decoration: none;display: none;"> (KI)</a>
+                <a href="/ai.html" class="cat-link" style="text-decoration: none;">Helsearkiv (KI)</a>
             </nav>
 
             <!-- Header Widgets (Weather + MJF Flights) -->
@@ -846,7 +838,6 @@
             });
         }
 
-
         // Build category menu dynamically based on available articles
         function renderCategoryNav() {
             const navContainer = document.getElementById('category-nav');
@@ -858,7 +849,7 @@
             });
             
             // Add the AI link permanently at the end of the menu
-            html += `<a href="/ai.html" class="cat-link" style="text-decoration: none;display: none;">Helsearkiv (KI)</a>`;
+            html += `<a href="/ai.html" class="cat-link" style="text-decoration: none;">Helsearkiv (KI)</a>`;
             navContainer.innerHTML = html;
         }
 
@@ -882,7 +873,7 @@
                             <h2><a href="#${encodeURIComponent(art.slug)}" class="article-link">${art.title}</a></h2>
                             ${summaryText ? `<p class="ingress">${summaryText}</p>` : ''}
                         </div>
-                        ${art.date ? `<div class="byline">Publisert ${formatNorwegianDate(art.date)}</div>` : ''}
+                        ${art.date ? `<div class="byline">🤖 <span style="color: var(--accent-color); font-weight: 700;">GENERERT AV KI-JOURNALIST</span> &bull; Publisert ${formatNorwegianDate(art.date)}</div>` : ''}
                     </div>
                 </article>
             `;
@@ -918,7 +909,7 @@
                             ${newestSummary ? `<p class="ingress">${newestSummary}</p>` : ''}
                         </div>
                     </div>
-                    ${newest.date ? `<div class="byline" style="margin: 0 2rem 1.8rem;">Publisert ${formatNorwegianDate(newest.date)}</div>` : ''}
+                    ${newest.date ? `<div class="byline" style="margin: 0 2rem 1.8rem;">🤖 <span style="color: var(--accent-color); font-weight: 700;">GENERERT AV KI-JOURNALIST</span> &bull; Publisert ${formatNorwegianDate(newest.date)}</div>` : ''}
                 </article>
             `;
 
@@ -1000,7 +991,7 @@
                         <span class="kicker">${article.kicker || 'NYHETER'}</span>
                         <h1>${article.title}</h1>
                         ${hasDedicatedSummary ? `<p class="lead-ingress">${article.summary}</p>` : ''}
-                        ${article.date ? `<div class="byline">Publisert ${formatNorwegianDate(article.date)}</div>` : ''}
+                        ${article.date ? `<div class="byline">🤖 <span style="color: var(--accent-color); font-weight: 700;">GENERERT AV KI-JOURNALIST</span> &bull; Publisert ${formatNorwegianDate(article.date)}</div>` : ''}
                         
                         <div class="share-bar">
                             <span class="share-label">Del sak:</span>
@@ -1023,26 +1014,25 @@
             setupImageZoom();
         }
 
-function handleRoute() {
-    const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
+        function handleRoute() {
+            const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
 
-    const frontpageView = document.getElementById('frontpage-view');
-    const singleArticleView = document.getElementById('single-article-view');
+            const frontpageView = document.getElementById('frontpage-view');
+            const singleArticleView = document.getElementById('single-article-view');
 
-    if (hash && allArticles.some(a => a.slug === hash)) {
-        renderSingleArticle(hash);
-        frontpageView.style.display = 'none';
-        singleArticleView.style.display = 'block';
-        window.scrollTo(0, 0);
-    } else {
-        frontpageView.style.display = 'block';
-        singleArticleView.style.display = 'none';
-        renderFrontpage();
-    }
-}
+            if (hash && allArticles.some(a => a.slug === hash)) {
+                renderSingleArticle(hash);
+                frontpageView.style.display = 'none';
+                singleArticleView.style.display = 'block';
+                window.scrollTo(0, 0);
+            } else {
+                frontpageView.style.display = 'block';
+                singleArticleView.style.display = 'none';
+                renderFrontpage();
+            }
+        }
 
-
-// Load articles with SHA cache-busting and SPA fallback protection
+        // Load articles with SHA cache-busting and SPA fallback protection
         async function loadArticles() {
             const frontpageContainer = document.getElementById('newspaper-frontpage');
             try {
