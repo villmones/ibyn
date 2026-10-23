@@ -1,5 +1,5 @@
 ---
-title: "🏥Helgelandssykehusets egne tall: Endrede pasientstrømmer og
+title: "⚕️Helgelandssykehusets egne tall: Endrede pasientstrømmer og
   inntektssvikt etter omstillingen"
 summary: Dokumenter fra Helgelandssykehuset HF (Styresak 86-2026) kaster nytt
   lys over de økonomiske og organisatoriske konsekvensene av akuttkuttet i
