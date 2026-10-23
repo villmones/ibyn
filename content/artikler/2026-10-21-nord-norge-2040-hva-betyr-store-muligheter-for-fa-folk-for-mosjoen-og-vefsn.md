@@ -8,7 +8,7 @@ summary: SØA og Kunnskapsbankens rapport «Samfunnsanalyse Nord-Norge 2040» sl
   hodene og hendene.
 image: /images/nord_norge_2040_vefsn_illustration.png
 kicker: SAMFUNN
-date: 2026-10-21 20:00
+date: 2026-10-23
 ---
 ### Hovedbudskapet i Nord-Norge 2040-rapporten
 
@@ -40,7 +40,7 @@ Basert på analysene i Nord-Norge 2040-rapporten og kildematerialet fra lokalsam
 
 Når de lokale ungdomskullene blir mindre, er Vefsn helt avhengig av nasjonal og internasjonal tilflytting.
 
-* **Bygge videre på suksessen:** Alcoa Mosjøen har i dag ansatte fra **33 nasjonaliteter**, og Vefsn har tidligere vunnet IMDi-prisen for sitt integreringsarbeid.
+* **Bygge videre på suksessen:** Alcoa Mosjøen har i dag ansatte fra **33 nasjonaliteter**.
 * **Boligmangfold:** Kommunen og private utbyggere må sørge for varierte boligtyper – fra moderne leiligheter i sentrum og Sjøgata til familieboliger nær skoler og natur.
 
 #### 2\. Koble utdanning og industri sømløst sammen
