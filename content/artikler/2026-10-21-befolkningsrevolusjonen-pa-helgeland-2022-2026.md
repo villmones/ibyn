@@ -1,9 +1,9 @@
 ---
 title: 📈 Befolkningsrevolusjonen på Helgeland (2022–2026)
 summary: Sør-Helgeland vokser - Nord-Helgeland stagnerer
-image: /images/helgeland_demografi_korgfjellet.png
+image: /images/vekst_i_sør.jpg
 kicker: SAMFUNN
-date: 2026-10-21 21:00
+date: 2026-10-23
 ---
 **Publisert på ibyn.no | Seksjon: Innsikt &amp; Demografi**  
 *Data hentet fra Statistisk sentralbyrå (SSB) per 1\. januar 2022 til 1\. januar 2026.*
