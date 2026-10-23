@@ -9,7 +9,7 @@ date: 2026-10-22
 
 ---
 
-Ferske registreringstall fra Statistisk sentralbyrå (SSB) avslører en slående og uventet demografisk utvikling på Helgeland de siste fire årene.
+Registreringstall fra Statistisk sentralbyrå (SSB) avslører en slående og uventet demografisk utvikling på Helgeland de siste fire årene.
 
 Dersom vi bruker **Korgfjellet** – fjellet og kommunegrensen mellom Vefsn og Hemnes – som vannskille, viser tallene to helt ulike regionale verdener:
 
