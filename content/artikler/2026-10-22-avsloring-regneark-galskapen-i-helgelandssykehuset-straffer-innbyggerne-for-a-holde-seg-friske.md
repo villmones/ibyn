@@ -75,7 +75,7 @@ Fra Helgelandssykehusets side ble det argumentert med at foretaket ikke har øko
 
 Utviklingen på Helgeland viser spenningen mellom helseforetakenes bedriftsøkonomiske rammebetingelser og kommunenes ansvar for lokal samfunnsutvikling og beredskap:
 
-1. **Demografisk utvikling:** Vefsn er ifølge SSB-tall den eneste sykehusbyen på Helgeland som har hatt befolkningsvekst de siste årene, noe som understreker behovet for langsiktig infrastrukturdokumentasjon og tilstrekkelig beredskap på Indre Helgeland.
+1. **Demografisk utvikling:** Vefsn er ifølge SSB-tall den sykehusbyen på Helgeland som har hatt størst befolkningsvekst de siste årene, noe som understreker behovet for langsiktig infrastrukturdokumentasjon og tilstrekkelig beredskap på Indre Helgeland.
 2. **Krav om helhetlig samhandling:** Saken illustrerer at endringer i spesialisthelsetjenesten får umiddelbare konsekvenser for kommunenes driftsøkonomi og planbehov.
 
 For lokalpolitikerne og helseforetaket blir den videre utfordringen å finne bærekraftige løsninger som ivaretar både pasientsikkerhet, arbeidsmiljø og helhetlig samfunnsplanlegging, uten at oppgaver forskyves mellom forvaltningsnivåene uten økonomisk dekning.
