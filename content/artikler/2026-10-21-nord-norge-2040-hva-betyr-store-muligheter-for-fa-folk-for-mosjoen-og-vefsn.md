@@ -8,7 +8,7 @@ summary: SØA og Kunnskapsbankens rapport «Samfunnsanalyse Nord-Norge 2040» sl
   hodene og hendene.
 image: /images/nord_norge_2040_vefsn_illustration.png
 kicker: SAMFUNN
-date: 2026-10-23
+date: 2026-10-21
 ---
 ### Hovedbudskapet i Nord-Norge 2040-rapporten
 
