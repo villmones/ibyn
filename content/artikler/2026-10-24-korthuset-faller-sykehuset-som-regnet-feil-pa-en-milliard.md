@@ -11,7 +11,7 @@ image: /images/korthuset_faller_hsyk.png
 kicker: HELSE
 date: 2026-10-24
 ---
-Lenge har innbyggerne på Helgeland blitt serverte tåkeprat, fagre løfter og teknokratiske regneark fra sykehusledelsen i Sandnessjøen og på Mo. Vi har fått høre at nedbygging av lokaltilbud handler om «bærekraft», at omstruktureringer er «faglig begrunnet», og at nye byggeprosjekter i Rana var «nesten gratis».
+Lenge har innbyggerne på Helgeland blitt serverte tåkeprat, fagre løfter og teknokratiske regneark fra sykehusledelsen i HSYK. Vi har fått høre at nedbygging av lokaltilbud handler om «bærekraft», at omstruktureringer er «faglig begrunnet», og at nye byggeprosjekter i Rana var «nesten gratis».
 
 Nå foreligger sakspapirene til Helgelandssykehusets styremøte den 28\. oktober 2026\. Dokumentene – spesielt *Investeringsstrategien* og *Virksomhetsrapporten for september* (Styresak 86-2026) – tegner et bilde av et helseforetak der den økonomiske styringen har brutt fullstendig sammen.
 
