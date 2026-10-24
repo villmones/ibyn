@@ -30,7 +30,7 @@
             padding: 0;
         }
 
-        /* FORHINDRE AT MOBILEN DRAS SIDEVERTS */
+        /* Prevent horizontal scrolling on mobile */
         body {
             font-family: 'Georgia', serif;
             background-color: var(--bg-color);
@@ -430,14 +430,14 @@
             line-height: 1.3;
         }
 
-        /* Tving alle bilder til å holde seg innenfor skjermen */
+        /* Constrain all images within screen width */
         .article-body img, .lead-story img, .news-card img, .full-article-hero {
             max-width: 100% !important;
             height: auto !important;
             box-sizing: border-box;
         }
 
-        /* Gjør tabeller scrollbare i stedet for å sprenge mobilrammen */
+        /* Make tables horizontally scrollable on mobile */
         .article-body table {
             width: 100%;
             border-collapse: collapse;
@@ -489,7 +489,7 @@
             opacity: 0.92;
         }
 
-        /* Hindrer lange ord eller lenker i å dytte siden ut */
+        /* Prevent long words or links from overflowing */
         .article-body p, .article-body li, h1, h2, h3 {
             overflow-wrap: break-word;
             word-break: break-word;
@@ -636,26 +636,26 @@
             .masthead-title { font-size: 2.5rem; }
             .paper-dateline { flex-direction: column; text-align: center; gap: 0.2rem; padding: 0.4rem 0.5rem; }
             
-            /* Fjern ytre sidemarger på hovedcontaineren på mobil */
+            /* Remove outer horizontal padding on main container for mobile */
             main { 
                 padding: 0; 
                 margin: 1rem auto; 
             }
 
-            /* La kortene gå helt ut i kanten uten ekstra side-ramme */
+            /* Make cards span edge-to-edge without side borders */
             .lead-story, .news-card, .full-article {
                 border-left: none;
                 border-right: none;
             }
 
-            /* Minimale, behagelige sidemarger (ca. 12px) for selve teksten */
+            /* Minimal comfortable side margins (~12px) for article text */
             .lead-story-content, 
             .news-card-content, 
             .full-article-inner { 
                 padding: 1.2rem 0.75rem; 
             }
 
-            /* Litt luft på venstresiden for tilbake-knappen og bunntekst */
+            /* Align back button with mobile text margin */
             .back-button {
                 margin-left: 0.75rem;
                 margin-bottom: 1rem;
@@ -719,7 +719,7 @@
         <!-- FRONTPAGE VIEW -->
         <div id="frontpage-view">
             <div id="newspaper-frontpage">
-                <div class="loading-state">Henter siste saker...</div>
+                <div class="loading-state" style="text-align: center; padding: 3rem;">Henter siste saker...</div>
             </div>
         </div>
 
@@ -747,6 +747,7 @@
 
         let allArticles = [];
         let currentCategory = 'ALL';
+        let isLoading = true; // Prevents premature "Ingen artikler funnet" rendering while fetching
 
         // Update dateline with current Norwegian weekday and date
         function updatePaperDateline() {
@@ -921,6 +922,7 @@
 
         // Render Frontpage with independent columns (filtered by category and limited count)
         function renderFrontpage() {
+            if (isLoading) return; // Wait until articles have finished loading
             const frontpageContainer = document.getElementById('newspaper-frontpage');
 
             let filtered = allArticles;
@@ -951,9 +953,9 @@
                             <span class="kicker">${newest.kicker || 'AKTUELT'}</span>
                             <h1><a href="${leadTargetUrl}" ${leadTargetAttr} class="article-link">${newest.title}${leadIcon}</a></h1>
                             ${newestSummary ? `<p class="ingress">${newestSummary}</p>` : ''}
+                            ${newest.date ? `<div class="byline" style="margin-bottom: 0; margin-top: 1.2rem;">🤖 <span style="color: var(--accent-color); font-weight: 700;">GENERERT AV KI-JOURNALIST</span> &bull; Publisert ${formatNorwegianDate(newest.date)}</div>` : ''}
                         </div>
                     </div>
-                    ${newest.date ? `<div class="byline" style="margin: 0 2rem 1.8rem;">🤖 <span style="color: var(--accent-color); font-weight: 700;">GENERERT AV KI-JOURNALIST</span> &bull; Publisert ${formatNorwegianDate(newest.date)}</div>` : ''}
                 </article>
             `;
 
@@ -1059,6 +1061,7 @@
         }
 
         function handleRoute() {
+            if (isLoading) return; // Do not route or trigger frontpage while articles are still loading
             const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
 
             const frontpageView = document.getElementById('frontpage-view');
@@ -1079,6 +1082,11 @@
         // Load articles with SHA cache-busting and SPA fallback protection
         async function loadArticles() {
             const frontpageContainer = document.getElementById('newspaper-frontpage');
+            isLoading = true;
+            
+            // Show clean loading message while fetching data
+            frontpageContainer.innerHTML = '<div class="loading-state" style="text-align: center; padding: 3rem;">Henter siste saker...</div>';
+
             try {
                 let fileEntries = []; // Array of { name, sha }
 
@@ -1109,14 +1117,16 @@
                 }
 
                 if (fileEntries.length === 0) {
-                    frontpageContainer.innerHTML = '<p>Ingen publiserte artikler ennå.</p>';
+                    isLoading = false;
+                    frontpageContainer.innerHTML = '<p style="text-align:center; padding: 2rem;">Ingen publiserte artikler ennå.</p>';
                     return;
                 }
 
-                allArticles = await Promise.all(
+                const loaded = await Promise.all(
                     fileEntries.map(async ({ name, sha }) => {
                         let text = '';
 
+                        // Try fetching directly from raw GitHub with unique SHA/cache-buster first for instant updates
                         const rawUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/main/${ARTICLES_PATH}/${encodeURIComponent(name)}?v=${sha}`;
                         let res = await fetch(rawUrl, { cache: 'no-store' });
 
@@ -1124,10 +1134,12 @@
                             text = await res.text();
                         }
 
+                        // Fallback to local static path if raw fetch failed
                         if (!text || !text.trim().startsWith('---')) {
                             const localRes = await fetch(`/${ARTICLES_PATH}/${encodeURIComponent(name)}?v=${sha}`, { cache: 'no-store' });
                             if (localRes.ok) {
                                 const localText = await localRes.text();
+                                // Prevent SPA HTML fallback from being parsed as an article
                                 if (!localText.trim().toLowerCase().startsWith('<!doctype')) {
                                     text = localText;
                                 }
@@ -1139,7 +1151,7 @@
                 );
 
                 // Filter out any empty/failed reads AND deactivated/draft articles
-                allArticles = allArticles.filter(a => {
+                allArticles = loaded.filter(a => {
                     const isValid = a.title !== 'Uten tittel' || a.body.trim() !== '';
                     const isDraft = String(a.draft).toLowerCase() === 'true' || 
                                     String(a.disabled).toLowerCase() === 'true' || 
@@ -1160,15 +1172,19 @@
                     return validB - validA;
                 });
 
+                isLoading = false; // Articles are now ready for rendering
+
                 console.table(allArticles.slice(0, 8).map(a => ({ slug: a.slug, date: a.date, kicker: a.kicker, draft: a.draft, title: a.title.substring(0, 35) })));
 
                 renderCategoryNav();
                 handleRoute();
             } catch (error) {
+                isLoading = false;
                 console.error('Error loading articles:', error);
-                frontpageContainer.innerHTML = '<p>Kunne ikke laste inn artikler akkurat nå.</p>';
+                frontpageContainer.innerHTML = '<p style="text-align:center; padding: 2rem; color: var(--accent-color);">Kunne ikke laste inn artikler akkurat nå.</p>';
             }
         }
+
         window.addEventListener('hashchange', handleRoute);
         document.addEventListener('DOMContentLoaded', () => {
             updatePaperDateline();
