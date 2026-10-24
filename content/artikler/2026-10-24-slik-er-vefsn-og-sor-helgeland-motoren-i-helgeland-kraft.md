@@ -1,6 +1,6 @@
 ---
 draft: false
-title: ⚡Slik er Vefsn og Sør-Helgeland motoren i Helgeland Kraft!
+title: ⚡Slik er Sør-Helgeland motoren i Helgeland Kraft!
 summary: Hvem eier egentlig lyset i pæra på Helgeland, hvor lages de magiske
   kilowattimene, og hvorfor banker hjertet i hele kraftkonsernet midt i Mosjøen?
   Bli med på en lekende og faktabasert gjennomgang av Helgeland Kraft –
