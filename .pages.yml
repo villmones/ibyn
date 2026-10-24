@@ -5,7 +5,7 @@ content:
     type: collection
     path: content/artikler
     fields:
-    - name: draft
+      - name: draft
         label: Deaktiver / Sett som kladd
         type: boolean
         default: false
