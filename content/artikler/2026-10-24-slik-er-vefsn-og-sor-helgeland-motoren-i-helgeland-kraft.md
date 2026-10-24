@@ -7,7 +7,7 @@ summary: Hvem eier egentlig lyset i pæra på Helgeland, hvor lages de magiske
   gullgruve.
 image: /images/helgeland_kraft_eierfordeling.png
 kicker: ENERGI
-date: 2026-10-24
+date: 2026-10-22
 ---
 Når du slår på kaffetrakteren om morgenen eller lader elbilen på hurtigladeren er sjansen 100 prosent for at du nyter godt av lokal vannkraft.
 
