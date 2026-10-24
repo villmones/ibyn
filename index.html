@@ -620,12 +620,38 @@
         }
 
         @media (max-width: 768px) {
-            header { padding: 1rem; }
+            header { padding: 0.8rem 0.5rem; }
+            .header-content-wrapper { padding: 0 0.25rem; }
             .masthead-inner { flex-direction: column; align-items: flex-start; gap: 0.2rem; }
             .masthead-title { font-size: 2.5rem; }
+            .paper-dateline { flex-direction: column; text-align: center; gap: 0.2rem; padding: 0.4rem 0.5rem; }
+            
+            /* Fjern ytre sidemarger på hovedcontaineren på mobil */
+            main { 
+                padding: 0; 
+                margin: 1rem auto; 
+            }
+
+            /* La kortene gå helt ut i kanten uten ekstra side-ramme */
+            .lead-story, .news-card, .full-article {
+                border-left: none;
+                border-right: none;
+            }
+
+            /* Minimale, behagelige sidemarger (ca. 12px) for selve teksten */
+            .lead-story-content, 
+            .news-card-content, 
+            .full-article-inner { 
+                padding: 1.2rem 0.75rem; 
+            }
+
+            /* Litt luft på venstresiden for tilbake-knappen og bunntekst */
+            .back-button {
+                margin-left: 0.75rem;
+                margin-bottom: 1rem;
+            }
+
             .lead-story h1, .full-article h1 { font-size: 1.75rem; }
-            .lead-story-content, .full-article-inner { padding: 1.4rem; }
-            .paper-dateline { flex-direction: column; text-align: center; gap: 0.2rem; }
         }
 
         @media (max-width: 640px) {
