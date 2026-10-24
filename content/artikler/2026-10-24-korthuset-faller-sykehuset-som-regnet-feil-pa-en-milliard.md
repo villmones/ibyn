@@ -89,7 +89,7 @@ Lokalpolitikerne i Vefsn kommune har fått hard kritikk fra sykehusbyråkratene 
 
 Men dokumentene beviser at Vefsn-politikerne har hatt helt rett hele veien. Kommunen skal ikke være en minibank for et helseforetak som har feilberegnet sitt eget vedlikehold med nesten en milliard kroner.
 
-**Konklusjonen for innbyggerne i Vefsn og på Indre Helgeland er krystallklar:**Lokalpolitikerne må fortsette den tøffe linjen og nekte å la seg presse. Hver eneste krone Vefsn kommune beskytter mot Helgelandssykehusets overskridelser, er en krone reddet fra et synkende skip – og en krone som i stedet kan brukes på barnehager, skoler og en trygg lokal eldreomsorg.
+**Konklusjonen for innbyggerne i Vefsn og på Indre Helgeland er krystallklar:** Lokalpolitikerne må fortsette den tøffe linjen og nekte å la seg presse. Hver eneste krone Vefsn kommune beskytter mot Helgelandssykehusets overskridelser, er en krone reddet fra et synkende skip – og en krone som i stedet kan brukes på barnehager, skoler og en trygg lokal eldreomsorg.
 
 ---
 
