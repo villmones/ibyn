@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "⚕️Helgelandssykehusets egne tall: Endrede pasientstrømmer og
   inntektssvikt etter omstillingen"
 summary: Dokumenter fra Helgelandssykehuset HF (Styresak 86-2026) kaster nytt
@@ -8,7 +9,7 @@ summary: Dokumenter fra Helgelandssykehuset HF (Styresak 86-2026) kaster nytt
   økt omsorgsbyrde i primærhelsetjenesten.
 image: /images/regneark_galskap_helgelandssykehuset-1.png
 kicker: HELSE
-date: 2026-10-22
+date: 2026-10-23
 ---
 Da somatisk akuttmottak og medisinsk sengepost i Mosjøen ble stengt som et ledd i funksjons- og oppgavefordelingen, var målet fra Helse Nord og Helgelandssykehuset å skape en mer bærekraftig struktur. Virksomhetsrapporten for september 2026 viser imidlertid at omstillingen har ført til uforutsette økonomiske utslag for foretaket, samtidig som belastningen på vertskommunene har økt.
 
