@@ -6,7 +6,7 @@ content:
     path: content/artikler
     fields:
       - name: draft
-        label: Deaktiver / Sett som kladd
+        label: Deaktiver
         type: boolean
         default: false
         description: Huk av her hvis artikkelen skal skjules fra nettsiden uten å slettes.
