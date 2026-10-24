@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 📌Slik spenner staten bein på Vefsn
 summary: Mens regjeringen og statlige etater pålegger Vefsn kommune stadig
   tyngre oppgaver innen beredskap, eldreomsorg og jordvern, kutter staten i det
