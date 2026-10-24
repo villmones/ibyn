@@ -7,6 +7,7 @@ summary: Nye styrepapirer fra Helgelandssykehuset avslører en økonomisk og
   svimlende 962 millioner kroner bygd seg opp i det skjulte. Nå faller
   skrivebordsmodellene sammen – og forklaringen på hvorfor Vefsn kommune
   forsøkes skvises for 30 millioner kroner ligger endelig i dagen.
+image: /images/korthuset_faller_hsyk.png
 kicker: HELSE
 date: 2026-10-24
 ---
