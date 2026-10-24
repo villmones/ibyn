@@ -699,10 +699,9 @@
         <button class="close-lightbox" onclick="closeLightbox()">&times;</button>
         <img id="lightbox-img" src="" alt="Forstørret bilde">
     </div>
-<footer>
+    <footer>
         &copy; 2026 iByn.no – Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn (Et privat informasjonsarkiv) <span style="opacity: 0.5; margin: 0 0.5rem;">|</span> <a href="mailto:ibyn.no@proton.me" style="color: var(--accent-color); text-decoration: none; font-weight: 600;">Kontakt: iByn.no</a>
     </footer>
-    
 
     <script>
         const GITHUB_OWNER = 'villmones';
@@ -776,7 +775,7 @@
             const frontmatterRegex = /^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/;
             const match = rawText.match(frontmatterRegex);
 
-            const metadata = { slug, title: 'Uten tittel', summary: '', image: '', date: '', kicker: 'NYHETER', body: rawText };
+            const metadata = { slug, title: 'Uten tittel', summary: '', image: '', date: '', kicker: 'NYHETER', draft: false, body: rawText };
 
             if (match) {
                 const yamlBlock = match[1];
@@ -864,13 +863,18 @@
         function buildCardHtml(art) {
             const imgUrl = resolveImageUrl(art.image);
             const summaryText = getSummary(art);
+            const isExternal = !!art.external_link;
+            const targetUrl = isExternal ? art.external_link : `#${encodeURIComponent(art.slug)}`;
+            const targetAttr = isExternal ? 'target="_blank" rel="noopener noreferrer"' : '';
+            const icon = isExternal ? '&nbsp;<span style="font-size:0.75em; opacity:0.6;">🔗</span>' : '';
+
             return `
                 <article class="news-card">
-                    ${imgUrl ? `<a href="#${encodeURIComponent(art.slug)}" class="image-link"><img src="${imgUrl}" alt="${art.title}"></a>` : ''}
+                    ${imgUrl ? `<a href="${targetUrl}" ${targetAttr} class="image-link"><img src="${imgUrl}" alt="${art.title}"></a>` : ''}
                     <div class="news-card-content">
                         <div>
                             <span class="kicker">${art.kicker || 'NYHETER'}</span>
-                            <h2><a href="#${encodeURIComponent(art.slug)}" class="article-link">${art.title}</a></h2>
+                            <h2><a href="${targetUrl}" ${targetAttr} class="article-link">${art.title}${icon}</a></h2>
                             ${summaryText ? `<p class="ingress">${summaryText}</p>` : ''}
                         </div>
                         ${art.date ? `<div class="byline">🤖 <span style="color: var(--accent-color); font-weight: 700;">GENERERT AV KI-JOURNALIST</span> &bull; Publisert ${formatNorwegianDate(art.date)}</div>` : ''}
@@ -898,14 +902,18 @@
             const newest = displayArticles[0];
             const newestImg = resolveImageUrl(newest.image);
             const newestSummary = getSummary(newest);
+            const isLeadExternal = !!newest.external_link;
+            const leadTargetUrl = isLeadExternal ? newest.external_link : `#${encodeURIComponent(newest.slug)}`;
+            const leadTargetAttr = isLeadExternal ? 'target="_blank" rel="noopener noreferrer"' : '';
+            const leadIcon = isLeadExternal ? '&nbsp;<span style="font-size:0.75em; opacity:0.6;">🔗</span>' : '';
 
             const leadHtml = `
                 <article class="lead-story">
                     <div>
-                        ${newestImg ? `<a href="#${encodeURIComponent(newest.slug)}" class="image-link"><img src="${newestImg}" alt="${newest.title}"></a>` : ''}
+                        ${newestImg ? `<a href="${leadTargetUrl}" ${leadTargetAttr} class="image-link"><img src="${newestImg}" alt="${newest.title}"></a>` : ''}
                         <div class="lead-story-content">
                             <span class="kicker">${newest.kicker || 'AKTUELT'}</span>
-                            <h1><a href="#${encodeURIComponent(newest.slug)}" class="article-link">${newest.title}</a></h1>
+                            <h1><a href="${leadTargetUrl}" ${leadTargetAttr} class="article-link">${newest.title}${leadIcon}</a></h1>
                             ${newestSummary ? `<p class="ingress">${newestSummary}</p>` : ''}
                         </div>
                     </div>
@@ -1052,7 +1060,6 @@
                     console.log(`Loaded ${fileEntries.length} articles via GitHub API`);
                 } else {
                     console.warn('GitHub API rate-limited or unavailable, purging and using jsDelivr fallback...');
-                    // Request jsDelivr cache purge before fetching flat index
                     await fetch(`https://purge.jsdelivr.net/gh/${GITHUB_OWNER}/${GITHUB_REPO}@main/`).catch(() => {});
                     const cdnRes = await fetch(`https://data.jsdelivr.com/v1/package/gh/${GITHUB_OWNER}/${GITHUB_REPO}@main/flat?t=${Date.now()}`, {
                         cache: 'no-store'
@@ -1074,7 +1081,6 @@
                     fileEntries.map(async ({ name, sha }) => {
                         let text = '';
 
-                        // Try fetching directly from raw GitHub with unique SHA/cache-buster first for instant updates
                         const rawUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/main/${ARTICLES_PATH}/${encodeURIComponent(name)}?v=${sha}`;
                         let res = await fetch(rawUrl, { cache: 'no-store' });
 
@@ -1082,12 +1088,10 @@
                             text = await res.text();
                         }
 
-                        // Fallback to local static path if raw fetch failed
                         if (!text || !text.trim().startsWith('---')) {
                             const localRes = await fetch(`/${ARTICLES_PATH}/${encodeURIComponent(name)}?v=${sha}`, { cache: 'no-store' });
                             if (localRes.ok) {
                                 const localText = await localRes.text();
-                                // Prevent SPA HTML fallback from being parsed as an article
                                 if (!localText.trim().toLowerCase().startsWith('<!doctype')) {
                                     text = localText;
                                 }
@@ -1098,8 +1102,14 @@
                     })
                 );
 
-                // Filter out any empty/failed reads
-                allArticles = allArticles.filter(a => a.title !== 'Uten tittel' || a.body.trim() !== '');
+                // Filter out any empty/failed reads AND deactivated/draft articles
+                allArticles = allArticles.filter(a => {
+                    const isValid = a.title !== 'Uten tittel' || a.body.trim() !== '';
+                    const isDraft = String(a.draft).toLowerCase() === 'true' || 
+                                    String(a.disabled).toLowerCase() === 'true' || 
+                                    String(a.active).toLowerCase() === 'false';
+                    return isValid && !isDraft;
+                });
 
                 // Sort newest first by date (articles missing a date get sorted last)
                 allArticles.sort((a, b) => {
@@ -1114,7 +1124,7 @@
                     return validB - validA;
                 });
 
-                console.table(allArticles.slice(0, 8).map(a => ({ slug: a.slug, date: a.date, kicker: a.kicker, title: a.title.substring(0, 35) })));
+                console.table(allArticles.slice(0, 8).map(a => ({ slug: a.slug, date: a.date, kicker: a.kicker, draft: a.draft, title: a.title.substring(0, 35) })));
 
                 renderCategoryNav();
                 handleRoute();
