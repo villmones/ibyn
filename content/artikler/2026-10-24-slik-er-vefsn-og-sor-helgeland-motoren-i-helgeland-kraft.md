@@ -44,7 +44,7 @@ Sammenlagt har kraftverkene en midlere årlig produksjonskapasitet på ca. **1,3
 Hvor ligger så disse kraftkildene?
 
 * **Hovedtyngden i Sør-regionen:** Mange av konsernets største og mest tradisjonsrike vannkraftverk og vannmagasiner ligger i Vefsn og Sør-Helgeland.  
-  * **Grytåga kraftverk i Vefsn:** For 60 år siden var det utbyggingen av Grytåga som la selve fundamentet for at aluminiumsverket (Alcoa) ble etablert i Mosjøen. I dag er kraftverket oppgradert og modernisert til et toppmoderne fornybaranlegg.
+  * **Grytåga kraftverk i Vefsn:** Ble satt i drift i 1963. Kraftverket ble bygget for å møte den raskt økende industribyggingen og det enorme kraftbehovet på Helgeland på 1960-tallet. I dag er kraftverket oppgradert og modernisert til et toppmoderne fornybaranlegg.
   * **Kolsvik og Åbjøra i Bindal/Sør-Helgeland:** Kolsvik kraftverk (der HK eier 50 % sammen med NTE) og Åbjørakraft er blant de virkelig tunge kraftprodusentene i den sørlige delen av regionen.
   * **Tosen- og Tosbotn-anleggene i Brønnøy/Vefsn-området:** Flere nyere og oppgraderte småkraftverk utnytter fallhøydene i de sørlege kyst- og innlandsvassdragene.
 * **Nord for Korgfjellet:** Selskapet drifter og eier anlegg i Rana og Rødøy (bl.a. SmiSto Kraft), men tyngdepunktet for magasiner og produksjon har dype røtter på Indre og Sør-Helgeland.
