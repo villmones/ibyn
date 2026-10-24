@@ -3,13 +3,13 @@ draft: false
 title: ⚡Slik er Sør-Helgeland motoren i Helgeland Kraft!
 summary: Hvem eier egentlig lyset i pæra på Helgeland, hvor lages de magiske
   kilowattimene, og hvorfor banker hjertet i hele kraftkonsernet midt i Mosjøen?
-  Bli med på en lekende og faktabasert gjennomgang av Helgeland Kraft –
-  regionens egen fornybare gullgruve.
+  En faktabasert gjennomgang av Helgeland Kraft – regionens egen fornybare
+  gullgruve.
 image: /images/helgeland_kraft_eierfordeling.png
 kicker: ENERGI
 date: 2026-10-24
 ---
-Når du slår på kaffetrakteren om morgenen, lader elbilen på hurtigladeren eller ser røyken stige fra industripipene på Helgeland, er sjansen 100 prosent for at du nyter godt av lokal vannkraft.
+Når du slår på kaffetrakteren om morgenen eller lader elbilen på hurtigladeren er sjansen 100 prosent for at du nyter godt av lokal vannkraft.
 
 Helgeland Kraft AS er ikke et anonymt børsnotert selskap som sender overskuddet til utenlandske oppkjøpsfond. Det er **100 prosent eid av 14 lokalpolitiske kommuner**. Og dersom du trodde at det er storbyene eller nordfylket som sitter på hele flertallet, må du tro om igjen!
 
@@ -20,10 +20,12 @@ Helgeland Kraft AS er ikke et anonymt børsnotert selskap som sender overskuddet
 Morselskapet Helgeland Kraft AS eies samlet av 14 eierkommuner. Deler vi Helgelandskartet ved det kjente og kjære landemerket **Korgfjellet**, ser vi en krystallklar fordeling:
 
 * **Sør for Korgfjellet (61,6 % av eierskapet):**Kommunene sør for Korgfjellet er i klart flertall og eier over seks av ti aksjer i konsernet!  
+
   * **Vefsn kommune** er nest største enkeltaksjonær med sterke **18,3 %**.
   * **Alstahaug kommune** eier **10,1 %**.
   * **Brønnøy kommune** eier **9,6 %**.
   * De øvrige åtte sør-kommunene er: **Dønna (4,4 %)**, **Herøy (3,8 %)**, **Leirfjord (3,2 %)**, **Sømna (3,2 %)**, **Vega (2,9 %)**, **Grane (2,5 %)**, **Hattfjelldal (2,5 %)** og **Vevelstad (1,2 %)**.
+
 * **Nord for Korgfjellet (38,4 % av eierskapet):**  
   * **Rana kommune** er største enkeltaksjonær med **26,8 %**.
   * **Hemnes kommune** eier **7,0 %**.
