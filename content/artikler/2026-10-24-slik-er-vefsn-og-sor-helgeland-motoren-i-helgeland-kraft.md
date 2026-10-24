@@ -5,6 +5,7 @@ summary: Hvem eier egentlig lyset i pæra på Helgeland, hvor lages de magiske
   kilowattimene, og hvorfor banker hjertet i hele kraftkonsernet midt i Mosjøen?
   Bli med på en lekende og faktabasert gjennomgang av Helgeland Kraft –
   regionens egen fornybare gullgruve.
+image: /images/helgeland_kraft_eierfordeling.png
 kicker: ENERGI
 date: 2026-10-24
 ---
