@@ -19,7 +19,7 @@ Helgeland Kraft AS er ikke et anonymt børsnotert selskap som sender overskuddet
 
 Morselskapet Helgeland Kraft AS eies samlet av 14 eierkommuner. Deler vi Helgelandskartet ved det kjente og kjære landemerket **Korgfjellet**, ser vi en krystallklar fordeling:
 
-* **Sør for Korgfjellet (61,6 % av eierskapet):**Kommunene sør for Korgfjellet er i klart flertall og eier over seks av ti aksjer i konsernet!  
+* **Sør for Korgfjellet (61,6 % av eierskapet):** Kommunene sør for Korgfjellet er i klart flertall og eier over seks av ti aksjer i konsernet!  
 
   * **Vefsn kommune** er nest største enkeltaksjonær med sterke **18,3 %**.
   * **Alstahaug kommune** eier **10,1 %**.
