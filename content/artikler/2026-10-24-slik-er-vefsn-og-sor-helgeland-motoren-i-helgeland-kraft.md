@@ -81,8 +81,6 @@ At et av Nord-Norges største energikonsern har sitt naturlige tyngdepunkt i Vef
 
 Helgeland Kraft er et stjerneeksempel på hvordan lokalt eierskap til naturens egne ressurser skaper verdier der folk bor.
 
-Med **61,6 % av eierskapet forankret sør for Korgfjellet**, med **hovedkontoret trygt plassert i Mosjøen**, og med ren vannkraft fra fjell og fosser i Vefsn og nabokommunene, er Helgeland Kraft den usynlige – men supersterke – motoren som holder Helgeland i gang!
-
 ---
 
 ### Kildeliste / Dokumentgrunnlag
