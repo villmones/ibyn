@@ -69,7 +69,7 @@ Når Vefsn-politikerne har sagt nei til å la seg diktere, har sykehusledelsen s
 
 Som om ikke bygningsforfallet var nok, svikter også selve «butikkdriften» i Helgelandssykehuset.
 
-Da akuttmottaket og den medisinske sengeposten i Mosjøen ble lagt ned, la sykehusplanleggerne inn i sine budsjettmodeller at pasientene fra Indre Helgeland skrivebordsmessig skulle overføres uforminsket til Mo i Rana. På den måten skulle sykehuset opprettholde sine verdifulle ISF-inntekter (innsatsstyrt finansiering per pasientbehandling).
+Da akuttmottaket og den medisinske sengeposten i Mosjøen ble lagt ned, la sykehusplanleggerne inn i sine budsjettmodeller at pasientene fra Indre Helgeland skrivebordsmessig skulle overføres uforminsket til Sandnessjøen og  Mo i Rana. På den måten skulle sykehuset opprettholde sine verdifulle ISF-inntekter (innsatsstyrt finansiering per pasientbehandling).
 
 Fasiten i Virksomhetsrapporten per september 2026 (*Styresak 86-2026, kapittel 8*) viser at regnearket har sprukket i møte med den menneskelige hverdagen:
 
