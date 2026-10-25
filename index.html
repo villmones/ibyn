@@ -93,8 +93,23 @@
             flex-wrap: wrap;
             gap: 1rem;
         }
-        
-        .masthead-title, .masthead-title:focus, .masthead-title:active {
+
+        .masthead-title {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3rem;
+            font-weight: 900;
+            letter-spacing: -1px;
+            color: var(--text-color);
+            text-decoration: none;
+            cursor: pointer;
+            line-height: 1.1;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .masthead-title,
+        .masthead-title:focus,
+        .masthead-title:focus-visible,
+        .masthead-title:active {
             border: none !important;
             outline: none !important;
             box-shadow: none !important;
@@ -677,7 +692,7 @@
     <header>
         <div class="header-content-wrapper">
             <div class="masthead-inner">
-                <a href="#" class="masthead-title" onclick="filterCategory('ALL'); return false;">iByn<span>.no</span></a>
+                <a href="#" class="masthead-title" onclick="filterCategory('ALL'); this.blur(); return false;">iByn<span>.no</span></a>
                 <div class="masthead-sub">Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn</div>
             </div>
 
@@ -753,15 +768,31 @@
             document.getElementById('current-date-string').textContent = `Mosjøen, ${dateStr}`;
         }
 
-        // Fetch current weather for Mosjøen town center (Lat 65.836, Lon 13.191)
+        // Fetch current weather for Mosjøen town center (Lat 65.836, Lon 13.191) with cache bypass
         async function fetchWeather() {
             try {
-                const res = await fetch('https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=65.836&lon=13.191');
+                const res = await fetch(
+                    'https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=65.836&lon=13.191',
+                    { cache: 'reload' }
+                );
                 if (!res.ok) return;
                 const data = await res.json();
                 
                 if (data && data.properties && data.properties.timeseries) {
-                    const current = data.properties.timeseries[0];
+                    const now = Date.now();
+                    let current = data.properties.timeseries[0];
+                    let minDiff = Math.abs(new Date(current.time).getTime() - now);
+                    
+                    for (const entry of data.properties.timeseries) {
+                        const diff = Math.abs(new Date(entry.time).getTime() - now);
+                        if (diff < minDiff) {
+                            minDiff = diff;
+                            current = entry;
+                        } else {
+                            break;
+                        }
+                    }
+
                     const temp = current.data.instant.details.air_temperature;
                     const nextHour = current.data.next_1_hours || current.data.next_6_hours;
                     const symbolCode = nextHour ? nextHour.summary.symbol_code : 'clearsky_day';
@@ -1185,6 +1216,12 @@
             updatePaperDateline();
             loadArticles();
             fetchWeather();
+
+            // Refresh weather and dateline automatically every 15 minutes
+            setInterval(() => {
+                fetchWeather();
+                updatePaperDateline();
+            }, 15 * 60 * 1000);
         });
     </script>
 </body>
