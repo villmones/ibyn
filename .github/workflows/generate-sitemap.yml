@@ -1,0 +1,62 @@
+name: Generate Sitemap
+
+on:
+  push:
+    paths:
+      - 'content/artikler/**'
+  workflow_dispatch: # Lar deg kjøre den manuelt første gang under Actions
+
+permissions:
+  contents: write
+
+jobs:
+  sitemap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Build sitemap.xml
+        run: |
+          echo '<?xml version="1.0" encoding="UTF-8"?>' > sitemap.xml
+          echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> sitemap.xml
+          
+          # Frontpage and About page
+          echo '  <url><loc>https://www.ibyn.no/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>' >> sitemap.xml
+          echo '  <url><loc>https://www.ibyn.no/om</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>' >> sitemap.xml
+
+          # Loop through all markdown articles
+          for file in content/artikler/*.md; do
+            [ -e "$file" ] || continue
+            
+            # Skip draft or disabled articles (checks inside YAML frontmatter)
+            if sed -n '/^---$/,/^---$/p' "$file" | grep -qiE '^(draft|disabled):\s*true|^active:\s*false'; then
+              continue
+            fi
+            
+            filename=$(basename "$file" .md)
+            
+            # Extract YYYY-MM-DD from filename if present, else use today's date
+            if [[ $filename =~ ^([0-9]{4}-[0-9]{2}-[0-9]{2}) ]]; then
+              lastmod="${BASH_REMATCH[1]}"
+            else
+              lastmod=$(date +%Y-%m-%d)
+            fi
+            
+            echo "  <url>" >> sitemap.xml
+            echo "    <loc>https://www.ibyn.no/$filename</loc>" >> sitemap.xml
+            echo "    <lastmod>$lastmod</lastmod>" >> sitemap.xml
+            echo "    <changefreq>weekly</changefreq>" >> sitemap.xml
+            echo "    <priority>0.8</priority>" >> sitemap.xml
+            echo "  </url>" >> sitemap.xml
+          done
+
+          echo '</urlset>' >> sitemap.xml
+
+      - name: Commit and Push Sitemap
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add sitemap.xml
+          git commit -m "Auto-updated sitemap.xml" || exit 0
+          git push
