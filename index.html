@@ -939,7 +939,7 @@
 
             return `
                 <article class="news-card">
-                    ${imgUrl ? `<a href="${targetUrl}" ${targetAttr} class="image-link"><img src="${imgUrl}" alt="${art.title}"></a>` : ''}
+                    ${imgUrl ? `<a href="${targetUrl}" ${targetAttr} class="image-link"><img src="${imgUrl}" alt="${art.title}" loading="lazy"></a>` : ''}
                     <div class="news-card-content">
                         <div>
                             <span class="kicker">${art.kicker || 'NYHETER'}</span>
@@ -980,7 +980,7 @@
             const leadHtml = `
                 <article class="lead-story">
                     <div>
-                        ${newestImg ? `<a href="${leadTargetUrl}" ${leadTargetAttr} class="image-link"><img src="${newestImg}" alt="${newest.title}"></a>` : ''}
+                        ${newestImg ? `<a href="${leadTargetUrl}" ${leadTargetAttr} class="image-link"><img src="${newestImg}" alt="${newest.title}" fetchpriority="high"></a>` : ''}
                         <div class="lead-story-content">
                             <span class="kicker">${newest.kicker || 'AKTUELT'}</span>
                             <h1><a href="${leadTargetUrl}" ${leadTargetAttr} class="article-link">${newest.title}${leadIcon}</a></h1>
@@ -1045,8 +1045,36 @@
             });
         }
 
-        function renderSingleArticle(slug) {
-            const article = allArticles.find(a => a.slug === slug);
+        // Helper to fetch a single markdown file quickly
+        async function fetchSingleMarkdown(filename, sha = '') {
+            const cacheParam = sha ? `?v=${sha}` : `?t=${Math.floor(Date.now() / 60000)}`;
+            let text = '';
+
+            // 1. Try local static path first (fastest via Cloudflare Edge CDN)
+            try {
+                const localRes = await fetch(`/${ARTICLES_PATH}/${encodeURIComponent(filename)}${cacheParam}`);
+                if (localRes.ok) {
+                    const localText = await localRes.text();
+                    if (!localText.trim().toLowerCase().startsWith('<!doctype')) {
+                        text = localText;
+                    }
+                }
+            } catch (e) {}
+
+            // 2. Fallback to raw GitHub if local fetch didn't return valid frontmatter
+            if (!text || !text.trim().startsWith('---')) {
+                const rawUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/main/${ARTICLES_PATH}/${encodeURIComponent(filename)}${cacheParam}`;
+                const res = await fetch(rawUrl);
+                if (res.ok) {
+                    text = await res.text();
+                }
+            }
+
+            return text;
+        }
+
+        function renderSingleArticle(slug, articleObj = null) {
+            const article = articleObj || allArticles.find(a => a.slug === slug);
             const fullContainer = document.getElementById('full-article-container');
 
             if (!article) {
@@ -1067,7 +1095,7 @@
 
             fullContainer.innerHTML = `
                 <article class="full-article">
-                    ${imgUrl ? `<img src="${imgUrl}" alt="${article.title}" class="full-article-hero">` : ''}
+                    ${imgUrl ? `<img src="${imgUrl}" alt="${article.title}" class="full-article-hero" fetchpriority="high">` : ''}
                     <div class="full-article-inner">
                         <span class="kicker">${article.kicker || 'NYHETER'}</span>
                         <h1>${article.title}</h1>
@@ -1095,13 +1123,20 @@
             setupImageZoom();
         }
 
+        function getRequestedSlug() {
+            const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
+            const pathSlug = decodeURIComponent(window.location.pathname.replace(/^\/+|\/+$/g, ''));
+            if (hash) return hash;
+            if (pathSlug && pathSlug !== 'index.html' && !pathSlug.endsWith('.html')) return pathSlug;
+            return '';
+        }
+
         function handleRoute() {
-            if (isLoading) return; // Do not route or trigger frontpage while articles are still loading
+            if (isLoading) return;
 
             const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
             const pathSlug = decodeURIComponent(window.location.pathname.replace(/^\/+|\/+$/g, ''));
 
-            // Automatically upgrade old #hash links (like the Facebook post) to clean /slug URLs
             if (hash && allArticles.some(a => a.slug === hash)) {
                 history.replaceState(null, '', `/${encodeURIComponent(hash)}`);
             }
@@ -1112,11 +1147,15 @@
             const singleArticleView = document.getElementById('single-article-view');
 
             if (activeSlug && activeSlug !== 'index.html' && allArticles.some(a => a.slug === activeSlug)) {
-                renderSingleArticle(activeSlug);
+                if (singleArticleView.dataset.renderedSlug !== activeSlug) {
+                    renderSingleArticle(activeSlug);
+                    singleArticleView.dataset.renderedSlug = activeSlug;
+                }
                 frontpageView.style.display = 'none';
                 singleArticleView.style.display = 'block';
                 window.scrollTo(0, 0);
             } else {
+                singleArticleView.dataset.renderedSlug = '';
                 if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
                     history.replaceState(null, '', '/');
                 }
@@ -1127,41 +1166,74 @@
             }
         }
 
-        // Load articles with SHA cache-busting and SPA fallback protection
+        // Fast-path + background loader for optimal Core Web Vitals (LCP)
         async function loadArticles() {
             const frontpageContainer = document.getElementById('newspaper-frontpage');
+            const frontpageView = document.getElementById('frontpage-view');
+            const singleArticleView = document.getElementById('single-article-view');
             isLoading = true;
-            
-            // Show clean loading message while fetching data
-            frontpageContainer.innerHTML = '<div class="loading-state" style="text-align: center; padding: 3rem;">Henter siste saker...</div>';
+
+            const initialSlug = getRequestedSlug();
+            let fastTrackedArticle = null;
+
+            // FAST-PATH: If user opened a direct article link, fetch & render ONLY that file immediately!
+            if (initialSlug) {
+                try {
+                    const mdText = await fetchSingleMarkdown(`${initialSlug}.md`);
+                    if (mdText && mdText.trim().startsWith('---')) {
+                        fastTrackedArticle = parseFrontmatter(mdText, `${initialSlug}.md`);
+                        if (window.location.hash) {
+                            history.replaceState(null, '', `/${encodeURIComponent(initialSlug)}`);
+                        }
+                        renderSingleArticle(initialSlug, fastTrackedArticle);
+                        singleArticleView.dataset.renderedSlug = initialSlug;
+                        frontpageView.style.display = 'none';
+                        singleArticleView.style.display = 'block';
+                    }
+                } catch (e) {
+                    console.warn('Fast-path article load skipped:', e);
+                }
+            }
+
+            if (!fastTrackedArticle) {
+                frontpageContainer.innerHTML = '<div class="loading-state" style="text-align: center; padding: 3rem;">Henter siste saker...</div>';
+            }
 
             try {
-                let fileEntries = []; // Array of { name, sha }
+                let fileEntries = [];
+                const cacheKey = 'ibyn_file_entries_v1';
+                const cachedList = sessionStorage.getItem(cacheKey);
 
-                // 1. Query GitHub API with timestamp to prevent CDN caching
-                const ghRes = await fetch(
-                    `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${ARTICLES_PATH}?t=${Date.now()}`,
-                    { cache: 'no-store' }
-                );
+                // Check 5-minute session cache first to avoid GitHub API delay and rate-limits
+                if (cachedList) {
+                    const parsed = JSON.parse(cachedList);
+                    if (Date.now() - parsed.timestamp < 5 * 60 * 1000) {
+                        fileEntries = parsed.entries;
+                    }
+                }
 
-                if (ghRes.ok) {
-                    const ghFiles = await ghRes.json();
-                    fileEntries = ghFiles
-                        .filter(f => f.name.endsWith('.md'))
-                        .map(f => ({ name: f.name, sha: f.sha }));
-                    console.log(`Loaded ${fileEntries.length} articles via GitHub API`);
-                } else {
-                    console.warn('GitHub API rate-limited or unavailable, purging and using jsDelivr fallback...');
-                    await fetch(`https://purge.jsdelivr.net/gh/${GITHUB_OWNER}/${GITHUB_REPO}@main/`).catch(() => {});
-                    const cdnRes = await fetch(`https://data.jsdelivr.com/v1/package/gh/${GITHUB_OWNER}/${GITHUB_REPO}@main/flat?t=${Date.now()}`, {
-                        cache: 'no-store'
-                    });
-                    if (!cdnRes.ok) throw new Error('Could not fetch article list');
-                    const cdnData = await cdnRes.json();
-                    fileEntries = cdnData.files
-                        .filter(f => f.name.startsWith(`/${ARTICLES_PATH}/`) && f.name.endsWith('.md'))
-                        .map(f => ({ name: f.name.split('/').pop(), sha: f.hash || Date.now() }));
-                    console.log(`Loaded ${fileEntries.length} articles via jsDelivr fallback`);
+                if (fileEntries.length === 0) {
+                    const ghRes = await fetch(
+                        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${ARTICLES_PATH}`
+                    );
+
+                    if (ghRes.ok) {
+                        const ghFiles = await ghRes.json();
+                        fileEntries = ghFiles
+                            .filter(f => f.name.endsWith('.md'))
+                            .map(f => ({ name: f.name, sha: f.sha }));
+                    } else {
+                        const cdnRes = await fetch(`https://data.jsdelivr.com/v1/package/gh/${GITHUB_OWNER}/${GITHUB_REPO}@main/flat`);
+                        if (!cdnRes.ok) throw new Error('Could not fetch article list');
+                        const cdnData = await cdnRes.json();
+                        fileEntries = cdnData.files
+                            .filter(f => f.name.startsWith(`/${ARTICLES_PATH}/`) && f.name.endsWith('.md'))
+                            .map(f => ({ name: f.name.split('/').pop(), sha: f.hash || '' }));
+                    }
+
+                    if (fileEntries.length > 0) {
+                        sessionStorage.setItem(cacheKey, JSON.stringify({ timestamp: Date.now(), entries: fileEntries }));
+                    }
                 }
 
                 if (fileEntries.length === 0) {
@@ -1170,30 +1242,17 @@
                     return;
                 }
 
+                // Sort filenames descending (YYYY-MM-DD-...) and fetch the newest first for instant frontpage
+                fileEntries.sort((a, b) => b.name.localeCompare(a.name));
+                const priorityEntries = fileEntries.slice(0, MAX_FRONTPAGE_ARTICLES + 3);
+
                 const loaded = await Promise.all(
-                    fileEntries.map(async ({ name, sha }) => {
-                        let text = '';
-
-                        // Try fetching directly from raw GitHub with unique SHA/cache-buster first for instant updates
-                        const rawUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/main/${ARTICLES_PATH}/${encodeURIComponent(name)}?v=${sha}`;
-                        let res = await fetch(rawUrl, { cache: 'no-store' });
-
-                        if (res.ok) {
-                            text = await res.text();
+                    priorityEntries.map(async ({ name, sha }) => {
+                        const slug = name.replace(/\.md$/, '');
+                        if (fastTrackedArticle && fastTrackedArticle.slug === slug) {
+                            return fastTrackedArticle; // Reuse already downloaded article
                         }
-
-                        // Fallback to local static path if raw fetch failed
-                        if (!text || !text.trim().startsWith('---')) {
-                            const localRes = await fetch(`/${ARTICLES_PATH}/${encodeURIComponent(name)}?v=${sha}`, { cache: 'no-store' });
-                            if (localRes.ok) {
-                                const localText = await localRes.text();
-                                // Prevent SPA HTML fallback from being parsed as an article
-                                if (!localText.trim().toLowerCase().startsWith('<!doctype')) {
-                                    text = localText;
-                                }
-                            }
-                        }
-
+                        const text = await fetchSingleMarkdown(name, sha);
                         return parseFrontmatter(text, name);
                     })
                 );
@@ -1207,29 +1266,25 @@
                     return isValid && !isDraft;
                 });
 
-                // Sort newest first by date (articles missing a date get sorted last)
+                // Sort newest first by date
                 allArticles.sort((a, b) => {
                     const timeA = a.date ? new Date(a.date).getTime() : 0;
                     const timeB = b.date ? new Date(b.date).getTime() : 0;
                     const validA = isNaN(timeA) ? 0 : timeA;
                     const validB = isNaN(timeB) ? 0 : timeB;
-
-                    if (validB === validA) {
-                        return (b.slug || '').localeCompare(a.slug || '');
-                    }
+                    if (validB === validA) return (b.slug || '').localeCompare(a.slug || '');
                     return validB - validA;
                 });
 
-                isLoading = false; // Articles are now ready for rendering
-
-                console.table(allArticles.slice(0, 8).map(a => ({ slug: a.slug, date: a.date, kicker: a.kicker, draft: a.draft, title: a.title.substring(0, 35) })));
-
+                isLoading = false;
                 renderCategoryNav();
                 handleRoute();
             } catch (error) {
                 isLoading = false;
                 console.error('Error loading articles:', error);
-                frontpageContainer.innerHTML = '<p style="text-align:center; padding: 2rem; color: var(--accent-color);">Kunne ikke laste inn artikler akkurat nå.</p>';
+                if (!fastTrackedArticle) {
+                    frontpageContainer.innerHTML = '<p style="text-align:center; padding: 2rem; color: var(--accent-color);">Kunne ikke laste inn artikler akkurat nå.</p>';
+                }
             }
         }
 
