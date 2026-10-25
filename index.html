@@ -1130,8 +1130,12 @@
         function getRequestedSlug() {
             const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
             const pathSlug = decodeURIComponent(window.location.pathname.replace(/^\/+|\/+$/g, ''));
+            
+            // Ignorer filer som slutter på .html (som f.eks. om.html)
+            if (pathSlug.endsWith('.html')) return '';
+
             if (hash) return hash;
-            if (pathSlug && pathSlug !== 'index.html' && !pathSlug.endsWith('.html')) return pathSlug;
+            if (pathSlug && pathSlug !== 'index.html') return pathSlug;
             return '';
         }
 
