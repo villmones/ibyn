@@ -93,16 +93,11 @@
             flex-wrap: wrap;
             gap: 1rem;
         }
-
-        .masthead-title {
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 3rem;
-            font-weight: 900;
-            letter-spacing: -1px;
-            color: var(--text-color);
-            text-decoration: none;
-            cursor: pointer;
-            line-height: 1.1;
+        
+        .masthead-title, .masthead-title:focus, .masthead-title:active {
+            border: none !important;
+            outline: none !important;
+            box-shadow: none !important;
         }
 
         .masthead-title span {
