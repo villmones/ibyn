@@ -1140,7 +1140,13 @@
 
             const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
             const pathSlug = decodeURIComponent(window.location.pathname.replace(/^\/+|\/+$/g, ''));
-
+            
+            // Hvis brukeren går til /om.html, la den åpne filen direkte uten å prøve å hente en markdown-artikkel
+            if (pathSlug === 'om.html' || pathSlug === 'om') {
+                window.location.href = '/om.html';
+                return;
+            }
+            
             if (hash && allArticles.some(a => a.slug === hash)) {
                 history.replaceState(null, '', `/${encodeURIComponent(hash)}`);
             }
