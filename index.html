@@ -692,7 +692,7 @@
     <header>
         <div class="header-content-wrapper">
             <div class="masthead-inner">
-                <a href="#" class="masthead-title" onclick="filterCategory('ALL'); this.blur(); return false;">iByn<span>.no</span></a>
+                <a href="/" class="masthead-title" onclick="filterCategory('ALL'); this.blur(); return false;">iByn<span>.no</span></a>
                 <div class="masthead-sub">Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn</div>
             </div>
 
@@ -735,7 +735,7 @@
 
         <!-- FULL ARTICLE VIEW -->
         <div id="single-article-view">
-            <a href="#" class="back-button">&larr; Tilbake til forsiden</a>
+            <a href="/" class="back-button" onclick="navigateTo('/'); return false;">&larr; Tilbake til forsiden</a>
             <div id="full-article-container"></div>
         </div>
     </main>
@@ -757,7 +757,7 @@
 
         let allArticles = [];
         let currentCategory = 'ALL';
-        let isLoading = true; // Prevents premature "Ingen artikler funnet" rendering while fetching
+        let isLoading = true; // Prevents premature rendering while fetching
 
         // Update dateline with current Norwegian weekday and date
         function updatePaperDateline() {
@@ -915,11 +915,17 @@
             navContainer.innerHTML = html;
         }
 
+        function navigateTo(path) {
+            if (window.location.pathname !== path || window.location.hash !== '') {
+                history.pushState(null, '', path);
+            }
+            handleRoute();
+        }
+
         function filterCategory(cat) {
             currentCategory = cat;
-            window.location.hash = '';
+            navigateTo('/');
             renderCategoryNav();
-            renderFrontpage();
         }
 
         // Helper to build HTML for a single 1-column news card
@@ -927,8 +933,8 @@
             const imgUrl = resolveImageUrl(art.image);
             const summaryText = getSummary(art);
             const isExternal = !!art.external_link;
-            const targetUrl = isExternal ? art.external_link : `#${encodeURIComponent(art.slug)}`;
-            const targetAttr = isExternal ? 'target="_blank" rel="noopener noreferrer"' : '';
+            const targetUrl = isExternal ? art.external_link : `/${encodeURIComponent(art.slug)}`;
+            const targetAttr = isExternal ? 'target="_blank" rel="noopener noreferrer"' : `onclick="navigateTo('${targetUrl}'); return false;"`;
             const icon = isExternal ? '&nbsp;<span style="font-size:0.75em; opacity:0.6;">🔗</span>' : '';
 
             return `
@@ -967,8 +973,8 @@
             const newestImg = resolveImageUrl(newest.image);
             const newestSummary = getSummary(newest);
             const isLeadExternal = !!newest.external_link;
-            const leadTargetUrl = isLeadExternal ? newest.external_link : `#${encodeURIComponent(newest.slug)}`;
-            const leadTargetAttr = isLeadExternal ? 'target="_blank" rel="noopener noreferrer"' : '';
+            const leadTargetUrl = isLeadExternal ? newest.external_link : `/${encodeURIComponent(newest.slug)}`;
+            const leadTargetAttr = isLeadExternal ? 'target="_blank" rel="noopener noreferrer"' : `onclick="navigateTo('${leadTargetUrl}'); return false;"`;
             const leadIcon = isLeadExternal ? '&nbsp;<span style="font-size:0.75em; opacity:0.6;">🔗</span>' : '';
 
             const leadHtml = `
@@ -1044,9 +1050,12 @@
             const fullContainer = document.getElementById('full-article-container');
 
             if (!article) {
-                window.location.hash = '';
+                navigateTo('/');
                 return;
             }
+
+            // Update browser tab title for better analytics reporting
+            document.title = `${article.title} – iByn.no`;
 
             const imgUrl = resolveImageUrl(article.image);
             const hasDedicatedSummary = article.summary && article.summary.trim() !== '';
@@ -1088,17 +1097,30 @@
 
         function handleRoute() {
             if (isLoading) return; // Do not route or trigger frontpage while articles are still loading
+
             const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
+            const pathSlug = decodeURIComponent(window.location.pathname.replace(/^\/+|\/+$/g, ''));
+
+            // Automatically upgrade old #hash links (like the Facebook post) to clean /slug URLs
+            if (hash && allArticles.some(a => a.slug === hash)) {
+                history.replaceState(null, '', `/${encodeURIComponent(hash)}`);
+            }
+
+            const activeSlug = (hash && allArticles.some(a => a.slug === hash)) ? hash : pathSlug;
 
             const frontpageView = document.getElementById('frontpage-view');
             const singleArticleView = document.getElementById('single-article-view');
 
-            if (hash && allArticles.some(a => a.slug === hash)) {
-                renderSingleArticle(hash);
+            if (activeSlug && activeSlug !== 'index.html' && allArticles.some(a => a.slug === activeSlug)) {
+                renderSingleArticle(activeSlug);
                 frontpageView.style.display = 'none';
                 singleArticleView.style.display = 'block';
                 window.scrollTo(0, 0);
             } else {
+                if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
+                    history.replaceState(null, '', '/');
+                }
+                document.title = 'iByn.no – Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn';
                 frontpageView.style.display = 'block';
                 singleArticleView.style.display = 'none';
                 renderFrontpage();
@@ -1211,6 +1233,7 @@
             }
         }
 
+        window.addEventListener('popstate', handleRoute);
         window.addEventListener('hashchange', handleRoute);
         document.addEventListener('DOMContentLoaded', () => {
             updatePaperDateline();
