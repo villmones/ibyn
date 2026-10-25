@@ -733,7 +733,7 @@
             </div>
         </div>
 
-        <!-- FULL ARTICLE VIEW -->
+        <!-- FULL ARTICLE / STATIC PAGE VIEW -->
         <div id="single-article-view">
             <a href="/" class="back-button" onclick="navigateTo('/'); return false;">&larr; Tilbake til forsiden</a>
             <div id="full-article-container"></div>
@@ -745,10 +745,11 @@
         <button class="close-lightbox" onclick="closeLightbox()">&times;</button>
         <img id="lightbox-img" src="" alt="Forstørret bilde">
     </div>
-<footer>
+
+    <footer>
         &copy; 2026 iByn.no – Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn (Et privat informasjonsarkiv) 
         <span style="opacity: 0.5; margin: 0 0.5rem;">|</span> 
-        <a href="/om.html" style="color: var(--accent-color); text-decoration: none; font-weight: 600;">Om / Ansvarsfraskrivelse</a>
+        <a href="/om" onclick="navigateTo('/om'); return false;" style="color: var(--accent-color); text-decoration: none; font-weight: 600;">Om / Ansvarsfraskrivelse</a>
         <span style="opacity: 0.5; margin: 0 0.5rem;">|</span> 
         <a href="mailto:ibyn.no@proton.me" style="color: var(--accent-color); text-decoration: none; font-weight: 600;">Kontakt</a>
     </footer>
@@ -1077,6 +1078,35 @@
             return text;
         }
 
+        // Render built-in Disclaimer / About view directly without external file reloads
+        function renderAboutPage() {
+            const fullContainer = document.getElementById('full-article-container');
+            document.title = 'Om iByn.no og ansvarsfraskrivelse – iByn.no';
+
+            fullContainer.innerHTML = `
+                <article class="full-article">
+                    <div class="full-article-inner">
+                        <span class="kicker">INFORMASJON</span>
+                        <h1>Om iByn.no og ansvarsfraskrivelse</h1>
+                        <div class="article-body">
+                            <p><strong>iByn.no</strong> er et uavhengig, privat informasjonsarkiv med fokus på Mosjøen og Vefsn. Innholdet på nettstedet publiseres av utgiver og utarbeides med støtte i åpne kilder, offentlig postjournal, saksdokumenter og journalistisk kildebruk.</p>
+
+                            <h2>1. Ansvar for innhold og fremstilling</h2>
+                            <p>Artikler, analyser og kommentarer på iByn.no gjenspeiler utgiverens egne vurderinger, eller baserer seg på offentlig tilgjengelig informasjon og sitater fra godkjente kilder. Nettstedet tilstreber høy nøyaktighet og et solid faktagrunnlag.</p>
+
+                            <h2>2. Ansvarsfraskrivelse (Disclaimer)</h2>
+                            <p>Utgiveren av iByn.no fraskriver seg ethvert ansvar for direkte eller indirekte tap, misforståelser eller konsekvenser som måtte oppstå som følge av bruken av opplysningene på dette nettstedet. Det tas forbehold om eventuelle faktafeil, skrivefeil eller endringer i underliggende kildemateriale etter publiseringstidspunktet.</p>
+
+                            <h2>3. Feilaktige opplysninger og rettelser</h2>
+                            <p>Dersom det oppdages faktuelle feil, unøyaktigheter eller opplysninger som oppleves som uriktige i publiserte artikler, oppfordres det til å ta umiddelbar kontakt via e-post slik at saken kan bli vurdert, korrigert eller supplert.</p>
+
+                            <p><strong>Kontakt:</strong> <a href="mailto:ibyn.no@proton.me" style="color: var(--accent-color); font-weight: 600;">ibyn.no@proton.me</a></p>
+                        </div>
+                    </div>
+                </article>
+            `;
+        }
+
         function renderSingleArticle(slug, articleObj = null) {
             const article = articleObj || allArticles.find(a => a.slug === slug);
             const fullContainer = document.getElementById('full-article-container');
@@ -1131,34 +1161,35 @@
             const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
             const pathSlug = decodeURIComponent(window.location.pathname.replace(/^\/+|\/+$/g, ''));
             
-            // Ignorer filer som slutter på .html (som f.eks. om.html)
-            if (pathSlug.endsWith('.html')) return '';
-
+            if (pathSlug === 'om' || pathSlug === 'om.html' || pathSlug.endsWith('.html')) return '';
             if (hash) return hash;
-            if (pathSlug && pathSlug !== 'index.html') return pathSlug;
+            if (pathSlug) return pathSlug;
             return '';
         }
 
         function handleRoute() {
-            if (isLoading) return;
-
             const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
             const pathSlug = decodeURIComponent(window.location.pathname.replace(/^\/+|\/+$/g, ''));
-            
-            // Hvis brukeren går til /om.html, la den åpne filen direkte uten å prøve å hente en markdown-artikkel
-            if (pathSlug === 'om.html' || pathSlug === 'om') {
-                window.location.href = '/om.html';
+            const frontpageView = document.getElementById('frontpage-view');
+            const singleArticleView = document.getElementById('single-article-view');
+
+            // 1. Handle built-in About / Disclaimer page immediately (no network wait, no loop)
+            if (pathSlug === 'om' || pathSlug === 'om.html' || hash === 'om') {
+                renderAboutPage();
+                singleArticleView.dataset.renderedSlug = 'om';
+                frontpageView.style.display = 'none';
+                singleArticleView.style.display = 'block';
+                window.scrollTo(0, 0);
                 return;
             }
-            
+
+            if (isLoading) return;
+
             if (hash && allArticles.some(a => a.slug === hash)) {
                 history.replaceState(null, '', `/${encodeURIComponent(hash)}`);
             }
 
             const activeSlug = (hash && allArticles.some(a => a.slug === hash)) ? hash : pathSlug;
-
-            const frontpageView = document.getElementById('frontpage-view');
-            const singleArticleView = document.getElementById('single-article-view');
 
             if (activeSlug && activeSlug !== 'index.html' && allArticles.some(a => a.slug === activeSlug)) {
                 if (singleArticleView.dataset.renderedSlug !== activeSlug) {
@@ -1187,11 +1218,15 @@
             const singleArticleView = document.getElementById('single-article-view');
             isLoading = true;
 
+            const pathSlug = decodeURIComponent(window.location.pathname.replace(/^\/+|\/+$/g, ''));
             const initialSlug = getRequestedSlug();
             let fastTrackedArticle = null;
 
-            // FAST-PATH: If user opened a direct article link, fetch & render ONLY that file immediately!
-            if (initialSlug) {
+            // If user opened /om or /om.html directly, render it immediately
+            if (pathSlug === 'om' || pathSlug === 'om.html') {
+                handleRoute();
+            } else if (initialSlug) {
+                // FAST-PATH: If user opened a direct article link, fetch & render ONLY that file immediately!
                 try {
                     const mdText = await fetchSingleMarkdown(`${initialSlug}.md`);
                     if (mdText && mdText.trim().startsWith('---')) {
@@ -1209,7 +1244,7 @@
                 }
             }
 
-            if (!fastTrackedArticle) {
+            if (!fastTrackedArticle && pathSlug !== 'om' && pathSlug !== 'om.html') {
                 frontpageContainer.innerHTML = '<div class="loading-state" style="text-align: center; padding: 3rem;">Henter siste saker...</div>';
             }
 
