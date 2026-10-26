@@ -1,6 +1,6 @@
 ---
 draft: true
-title: Hvorfor iByn finnes - med hjerte for Mosjøen og Vefsn
+title: Hvorfor iByn finnes – et lokalt testprosjekt med Vefsn-briller
 summary: "Etter spørsmål fra lokalpressen om hvem som står bak og hvordan dette
   nettstedet fungerer, er det greit å være helt åpen: Vi leser offentlige
   dokumenter med Vefsn-brillene på."
@@ -8,28 +8,28 @@ image: /images/Ytringsfrihet.jpg
 kicker: SAMFUNN
 date: 2026-10-26
 ---
-Den siste tiden har **iByn** blitt kontaktet av en lokalavis på Helgeland med spørsmål om hvem som står bak siden, hva en «KI-journalist» er, og hvorfor vi ikke driver som en tradisjonell avis. 
+Den siste tiden har **iByn** blitt kontaktet av lokalpressen med spørsmål om hvem som står bak siden, hva en «KI-journalist» er, og hvorfor vi ikke driver som en tradisjonell avis. 
 
-Svaret er egentlig veldig enkelt.
+Svaret er egentlig veldig enkelt: Dette er et privat, teknologisk testprosjekt.
 
-### 1. Vi har Vefsn-brillene på – og legger ikke skjul på det
-La det ikke være noen tvil: **iByn** er farget av lokalpatriotisme for Mosjøen og Vefsn. Når store regionale foretak og etater fatter vedtak som angår oss, leser vi sakspapirene med ett hovedspørsmål i bakhodet: *Hva betyr dette egentlig for lokalsamfunnet vårt?*
+### 1. Et eksperiment med offentlige kilder
+Hver uke produserer kommuner, helseforetak og offentlige etater hundrevis av sider med rapporter, postjournaler og styresaker. Etter **offentleglova** tilhører disse dokumentene allmennheten, men de færreste har tid til å pløye gjennom dem på egen hånd. 
 
-Der andre medier i regionen naturlig nok ser sakene fra sitt eget ståsted på kysten eller i nord, ønsker vi å løfte frem tallene, kalkylene og konsekvensene slik de ser ut fra Indre Helgeland.
+**iByn** er en test for å utforske hvordan moderne språkteknologi (kunstig intelligens) kan brukes som et verktøy for å lese, oppsummere og sette slike tunge, offentlige dokumenter i system. Det er et hobbyprosjekt som tester grensene for hva teknologien kan gjøre for å gjøre offentlig informasjon lettere tilgjengelig.
 
-### 2. Åpne kilder for alle
-Hver uke produserer kommuner, helseforetak og offentlige etater hundrevis av sider med rapporter, postjournaler og styresaker. Etter **offentleglova** tilhører disse dokumentene allmennheten. Enhver innbygger har rett til å lese dem, trekke ut tallene og bruke dem i samfunnsdebatten. 
+### 2. Vi har Vefsn-brillene på – og legger ikke skjul på det
+La det ikke være noen tvil: Dette testprosjektet er farget av lokalpatriotisme for Mosjøen og Vefsn. Når store regionale foretak fatter vedtak som angår oss, mater vi teknologien med ett hovedspørsmål: *Hva betyr disse tallene egentlig for lokalsamfunnet vårt?*
 
-Utfordringen er at de færreste har tid til å pløye gjennom tunge saksfremlegg på egen hånd. **iByn** bruker moderne språkteknologi (kunstig intelligens) som et arbeidsverktøy for å lese, oppsummere og sette disse offentlige dokumentene i system – men det er alltid de faktiske, offentlige rapportene som ligger i bunn.
+Der andre aktører i regionen naturlig nok ser sakene fra sitt eget ståsted på kysten eller i nord, er formålet med dette arkivet å løfte frem kalkylene og konsekvensene akkurat slik de ser ut fra Indre Helgeland.
 
 ### 3. Et uavhengig arkiv, ikke et mediehus
-**iByn** har ingen abonnenter, ingen annonseinntekter og mottar ingen pressestøtte. Det er et privat, ikke-kommersielt prosjekt drevet på ideell basis. 
+**iByn** har ingen abonnenter, ingen annonseinntekter og mottar ingen pressestøtte. Det er ikke et mediehus, men et privat, ikke-kommersielt eksperiment.
 
-I Norge står ytrings- og informasjonsfriheten (**Grunnloven § 100**) sterkt. Det er fullt lovlig å være engasjert på vegne av hjemstedet sitt. Man trenger verken redaktørplakat eller tillatelse fra etablerte mediehus for å oppsummere offentlige sakspapirer på en nettside, og man har heller ingen plikt til å svare på hendvendelser fra  lokalaviser.
+I Norge står ytrings- og informasjonsfriheten (**Grunnloven § 100**) sterkt. Det er fullt lovlig å være engasjert på vegne av hjemstedet sitt. Man trenger verken redaktørplakat eller tillatelse fra etablerte mediehus for å teste ut teknologi på offentlige sakspapirer, og man har heller ingen plikt til å stille til intervju når pressen ringer.
 
-### 4. Kildekontroll og åpenhet om feil
-Selv om vi har et tydelig lokalt ståsted og bruker dataverktøy til å strukturere store tekstmengder, skal faktagrunnlaget være etterrettelig. Artiklene bygger alltid på navngitte, åpne kilder som hvem som helst kan kontrollere.
+### 4. Kildekontroll i en prøvefase
+Akkurat fordi dette er et eksperiment som bruker dataverktøy til å strukturere store tekstmengder, er åpenhet om feil ekstra viktig. Artiklene bygger alltid på navngitte, offentlige kilder som hvem som helst kan kontrollere.
 
-Skulle det likevel snike seg inn en regnefeil eller en unøyaktig formulering i en oppsummering, ønsker vi å rette det så raskt som mulig. Derfor har vi en åpen kontaktadresse nederst på siden der hvem som helst kan melde fra om feil i tallgrunnlaget.
+Skulle teknologien regne feil eller produsere en unøyaktig formulering, ønsker vi å rette det raskt. Derfor finnes det en åpen kontaktadresse nederst på siden der alle kan melde fra om feil i faktagrunnlaget.
 
-Målet med **iByn** er å bidra med fakta, dokumentasjon og et tydelig lokalt blikk i debatten om Mosjøen og Vefsn.
+Målet med **iByn** er å teste teknologiens muligheter, og samtidig bidra med fakta og et tydelig lokalt blikk i debatten om Mosjøen og Vefsn.
