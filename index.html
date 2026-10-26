@@ -799,9 +799,8 @@
 
         let allArticles = [];
         let currentCategory = 'ALL';
-        let isLoading = true; // Prevents premature rendering while fetching
+        let isLoading = true;
 
-        // Update dateline with current Norwegian weekday and date
         function updatePaperDateline() {
             const now = new Date();
             const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
@@ -810,7 +809,6 @@
             document.getElementById('current-date-string').textContent = `Mosjøen, ${dateStr}`;
         }
 
-        // Fetch current weather for Mosjøen town center (Lat 65.836, Lon 13.191) with cache bypass
         async function fetchWeather() {
             try {
                 const res = await fetch(
@@ -854,14 +852,12 @@
             }
         }
 
-        // Resolve image path from local deployment
         function resolveImageUrl(imagePath) {
             if (!imagePath) return '';
             if (imagePath.startsWith('http://') || imagePath.startsWith('https://')) return imagePath;
             return '/' + imagePath.replace(/^(\.\.\/)+/, '').replace(/^\/+/, '');
         }
 
-        // Extract summary or fallback to first paragraph
         function getSummary(article) {
             if (article.summary && article.summary.trim() !== '') return article.summary.trim();
             if (!article.body) return '';
@@ -874,7 +870,6 @@
             return firstParagraph.length > 220 ? firstParagraph.substring(0, 220) + '…' : firstParagraph;
         }
 
-        // Parse YAML Frontmatter and Markdown body
         function parseFrontmatter(rawText, filename) {
             const slug = filename.replace(/\.md$/, '');
             const frontmatterRegex = /^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/;
@@ -942,7 +937,6 @@
             });
         }
 
-        // Build category menu dynamically based on available articles
         function renderCategoryNav() {
             const navContainer = document.getElementById('category-nav');
             const kickers = [...new Set(allArticles.map(a => (a.kicker || 'NYHETER').toUpperCase()))];
@@ -952,7 +946,6 @@
                 html += `<button class="cat-link ${currentCategory === k ? 'active' : ''}" onclick="filterCategory('${k}')">${k}</button>`;
             });
             
-            // Add the AI link permanently at the end of the menu
             html += `<a href="/ai.html" class="cat-link" style="text-decoration: none;display:none;">Helsearkiv (KI)</a>`;
             navContainer.innerHTML = html;
         }
@@ -970,7 +963,7 @@
             renderCategoryNav();
         }
 
-        // Helper to build HTML for a single 1-column news card
+        // KORT-SAKER: Her er KI-lenken riktig satt inn
         function buildCardHtml(art) {
             const imgUrl = resolveImageUrl(art.image);
             const summaryText = getSummary(art);
@@ -988,16 +981,15 @@
                             <h2><a href="${targetUrl}" ${targetAttr} class="article-link">${art.title}${icon}</a></h2>
                             ${summaryText ? `<p class="ingress">${summaryText}</p>` : ''}
                         </div>
-                        ${art.date ? `<div class="byline">🤖 <span style="color: var(--accent-color); font-weight: 700;"><a href="/ki-journalisten" onclick="navigateTo('/ki-journalisten'); return false;" style="color: var(--accent-color); text-decoration: none; font-weight: bold;">
-    🤖 MØT VÅR KI-JOURNALIST</a></span> &bull; Publisert ${formatNorwegianDate(art.date)}</div>` : ''}
+                        ${art.date ? `<div class="byline">🤖 <a href="/ki-journalisten" onclick="navigateTo('/ki-journalisten'); return false;" style="color: var(--accent-color); text-decoration: none; font-weight: 700;">MØT VÅR KI-JOURNALIST</a> &bull; Publisert ${formatNorwegianDate(art.date)}</div>` : ''}
                     </div>
                 </article>
             `;
         }
 
-        // Render Frontpage with independent columns (filtered by category and limited count)
+        // FORSIDESAKEN: Her er KI-lenken riktig satt inn for leadHtml
         function renderFrontpage() {
-            if (isLoading) return; // Wait until articles have finished loading
+            if (isLoading) return; 
             const frontpageContainer = document.getElementById('newspaper-frontpage');
 
             let filtered = allArticles;
@@ -1028,7 +1020,7 @@
                             <span class="kicker">${newest.kicker || 'AKTUELT'}</span>
                             <h1><a href="${leadTargetUrl}" ${leadTargetAttr} class="article-link">${newest.title}${leadIcon}</a></h1>
                             ${newestSummary ? `<p class="ingress">${newestSummary}</p>` : ''}
-                            ${newest.date ? `<div class="byline" style="margin-bottom: 0; margin-top: 1.2rem;">🤖 <span style="color: var(--accent-color); font-weight: 700;">GENERERT AV KI-JOURNALIST</span> &bull; Publisert ${formatNorwegianDate(newest.date)}</div>` : ''}
+                            ${newest.date ? `<div class="byline" style="margin-bottom: 0; margin-top: 1.2rem;">🤖 <a href="/ki-journalisten" onclick="navigateTo('/ki-journalisten'); return false;" style="color: var(--accent-color); text-decoration: none; font-weight: 700;">MØT VÅR KI-JOURNALIST</a> &bull; Publisert ${formatNorwegianDate(newest.date)}</div>` : ''}
                         </div>
                     </div>
                 </article>
@@ -1088,12 +1080,10 @@
             });
         }
 
-        // Helper to fetch a single markdown file quickly
         async function fetchSingleMarkdown(filename, sha = '') {
             const cacheParam = sha ? `?v=${sha}` : `?t=${Math.floor(Date.now() / 60000)}`;
             let text = '';
 
-            // 1. Try local static path first (fastest via Cloudflare Edge CDN)
             try {
                 const localRes = await fetch(`/${ARTICLES_PATH}/${encodeURIComponent(filename)}${cacheParam}`);
                 if (localRes.ok) {
@@ -1104,7 +1094,6 @@
                 }
             } catch (e) {}
 
-            // 2. Fallback to raw GitHub if local fetch didn't return valid frontmatter
             if (!text || !text.trim().startsWith('---')) {
                 const rawUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/main/${ARTICLES_PATH}/${encodeURIComponent(filename)}${cacheParam}`;
                 const res = await fetch(rawUrl);
@@ -1112,11 +1101,9 @@
                     text = await res.text();
                 }
             }
-
             return text;
         }
 
-        // Render built-in Disclaimer / About view directly without external file reloads
         function renderAboutPage() {
             const fullContainer = document.getElementById('full-article-container');
             document.title = 'Om iByn.no og ansvarsfraskrivelse – iByn.no';
@@ -1127,7 +1114,7 @@
                         <span class="kicker">INFORMASJON</span>
                         <h1>Om iByn.no og ansvarsfraskrivelse</h1>
                         <div class="article-body">
-                            <p><strong>iByn.no</strong> er et uavhengig, privat informasjonsarkiv med fokus på Mosjøen og Vefsn. Innholdet på nettstedet publiseres av utgiver og utarbeides med støtte i åpne kilder, offentlig postjournal, saksdokumenter og journalistisk kildebruk.</p>
+                            <p><strong>iByn.no</strong> er et uavhengig, privat informasjonsarkiv med fokus på Mosjøen og Vefsn. Innholdet på nettstedet publiseres av utgiver og utarbeides med utgangspunkt i åpne kilder, offentlige postjournaler og tilgjengelige saksdokumenter.</p>
 
                             <h2>1. Ansvar for innhold og fremstilling</h2>
                             <p>Artikler, analyser og kommentarer på iByn.no gjenspeiler utgiverens egne vurderinger, eller baserer seg på offentlig tilgjengelig informasjon og sitater fra godkjente kilder. Nettstedet tilstreber høy nøyaktighet og et solid faktagrunnlag.</p>
@@ -1146,45 +1133,40 @@
         }
 
         function renderKiPage() {
-    const fullContainer = document.getElementById('full-article-container');
-    document.title = 'Møt KI-journalisten – iByn';
+            const fullContainer = document.getElementById('full-article-container');
+            document.title = 'Møt KI-journalisten – iByn';
 
-    fullContainer.innerHTML = `
-        <article class="full-article">
-            <div class="full-article-inner">
-                <span class="kicker">BAK KULISSENE</span>
-                <h1>Møt iByns utrettelige KI-journalist</h1>
-                
-                <div style="text-align: center; margin: 2rem 0;">
-                    <!-- Her legger du inn det humoristiske bildet når Argon fungerer igjen -->
-                    <img src="/images/ki-robot-journalist.jpg" alt="En illustrasjon av en robot med Vefsn-briller og skrivemaskin" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-                    <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 0.5rem;">Vår kjære medarbeider i dyp konsentrasjon over postjournalen.</p>
-                </div>
+            fullContainer.innerHTML = `
+                <article class="full-article">
+                    <div class="full-article-inner">
+                        <span class="kicker">BAK KULISSENE</span>
+                        <h1>Møt iByns utrettelige KI-journalist</h1>
+                        
+                        <div style="text-align: center; margin: 2rem 0;">
+                            <img src="/images/ki-robot-journalist.jpg" alt="En illustrasjon av en robot med Vefsn-briller og skrivemaskin" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                            <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 0.5rem;">Vår kjære medarbeider i dyp konsentrasjon over postjournalen.</p>
+                        </div>
 
-                <div class="article-body">
-                    <p>Lokalpressen har spurt hvem som egentlig står bak artiklene her på <strong>iByn</strong>. Svaret er at vi har ansatt en kunstig intelligens – en såkalt stor språkmodell – som tar seg av det tyngste grovarbeidet.</p>
-                    
-                    <h3>Hva gjør KI-journalisten?</h3>
-                    <p>Mens vanlige folk sover, er på jobb eller går tur på Korgfjellet, sitter KI-journalisten vår og tygger seg gjennom hundrevis av sider med knusktørre PDF-dokumenter, kommunale budsjetter og styrepapirer fra helseforetak. Den klager aldri på overtid, drikker ikke kaffe, og har en innebygd algoritme for å trekke ut de viktigste tallene og vedtakene på sekunder.</p>
-                    
-                    <h3>Alltid med Vefsn-brillene på</h3>
-                    <p>Denne digitale medarbeideren er programmert med én tydelig instruks: <em>Les alt med Vefsn-briller på.</em> Der andre kanskje ser nøytrale regionale vedtak, leter vår KI alltid etter hva tallene betyr for innbyggerne i Mosjøen og omegn.</p>
+                        <div class="article-body">
+                            <p>Lokalpressen har spurt hvem som egentlig står bak artiklene her på <strong>iByn</strong>. Svaret er at vi har ansatt en kunstig intelligens – en såkalt stor språkmodell – som tar seg av det tyngste grovarbeidet.</p>
+                            
+                            <h3>Hva gjør KI-journalisten?</h3>
+                            <p>Mens vanlige folk sover, er på jobb eller går tur på Korgfjellet, sitter KI-journalisten vår og tygger seg gjennom hundrevis av sider med knusktørre PDF-dokumenter, kommunale budsjetter og styrepapirer fra helseforetak. Den klager aldri på overtid, drikker ikke kaffe, og har en innebygd algoritme for å trekke ut de viktigste tallene og vedtakene på sekunder.</p>
+                            
+                            <h3>Alltid med Vefsn-brillene på</h3>
+                            <p>Denne digitale medarbeideren er programmert med én tydelig instruks: <em>Les alt med Vefsn-briller på.</em> Der andre kanskje ser nøytrale regionale vedtak, leter vår KI alltid etter hva tallene betyr for innbyggerne i Mosjøen og omegn.</p>
 
-                    <h3>Ingen konkurrent til lokalavisa</h3>
-                    <p>Vår KI-journalist fryser aldri utenfor rådhuset for å jakte på kommentarer, ringer aldri ned lokalpolitikere, og selger ingen annonser. Dette er et rent teknologisk testprosjekt og et supplement til de ekte avisene. Formålet er rett og slett å gjøre tunge offentlige dokumenter litt lettere å lese for folk flest.</p>
-                    
-                    <p><em>Skulle KI-en ha regnet feil på en million eller to i en oppsummering, er det bare å sende oss en e-post. Selv roboter kan ha en dårlig dag på jobben!</em></p>
-                </div>
-            </div>
-        </article>
-    `;
-    
-    document.getElementById('news-grid').style.display = 'none';
-    document.getElementById('category-filter').style.display = 'none';
-    fullContainer.style.display = 'block';
-    window.scrollTo(0, 0);
-}
+                            <h3>Ingen konkurrent til lokalavisa</h3>
+                            <p>Vår KI-journalist fryser aldri utenfor rådhuset for å jakte på kommentarer, ringer aldri ned lokalpolitikere, og selger ingen annonser. Dette er et rent teknologisk testprosjekt og et supplement til de ekte avisene. Formålet er rett og slett å gjøre tunge offentlige dokumenter litt lettere å lese for folk flest.</p>
+                            
+                            <p><em>Skulle KI-en ha regnet feil på en million eller to i en oppsummering, er det bare å sende oss en e-post. Selv roboter kan ha en dårlig dag på jobben!</em></p>
+                        </div>
+                    </div>
+                </article>
+            `;
+        }
 
+        // FULL ARTIKKEL-VISNING: Her er KI-lenken riktig satt inn for the byline in full-article
         function renderSingleArticle(slug, articleObj = null) {
             const article = articleObj || allArticles.find(a => a.slug === slug);
             const fullContainer = document.getElementById('full-article-container');
@@ -1194,7 +1176,6 @@
                 return;
             }
 
-            // Update browser tab title for better analytics reporting
             document.title = `${article.title} – iByn.no`;
 
             const imgUrl = resolveImageUrl(article.image);
@@ -1212,7 +1193,7 @@
                         <span class="kicker">${article.kicker || 'NYHETER'}</span>
                         <h1>${article.title}</h1>
                         ${hasDedicatedSummary ? `<p class="lead-ingress">${article.summary}</p>` : ''}
-                        ${article.date ? `<div class="byline">🤖 <span style="color: var(--accent-color); font-weight: 700;">GENERERT AV KI-JOURNALIST</span> &bull; Publisert ${formatNorwegianDate(article.date)}</div>` : ''}
+                        ${article.date ? `<div class="byline">🤖 <a href="/ki-journalisten" onclick="navigateTo('/ki-journalisten'); return false;" style="color: var(--accent-color); text-decoration: none; font-weight: 700;">MØT VÅR KI-JOURNALIST</a> &bull; Publisert ${formatNorwegianDate(article.date)}</div>` : ''}
                         
                         <div class="share-bar">
                             <span class="share-label">Del sak:</span>
@@ -1240,6 +1221,8 @@
             const pathSlug = decodeURIComponent(window.location.pathname.replace(/^\/+|\/+$/g, ''));
             
             if (pathSlug === 'om' || pathSlug === 'om.html' || pathSlug.endsWith('.html')) return '';
+            if (pathSlug === 'ki-journalisten' || pathSlug === 'ki-journalisten.html') return '';
+            
             if (hash) return hash;
             if (pathSlug) return pathSlug;
             return '';
@@ -1251,10 +1234,20 @@
             const frontpageView = document.getElementById('frontpage-view');
             const singleArticleView = document.getElementById('single-article-view');
 
-            // 1. Handle built-in About / Disclaimer page immediately (no network wait, no loop)
+            // 1. Handle built-in About page
             if (pathSlug === 'om' || pathSlug === 'om.html' || hash === 'om') {
                 renderAboutPage();
                 singleArticleView.dataset.renderedSlug = 'om';
+                frontpageView.style.display = 'none';
+                singleArticleView.style.display = 'block';
+                window.scrollTo(0, 0);
+                return;
+            }
+
+            // 2. Handle built-in KI-Journalist page
+            if (pathSlug === 'ki-journalisten' || pathSlug === 'ki-journalisten.html' || hash === 'ki-journalisten') {
+                renderKiPage();
+                singleArticleView.dataset.renderedSlug = 'ki-journalisten';
                 frontpageView.style.display = 'none';
                 singleArticleView.style.display = 'block';
                 window.scrollTo(0, 0);
@@ -1289,7 +1282,6 @@
             }
         }
 
-        // Fast-path + background loader for optimal Core Web Vitals (LCP)
         async function loadArticles() {
             const frontpageContainer = document.getElementById('newspaper-frontpage');
             const frontpageView = document.getElementById('frontpage-view');
@@ -1300,11 +1292,10 @@
             const initialSlug = getRequestedSlug();
             let fastTrackedArticle = null;
 
-            // If user opened /om or /om.html directly, render it immediately
-            if (pathSlug === 'om' || pathSlug === 'om.html') {
+            // Handle hard-coded static paths dynamically without loading markdown from github
+            if (pathSlug === 'om' || pathSlug === 'om.html' || pathSlug === 'ki-journalisten' || pathSlug === 'ki-journalisten.html') {
                 handleRoute();
             } else if (initialSlug) {
-                // FAST-PATH: If user opened a direct article link, fetch & render ONLY that file immediately!
                 try {
                     const mdText = await fetchSingleMarkdown(`${initialSlug}.md`);
                     if (mdText && mdText.trim().startsWith('---')) {
@@ -1322,7 +1313,7 @@
                 }
             }
 
-            if (!fastTrackedArticle && pathSlug !== 'om' && pathSlug !== 'om.html') {
+            if (!fastTrackedArticle && pathSlug !== 'om' && pathSlug !== 'om.html' && pathSlug !== 'ki-journalisten' && pathSlug !== 'ki-journalisten.html') {
                 frontpageContainer.innerHTML = '<div class="loading-state" style="text-align: center; padding: 3rem;">Henter siste saker...</div>';
             }
 
@@ -1331,7 +1322,6 @@
                 const cacheKey = 'ibyn_file_entries_v1';
                 const cachedList = sessionStorage.getItem(cacheKey);
 
-                // Check 5-minute session cache first to avoid GitHub API delay and rate-limits
                 if (cachedList) {
                     const parsed = JSON.parse(cachedList);
                     if (Date.now() - parsed.timestamp < 5 * 60 * 1000) {
@@ -1369,7 +1359,6 @@
                     return;
                 }
 
-                // Sort filenames descending (YYYY-MM-DD-...) and fetch the newest first for instant frontpage
                 fileEntries.sort((a, b) => b.name.localeCompare(a.name));
                 const priorityEntries = fileEntries.slice(0, MAX_FRONTPAGE_ARTICLES + 3);
 
@@ -1377,14 +1366,13 @@
                     priorityEntries.map(async ({ name, sha }) => {
                         const slug = name.replace(/\.md$/, '');
                         if (fastTrackedArticle && fastTrackedArticle.slug === slug) {
-                            return fastTrackedArticle; // Reuse already downloaded article
+                            return fastTrackedArticle; 
                         }
                         const text = await fetchSingleMarkdown(name, sha);
                         return parseFrontmatter(text, name);
                     })
                 );
 
-                // Filter out any empty/failed reads AND deactivated/draft articles
                 allArticles = loaded.filter(a => {
                     const isValid = a.title !== 'Uten tittel' || a.body.trim() !== '';
                     const isDraft = String(a.draft).toLowerCase() === 'true' || 
@@ -1393,7 +1381,6 @@
                     return isValid && !isDraft;
                 });
 
-                // Sort newest first by date
                 allArticles.sort((a, b) => {
                     const timeA = a.date ? new Date(a.date).getTime() : 0;
                     const timeB = b.date ? new Date(b.date).getTime() : 0;
@@ -1422,7 +1409,6 @@
             loadArticles();
             fetchWeather();
 
-            // Refresh weather and dateline automatically every 15 minutes
             setInterval(() => {
                 fetchWeather();
                 updatePaperDateline();
