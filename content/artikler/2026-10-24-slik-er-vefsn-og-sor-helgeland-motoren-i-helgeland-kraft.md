@@ -11,7 +11,7 @@ date: 2026-10-22
 ---
 Når du slår på kaffetrakteren om morgenen eller lader elbilen på hurtigladeren er sjansen 100 prosent for at du nyter godt av lokal vannkraft.
 
-Helgeland Kraft AS er ikke et anonymt børsnotert selskap som sender overskuddet til utenlandske oppkjøpsfond. Det er **100 prosent eid av 14 lokalpolitiske kommuner**. Og dersom du trodde at det er storbyene eller nordfylket som sitter på hele flertallet, må du tro om igjen!
+Helgeland Kraft AS er ikke et anonymt børsnotert selskap som sender overskuddet til utenlandske oppkjøpsfond. Det er **100 prosent eid av 14 lokale kommuner**. Og dersom du trodde at det er storbyene eller nordfylket som sitter på hele flertallet, må du tro om igjen!
 
 ---
 
