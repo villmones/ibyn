@@ -17,8 +17,8 @@ Hver uke produserer kommuner, helseforetak og offentlige etater hundrevis av sid
 
 **iByn** er en test for å utforske hvordan moderne språkteknologi (kunstig intelligens) kan brukes som et verktøy for å lese, oppsummere og sette slike tunge, offentlige dokumenter i system. Det er et hobbyprosjekt som tester grensene for hva teknologien kan gjøre for å gjøre offentlig informasjon lettere tilgjengelig.
 
-### 2. Vi har Vefsn-brillene på – og legger ikke skjul på det
-La det ikke være noen tvil: Dette testprosjektet er farget av lokalpatriotisme for Mosjøen og Vefsn. Når store regionale foretak fatter vedtak som angår oss, mater vi teknologien med ett hovedspørsmål: *Hva betyr disse tallene egentlig for lokalsamfunnet vårt?*
+### 2. iByn har Vefsn-brillene på – og legger ikke skjul på det
+La det ikke være noen tvil: Dette testprosjektet er farget av lokalpatriotisme for Mosjøen og Vefsn. Når store regionale foretak fatter vedtak som angår oss, mater iByn teknologien med ett hovedspørsmål: *Hva betyr disse tallene egentlig for lokalsamfunnet vårt?*
 
 Der andre aktører i regionen naturlig nok ser sakene fra sitt eget ståsted på kysten eller i nord, er formålet med dette arkivet å løfte frem kalkylene og konsekvensene akkurat slik de ser ut fra Indre Helgeland.
 
