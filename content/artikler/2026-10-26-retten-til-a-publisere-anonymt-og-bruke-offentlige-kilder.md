@@ -1,8 +1,8 @@
 ---
 draft: true
 title: Retten til å publisere anonymt og bruke offentlige kilder
-summary: Når en lokalavis tar kontakt og krever svar på hvem som står bak et
-  uavhengig arkiv, reiser det spørsmål om rettigheter. En gjennomgang av
+summary: Når en lokalavis i region tar kontakt og krever svar på hvem som står
+  bak et uavhengig arkiv, reiser det spørsmål om rettigheter. En gjennomgang av
   Grunnloven, offentlighetsprinsippet og regelverket for digitale arkiver.
 image: /images/Ytringsfrihet.jpg
 kicker: SAMFUNN
