@@ -1,6 +1,6 @@
 ---
 draft: false
-title: ⚡Slik er Sør-Helgeland motoren i Helgeland Kraft!
+title: "⚡Eierkommunene i Helgeland Kraft: Hvem eier hva?"
 summary: Hvem eier egentlig lyset i pæra på Helgeland, hvor lages de magiske
   kilowattimene, og hvorfor banker hjertet i hele kraftkonsernet midt i Mosjøen?
   En faktabasert gjennomgang av Helgeland Kraft – regionens egen fornybare
