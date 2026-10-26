@@ -8,7 +8,7 @@ image: /images/Ytringsfrihet.jpg
 kicker: SAMFUNN
 date: 2026-10-26
 ---
-Den siste tiden har **iByn** blitt kontaktet av lokalpressen på Helgeland med spørsmål om hvem som står bak siden, hva en «KI-journalist» er, og hvorfor iByn ikke driver som en tradisjonell avis. 
+Den siste tiden har **iByn** blitt kontaktet av en lokalavis på Helgeland med spørsmål om hvem som står bak siden, hva en «KI-journalist» er, og hvorfor iByn ikke driver som en tradisjonell avis. 
 
 Svaret er egentlig veldig enkelt: Dette er et privat, teknologisk testprosjekt.
 
