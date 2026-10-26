@@ -4,6 +4,7 @@ title: Retten til å publisere anonymt og bruke offentlige kilder
 summary: Når en lokalavis tar kontakt og krever svar på hvem som står bak et
   uavhengig arkiv, reiser det spørsmål om rettigheter. En gjennomgang av
   Grunnloven, offentlighetsprinsippet og regelverket for digitale arkiver.
+image: /images/Ytringsfrihet.jpg
 kicker: SAMFUNN
 date: 2026-10-26
 ---
@@ -13,7 +14,7 @@ date: 2026-10-26
 Norsk rett bygger på et sterkt prinsipp om fri informasjonsflyt og ytringsfrihet, nedfelt i **Kongeriket Norges Grunnlov § 100**.
 
 * **Ingen krav om redaktørplakat:** Loven skiller strengt mellom registrerte, kommersielle medier og private nettsteder. Et privat informasjonsarkiv eller en hobbyblogg er ikke underlagt Kringkastingsloven, Medietilsynet eller kravet om å ha en ansvarlig redaktør.
-* **Retten til å være anonym / bruke pseudonym:** Det finnes ingen generell lovpålagt plikt i Norge som krever at en privatperson må ha sitt fulle navn stående på forsiden av et nettsted, eller at man plikter å stille til intervju når lokalpressen ringer. Så lenge innholdet ikke bryter med straffelovens bestemmelser om for eksempel ærekrenkelser (§ 267), trusler eller personvern, står borgerne fritt til å publisere opplysninger under et merkenavn eller pseudonym.
+* **Retten til å være anonym / bruke pseudonym:** Det finnes ingen generell lovpålagt plikt i Norge som krever at en privatperson må ha sitt fulle navn stående på forsiden av et nettsted, eller at man plikter å stille til intervju når lokalpressen ringer. Så lenge innholdet holdes innenfor rammene av lovlig meningsutveksling og unngår uberettigede personkrenkelser (jf. straffeloven kapittel 24 og skadeerstatningsloven), står borgerne fritt til å publisere opplysninger under et merkenavn eller pseudonym.
 
 ### 2. Offentlighetsprinsippet: Rett til innsyn og viderebruk
 Grunnlaget for mange uavhengige arkiver er de reglene som sikrer at allmennheten kan kontrollere offentlig maktutøvelse.
@@ -34,5 +35,5 @@ Retten til å ta i bruk moderne teknologi for å lese, strukturere og publisere 
 ### Kildeliste og rettslig grunnlag
 - **Kongeriket Norges Grunnlov (1814)** – Særlig § 100 om ytringsfrihet, informasjonsfrihet og retten til å sjekke forvaltningen.
 - **Lov om rett til innsyn i dokument i offentleg verksemd (Offentleglova / LOV-2006-05-19-16)** – Særlig § 3 (hovedregelen om innsynsrett) og § 4 (virkkeområde).
-- **Lov om straff (Straffeloven / LOV-2005-05-20-28)** – Særlig kapittel 25 om personvern og grenser for ytringsfriheten.
-- **Forvaltningsloven (LOV-1967-02-10)** – Regler om saksbehandling og offentlige arkiver.
+- **Straffeloven (LOV-2005-05-20-28)** – Særlig kapittel 24 om vern av den personlige frihet og fred.
+- **Skadeerstatningsloven (LOV-1969-06-13-26)** – Særlig bestemmelser om erstatnsningsansvar ved ærekrenkelser og krenkelse av privatlivets fred.
