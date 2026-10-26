@@ -1,7 +1,8 @@
 ---
+draft: false
 title: 🏥Reisetidsanalyse for akuttsykehus på Helgeland
-summary: Denne rapporten sammenstiller og analyserer reisetidene for de fem
-  aktuelle sykehuslokaliseringene på Helgeland. Beregningene er basert på ferske
+summary: Denne rapporten sammenstiller og analyserer reisetidene for fem
+  sykehuslokaliseringer på Helgeland. Beregningene er basert på ferske
   befolkningstall fra Statistisk sentralbyrå (SSB per 1.1.2026, totalt 76 539
   innbyggere ekskludert Bindal og Meløy) koblet mot reisetidsmatrisene fra Oslo
   Economics og Prehospitale tjenester HSYK.
