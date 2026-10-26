@@ -1,39 +1,35 @@
 ---
 draft: true
-title: Retten til å publisere anonymt og bruke offentlige kilder
-summary: Når en lokalavis i region tar kontakt og krever svar på hvem som står
-  bak et uavhengig arkiv, reiser det spørsmål om rettigheter. En gjennomgang av
-  Grunnloven, offentlighetsprinsippet og regelverket for digitale arkiver.
+title: Hvorfor iByn finnes - med hjerte for Mosjøen og Vefsn
+summary: "Etter spørsmål fra lokalpressen om hvem som står bak og hvordan dette
+  nettstedet fungerer, er det greit å være helt åpen: Vi leser offentlige
+  dokumenter med Vefsn-brillene på."
 image: /images/Ytringsfrihet.jpg
 kicker: SAMFUNN
 date: 2026-10-26
 ---
-**iByn** har den siste tiden blitt kontaktet av en lokalavis i regionen med spørsmål om hvem som står bak, hvordan teknologien fungerer, og hvorfor det ikke drives som et tradisjonelt medium. Slike henvendelser viser at det er behov for å avklare hva norsk lov faktisk sier om retten til å ytre seg, drifte uavhengige nettsteder og bruke offentlige kilder.
+Den siste tiden har **iByn** blitt kontaktet av en lokalavis på Helgeland med spørsmål om hvem som står bak siden, hva en «KI-journalist» er, og hvorfor vi ikke driver som en tradisjonell avis. 
 
-### 1. Grunnleggende vern: Ytringsfrihet og anonymitet
-Norsk rett bygger på et sterkt prinsipp om fri informasjonsflyt og ytringsfrihet, nedfelt i **Kongeriket Norges Grunnlov § 100**.
+Svaret er egentlig veldig enkelt.
 
-* **Ingen krav om redaktørplakat:** Loven skiller strengt mellom registrerte, kommersielle medier og private nettsteder. Et privat informasjonsarkiv eller en hobbyblogg er ikke underlagt Kringkastingsloven, Medietilsynet eller kravet om å ha en ansvarlig redaktør.
-* **Retten til å være anonym / bruke pseudonym:** Det finnes ingen generell lovpålagt plikt i Norge som krever at en privatperson må ha sitt fulle navn stående på forsiden av et nettsted, eller at man plikter å stille til intervju når lokalpressen ringer. Så lenge innholdet holdes innenfor rammene av lovlig meningsutveksling og unngår uberettigede personkrenkelser (jf. straffeloven kapittel 24 og skadeerstatningsloven), står borgerne fritt til å publisere opplysninger under et merkenavn eller pseudonym.
+### 1. Vi har Vefsn-brillene på – og legger ikke skjul på det
+La det ikke være noen tvil: **iByn** er farget av lokalpatriotisme for Mosjøen og Vefsn. Når store regionale foretak og etater fatter vedtak som angår oss, leser vi sakspapirene med ett hovedspørsmål i bakhodet: *Hva betyr dette egentlig for lokalsamfunnet vårt?*
 
-### 2. Offentlighetsprinsippet: Rett til innsyn og viderebruk
-Grunnlaget for mange uavhengige arkiver er de reglene som sikrer at allmennheten kan kontrollere offentlig maktutøvelse.
+Der andre medier i regionen naturlig nok ser sakene fra sitt eget ståsted på kysten eller i nord, ønsker vi å løfte frem tallene, kalkylene og konsekvensene slik de ser ut fra Indre Helgeland.
 
-* **Offentleglova:** Hovedregelen i norsk forvaltning er at saksdokumenter, postjournaler og vedtak i kommuner, fylkeskommuner og statlige organer er offentlige. Enhver har rett til å gjøre seg kjent med disse (jf. offentleglova § 3).
-* **Åpne data og gjenbruk:** Offentlige organer oppfordres i stor grad til å gjøre data tilgjengelig for gjenbruk. Å systematisere, sitere eller oppsummere offentlige saksfremlegg, postjournaler og vedtak på en privat nettside faller inn under den alminnelige informasjonsfriheten.
+### 2. Åpne kilder for alle
+Hver uke produserer kommuner, helseforetak og offentlige etater hundrevis av sider med rapporter, postjournaler og styresaker. Etter **offentleglova** tilhører disse dokumentene allmennheten. Enhver innbygger har rett til å lese dem, trekke ut tallene og bruke dem i samfunnsdebatten. 
 
-### 3. Forskjellen på et medium og et arkiv
-Når lokalpresse eller andre stiller spørsmål ved hvem som «svarer for innholdet» på et privat nettsted, skyldes det gjerne en sammenblanding av roller:
-- En **avis** driver med journalistisk virksomhet, har abonnenter, mottar pressestøtte og er bundet av Vær Varsom-plakaten og redaktøransvar.
-- Et **informasjonsarkiv** (som iByn) fungerer mer som en digital oppslagstavle eller et privat kildearkiv, der formålet utelukkende er å tilgjengeliggjøre allerede offentlige dokumenter på en strukturert måte for lokalsamfunnet.
+Utfordringen er at de færreste har tid til å pløye gjennom tunge saksfremlegg på egen hånd. **iByn** bruker moderne språkteknologi (kunstig intelligens) som et arbeidsverktøy for å lese, oppsummere og sette disse offentlige dokumentene i system – men det er alltid de faktiske, offentlige rapportene som ligger i bunn.
 
-### 4. Konklusjon
-Retten til å ta i bruk moderne teknologi for å lese, strukturere og publisere offentlige saksdokumenter er en integrert del av det norske ytringsfrihetsvernets kjerne. Enhver borger har anledning til å drive private informasjonsarkiver uten at det kreves tillatelse fra lokalpressen, og uten at utgiveren plikter å la seg avhøre om sine private teknologivalg.
+### 3. Et uavhengig arkiv, ikke et mediehus
+**iByn** har ingen abonnenter, ingen annonseinntekter og mottar ingen pressestøtte. Det er et privat, ikke-kommersielt prosjekt drevet på ideell basis. 
 
----
+I Norge står ytrings- og informasjonsfriheten (**Grunnloven § 100**) sterkt. Det er fullt lovlig å være engasjert på vegne av hjemstedet sitt. Man trenger verken redaktørplakat eller tillatelse fra etablerte mediehus for å oppsummere offentlige sakspapirer på en nettside, og man har heller ingen plikt til å svare på hendvendelser fra  lokalaviser.
 
-### Kildeliste og rettslig grunnlag
-- **Kongeriket Norges Grunnlov (1814)** – Særlig § 100 om ytringsfrihet, informasjonsfrihet og retten til å sjekke forvaltningen.
-- **Lov om rett til innsyn i dokument i offentleg verksemd (Offentleglova / LOV-2006-05-19-16)** – Særlig § 3 (hovedregelen om innsynsrett) og § 4 (virkkeområde).
-- **Straffeloven (LOV-2005-05-20-28)** – Særlig kapittel 24 om vern av den personlige frihet og fred.
-- **Skadeerstatningsloven (LOV-1969-06-13-26)** – Særlig bestemmelser om erstatnsningsansvar ved ærekrenkelser og krenkelse av privatlivets fred.
+### 4. Kildekontroll og åpenhet om feil
+Selv om vi har et tydelig lokalt ståsted og bruker dataverktøy til å strukturere store tekstmengder, skal faktagrunnlaget være etterrettelig. Artiklene bygger alltid på navngitte, åpne kilder som hvem som helst kan kontrollere.
+
+Skulle det likevel snike seg inn en regnefeil eller en unøyaktig formulering i en oppsummering, ønsker vi å rette det så raskt som mulig. Derfor har vi en åpen kontaktadresse nederst på siden der hvem som helst kan melde fra om feil i tallgrunnlaget.
+
+Målet med **iByn** er å bidra med fakta, dokumentasjon og et tydelig lokalt blikk i debatten om Mosjøen og Vefsn.
