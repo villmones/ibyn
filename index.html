@@ -988,7 +988,8 @@
                             <h2><a href="${targetUrl}" ${targetAttr} class="article-link">${art.title}${icon}</a></h2>
                             ${summaryText ? `<p class="ingress">${summaryText}</p>` : ''}
                         </div>
-                        ${art.date ? `<div class="byline">🤖 <span style="color: var(--accent-color); font-weight: 700;">GENERERT AV KI-JOURNALIST</span> &bull; Publisert ${formatNorwegianDate(art.date)}</div>` : ''}
+                        ${art.date ? `<div class="byline">🤖 <span style="color: var(--accent-color); font-weight: 700;"><a href="/ki-journalisten" onclick="navigateTo('/ki-journalisten'); return false;" style="color: var(--accent-color); text-decoration: none; font-weight: bold;">
+    🤖 MØT VÅR KI-JOURNALIST</a></span> &bull; Publisert ${formatNorwegianDate(art.date)}</div>` : ''}
                     </div>
                 </article>
             `;
@@ -1143,6 +1144,46 @@
                 </article>
             `;
         }
+
+        function renderKiPage() {
+    const fullContainer = document.getElementById('full-article-container');
+    document.title = 'Møt KI-journalisten – iByn';
+
+    fullContainer.innerHTML = `
+        <article class="full-article">
+            <div class="full-article-inner">
+                <span class="kicker">BAK KULISSENE</span>
+                <h1>Møt iByns utrettelige KI-journalist</h1>
+                
+                <div style="text-align: center; margin: 2rem 0;">
+                    <!-- Her legger du inn det humoristiske bildet når Argon fungerer igjen -->
+                    <img src="/images/ki-robot-journalist.jpg" alt="En illustrasjon av en robot med Vefsn-briller og skrivemaskin" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 0.5rem;">Vår kjære medarbeider i dyp konsentrasjon over postjournalen.</p>
+                </div>
+
+                <div class="article-body">
+                    <p>Lokalpressen har spurt hvem som egentlig står bak artiklene her på <strong>iByn</strong>. Svaret er at vi har ansatt en kunstig intelligens – en såkalt stor språkmodell – som tar seg av det tyngste grovarbeidet.</p>
+                    
+                    <h3>Hva gjør KI-journalisten?</h3>
+                    <p>Mens vanlige folk sover, er på jobb eller går tur på Korgfjellet, sitter KI-journalisten vår og tygger seg gjennom hundrevis av sider med knusktørre PDF-dokumenter, kommunale budsjetter og styrepapirer fra helseforetak. Den klager aldri på overtid, drikker ikke kaffe, og har en innebygd algoritme for å trekke ut de viktigste tallene og vedtakene på sekunder.</p>
+                    
+                    <h3>Alltid med Vefsn-brillene på</h3>
+                    <p>Denne digitale medarbeideren er programmert med én tydelig instruks: <em>Les alt med Vefsn-briller på.</em> Der andre kanskje ser nøytrale regionale vedtak, leter vår KI alltid etter hva tallene betyr for innbyggerne i Mosjøen og omegn.</p>
+
+                    <h3>Ingen konkurrent til lokalavisa</h3>
+                    <p>Vår KI-journalist fryser aldri utenfor rådhuset for å jakte på kommentarer, ringer aldri ned lokalpolitikere, og selger ingen annonser. Dette er et rent teknologisk testprosjekt og et supplement til de ekte avisene. Formålet er rett og slett å gjøre tunge offentlige dokumenter litt lettere å lese for folk flest.</p>
+                    
+                    <p><em>Skulle KI-en ha regnet feil på en million eller to i en oppsummering, er det bare å sende oss en e-post. Selv roboter kan ha en dårlig dag på jobben!</em></p>
+                </div>
+            </div>
+        </article>
+    `;
+    
+    document.getElementById('news-grid').style.display = 'none';
+    document.getElementById('category-filter').style.display = 'none';
+    fullContainer.style.display = 'block';
+    window.scrollTo(0, 0);
+}
 
         function renderSingleArticle(slug, articleObj = null) {
             const article = articleObj || allArticles.find(a => a.slug === slug);
