@@ -25,7 +25,7 @@ Der andre aktører i regionen naturlig nok ser sakene fra sitt eget ståsted på
 ### 3. Et uavhengig arkiv, ikke et mediehus
 **iByn** har ingen abonnenter, ingen annonseinntekter og mottar ingen pressestøtte. Det er ikke et mediehus, men et privat, ikke-kommersielt eksperiment.
 
-I Norge står ytrings- og informasjonsfriheten (**Grunnloven § 100**) sterkt. Det er fullt lovlig å være engasjert på vegne av hjemstedet sitt. Man trenger verken redaktørplakat eller tillatelse fra etablerte mediehus for å teste ut teknologi på offentlige sakspapirer, og man har heller ingen plikt til å stille til intervju når pressen ringer.
+I Norge står ytrings- og informasjonsfriheten (**Grunnloven § 100**) sterkt. Det er fullt lovlig å være engasjert på vegne av hjemstedet sitt. Man trenger verken redaktørplakat eller tillatelse fra etablerte mediehus for å teste ut teknologi på offentlige sakspapirer, og man har heller ingen plikt til å svare pressen.
 
 ### 4. Kildekontroll i en prøvefase
 Akkurat fordi dette er et eksperiment som bruker dataverktøy til å strukturere store tekstmengder, er åpenhet om feil ekstra viktig. Artiklene bygger alltid på navngitte, offentlige kilder som hvem som helst kan kontrollere.
