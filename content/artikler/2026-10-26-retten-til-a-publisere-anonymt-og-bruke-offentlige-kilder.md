@@ -33,3 +33,11 @@ Akkurat fordi dette er et eksperiment som bruker dataverktøy til å strukturere
 Skulle teknologien regne feil eller produsere en unøyaktig formulering, ønsker vi å rette det raskt. Derfor finnes det en åpen kontaktadresse nederst på siden der alle kan melde fra om feil i faktagrunnlaget.
 
 Målet med **iByn** er å teste teknologiens muligheter, og samtidig bidra med fakta og et tydelig lokalt blikk i debatten om Mosjøen og Vefsn.
+
+---
+
+### Kildeliste og rettslig grunnlag for testprosjektet
+- **Kongeriket Norges Grunnlov (1814)** – Særlig § 100 om ytrings- og informasjonsfrihet.
+- **Lov om rett til innsyn i dokument i offentleg verksemd (Offentleglova / LOV-2006-05-19-16)** – Særlig §§ 2, 3 (innsynsrett) og 7 (bruk av offentlig informasjon).
+- **Personopplysningsloven (LOV-2018-06-15-38)** – Særlig § 3 om forholdet til ytrings- og informasjonsfriheten.
+- **Medieansvarsloven (LOV-2020-05-29-59)** – Avgrensning av virkeområde (§ 2) for prosjekter som faller utenfor lovens krav til redaktør og opplysningsplikt.
