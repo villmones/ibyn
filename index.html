@@ -755,6 +755,43 @@
     </footer>
 
     <script>
+        // NØDBRYTER: Sett til true for å vise stengt-melding og skjule alle artikler
+        const SITE_OFFLINE = false;
+
+        if (SITE_OFFLINE) {
+            document.addEventListener('DOMContentLoaded', () => {
+                updatePaperDateline();
+                fetchWeather();
+                const catNav = document.getElementById('category-nav');
+                if (catNav) catNav.style.display = 'none';
+                
+                document.querySelector('main').innerHTML = `
+                    <article class="full-article" style="max-width: 760px; margin: 3rem auto;">
+                        <div class="full-article-inner">
+                            <span class="kicker">DRIFTSMELDING &bull; MIDLERTIDIG STENGT</span>
+                            <h1 style="font-size: 2.1rem; margin-bottom: 1.2rem;">Når lokalpressen blir mer opptatt av budbringeren enn av sakene</h1>
+                            <div class="article-body" style="margin-top: 1rem; padding-top: 1.2rem;">
+                                <p><strong>iByn.no</strong> ble opprettet som et privat, uavhengig eksperiment for å se hva som skjer når man lar moderne språkteknologi lese, strukturere og oppsummere offentlige saksdokumenter, postjournaler og åpne tall fra Mosjøen og Vefsn.</p>
+                                
+                                <p>Det tok nøyaktig elleve saker før etablerte medier på Helgeland fant ut at den viktigste gravejournalistikken ikke handler om kommunal pengebruk, vedtak eller offentlig forvaltning – men om å kartlegge og avhøre privatpersonen som har dristet seg til å sette strøm på et tekstdokument uten redaktørplakat.</p>
+
+                                <blockquote style="border-left: 4px solid var(--accent-color); padding: 0.8rem 1.2rem; margin: 1.5rem 0; background: #f8fafc; font-style: italic; color: #334155;">
+                                    «Kan du forklare hva en KI-journalist er for noe? Og hvem svarer for at offentlige saksdokumenter gjengis på internett?»
+                                </blockquote>
+
+                                <p>For å skåne Helgelands redaksjoner for ytterligere nattesøvn-tap over nymotens edb-teknologi og uautorisert lesing av offentlige postjournaler, tar <strong>iByn.no</strong> herved en pause fra offentligheten.</p>
+
+                                <p style="margin-bottom: 0; color: var(--muted-color); font-size: 0.95rem;">
+                                    Offentlige saksdokumenter ligger heldigvis fortsatt fritt tilgjengelig i kommunens arkiver – helt gratis – for de som måtte ønske å lese dem selv.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                `;
+            });
+            throw new Error("Site intentionally offline.");
+        }
+
         const GITHUB_OWNER = 'villmones';
         const GITHUB_REPO = 'ibyn';
         const ARTICLES_PATH = 'content/artikler';
