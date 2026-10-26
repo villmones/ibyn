@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "🏥Tidslinjen om ambulansestasjonen i Mosjøen (2022–2026): Fra
   Arbeidstilsynets pålegg til «90 cm-konflikten»"
 summary: Saken om ny ambulansestasjon i Mosjøen har i over fire år vært preget
