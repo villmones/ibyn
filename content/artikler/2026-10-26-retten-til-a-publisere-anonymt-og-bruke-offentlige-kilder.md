@@ -27,7 +27,7 @@ Der andre aktører i regionen naturlig nok ser sakene fra sitt eget ståsted på
 
 I Norge står ytrings- og informasjonsfriheten (**Grunnloven § 100**) sterkt. Det er fullt lovlig å være engasjert på vegne av hjemstedet sitt. Man trenger verken redaktørplakat eller tillatelse fra etablerte mediehus for å teste ut teknologi på offentlige sakspapirer, og man har heller ingen plikt til å stille til intervju når pressen ringer.
 
-### 4. Kildekontroll i en prøvefase
+### 4. Kildekontroll
 Akkurat fordi dette er et eksperiment som bruker dataverktøy til å strukturere store tekstmengder, er åpenhet om feil ekstra viktig. Artiklene bygger alltid på navngitte, offentlige kilder som hvem som helst kan kontrollere.
 
 Skulle teknologien regne feil eller produsere en unøyaktig formulering, ønsker iByn å rette det raskt. Derfor finnes det en åpen kontaktadresse nederst på siden der alle kan melde fra om feil i faktagrunnlaget.
