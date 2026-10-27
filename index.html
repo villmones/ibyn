@@ -628,7 +628,21 @@
 
         @media (max-width: 900px) {
             .newspaper-layout {
-                grid-template-columns: 1fr;
+                display: flex;
+                flex-direction: column;
+            }
+            .left-two-columns {
+                display: contents; /* Dette "pakker ut" boksen på mobil */
+            }
+            .lead-story {
+                order: 1; /* Hovedsaken ligger øverst */
+            }
+            .newspaper-layout > .article-column {
+                order: 2; /* Høyrespalten (sak 2 og 3) tvinges opp rett under hovedsaken */
+            }
+            .left-sub-columns {
+                order: 3; /* De eldre sakene legges nederst */
+                width: 100%; 
             }
             .header-widgets {
                 position: static;
