@@ -27,7 +27,7 @@ Under den muntlige behandlingen av sak 87-2026 (*Investeringsplan 2027–2029*) 
 * **Begrunnelsen fra sykehusledelsen:**  
   * Ledelsen forklarte kuttet med at akutte utstyrshavari rammer foretaket hardt. Hittil i år har utstyr med innkjøpsverdi på **22 millioner kroner** havarert, og reparasjoner har koste **13 millioner kroner** (mot et årsbudsjett på 10 mill. kr).
   * Eiendomsdirektør Bjørn Bech-Hanssen uttalte direkte i styremøtet at oppussingen av operasjonsstuen i Mosjøen var *«det siste vi klarte å presse inn»* utenom de strengeste prioriteringskriteriene, og at det derfor var *«det første som går ut»* når havariene oppstår.
-* **Konsekvenser for lokalbefolkningen i Vefsn:**  
+* **Konsekvenser for sykehuset i Mosjøen:**  
   * I praksis betyr vedtaket at den nødvendige fornyelsen av operasjonsstuen i Mosjøen stanses på ubestemt tid. Sykehuset i Mosjøen mister dermed oppgraderingen av sine fasiliteter for dagkirurgiske og polikliniske inngrep, mens det innkjøpte utstyret forblir ubrukt på lager.
 
 ---
