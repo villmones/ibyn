@@ -2,14 +2,14 @@
 draft: false
 title: Kutt i operasjonsstua i Mosjøen, fullstendig vikarstopp og stramt
   overskuddskrav for 2027
-summary: Lydutskriften fra Helgelandssykehusets styremøte 28. oktober 2026
-  avdekker en krevende økonomisk situasjon der styret vedtok å inndra 4,5
-  millioner kroner fra operasjonsstuen i Mosjøen for å dekke akutte
-  bygningshavarier. Samtidig gjennomføres en hard stopp i vikarinnleie for
-  sykepleiere som ifølge sykehusledelsen «har truffet nerver i organisasjonen».
-  Med en forventet resultatprognose på -40 millioner kroner i 2026 og et nytt
-  resultatkrav fra Helse Nord RHF på +25 millioner kroner i overskudd i 2027,
-  står sykehusdriften overfor betydelige omstillingskrav.
+summary: Helgelandssykehusets styremøte 28. oktober 2026 avdekker en krevende
+  økonomisk situasjon der styret vedtok å inndra 4,5 millioner kroner fra
+  operasjonsstuen i Mosjøen for å dekke akutte bygningshavarier. Samtidig
+  gjennomføres en hard stopp i vikarinnleie for sykepleiere som ifølge
+  sykehusledelsen «har truffet nerver i organisasjonen». Med en forventet
+  resultatprognose på -40 millioner kroner i 2026 og et nytt resultatkrav fra
+  Helse Nord RHF på +25 millioner kroner i overskudd i 2027, står sykehusdriften
+  overfor betydelige omstillingskrav.
 image: /images/operasjonsstue_kutt_symbol_tegning.png
 kicker: HELSE
 date: 2026-10-28
