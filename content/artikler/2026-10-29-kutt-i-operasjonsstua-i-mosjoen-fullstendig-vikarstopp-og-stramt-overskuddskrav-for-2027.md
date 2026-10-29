@@ -9,7 +9,7 @@ summary: "** Lydutskriften fra Helgelandssykehusets styremøte 28. oktober 2026
   sykepleiere som ifølge sykehusledelsen «har truffet nerver i organisasjonen».
   Med en forventet resultatprognose på -40 millioner kroner i 2026 og et nytt
   resultatkrav fra Helse Nord RHF på +25 millioner kroner i overskudd i 2027,
-  står sykehusdriften overfor betydelige omstillingskrav.**"
+  står sykehusdriften overfor betydelige omstillingskrav. **"
 image: /images/operasjonsstue_kutt_symbol_tegning.png
 kicker: HELSE
 date: 2026-10-28
