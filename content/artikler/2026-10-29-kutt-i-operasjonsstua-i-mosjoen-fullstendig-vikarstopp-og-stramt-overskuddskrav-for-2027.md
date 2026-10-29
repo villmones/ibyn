@@ -21,7 +21,7 @@ Under den muntlige behandlingen av sak 87-2026 (*Investeringsplan 2027–2029*) 
 * **4,5 millioner kroner kuttet i Mosjøen:**  
   * Styret vedtok å flytte **4,5 millioner kroner** som opprinnelig var øremerket til oppgradering av operasjonsstuen ved sykehuset i Mosjøen. Midlene overføres i sin helhet til «havaripotten for bygningsmasse».
 * **Innkjøpt utstyr blir liggende ubrukt på lager:**  
-  * Medisinteknisk utstyr, inkludert **takpendler**, allerede er kjøpt inn til operasjonsstuen i Mosjøen, men har blitt liggende lagret over lang tid fordi oppussingen og ferdigstillingen av operasjonsstuen kontinuerlig er forskjøvet, som det fremgår i  ** skriftlige saksunderlaget til styresak 87-2026**
+  * Medisinteknisk utstyr, inkludert **takpendler**, allerede er kjøpt inn til operasjonsstuen i Mosjøen, men har blitt liggende lagret over lang tid fordi oppussingen og ferdigstillingen av operasjonsstuen kontinuerlig er forskjøvet, som det fremgår i  ** skriftlige saksunderlaget til styresak 87-2026 **
 * **7,4 millioner kroner kuttet i Sandnessjøen:**  
   * Samtidig overføres **7,4 millioner kroner** fra ny skadelab/gjennomlysningslab i Sandnessjøen til «havaripotten for medisinteknisk utstyr (MTU)».
 * **Begrunnelsen fra sykehusledelsen:**  
