@@ -2,7 +2,7 @@
 draft: false
 title: Kutt i operasjonsstua i Mosjøen, fullstendig vikarstopp og stramt
   overskuddskrav for 2027
-summary: "**Lydutskriften fra Helgelandssykehusets styremøte 28. oktober 2026
+summary: "** Lydutskriften fra Helgelandssykehusets styremøte 28. oktober 2026
   avdekker en krevende økonomisk situasjon der styret vedtok å inndra 4,5
   millioner kroner fra operasjonsstuen i Mosjøen for å dekke akutte
   bygningshavarier. Samtidig gjennomføres en hard stopp i vikarinnleie for
