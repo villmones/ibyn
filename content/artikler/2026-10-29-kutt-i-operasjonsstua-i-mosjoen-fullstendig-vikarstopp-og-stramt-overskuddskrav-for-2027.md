@@ -85,4 +85,4 @@ Artikkelen er utelukkende basert på følgende offisielle styredokumenter og mø
 
 * **Møtetranskripsjon / Lydutskrift:** *HSYK Styremøte 28\. oktober 2026* (Transkripsjon av den muntlige behandlingen, orienteringene og debatten i styremøtet 28.10.2026).
 * **Virksomhetsrapport:** *20261028-styresak-86-virksomhetsrapport-pr-september-2026-inkl-vedlegg.pdf* (Helgelandssykehuset HF, Styresak 86-2026 behandlet 28.10.2026).
-* **Investeringsplan:** *Styresakarkiv\_fordelt\_på\_år\_Helgelandssykehuset\_2026.pdf* / Styresak 87-2026 *Investeringsplan 2027–2029* (Helgelandssykehuset HF, behandlet 28.10.2026).
+* **Investeringsplan:** Styresak 87-2026 *Investeringsplan 2027–2029* (Helgelandssykehuset HF, behandlet 28.10.2026).
