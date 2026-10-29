@@ -12,7 +12,7 @@ summary: "** Lydutskriften fra Helgelandssykehusets styremøte 28. oktober 2026
   står sykehusdriften overfor betydelige omstillingskrav.**"
 image: /images/operasjonsstue_kutt_symbol_tegning.png
 kicker: HELSE
-date: 2026-10-29
+date: 2026-10-28
 ---
 ### 1\. Investeringsbudsjett 2027 (Sak 87-2026): Kutt i Mosjøen og utstyr som støver ned på lager
 
