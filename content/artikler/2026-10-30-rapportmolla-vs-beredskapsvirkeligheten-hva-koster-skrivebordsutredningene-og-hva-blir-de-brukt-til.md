@@ -78,10 +78,11 @@ På Helgeland har etableringen av Vefsna Helseklynge og den felles kommunale/spe
 
 Spennet mellom ressursbruken på utredningsfaget og ressursene som stilles til rådighet for faktiske helsetjenester reiser en alvorlig helseøkonomisk og samfunnsmessig problemstilling.
 
-| Sektor / Innsatsområde | Beskrivelse og Økonomisk Omfang | Konkrete Konsekvenser for Lokalsamfunnet |
-| :--- | :--- | :--- |
-| **Utrednings- og Konsulentsektoren** | Hundrevis av nasjonale og regionale rapporter utarbeides årlig av selskaper som Deloitte, Menon, Oslo Economics og konsulentutvalg for hundrevis av millioner kroner. | Årelange konseptfaser, konsulentutredninger og teoretiske beredskapsmodeller som ofte stopper opp eller ender i arkiver uten fysisk gjennomføring. |
-| **Operativ Akuttberedskap i Distriktene** | Kutt i mindre, lokalmedisinske investeringsrammer for å dekke løpende underskudd (-40 mill. kr i HSYK i 2026) og akuttskader. | Inndragning av 4,5 mill. kr til operasjonsstue i Mosjøen, stoppet ny ambulansestasjon (35 mill. kr) og lapping på 962 mill. kr i akkumulert vedlikeholdsetterslep. |
+*  Utrednings- og konsulentsektoren
+Hundrevis av nasjonale og regionale rapporter utarbeides årlig av selskaper som Deloitte, Menon, Oslo Economics og ulike konsulentutvalg for hundrevis av millioner kroner. Konsekvensen for lokalsamfunnet er årelange konseptfaser, konsulentutredninger og teoretiske beredskapsmodeller som ofte stopper opp eller ender i arkiver uten fysisk gjennomføring.
+
+*  Operativ akuttberedskap i distriktene
+Det gjøres kutt i mindre, lokalmedisinske investeringsrammer for å dekke løpende underskudd (eksempelvis 40 millioner kroner i Helgelandssykehuset HF i 2026) og akuttskader. Dette fører til konkrete konsekvenser som inndragning av 4,5 millioner kroner til operasjonsstue i Mosjøen, en stanset ny ambulansestasjon til 35 millioner kroner, og lapping på et akkumulert vedlikeholdsetterslep på 962 millioner kroner.
 
 ### Hva koster utredningsindustrien?
 
@@ -106,7 +107,7 @@ Svaret på spørsmålet om offentlige rapporter har reell verdi eller bare ender
 
 Å produsere utredninger har blitt en form for politisk og administrativ lynavleder. Det koster samfunnet betydelige summer i konsulentutgifter og byråkratisk tidsbruk å skrive rapporter. Hvis konklusjonene i disse rapportene blir liggende i skuffer mens den reelle akuttberedskapen, operasjonsstuene og ambulansestasjonene i distriktene kuttes for å spare småbeløp, har rapportene lav samfunnsnytte.
 
-Skal utredningene ha reell verdi, må statlige myndigheter, Helse Nord og Helgelandssykehuset begynne å følge sine egne rapporter: Sikre den sivile beredskapen i kritiske knutepunkt som Vefsn, beskytte den arbeidsplassskapende prosessindustrien, og prioritere finansiering til levende akutt- og helsetjenester fremfor uendelige runder med ny papirutredning.
+Skal utredningene ha reell verdi, må statlige myndigheter, Helse Nord og Helgelandssykehuset begynne å følge sine egne rapporter: Sikre den sivile beredskapen i kritiske knutepunkt som Vefsn, beskytte den arbeidsplassskapende prosessindustrien, og prioritere finansiering til levende akutt- og helsetjenester fremfor uendelige runder med nye kutt.
 
 ## Kilder og Dokumentgrunnlag
 
