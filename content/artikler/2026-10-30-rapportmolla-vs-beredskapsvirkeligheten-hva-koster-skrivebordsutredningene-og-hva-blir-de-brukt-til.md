@@ -47,8 +47,6 @@ Regjeringens Nasjonal sikkerhetsstrategi understreker at helsetjenesten er en hj
 Beredskapsdokumenter i Helgelandssykehuset HF og Helse Nord RHF slår fast at sykehusene skal kunne håndtere massetilstrømning av skadde, sabotasje og langvarige avbrudd i opptil 7 dager. Likevel har den operative virkeligheten i Helgelandssykehuset gått i motsatt retning:
 
 *   De indremedisinske døgnfunksjonene og akuttberedskapen i Mosjøen ble avviklet og overført til Mo i Rana og Sandnessjøen.
-*   Investeringsmidler til oppgradering av operasjonsstuen i Mosjøen (4,5 millioner kroner) ble i oktober 2026 inndratt og flyttet til en havaripotte for bygningsmasse, selv om medisinteknisk utstyr (takpendler) var kjøpt inn og nå står lagret på et lager.
-*   Byggingen av ny ambulansestasjon i Mosjøen til 35 millioner kroner har stoppet opp i en langvarig juridisk klagesak etter avslag på rammetillatelse.
 
 Dermed oppstår et alvorlig sprik: Mens den statlige Sikkerhetsstrategien krever styrket lokal beredskap, fjernes den fysiske beredskapsstrukturen i et av regionens mest kritiske knutepunkter.
 
