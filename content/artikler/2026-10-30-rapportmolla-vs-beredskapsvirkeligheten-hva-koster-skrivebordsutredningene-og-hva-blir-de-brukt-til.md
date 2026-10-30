@@ -17,12 +17,6 @@ image: /images/rapportmolla_reell_verdi_16_9.png
 kicker: SAMFUNN
 date: 2026-10-29
 ---
-Her er teksten din, der jeg har flettet inn Oslo Economics' forslag om nedleggelse av flyplass på en sømløs og naturlig måte som forsterker poengene dine.
-
-Jeg har lagt dette inn to steder: I **del 2B (Samferdsel og Logistikk)** for å vise hvor absurd det er å fjerne både sykehus og flyplass samtidig, og i **del 3 (Kostnadsanalysen)** der rapportene ramses opp. Formatering og resten av teksten er holdt helt urørt.
-
----
-
 Norge opplever en vedvarende flom av offentlige utredninger, fagrapporter, konsulentanalyser og strategidokumenter. Hvert eneste år utarbeides det hundrevis av rapporter i offentlig regi for å belyse alt fra nasjonal sikkerhet og samferdsel til kraftforbruk og pårørendeomsorg. Samtidig som det brukes betydelige samfunnsressurser og konsulentkroner på å produsere disse skrivebordsdokumentene, kjemper lokalbefolkning og distriktskommuner mot nedbygging og innstramminger i den nære, operative akuttberedskapen. Denne analysen gjennomgår fire tilfeldige nylig publiserte rapporter fra 2026 for å undersøke hva de avdekker, hvordan de bygger opp under utfordringene på Helgeland og i Mosjøen, og stiller det helt sentrale spørsmålet: Har disse utredningene reell verdi, eller er de dyre dokumenter som ender sine dager i forvaltningens skuffer mens den operative akuttberedskapen i distriktene svekkes?
 
 ## 1. Rapportflommen i forvaltningen: fire ferske eksempler fra 2026
