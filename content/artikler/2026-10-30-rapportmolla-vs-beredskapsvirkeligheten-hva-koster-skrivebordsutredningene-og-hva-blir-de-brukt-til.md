@@ -1,7 +1,7 @@
 ---
 draft: false
-title: "Rapportmølla vs. Beredskapsvirkeligheten: Hva Koster
-  Skrivebordsutredningene og hva blir de brukt til?"
+title: "Rapportmølla vs. Beredskapsvirkeligheten: Hva koster
+  skrivebordsutredningene og hva blir de brukt til?"
 summary: Norge opplever en vedvarende flom av offentlige utredninger,
   fagrapporter, konsulentanalyser og strategidokumenter. Hvert eneste år
   utarbeides det hundrevis av rapporter i offentlig regi for å belyse alt fra
