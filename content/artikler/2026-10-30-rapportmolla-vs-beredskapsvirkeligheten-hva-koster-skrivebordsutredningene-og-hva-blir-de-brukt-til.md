@@ -67,7 +67,7 @@ Menon Economics sin rapport om datasentre gir svært viktige tall for industrire
 * Tradisjonell metallurgisk industri (som Alcoa Mosjøen) gir til sammenligning 3,4 årsverk per MW – altså mer enn dobbelt så mange direkte arbeidsplasser per kraftenhet.
 * Kjemisk industri gir over 10 årsverk per MW.
 
-Slike analyser har stor verdi når kommuner og kraftselskaper skal prioritere knapp fornybar kraft. Vefsn kommune har sterk industriell vekst og er den eneste av sykehusbyene på Helgeland som har registrert netto befolkningsvekst (+234 innbyggere på fem år, mens Rana har hatt nedgang). Likevel ser man at statlige beslutningsprosesser ofte favoriserer opprettelsen av nye, kraftkrevende datakonsern fremfor å trygge infrastrukturen rundt den etablerte prosessindustrien som faktisk skaper lokalt bosettingsgrunnlag.
+Slike analyser har stor verdi når kommuner og kraftselskaper skal prioritere knapp fornybar kraft. Vefsn kommune har sterk industriell vekst og er den eneste av sykehusbyene på Helgeland som har registrert netto befolkningsvekst (+234 innbyggere på 4 år). Likevel ser man at statlige beslutningsprosesser ofte favoriserer opprettelsen av nye, kraftkrevende datakonsern fremfor å trygge infrastrukturen rundt den etablerte prosessindustrien som faktisk skaper lokalt bosettingsgrunnlag.
 
 D. Pårørendeomsorg: Oppgaveoverføring Uten Støtteapparat
 
