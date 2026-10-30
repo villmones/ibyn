@@ -130,3 +130,4 @@ Skal utredningene ha reell verdi, må statlige myndigheter, Helse Nord og Helgel
 * Rapport 4: Pårørendeundersøkelsen IVARETATT? – Nasjonale funn 2026, USHT Innlandet Oppland / Senter for omsorgsforskning øst (2026)
 * Helgelandssykehuset HF: Virksomhetsrapport per september 2026 (Styresak 86-2026), Investeringsplan 2027–2029 (Styresak 87-2026), og Styremøteutskrift 28. oktober 2026
 * Utredningshistorikk Helgeland: Rapport fra Ekstern ressursgruppe (2019), Oslo Economics lokaliseringsanalyse inkl. vurdering av lufthavnstruktur (2019)
+* Forslag til offentlige kjøp av flyruter i Nord-Norge (2026), Oslo Economics
