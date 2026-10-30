@@ -38,7 +38,7 @@ For å illustrere det enorme omfanget og bredden i offentlige rapportutgivelser 
 
 ## 2. Hva rapportene avdekker – og hvordan de belyser virkeligheten på Helgeland
 
-Når man studerer disse fire rapportene samlet, oppstår det et slående bilde: De faglige konklusjonene på nasjonalt nivå underbygger i stor grad de argumentene som lokalbefolkningen og fagmiljøene på Helgeland har fremført i åratal. Likevel opplever lokalsamfunnene at statlige og regionale myndigheter handler i direkte strid med rapportenes egne anbefalinger.
+Når man studerer disse fire rapportene samlet, oppstår det et slående bilde: De faglige konklusjonene på nasjonalt nivå underbygger i stor grad de argumentene som lokalbefolkningen og fagmiljøene på Helgeland har fremført i åresvis. Likevel opplever lokalsamfunnene at statlige og regionale myndigheter handler i direkte strid med rapportenes egne anbefalinger.
 
 ### A. Totalforsvar og beredskap vs. HSYKs nedbygging i Vefsn
 
