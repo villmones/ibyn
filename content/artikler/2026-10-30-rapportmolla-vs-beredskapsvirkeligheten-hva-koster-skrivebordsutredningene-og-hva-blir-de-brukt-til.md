@@ -93,7 +93,7 @@ Det helseøkonomiske paradokset
 
 Samfunnet bruker betydelige beløp på å utrede, analysere og dokumentere at beredskapen må styrkes, at pårørende er overbelastet, og at transportkorridorene er sårbare. Samtidig kuttes det i millionklassen på de faktiske, operative tilbudene i lokalsamfunnene fordi helseforetakene mangler driftsmidler.
 
-** 4. Konklusjon: Har Rapportene Verdi – Eller Ender De i Skuffen? **
+4. Konklusjon: Har Rapportene Verdi – Eller Ender De i Skuffen?
 
 Svaret på spørsmålet om offentlige rapporter har reell verdi eller bare ender som skuffefyll, er sammensatt, men avdekker et alvorlig forvaltningsproblem:
 
