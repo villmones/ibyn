@@ -90,19 +90,9 @@ Gjennom de siste tiårenes helseforetaksreform og offentlige omstillingsprosesse
 * I sykehussaken på Helgeland alene har det fra 2018 til 2026 vært gjennomført et uvanlig høyt antall eksterne utredninger: Rapport fra Ekstern Ressursgruppe (2019), Oslo Economics sin lokaliserings- og transportanalyse, Deloittes bæreevne- og kapasitetsanalyser, COWI og UiNs reisetidsmodeller, i tillegg til uttalige interne utvalg, høringsrunder og konseptfaser.
 * De samlede honorarene og interne ressursene brukt på konsulenter, utvalgsarbeid, prosjektsekretariater og styrebehandlinger i HSYK-saken beløper seg til tialls millioner kroner. På nasjonalt nivå bruker staten og helseforetakene hundrevis av millioner kroner årlig på eksterne konsulentrapporter.
 
-Hva koster den lokale akuttberedskapen?
-
-Sammenligner man utredningskostnadene med de faktiske beløpene som skal til for å opprettholde eller oppgradere lokaltilbudene i distrikts-Norge, blir kontrasten slående:
-
-* Operasjonsstuen i Mosjøen: Innsparingen og omdisponeringen som sykehusstyret vedtok 28. oktober 2026 (Sak 87-2026) utgjorde 4,5 millioner kroner. For dette beskjedne beløpet – som tilsvarer prisen for et par eksterne konsulentrapporter – ble den fysiske oppgraderingen av operasjonsstuen stoppet, og innkjøpt medisinteknisk utstyr ble satt på lager.
-* Ambulansestasjonen i Mosjøen: Den prosjekterte nybyggingen av ambulansestasjonen i Mosjøen var rammesatt til 35 millioner kroner (5 mill. kr i 2025 og 30 mill. kr i 2026). Det er et beløp som drukner i helseforetakets samlede investeringsbudsjett, men som likevel stoppet opp i byråkratiske og juridiske prosesser.
-* Helgelandssykehusets driftstall: Helgelandssykehuset HF styrer mot et årsunderskudd på -40 millioner kroner i 2026 og kreves å levere et overskudd på +25 millioner kroner i 2027. Samtidig viser foretakets egne tall at det akkumulerte vedlikeholdsetterslepet på bygningsmassen i Rana, Sandnessjøen og Mosjøen utgjør 962 millioner kroner.
-
 Det helseøkonomiske paradokset
 
 Samfunnet bruker betydelige beløp på å utrede, analysere og dokumentere at beredskapen må styrkes, at pårørende er overbelastet, og at transportkorridorene er sårbare. Samtidig kuttes det i millionklassen på de faktiske, operative tilbudene i lokalsamfunnene fordi helseforetakene mangler driftsmidler.
-
-Når konsulenter honoreres med tialls millioner for å skrive rapporter som konkluderer med at "beredskapen må økes", mens sykehuset samtidig sparer 4,5 millioner kroner på å la en operasjonsstue stå ubrukt, har forvaltningen havnet i et dypt paradoks.
 
 4. Konklusjon: Har Rapportene Verdi – Eller Ender De i Skuffen?
 
