@@ -2,18 +2,17 @@
 draft: false
 title: "Rapportmølla vs. Beredskapsvirkeligheten: Hva Koster
   Skrivebordsutredningene og hva blir de brukt til?"
-summary: "Norge opplever en vedvarende flom av offentlige utredninger,
+summary: Norge opplever en vedvarende flom av offentlige utredninger,
   fagrapporter, konsulentanalyser og strategidokumenter. Hvert eneste år
   utarbeides det hundrevis av rapporter i offentlig regi for å belyse alt fra
   nasjonal sikkerhet og samferdsel til kraftforbruk og pårørendeomsorg. Samtidig
   som det brukes betydelige samfunnsressurser og konsulentkroner på å produsere
   disse skrivebordsdokumentene, kjemper lokalbefolkning og distriktskommuner mot
-  nedbygging og innstramminger i den nære, operative akuttberedskapen. Denne
-  analysen gjennomgår fire nylig publiserte rapporter fra 2026 for å undersøke
-  hva de avdekker, hvordan de bygger opp under utfordringene på Helgeland og i
-  Mosjøen, og stiller det helt sentrale spørsmålet: Har disse utredningene reell
-  verdi, eller er de dyre dokumenter som ender sine dager i forvaltningens
-  skuffer mens den operative akuttberedskapen i distriktene svekkes?"
+  nedbygging og innstramminger i den nære, operative akuttberedskapen. Fire
+  tilfeldige rapporter fra 2026 analyseres for å vurdere deres relevans for
+  Helgeland og Mosjøen. Hovedspørsmålet er om utredningene gir ekte verdi, eller
+  om de blir stuet bort i forvaltningen mens distriktenes akuttberedskap
+  svekkes.
 image: /images/rapportmolla_reell_verdi_16_9.png
 kicker: SAMFUNN
 date: 2026-10-29
