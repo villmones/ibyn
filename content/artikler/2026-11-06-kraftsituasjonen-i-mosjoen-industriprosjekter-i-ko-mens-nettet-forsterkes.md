@@ -24,7 +24,7 @@ Tall fra Statnetts områdeplan for Helgeland og Salten 2025 og Helgeland Krafts 
 
 Selv om industrien i Mosjøen har konkrete utvidelses- og omstillingsplaner, har det eksisterende transmisjonsnettet nådd kapasitetsgrensen:
 
-* **Null ledig kapasitet:** I henhold til KVU Helgeland 2024 er det per i dag null ledig nettkapasitet på ordinære vilkår (N-1) for nytt industrielt forbruk under Marka stasjon.
+* **Null ledig kapasitet:** I henhold til KVU (Konseptvalgutredningen) Helgeland 2024 er det per i dag null ledig nettkapasitet på ordinære vilkår (N-1) for nytt industrielt forbruk under Marka stasjon.
 * **Modne prosjekter i kø:** Statnetts kartlegging viser at det står totalt 1 100 MW i modne industriprosjekter i kapasitetskø under Marka:  
   * **285 MW** gjelder utvidelser innenfor etablert industri i Mosjøen.
   * **800 MW** er knyttet til det nye industriområdet i Holandsvika (15 km fra Mosjøen sentrum), avsatt til produksjon av hydrogen, ammoniakk og grønt drivstoff (e-fuel).
