@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "⚡Kraftsituasjonen i Mosjøen: Industriprosjekter i kø mens nettet forsterkes"
 summary: Statnetts energirapporter viser at Mosjøen står overfor en krevende
   nettsituasjon. Mens etablert industri og nye prosjekter i Holandsvika har
