@@ -7,6 +7,7 @@ summary: Statnetts energirapporter viser at Mosjøen står overfor en krevende
   dag fullt. Statnett har prioritert ny 420 kV-forbindelse til Mosjøen som
   første byggetrinn på Helgeland (2032), mens framtidig havvind ligger i et mer
   langsiktig perspektiv etter 2035.
+image: /images/energi_og_industri_mosjoen.png
 kicker: INDUSTRI
 date: 2026-11-06
 ---
