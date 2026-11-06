@@ -54,7 +54,7 @@ Statnetts energianalyser omtaler også muligheten for framtidig ilandføring av 
 
 ### 📌 Konklusjon
 
-Rapportene fra Statnett og Helgeland Kraft dokumenterer at de industrielle planene i Mosjøen og Holandsvika ligger fast, men at fremdriftslinjen styres av nettinvesteringene. Ny nettkapasitet til Mosjøen i Trinn 1 (2032) er det avgjørende første steget, etterfulgt av Sverige-forbindelsen i Trinn 2 (2034), mens eventuell havvindbygging tilhører det langsiktige bildet etter 2035.
+Rapportene fra Statnett og Helgeland Kraft dokumenterer at planene i Mosjøen og Holandsvika ligger fast, men at fremdriftslinjen styres av nettinvesteringene. Ny nettkapasitet til Mosjøen i Trinn 1 (2032) er det avgjørende første steget, etterfulgt av Sverige-forbindelsen i Trinn 2 (2034), mens eventuell havvindbygging tilhører det langsiktige bildet etter 2035.
 
 ---
 
