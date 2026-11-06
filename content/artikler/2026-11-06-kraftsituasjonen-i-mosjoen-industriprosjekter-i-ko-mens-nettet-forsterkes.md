@@ -1,10 +1,10 @@
 ---
 draft: true
 title: "⚡Kraftsituasjonen i Mosjøen: Industriprosjekter i kø mens nettet forsterkes"
-summary: Statnetts nyeste energirapporter viser at Mosjøen står overfor en
-  krevende nettsituasjon. Mens etablert industri og nye prosjekter i Holandsvika
-  har meldt inn store kapasitetsbehov, er nettet under Marka transmisjonsstasjon
-  i dag fullt. Statnett har prioritert ny 420 kV-forbindelse til Mosjøen som
+summary: Statnetts energirapporter viser at Mosjøen står overfor en krevende
+  nettsituasjon. Mens etablert industri og nye prosjekter i Holandsvika har
+  meldt inn store kapasitetsbehov, er nettet under Marka transmisjonsstasjon i
+  dag fullt. Statnett har prioritert ny 420 kV-forbindelse til Mosjøen som
   første byggetrinn på Helgeland (2032), mens framtidig havvind ligger i et mer
   langsiktig perspektiv etter 2035.
 kicker: INDUSTRI
