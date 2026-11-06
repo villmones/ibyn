@@ -35,7 +35,7 @@ Selv om industrien i Mosjøen har konkrete utvidelses- og omstillingsplaner, har
 
 For å møte tilknytningsbehovet har Statnett utarbeidet en trinnvis nettplan der Mosjøen-området er plassert fremst i utbyggingsrekkefølgen:
 
-* **Trinn 1 (2032) prioriteres før Rana:** I henhold til Statnetts *Områdeplan for Helgeland og Salten 2025* og *KVU Helgeland 2024* er det aller første tiltaket en ny 420 kV-ledning fra Nedre Røssåga, via Holandsvika, til Marka stasjon. Dette tiltaket er beregnet ferdigstilt rundt 2032 og vil tilføre Mosjøen-området 600 MW ny nettkapasitet samt etablere tresidig forsyning.
+* **Trinn 1 (2032) prioriteres før Rana:** I henhold til Statnetts *Områdeplan for Helgeland og Salten 2025* og *KVU Helgeland 2024* er det aller første tiltaket en ny 420 kV-ledning fra Nedre Røssåga, mulig via Holandsvika, til Marka stasjon. Dette tiltaket er beregnet ferdigstilt rundt 2032 og vil tilføre Mosjøen-området 600 MW ny nettkapasitet samt etablere tresidig forsyning.
 * **Trinn 2 (ca. 2034) – Spenningsoppgradering mot Sverige:** I *KVU Helgeland–Sverige 2026* utgjør det neste steget en oppgradering av 220 kV-ledningen Nedre Røssåga–Ajaure–Grundfors til 420 kV. Dette tiltaket øker overførings- og importkapasiteten fra Sverige inn til Helgeland med **700 MW**, noe som forsterker den regionale forsyningssikkerheten ytterligere.
 * **Trinn 3 – Utfordringer og utsettelse i Rana:** Tiltakene for å styrke nettet mot Mo i Rana ligger lenger ute i tid. Dette skyldes blant annet at spenningsflimmer fra stålindustrien (7 Steel Nordic, tidligere Celsa) i Svabo skaper tekniske utfordringer som må løses før transformeringskapasiteten der kan utnyttes mer effektivt.
 
