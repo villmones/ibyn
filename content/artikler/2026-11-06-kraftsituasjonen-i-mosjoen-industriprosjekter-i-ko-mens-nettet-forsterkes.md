@@ -16,7 +16,7 @@ date: 2026-11-06
 Tall fra Statnetts områdeplan for Helgeland og Salten 2025 og Helgeland Krafts virksomhetsrapporter viser at Mosjøen utgjør tyngdepunktet i regionens kraftsystem:
 
 * **Dominerer kraftforbruket:** Marka transmisjonsnettstasjon i Mosjøen forsyner byens tunge industri, med aluminiumsverket Alcoa Mosjøen i spissen. Sammen med Mo Industripark står Alcoa for nær 80 prosent av det totale energiforbruket og 65 prosent av effektforbruket på hele Helgeland.
-* **Kritisk avhengighet og sårbarhet:** Utredningene slår fast at aluminiumsproduksjonen ved Alcoa er ekstremt sårbar for utfall i strømtilførselen. Dersom spenningen faller bort i mer enn 2 timer, oppstår det en direkte risiko for at flytende aluminium størkner i elektrolyseovnene, noe som vil få alvorlige og langvarige konsekvenser for driften.
+* **Kritisk avhengighet og sårbarhet:** Utredningene slår fast at aluminiumsproduksjonen ved Alcoa er ekstremt sårbar for utfall i strømtilførselen. Dersom spenningen faller bort i mer enn 2-3 timer, oppstår det en direkte risiko for at flytende aluminium størkner i elektrolyseovnene, noe som vil få alvorlige og langvarige konsekvenser for driften.
 
 ---
 
