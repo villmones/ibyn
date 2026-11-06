@@ -16,7 +16,7 @@ date: 2026-11-06
 Tall fra Statnetts områdeplan for Helgeland og Salten 2025 og Helgeland Krafts virksomhetsrapporter viser at Mosjøen utgjør tyngdepunktet i regionens kraftsystem:
 
 * **Dominerer kraftforbruket:** Marka transmisjonsnettstasjon i Mosjøen forsyner byens tunge industri, med aluminiumsverket Alcoa Mosjøen i spissen. Sammen med Mo Industripark står Alcoa for nær 80 prosent av det totale energiforbruket og 65 prosent av effektforbruket på hele Helgeland.
-* **Kritisk avhengighet og sårbarhet:** Utredningene slår fast at aluminiumsproduksjonen ved Alcoa er ekstremt sårbar for utfall i strømtilførselen. Dersom spenningen faller bort i mer enn 2-3 timer, oppstår det en direkte risiko for at flytende aluminium størkner i elektrolyseovnene, noe som vil få alvorlige og langvarige konsekvenser for driften.
+* **Kritisk avhengighet og sårbarhet:** Utredningene slår fast at aluminiumsproduksjonen ved Alcoa er ekstremt sårbar for utfall i strømtilførselen. Dersom spenningen faller bort i mer enn 1–2 timer, oppstår det en direkte risiko for at flytende aluminium størkner i elektrolyseovnene, noe som vil få alvorlige og langvarige konsekvenser for driften.
 
 ---
 
@@ -24,19 +24,20 @@ Tall fra Statnetts områdeplan for Helgeland og Salten 2025 og Helgeland Krafts 
 
 Selv om industrien i Mosjøen har konkrete utvidelses- og omstillingsplaner, har det eksisterende transmisjonsnettet nådd kapasitetsgrensen:
 
-* **Null ledig kapasitet:** I henhold til KVU (Konseptvalgutredningen) Helgeland 2024 er det per i dag null ledig nettkapasitet på ordinære vilkår (N-1) for nytt industrielt forbruk under Marka stasjon.
+* **Null ledig kapasitet:** I henhold til konseptvalgutredningen (KVU) Helgeland 2024 er det per i dag null ledig nettkapasitet på ordinære vilkår (N-1) for nytt industrielt forbruk under Marka stasjon.
 * **Modne prosjekter i kø:** Statnetts kartlegging viser at det står totalt 1 100 MW i modne industriprosjekter i kapasitetskø under Marka:  
   * **285 MW** gjelder utvidelser innenfor etablert industri i Mosjøen.
   * **800 MW** er knyttet til det nye industriområdet i Holandsvika (15 km fra Mosjøen sentrum), avsatt til produksjon av hydrogen, ammoniakk og grønt drivstoff (e-fuel).
 
 ---
 
-### 🏗️ Del 3: Statnetts prioritering av Mosjøen (Trinn 1)
+### 🏗️ Del 3: Statnetts tretrinnsplan – Mosjøen prioriteres i Trinn 1
 
 For å møte tilknytningsbehovet har Statnett utarbeidet en trinnvis nettplan der Mosjøen-området er plassert fremst i utbyggingsrekkefølgen:
 
-* **Trinn 1 prioriteres før Rana:** I henhold til Statnetts *Områdeplan for Helgeland og Salten 2025* og *KVU Helgeland–Sverige 2026* er det aller første tiltaket en ny 420 kV-ledning fra Nedre Røssåga, via Holandsvika, til Marka stasjon. Dette tiltaket er beregnet ferdigstilt rundt 2032 og vil tilføre Mosjøen-området 600 MW ny nettkapasitet samt etablere tresidig forsyning.
-* **Utfordringer i Rana utsetter Trinn 3:** Tiltakene for å styrke nettet mot Mo i Rana (Trinn 3) ligger lenger ute i tid. Dette skyldes blant annet at spenningsflimmer fra stålindustrien (7 Steel Nordic, tidligere Celsa) i Svabo skaper tekniske utfordringer som må løses før transformeringskapasiteten der kan utnyttes mer effektivt.
+* **Trinn 1 (2032) prioriteres før Rana:** I henhold til Statnetts *Områdeplan for Helgeland og Salten 2025* og *KVU Helgeland 2024* er det aller første tiltaket en ny 420 kV-ledning fra Nedre Røssåga, via Holandsvika, til Marka stasjon. Dette tiltaket er beregnet ferdigstilt rundt 2032 og vil tilføre Mosjøen-området 600 MW ny nettkapasitet samt etablere tresidig forsyning.
+* **Trinn 2 (ca. 2034) – Spenningsoppgradering mot Sverige:** I *KVU Helgeland–Sverige 2026* utgjør det neste steget en oppgradering av 220 kV-ledningen Nedre Røssåga–Ajaure–Grundfors til 420 kV. Dette tiltaket øker overførings- og importkapasiteten fra Sverige inn til Helgeland med **700 MW**, noe som forsterker den regionale forsyningssikkerheten ytterligere.
+* **Trinn 3 – Utfordringer og utsettelse i Rana:** Tiltakene for å styrke nettet mot Mo i Rana ligger lenger ute i tid. Dette skyldes blant annet at spenningsflimmer fra stålindustrien (7 Steel Nordic, tidligere Celsa) i Svabo skaper tekniske utfordringer som må løses før transformeringskapasiteten der kan utnyttes mer effektivt.
 
 ---
 
@@ -53,13 +54,13 @@ Statnetts energianalyser omtaler også muligheten for framtidig ilandføring av 
 
 ### 📌 Konklusjon
 
-Rapportene fra Statnett og Helgeland Kraft dokumenterer at de industrielle planene i Mosjøen og Holandsvika ligger fast, men at fremdriftslinjen styres av nettinvesteringene. Ny nettkapasitet til Mosjøen i Trinn 1 (2032) er det avgjørende første steget, mens eventuell havvindbygging tilhører det langsiktige bildet etter 2035.
+Rapportene fra Statnett og Helgeland Kraft dokumenterer at de industrielle planene i Mosjøen og Holandsvika ligger fast, men at fremdriftslinjen styres av nettinvesteringene. Ny nettkapasitet til Mosjøen i Trinn 1 (2032) er det avgjørende første steget, etterfulgt av Sverige-forbindelsen i Trinn 2 (2034), mens eventuell havvindbygging tilhører det langsiktige bildet etter 2035.
 
 ---
 
 ### 📚 Kildegrunnlag
 
 * **Statnett SF:** *Konseptvalgutredning (KVU) Helgeland 2024* – Transmisjonsnettets kapasitet og utbyggingstrinn.
-* **Statnett SF:** *KVU Helgeland–Sverige 2026* – Grensesnitt og kapasitetsøkning fra Røssåga til Sverige.
+* **Statnett SF:** *KVU Helgeland–Sverige 2026* – Grensesnitt og kapasitetsøkning fra Røssåga til Sverige (700 MW).
 * **Statnett SF:** *Områdeplan Helgeland og Salten 2025* – Forbruksutvikling, havvind og nettutfordringer.
 * **Helgeland Kraft Nett AS:** *Virksomhetsrapport og regional områdeplan 2025/2026* – Lokal forsyningssikkerhet og tilknytningskø.
