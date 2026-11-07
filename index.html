@@ -255,22 +255,17 @@
             overflow: hidden;
         }
 
-        /* NEWSPAPER FRONTPAGE LAYOUT - Chronological Top-to-Bottom */
-        .newspaper-layout {
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-            margin-bottom: 3rem;
-        }
-
+        /* NEWSPAPER FRONTPAGE LAYOUT - Unified Grid */
         .articles-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 1.5rem;
             align-items: stretch;
+            margin-bottom: 3rem;
         }
 
         .lead-story {
+            grid-column: span 2;
             background: var(--card-bg);
             border: 1px solid var(--border-color);
             border-top: 4px solid var(--accent-color);
@@ -282,24 +277,28 @@
 
         .lead-story img {
             width: 100%;
-            max-height: 440px;
+            height: 320px;
             object-fit: cover;
             display: block;
             border-bottom: 1px solid var(--border-color);
         }
 
         .lead-story-content {
-            padding: 1.8rem 2rem;
+            padding: 1.6rem 1.8rem;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            justify-content: space-between;
         }
 
         .lead-story h1 {
-            font-size: 2.2rem;
+            font-size: 2rem;
             line-height: 1.2;
             margin-bottom: 0.75rem;
         }
 
         .lead-story .ingress {
-            font-size: 1.15rem;
+            font-size: 1.1rem;
             color: #2d2d2d;
             line-height: 1.55;
         }
@@ -432,8 +431,11 @@
         /* Constrain all images within screen width */
         .article-body img, .lead-story img, .news-card img, .full-article-hero {
             max-width: 100% !important;
-            height: auto !important;
             box-sizing: border-box;
+        }
+
+        .article-body img, .full-article-hero {
+            height: auto !important;
         }
 
         /* Make tables horizontally scrollable on mobile */
@@ -619,6 +621,9 @@
             .articles-grid {
                 grid-template-columns: repeat(2, 1fr);
             }
+            .lead-story {
+                grid-column: span 2; /* Lead story spans both columns on tablet */
+            }
             .header-widgets {
                 position: static;
                 margin-top: 0.8rem;
@@ -666,6 +671,12 @@
         @media (max-width: 640px) {
             .articles-grid {
                 grid-template-columns: 1fr;
+            }
+            .lead-story {
+                grid-column: span 1; /* Single column top-to-bottom on mobile */
+            }
+            .lead-story img {
+                height: 220px;
             }
         }
     </style>
@@ -967,7 +978,7 @@
             `;
         }
 
-        // Render frontpage with chronological order from top to bottom on both desktop and mobile
+        // Render frontpage with lead story spanning 2 columns and second newest taking 1 column
         function renderFrontpage() {
             if (isLoading) return; 
             const frontpageContainer = document.getElementById('newspaper-frontpage');
@@ -994,14 +1005,14 @@
 
             const leadHtml = `
                 <article class="lead-story">
-                    <div>
-                        ${newestImg ? `<a href="${leadTargetUrl}" ${leadTargetAttr} class="image-link"><img src="${newestImg}" alt="${newest.title}" fetchpriority="high"></a>` : ''}
-                        <div class="lead-story-content">
+                    ${newestImg ? `<a href="${leadTargetUrl}" ${leadTargetAttr} class="image-link"><img src="${newestImg}" alt="${newest.title}" fetchpriority="high"></a>` : ''}
+                    <div class="lead-story-content">
+                        <div>
                             <span class="kicker">${newest.kicker || 'AKTUELT'}</span>
                             <h1><a href="${leadTargetUrl}" ${leadTargetAttr} class="article-link">${newest.title}${leadIcon}</a></h1>
                             ${newestSummary ? `<p class="ingress">${newestSummary}</p>` : ''}
-                            ${newest.date ? `<div class="byline" style="margin-bottom: 0; margin-top: 1.2rem;">🤖 <a href="/ki-journalisten" onclick="navigateTo('/ki-journalisten'); return false;" style="color: var(--accent-color); text-decoration: none; font-weight: 700;">MØT VÅR KI-JOURNALIST</a> &bull; Publisert ${formatNorwegianDate(newest.date)}</div>` : ''}
                         </div>
+                        ${newest.date ? `<div class="byline" style="margin-bottom: 0; margin-top: 1.2rem;">🤖 <a href="/ki-journalisten" onclick="navigateTo('/ki-journalisten'); return false;" style="color: var(--accent-color); text-decoration: none; font-weight: 700;">MØT VÅR KI-JOURNALIST</a> &bull; Publisert ${formatNorwegianDate(newest.date)}</div>` : ''}
                     </div>
                 </article>
             `;
@@ -1013,14 +1024,11 @@
                 infoNotice = `<p style="text-align:center; font-size:0.85rem; color:var(--muted-color); margin-top:2rem; font-family:system-ui, sans-serif;">Viser de ${MAX_FRONTPAGE_ARTICLES} nyeste sakene på forsiden (av totalt ${filtered.length} publiserte).</p>`;
             }
 
+            // Place leadHtml and remaining cards inside the exact same grid for identical spacing
             frontpageContainer.innerHTML = `
-                <div class="newspaper-layout">
+                <div class="articles-grid">
                     ${leadHtml}
-                    ${remaining.length > 0 ? `
-                        <div class="articles-grid">
-                            ${remaining.map(buildCardHtml).join('')}
-                        </div>
-                    ` : ''}
+                    ${remaining.map(buildCardHtml).join('')}
                 </div>
                 ${infoNotice}
             `;
