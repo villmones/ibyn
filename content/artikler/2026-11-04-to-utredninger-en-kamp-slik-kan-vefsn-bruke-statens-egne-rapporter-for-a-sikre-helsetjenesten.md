@@ -27,6 +27,7 @@ I den offentlige debatten har rapportene fra **Innovasjons- og samskapingsutvalg
 
 #### 📌 NOU 2026:12 («Én helsetjeneste») – Strukturen, finansieringen og sykehusbyggene
 
+* **Akuttstrukturen og erfaringene fra Helgeland:** Etter at den indremedisinske akuttposten i Mosjøen ble lagt ned 1\. oktober 2025, viser utredningen nye mekanismer for hvordan distriktssykehus og nærhelsetjenester må finansieres og struktureres for å unngå sårbarhet.
 * **Avvikling av ISF på akuttmottak (Hjemmel: NOU 2026:12, Kap. 12):** Utvalget ledet av Helge Bovim foreslår å skrote Innsatsstyrt Finansiering (ISF) på øyeblikkelig hjelp i sykehusene og erstatte den med faste rammebevilgninger. Derved forsvinner det bedriftsøkonomiske motivet for å slåss om akuttpasienter.
 * **Statlig finansiering av nærhelsedøgnopphold (Hjemmel: NOU 2026:12, Kap. 32):** Utvalget foreslår at staten skal øremerke og rammefinansiere døgnopphold og samhandlingsplasser i nærhelsetjenesten (som intermediærposter).
 * **Statlig overtagelse av sykehusbygg (Hjemmel: NOU 2026:12, Kap. 28):** Staten foreslås å overta direkte finansieringsansvar for store sykehusbygg over Statsbudsjettet. Dette fjerner helseforetakenes gamle påskudd om at det "ikke finnes investeringsmidler" til bygningsmassen i Mosjøen.
