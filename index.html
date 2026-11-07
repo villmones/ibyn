@@ -1232,8 +1232,12 @@
 
             const activeSlug = (hash && allArticles.some(a => a.slug === hash)) ? hash : pathSlug;
 
-            if (activeSlug && activeSlug !== 'index.html' && allArticles.some(a => a.slug === activeSlug)) {
-                if (singleArticleView.dataset.renderedSlug !== activeSlug) {
+            // Keep displaying the article if it was already fast-tracked or exists in allArticles
+            const isAlreadyRendered = singleArticleView.dataset.renderedSlug === activeSlug && activeSlug !== '';
+            const existsInList = activeSlug && activeSlug !== 'index.html' && allArticles.some(a => a.slug === activeSlug);
+
+            if (isAlreadyRendered || existsInList) {
+                if (!isAlreadyRendered) {
                     renderSingleArticle(activeSlug);
                     singleArticleView.dataset.renderedSlug = activeSlug;
                 }
@@ -1242,9 +1246,8 @@
                 window.scrollTo(0, 0);
             } else {
                 singleArticleView.dataset.renderedSlug = '';
-                if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
-                    history.replaceState(null, '', '/');
-                }
+                // Never redirect URL to '/' automatically if a specific path was requested, 
+                // as Googlebot treats history.replaceState('/', '') as a redirect error.
                 document.title = 'iByn.no – Fakta, innsikt og dokumentasjon for Mosjøen og Vefsn';
                 frontpageView.style.display = 'block';
                 singleArticleView.style.display = 'none';
@@ -1350,6 +1353,11 @@
                                     String(a.active).toLowerCase() === 'false';
                     return isValid && !isDraft;
                 });
+
+                // Ensure fastTrackedArticle is always included in allArticles
+                if (fastTrackedArticle && !allArticles.some(a => a.slug === fastTrackedArticle.slug)) {
+                    allArticles.push(fastTrackedArticle);
+                }
 
                 // Sort strictly by publication date descending (newest first), fallback to filename/slug
                 allArticles.sort((a, b) => {
