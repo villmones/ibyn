@@ -77,7 +77,7 @@ I stedet for å godta kortsiktige kompromisser eller vente på neste omstillings
 1. **Vefsn bør kreve at overgangsmidlene blir faste rammer (Hjemmel: NOU 2026:6, Kap. 8 &amp; NOU 2026:12, Kap. 32):**  
 De 21 millionene Helse Nord tildelte *Vefsna Helseklynge* må overføres til permanente, statlige kapittelposter på Statsbudsjettet. NOU 2026:6 krever et oppgjør med treårige «pilotprosjekter» og søknadskaruseller, mens NOU 2026:12 gir oppskriften på faste rammer for nærhelsetjenester.
 2. **Vefsn bør avvise statlig overtagelse av legevakten uten lokal styringsrett (Hjemmel: NOU 2026:12, Kap. 15):**  
-Kommunen må stå imot forsøk på å overføre legevaktsentralen og legevaktstyringen til helseforetaket dersom det fører til at akuttberedskapen fjernes fra Mosjøen.
+Kommunen må stå imot forsøk på å overføre legevaktsentralen og legevaktstyringen til helseforetaket (NOU 2026:12, kap. 15), for å forhindre at den kommunale legevakttjenesten og legevaktsentralen også sentraliseres ut av Mosjøen.
 3. **Vefsn bør kreve et forpliktende oppgavefellesskap (Hjemmel: NOU 2026:6, Kap. 11):**  
 Sykehusspesialister og kommunale leger må jobbe under et felles forpliktende samhandlingsorgan i Mosjøen, med felles intermediærpost, døgnåpen slagalarm med CT, og brede polikliniske tilbud innen indremedisin, urologi, ortopedi og kreftbehandling.
 4. **Vefsn bør kreve at staten og HSYK innfrir infrastrukturkravene (Hjemmel: NOU 2026:6 &amp; NOU 2026:12, Kap. 28):**  
