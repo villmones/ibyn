@@ -255,32 +255,19 @@
             overflow: hidden;
         }
 
-        /* NEWSPAPER FRONTPAGE LAYOUT */
+        /* NEWSPAPER FRONTPAGE LAYOUT - Chronological Top-to-Bottom */
         .newspaper-layout {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
+            display: flex;
+            flex-direction: column;
             gap: 1.5rem;
-            align-items: start;
             margin-bottom: 3rem;
         }
 
-        .left-two-columns {
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-        }
-
-        .left-sub-columns {
+        .articles-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: repeat(3, 1fr);
             gap: 1.5rem;
-            align-items: start;
-        }
-
-        .article-column {
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
+            align-items: stretch;
         }
 
         .lead-story {
@@ -295,7 +282,7 @@
 
         .lead-story img {
             width: 100%;
-            max-height: 400px;
+            max-height: 440px;
             object-fit: cover;
             display: block;
             border-bottom: 1px solid var(--border-color);
@@ -629,22 +616,8 @@
         }
 
         @media (max-width: 900px) {
-            .newspaper-layout {
-                display: flex;
-                flex-direction: column;
-            }
-            .left-two-columns {
-                display: contents; /* Dette "pakker ut" boksen på mobil */
-            }
-            .lead-story {
-                order: 1; /* Hovedsaken ligger øverst */
-            }
-            .newspaper-layout > .article-column {
-                order: 2; /* Høyrespalten (sak 2 og 3) tvinges opp rett under hovedsaken */
-            }
-            .left-sub-columns {
-                order: 3; /* De eldre sakene legges nederst */
-                width: 100%; 
+            .articles-grid {
+                grid-template-columns: repeat(2, 1fr);
             }
             .header-widgets {
                 position: static;
@@ -691,7 +664,7 @@
         }
 
         @media (max-width: 640px) {
-            .left-sub-columns {
+            .articles-grid {
                 grid-template-columns: 1fr;
             }
         }
@@ -771,7 +744,7 @@
     </footer>
 
     <script>
-        // NØDBRYTER: Sett til true for å vise stengt-melding og skjule alle artikler
+        // EMERGENCY SWITCH: Set to true to display a pause notice and hide all articles
         const SITE_OFFLINE = false;
 
         if (SITE_OFFLINE) {
@@ -784,21 +757,12 @@
                 document.querySelector('main').innerHTML = `
                     <article class="full-article" style="max-width: 760px; margin: 3rem auto;">
                         <div class="full-article-inner">
-                            <span class="kicker">DRIFTSMELDING &bull; MIDLERTIDIG STENGT</span>
-                            <h1 style="font-size: 2.1rem; margin-bottom: 1.2rem;">Når lokalpressen blir mer opptatt av budbringeren enn av sakene</h1>
+                            <span class="kicker">DRIFTSMELDING &bull; MIDLERTIDIG PAUSE</span>
+                            <h1 style="font-size: 2.1rem; margin-bottom: 1.2rem;">Nettstedet har tatt en pause</h1>
                             <div class="article-body" style="margin-top: 1rem; padding-top: 1.2rem;">
-                                <p><strong>iByn.no</strong> ble opprettet som et privat, uavhengig eksperiment for å se hva som skjer når man lar moderne språkteknologi lese, strukturere og oppsummere offentlige saksdokumenter, postjournaler og åpne tall fra Mosjøen og Vefsn.</p>
-                                
-                                <p>Det tok nøyaktig elleve saker før etablerte medier på Helgeland fant ut at den viktigste gravejournalistikken ikke handler om kommunal pengebruk, vedtak eller offentlig forvaltning – men om å kartlegge og avhøre privatpersonen som har dristet seg til å sette strøm på et tekstdokument uten redaktørplakat.</p>
-
-                                <blockquote style="border-left: 4px solid var(--accent-color); padding: 0.8rem 1.2rem; margin: 1.5rem 0; background: #f8fafc; font-style: italic; color: #334155;">
-                                    «Kan du forklare hva en KI-journalist er for noe? Og hvem svarer for at offentlige saksdokumenter gjengis på internett?»
-                                </blockquote>
-
-                                <p>For å skåne Helgelands redaksjoner for ytterligere nattesøvn-tap over nymotens edb-teknologi og uautorisert lesing av offentlige postjournaler, tar <strong>iByn.no</strong> herved en pause fra offentligheten.</p>
-
+                                <p><strong>iByn.no</strong> er et uavhengig, privat informasjonsprosjekt for Mosjøen og Vefsn. Nettstedet har for tiden tatt en pause, og publisering av nytt innhold er midlertidig stilt i bero.</p>
                                 <p style="margin-bottom: 0; color: var(--muted-color); font-size: 0.95rem;">
-                                    Offentlige saksdokumenter ligger heldigvis fortsatt fritt tilgjengelig i kommunens arkiver – helt gratis – for de som måtte ønske å lese dem selv.
+                                    Takk for besøket.
                                 </p>
                             </div>
                         </div>
@@ -811,7 +775,7 @@
         const GITHUB_OWNER = 'villmones';
         const GITHUB_REPO = 'ibyn';
         const ARTICLES_PATH = 'content/artikler';
-        const MAX_FRONTPAGE_ARTICLES = 15;
+        const MAX_FRONTPAGE_ARTICLES = 25;
 
         let allArticles = [];
         let currentCategory = 'ALL';
@@ -979,7 +943,7 @@
             renderCategoryNav();
         }
 
-        // KORT-SAKER: Her er KI-lenken riktig satt inn
+        // Render card HTML for standard news items
         function buildCardHtml(art) {
             const imgUrl = resolveImageUrl(art.image);
             const summaryText = getSummary(art);
@@ -1003,7 +967,7 @@
             `;
         }
 
-        // FORSIDESAKEN: Her er KI-lenken riktig satt inn for leadHtml
+        // Render frontpage with chronological order from top to bottom on both desktop and mobile
         function renderFrontpage() {
             if (isLoading) return; 
             const frontpageContainer = document.getElementById('newspaper-frontpage');
@@ -1042,21 +1006,7 @@
                 </article>
             `;
 
-            const col1Articles = [];
-            const col2Articles = [];
-            const col3Articles = [];
-
             const remaining = displayArticles.slice(1);
-            remaining.forEach((art, index) => {
-                if (index === 0 || index === 1) {
-                    col3Articles.push(art);
-                } else {
-                    const mod = (index - 2) % 3;
-                    if (mod === 0) col1Articles.push(art);
-                    else if (mod === 1) col2Articles.push(art);
-                    else col3Articles.push(art);
-                }
-            });
 
             let infoNotice = '';
             if (filtered.length > MAX_FRONTPAGE_ARTICLES && currentCategory === 'ALL') {
@@ -1065,22 +1015,12 @@
 
             frontpageContainer.innerHTML = `
                 <div class="newspaper-layout">
-                    <div class="left-two-columns">
-                        ${leadHtml}
-                        ${(col1Articles.length > 0 || col2Articles.length > 0) ? `
-                            <div class="left-sub-columns">
-                                <div class="article-column">
-                                    ${col1Articles.map(buildCardHtml).join('')}
-                                </div>
-                                <div class="article-column">
-                                    ${col2Articles.map(buildCardHtml).join('')}
-                                </div>
-                            </div>
-                        ` : ''}
-                    </div>
-                    <div class="article-column">
-                        ${col3Articles.map(buildCardHtml).join('')}
-                    </div>
+                    ${leadHtml}
+                    ${remaining.length > 0 ? `
+                        <div class="articles-grid">
+                            ${remaining.map(buildCardHtml).join('')}
+                        </div>
+                    ` : ''}
                 </div>
                 ${infoNotice}
             `;
@@ -1124,7 +1064,7 @@
             const fullContainer = document.getElementById('full-article-container');
             document.title = 'Om iByn.no og ansvarsfraskrivelse – iByn.no';
 
-fullContainer.innerHTML = `
+            fullContainer.innerHTML = `
                 <article class="full-article">
                     <div class="full-article-inner">
                         <span class="kicker">INFORMASJON</span>
@@ -1188,7 +1128,7 @@ fullContainer.innerHTML = `
             `;
         }
 
-        // FULL ARTIKKEL-VISNING: Her er KI-lenken riktig satt inn for the byline in full-article
+        // Render full single article view
         function renderSingleArticle(slug, articleObj = null) {
             const article = articleObj || allArticles.find(a => a.slug === slug);
             const fullContainer = document.getElementById('full-article-container');
@@ -1314,7 +1254,7 @@ fullContainer.innerHTML = `
             const initialSlug = getRequestedSlug();
             let fastTrackedArticle = null;
 
-            // Handle hard-coded static paths dynamically without loading markdown from github
+            // Handle hard-coded static paths dynamically without loading markdown from GitHub
             if (pathSlug === 'om' || pathSlug === 'om.html' || pathSlug === 'ki-journalisten' || pathSlug === 'ki-journalisten.html') {
                 handleRoute();
             } else if (initialSlug) {
@@ -1382,7 +1322,7 @@ fullContainer.innerHTML = `
                 }
 
                 fileEntries.sort((a, b) => b.name.localeCompare(a.name));
-                const priorityEntries = fileEntries.slice(0, MAX_FRONTPAGE_ARTICLES + 3);
+                const priorityEntries = fileEntries.slice(0, MAX_FRONTPAGE_ARTICLES + 5);
 
                 const loaded = await Promise.all(
                     priorityEntries.map(async ({ name, sha }) => {
@@ -1403,6 +1343,7 @@ fullContainer.innerHTML = `
                     return isValid && !isDraft;
                 });
 
+                // Sort strictly by publication date descending (newest first), fallback to filename/slug
                 allArticles.sort((a, b) => {
                     const timeA = a.date ? new Date(a.date).getTime() : 0;
                     const timeB = b.date ? new Date(b.date).getTime() : 0;
