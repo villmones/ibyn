@@ -3,8 +3,8 @@ draft: false
 title: "⚡ Strategisk blindfelt: Norge leverer 40 % av Europas aluminium – men
   Sivilforsvaret har glemt aluminiumsverkskommunene"
 summary: "Norge utgjør ryggraden i Europas forsyning av primæraluminium, en
-  råvare EU har definert som strategisk kritisk under** **Critical Raw Materials
-  Act** **(CRMA). Likevel avdekker offentlige dokumenter et nasjonalt
+  råvare EU har definert som strategisk kritisk under Critical Raw Materials Act
+  (CRMA). Likevel avdekker offentlige dokumenter et nasjonalt
   beredskapsblindfelt: I Sivilforsvarets ferske liste over 69 kommuner vurdert
   som særlig utsatt for luftangrep i krig, finnes ikke én eneste av Norges
   kommuner med aluminiumsverk."
@@ -12,7 +12,7 @@ image: /images/kritiske_raavarer_beredskap.png
 kicker: INDUSTRI
 date: 2026-11-08
 ---
-### 🇪🇺 1\. Europas metallkammer – Aluminium som kritisk råvare
+### 1\. Europas metallkammer – Aluminium som kritisk råvare
 
 * **Norsk nøkkelrolle:** Norske aluminiumsverk leverer om lag **40 prosent av alt primæraluminium** i Europa. Metallene er uunnværlige i forsvarsmateriell, luftfart, energiinfrastruktur og elektriske kjøretøy.
 * **Mosjøen som nøkkelnode:** Alcoa Mosjøen er systemkritisk for **13 prosent av Europas samlede primæraluminium**. EU-dokumenter knyttet til CRMA definerer Vefsn og Alcoa Mosjøen som avgjørende for europeisk forsyningssikkerhet.
