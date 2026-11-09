@@ -64,8 +64,16 @@ Nye sikkerhetsanalyser og forsvarsrapporter gjør den statlige utelatelsen av Mo
 * **Overordnede krav til forsyningssikkerhet (** **FFI-rapporten** **):** Forsvarets forskningsinstitutt (FFI) understreker i sin rapport om nasjonal forsyningssikkerhet at alliert mottak (*Host Nation Support*) krever tilstrekkelig sivil infrastruktur ved nøkkelknutepunktene – inkludert **sivil beskyttelse, reserveløsninger for kraft og logistikk, samt helseberedskap**.
 * **Total statlig avkobling:** Rapportene avdekker en uholdbar mangel på samordning. Mens FFI, NATO-analysene og EU (CRMA) fremhever at sivile nøkkelknutepunkter må ha sivil beskyttelse og helseberedskap, har Justisdepartementet utelatt Mosjøen fra Sivilforsvarets tilfluktsromsliste (§ 4), samtidig som helseforetaket bygger ned den lokale akuttberedskapen.
 
+### ⚓ 5. Sikkerhetsanalysene: NATO-nøkkelhub, sivilbeskyttelse og helseberedskap
+
+Nye sikkerhetsanalyser og forsvarsrapporter gjør den statlige utelatelsen av Mosjøen enda mer alvorlig:
+
+- **Mosjøen som alliert logistikk-hub (*Military Mobility Northern Nordics*):** Analysene *Military Mobility Northern Nordics* og *Konnekt Arctic Mobility* peker ut Mosjøen havn (dypvannskai), Nordlandsbanen og E6 som en av de mest strategiske forsyningskorridorene i Nord-Norge for NATO-ilandstigning og transport østover til Sverige og Finland. Samtidig påpeker rapporten at området mangler dedikerte sivile og militære tilfluktsrom og beredskapslagre ved havnen og godsterminalen.
+- **Overordnede krav til forsyningssikkerhet (FFI-rapporten):** Forsvarets forskningsinstitutt (FFI) understreker i sin rapport om nasjonal forsyningssikkerhet at alliert mottak (*Host Nation Support*) krever tilstrekkelig sivil infrastruktur ved nøkkelknutepunktene – inkludert **sivil beskyttelse, reserveløsninger for kraft og logistikk, samt helseberedskap**.
+- **Total statlig avkobling:** Rapportene avdekker en uholdbar mangel på samordning. Mens FFI, NATO-analysene og EU (CRMA) fremhever at sivile nøkkelknutepunkter må ha sivil beskyttelse og helseberedskap, har Justisdepartementet utelatt Mosjøen fra Sivilforsvarets tilfluktsromsliste (§ 4), samtidig som helseforetaket bygger ned den lokale akuttberedskapen.
+
 **Sitat fra ©Risk Intelligence**
-<span style="font-family: 'Courier New', Courier, monospace;">
+
 > Mosjøen is a major port situated in the centre of the community with a
 > number of different capabilities, including Ro-Ro, container, bulk, general
 > cargo and LNG. A major part of it is the Alcoa quay, operated by the
@@ -83,7 +91,8 @@ Nye sikkerhetsanalyser og forsvarsrapporter gjør den statlige utelatelsen av Mo
 > as well as a detachment from FLO, the Norwegian Defence Logistics
 > Organisation. This allows for staging operations to be held within the
 > facilities, with easy access to the E6 and the ability to cross over to
-> Sweden either on the E12 or the Rv73/Lv AC 1116 further south.</span> 
+> Sweden either on the E12 or the Rv73/Lv AC 1116 further south.
+> 
 > — _Military Mobility Northern Nordics (2026)_
 
 ---
