@@ -52,7 +52,7 @@ Høringsnotatet fra Justisdepartementet avdekker årsaken:
 Reaksjonene på Sivilforsvarets forskriftsforslag avdekker en slående forskjell i lokalpolitisk beredskapsstyring på Helgeland:
 
 * **Rana kommune gikk på offensiven:** Rana leverte et omfattende og aktivt høringssvar innen fristen (22\. oktober 2026). Kommunen stilte der klare krav om at forskriften må tilpasses industriarbeidere og transportknutepunkter på E6/Nordlandsbanen, og krevde konkrete statlige midler og retningslinjer.
-* **Vefsn kommune lèt fristen gå ut i taushet:** Til tross for at Vefsn huser Alcoa Mosjøen – en av Europas mest kritiske industrinoder – lèt Vefsn kommune høringsfristen 30\. oktober 2026 gå ut uten å sende inn et eneste høringsinnspill. Vefsn unnlot dermed å kreve at Alcoa Mosjøen tas inn under forskriftens § 9 som kritisk stedbundet virksomhet.
+* **Vefsn kommune lot fristen gå ut i taushet:** Til tross for at Vefsn huser Alcoa Mosjøen – en av Europas mest kritiske industrinoder – lot Vefsn kommune høringsfristen 30\. oktober 2026 gå ut uten å sende inn et eneste høringsinnspill. Vefsn unnlot dermed å kreve at Alcoa Mosjøen tas inn under forskriftens § 9 som kritisk stedbundet virksomhet.
 
 ---
 
@@ -68,7 +68,7 @@ Nye sikkerhetsanalyser og forsvarsrapporter gjør den statlige utelatelsen av al
 
 ### 🎯 6\. Hva må skje nå?
 
-Det er et beredskapsmessig paradoks at Norge leverer 40 prosent av Europas primæraluminium uten at verkene eller lokalsamfunnene dekkes av statlige tilfluktsromskrav. Siden Vefsn kommune lèt den ordinære høringsfristen gå ut 30\. oktober, må lokalpolitikerne nå gå direkte på Nærings- og Justisdepartementet for å kreve at staten tar i bruk § 9 i etterkant for å gi Alcoa Mosjøen og industriarbeiderne den sivile beskyttelsen de har krav på.
+Det er et beredskapsmessig paradoks at Norge leverer 40 prosent av Europas primæraluminium uten at verkene eller lokalsamfunnene dekkes av statlige tilfluktsromskrav. Siden Vefsn kommune lot den ordinære høringsfristen gå ut 30\. oktober, må lokalpolitikerne nå gå direkte på Nærings- og Justisdepartementet for å kreve at staten tar i bruk § 9 i etterkant for å gi Alcoa Mosjøen og industriarbeiderne den sivile beskyttelsen de har krav på.
 
 ---
 
