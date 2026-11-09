@@ -64,6 +64,30 @@ Nye sikkerhetsanalyser og forsvarsrapporter gjør den statlige utelatelsen av Mo
 * **Overordnede krav til forsyningssikkerhet (** **FFI-rapporten** **):** Forsvarets forskningsinstitutt (FFI) understreker i sin rapport om nasjonal forsyningssikkerhet at alliert mottak (*Host Nation Support*) krever tilstrekkelig sivil infrastruktur ved nøkkelknutepunktene – inkludert **sivil beskyttelse, reserveløsninger for kraft og logistikk, samt helseberedskap**.
 * **Total statlig avkobling:** Rapportene avdekker en uholdbar mangel på samordning. Mens FFI, NATO-analysene og EU (CRMA) fremhever at sivile nøkkelknutepunkter må ha sivil beskyttelse og helseberedskap, har Justisdepartementet utelatt Mosjøen fra Sivilforsvarets tilfluktsromsliste (§ 4), samtidig som helseforetaket bygger ned den lokale akuttberedskapen.
 
+**Sitat fra Risk Intelligence **
+> Mosjøen is a major port situated in the centre of the community with a
+> number of different capabilities, including Ro-Ro, container, bulk, general
+> cargo and LNG. A major part of it is the Alcoa quay, operated by the
+> aluminium production facility at the heart of the port – itself a key
+> factory from a defence industry and security of supply point of view.
+>
+> Both the railroad and E6 passes right next to the port area, with the
+> railway including a depot and freight terminal. There are some
+> limitations when it comes to storage area available in the port due to the
+> aluminium facility and the urban area of the town which sits close to the
+> port. However, a number a smaller quays are also operated by the port
+> authorities in the vicinity, including Halsøy and Holandsvika which may
+> provide alternative options. Close to the town is also found Drevjamoen
+> leir180, one of the few military garrisons in the northwestern corner of the
+> Study Region and home to Sør-Hålogaland heimevernsdistrikt (HV-14)
+> as well as a detachment from FLO, the Norwegian Defence Logistics
+> Organisation. This allows for staging operations to be held within the
+> facilities, with easy access to the E6 and the ability to cross over to
+> Sweden either on the E12 or the Rv73/Lv AC 1116 further south. 
+>
+> — _Military Mobility Northern Nordics (2026)_
+
+
 ---
 
 ### 🎯 6\. Hva må skje nå?
