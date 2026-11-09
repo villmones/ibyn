@@ -86,7 +86,6 @@ Nye sikkerhetsanalyser og forsvarsrapporter gjør den statlige utelatelsen av Mo
 > Sweden either on the E12 or the Rv73/Lv AC 1116 further south.</span> 
 > — _Military Mobility Northern Nordics (2026)_
 
-
 ---
 
 ### 🎯 6\. Hva må skje nå?
