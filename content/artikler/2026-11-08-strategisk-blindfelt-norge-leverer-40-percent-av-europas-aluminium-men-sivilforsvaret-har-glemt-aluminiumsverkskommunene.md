@@ -56,14 +56,6 @@ Reaksjonene på Sivilforsvarets forskriftsforslag avdekker en slående forskjell
 
 ---
 
-### ⚓ 5\. Sikkerhetsanalysene: NATO-nøkkelhub, sivilbeskyttelse og helseberedskap
-
-Nye sikkerhetsanalyser og forsvarsrapporter gjør den statlige utelatelsen av Mosjøen enda mer alvorlig:
-
-* **Mosjøen som alliert logistikk-hub (** **Military Mobility Northern Nordics** **):** Analysene *Military Mobility Northern Nordics* og *Konnekt Arctic Mobility* peker ut Mosjøen havn (dypvannskai), Nordlandsbanen og E6 som en av de mest strategiske forsyningskorridorene i Nord-Norge for NATO-ilandstigning og transport østover til Sverige og Finland. Samtidig påpeker rapporten at området mangler dedikerte sivile og militære tilfluktsrom og beredskapslagre ved havnen og godsterminalen.
-* **Overordnede krav til forsyningssikkerhet (** **FFI-rapporten** **):** Forsvarets forskningsinstitutt (FFI) understreker i sin rapport om nasjonal forsyningssikkerhet at alliert mottak (*Host Nation Support*) krever tilstrekkelig sivil infrastruktur ved nøkkelknutepunktene – inkludert **sivil beskyttelse, reserveløsninger for kraft og logistikk, samt helseberedskap**.
-* **Total statlig avkobling:** Rapportene avdekker en uholdbar mangel på samordning. Mens FFI, NATO-analysene og EU (CRMA) fremhever at sivile nøkkelknutepunkter må ha sivil beskyttelse og helseberedskap, har Justisdepartementet utelatt Mosjøen fra Sivilforsvarets tilfluktsromsliste (§ 4), samtidig som helseforetaket bygger ned den lokale akuttberedskapen.
-
 ### ⚓ 5. Sikkerhetsanalysene: NATO-nøkkelhub, sivilbeskyttelse og helseberedskap
 
 Nye sikkerhetsanalyser og forsvarsrapporter gjør den statlige utelatelsen av Mosjøen enda mer alvorlig:
