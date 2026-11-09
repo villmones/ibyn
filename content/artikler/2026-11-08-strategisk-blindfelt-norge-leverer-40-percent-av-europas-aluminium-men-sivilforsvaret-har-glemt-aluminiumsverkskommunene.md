@@ -56,13 +56,13 @@ Reaksjonene på Sivilforsvarets forskriftsforslag avdekker en slående forskjell
 
 ---
 
-### ⚓ 5\. Militær forsyningssikkerhet: NATO og FFI krever tilfluktsrom og akuttmedisin i Mosjøen
+### ⚓ 5\. Sikkerhetsanalysene: NATO-nøkkelhub, sivilbeskyttelse og helseberedskap
 
-Nye sikkerhetsanalyser og forsvarsrapporter gjør den statlige utelatelsen av Mosjøen enda mer alvorlig:
+Nye sikkerhetsanalyser og forsvarsrapporter gjør den statlige utelatelsen av aluminiumsverkskommunene enda mer alvorlig:
 
-* **Mosjøen havn som NATO-ilandstigningshub:** Analysen *Military Mobility Northern Nordics* og *Konnekt Arctic Mobility* utpeker Mosjøen havn, dypvannskaien, Nordlandsbanen og E6 som en av de mest strategiske korridorene i Nord-Norden for NATO-ilandstigning og forsyninger østover til Sverige og Finland.
-* **FFI krever sivilbeskyttelse og akuttmedisin:** *FFI-rapporten om nasjonal forsyningssikkerhet* understreker at knutepunkter som Mosjøen krever robust sivil beskyttelse (tilfluktsrom), reserveløsninger for kraft og logistikk, samt **lokal akuttmedisinsk kapasitet** for å håndtere større hendelser under alliert mottak.
-* **Total statlig avkobling:** Rapportene avdekker en uholdbar mangel på samordning. Mens Forsvaret, NATO og FFI definerer Mosjøen som et kritisk militært og sivilt logistikkutgangspunkt med behov for sivil beskyttelse og akuttmedisinsk beredskap, har Sivilforsvaret utelatt kommunen fra tilfluktsromslisten – samtidig som Helse Nord bygger ned den lokale akuttberedskapen.
+* **Mosjøen som alliert logistikk-hub (** **Military Mobility Northern Nordics** **):** Analysene *Military Mobility Northern Nordics* og *Konnekt Arctic Mobility* peker ut Mosjøen havn (dypvannskai), Nordlandsbanen og E6 som en av de mest strategiske forsyningskorridorene i Nord-Norge for NATO-ilandstigning og transport østover til Sverige og Finland. Samtidig påpeker rapporten at området mangler dedikerte sivile og militære tilfluktsrom og beredskapslagre ved havnen og godsterminalen.
+* **Overordnede krav til forsyningssikkerhet (** **FFI-rapporten** **):** Forsvarets forskningsinstitutt (FFI) understreker i sin rapport om nasjonal forsyningssikkerhet at alliert mottak (*Host Nation Support*) krever tilstrekkelig sivil infrastruktur ved nøkkelknutepunktene – inkludert **sivil beskyttelse, reserveløsninger for kraft og logistikk, samt helseberedskap**.
+* **Total statlig avkobling:** Rapportene avdekker en uholdbar mangel på samordning. Mens FFI, NATO-analysene og EU (CRMA) fremhever at sivile nøkkelknutepunkter må ha sivil beskyttelse og helseberedskap, har Justisdepartementet utelatt aluminiumsverkskommunene fra Sivilforsvarets tilfluktsromsliste (§ 4), samtidig som helseforetaket bygger ned den lokale akuttberedskapen.
 
 ---
 
