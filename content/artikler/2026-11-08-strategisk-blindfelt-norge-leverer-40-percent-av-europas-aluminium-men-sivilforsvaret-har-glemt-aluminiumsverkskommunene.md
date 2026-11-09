@@ -1,7 +1,7 @@
 ---
 draft: false
 title: "⚡ Strategisk blindfelt: Norge leverer 40 % av Europas aluminium – men
-  Sivilforsvaret har glemt aluminiumsverkskommunene"
+  aluminiumsverkskommunene er glemt"
 summary: "Norge utgjør ryggraden i Europas forsyning av primæraluminium, en
   råvare EU har definert som strategisk kritisk under Critical Raw Materials Act
   (CRMA). Likevel avdekker offentlige dokumenter et nasjonalt
