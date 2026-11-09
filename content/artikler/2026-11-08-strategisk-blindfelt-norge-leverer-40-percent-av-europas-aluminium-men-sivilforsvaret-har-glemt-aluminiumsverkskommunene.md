@@ -15,7 +15,7 @@ date: 2026-11-08
 ### 1\. Europas metallkammer – Aluminium som kritisk råvare
 
 * **Norsk nøkkelrolle:** Norske aluminiumsverk leverer om lag **40 prosent av alt primæraluminium** i Europa. Metallene er uunnværlige i forsvarsmateriell, luftfart, energiinfrastruktur og elektriske kjøretøy.
-* **Mosjøen som nøkkelnode:** Alcoa Mosjøen er systemkritisk for **13 prosent av Europas samlede primæraluminium**. EU-dokumenter knyttet til CRMA definerer Vefsn og Alcoa Mosjøen som avgjørende for europeisk forsyningssikkerhet.
+* **Mosjøen som nøkkelnode:** Ved Alcoa Mosjøen produseres nær **13 prosent av Europas samlede primæraluminium**. EU-dokumenter knyttet til CRMA definerer Vefsn og Alcoa Mosjøen som avgjørende for europeisk forsyningssikkerhet.
 * **Ekstrem sårbarhet ved strømbrudd:** Aluminiumsproduksjon krever uavbrutt kraft. Mister anlegget strøm i mer enn **2 til 3 timer**, størkner den flytende aluminiumsmassen i ovnene, noe som fører til katastrofale og langvarige ødeleggelser.
 
 ---
@@ -42,7 +42,7 @@ Militære knutepunkt (som Ørland, Evenes, Bardu og Bodø) og større byer domin
 
 Høringsnotatet fra Justisdepartementet avdekker årsaken:
 
-1. **Kriteriene i § 4 mangler industri:** Sivilforsvaret har kun vurdert befolkningstetthet, kyst/grense og militære/sivile knutepunkter som flyplasser og sykehus. Kritiske industri- og råvareressurser mangler som kriterium.
+1. **Kriteriene i § 4 mangler industri:** Sivilforsvaret har kun vurdert befolkningstetthet, kyst/grense og militære/sivile knutepunkter som flyplasser og sykehus. Kritiske industri- og råvareressurser mangler som eget kriterium.
 2. **Muligheten i § 9:** Forskriften har en egen paragraf 9 der departementene kan pålegge tilfluktsrom ved *stedbundne, kritiske virksomheter* som må opprettholde driften i krig. Både Alcoa Mosjøen og Alcoa Lista oppfyller alle tre kravene til dette (stedbundet drift, kontinuerlig prosess, avhengig av personell på plass), men er ikke utpekt av Justis- eller Næringsdepartementet.
 
 ---
@@ -52,13 +52,23 @@ Høringsnotatet fra Justisdepartementet avdekker årsaken:
 Reaksjonene på Sivilforsvarets forskriftsforslag avdekker en slående forskjell i lokalpolitisk beredskapsstyring på Helgeland:
 
 * **Rana kommune gikk på offensiven:** Rana leverte et omfattende og aktivt høringssvar innen fristen (22\. oktober 2026). Kommunen stilte der klare krav om at forskriften må tilpasses industriarbeidere og transportknutepunkter på E6/Nordlandsbanen, og krevde konkrete statlige midler og retningslinjer.
-* **Vefsn kommune lot fristen gå ut i taushet:** Til tross for at Vefsn huser Alcoa Mosjøen – en av Europas mest kritiske industrinoder – lot Vefsn kommune høringsfristen 30\. oktober 2026 gå ut uten å sende inn et eneste høringsinnspill. Vefsn unnlot dermed å kreve at Alcoa Mosjøen tas inn under forskriftens § 9 som kritisk stedbundet virksomhet.
+* **Vefsn kommune lèt fristen gå ut i taushet:** Til tross for at Vefsn huser Alcoa Mosjøen – en av Europas mest kritiske industrinoder – lèt Vefsn kommune høringsfristen 30\. oktober 2026 gå ut uten å sende inn et eneste høringsinnspill. Vefsn unnlot dermed å kreve at Alcoa Mosjøen tas inn under forskriftens § 9 som kritisk stedbundet virksomhet.
 
 ---
 
-### 🎯 5\. Hva må skje nå?
+### ⚓ 5\. Militær forsyningssikkerhet: NATO og FFI krever tilfluktsrom og akuttmedisin i Mosjøen
 
-Det er et beredskapsmessig paradoks at Norge leverer 40 prosent av Europas primæraluminium uten at verkene eller lokalsamfunnene dekkes av statlige tilfluktsromskrav. Siden Vefsn kommune lot den ordinære høringsfristen gå ut 30\. oktober, må lokalpolitikerne nå gå direkte på Nærings- og Justisdepartementet for å kreve at staten tar i bruk § 9 i etterkant og sikrer Alcoa Mosjøen og industriarbeiderne.
+Nye sikkerhetsanalyser og forsvarsrapporter gjør den statlige utelatelsen av Mosjøen enda mer alvorlig:
+
+* **Mosjøen havn som NATO-ilandstigningshub:** Analysen *Military Mobility Northern Nordics* og *Konnekt Arctic Mobility* utpeker Mosjøen havn, dypvannskaien, Nordlandsbanen og E6 som en av de mest strategiske korridorene i Nord-Norden for NATO-ilandstigning og forsyninger østover til Sverige og Finland.
+* **FFI krever sivilbeskyttelse og akuttmedisin:** *FFI-rapporten om nasjonal forsyningssikkerhet* understreker at knutepunkter som Mosjøen krever robust sivil beskyttelse (tilfluktsrom), reserveløsninger for kraft og logistikk, samt **lokal akuttmedisinsk kapasitet** for å håndtere større hendelser under alliert mottak.
+* **Total statlig avkobling:** Rapportene avdekker en uholdbar mangel på samordning. Mens Forsvaret, NATO og FFI definerer Mosjøen som et kritisk militært og sivilt logistikkutgangspunkt med behov for sivil beskyttelse og akuttmedisinsk beredskap, har Sivilforsvaret utelatt kommunen fra tilfluktsromslisten – samtidig som Helse Nord bygger ned den lokale akuttberedskapen.
+
+---
+
+### 🎯 6\. Hva må skje nå?
+
+Det er et beredskapsmessig paradoks at Norge leverer 40 prosent av Europas primæraluminium uten at verkene eller lokalsamfunnene dekkes av statlige tilfluktsromskrav. Siden Vefsn kommune lèt den ordinære høringsfristen gå ut 30\. oktober, må lokalpolitikerne nå gå direkte på Nærings- og Justisdepartementet for å kreve at staten tar i bruk § 9 i etterkant for å gi Alcoa Mosjøen og industriarbeiderne den sivile beskyttelsen de har krav på.
 
 ---
 
@@ -66,5 +76,6 @@ Det er et beredskapsmessig paradoks at Norge leverer 40 prosent av Europas prim�
 
 * **Justis- og beredskapsdepartementet / Sivilforsvaret:** *Høringsnotat – Forslag til forskrift om tilfluktssteder* (2026) med oversikt over 69 kommuner (§ 4 og § 9).
 * **Rana kommune:** *Høringssvar om forskrift om tilfluktssteder* (22.10.2026).
-* **EU-kommisjonen:** *Critical Raw Materials Act (CRMA)*.
+* **NATO / Transportanalyser:** *Military Mobility Northern Nordics* (2026) &amp; *Konnekt Arctic Mobility* (2026).
 * **Forsvarets forskningsinstitutt:** *FFI-Rapport 26/010: Nasjonal forsyningssikkerhet i krise og krig* (2026).
+* **EU-kommisjonen:** *Critical Raw Materials Act (CRMA)*.
