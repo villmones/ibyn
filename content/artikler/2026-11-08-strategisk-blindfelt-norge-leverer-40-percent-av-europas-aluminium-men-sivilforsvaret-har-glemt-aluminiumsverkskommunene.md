@@ -15,7 +15,7 @@ date: 2026-11-08
 ### 1\. Europas metallkammer – Aluminium som kritisk råvare
 
 * **Norsk nøkkelrolle:** Norske aluminiumsverk leverer om lag **40 prosent av alt primæraluminium** i Europa. Metallene er uunnværlige i forsvarsmateriell, luftfart, energiinfrastruktur og elektriske kjøretøy.
-* **Mosjøen som nøkkelnode:** Ved Alcoa Mosjøen produseres nær **13 prosent av Europas samlede primæraluminium**. EU-dokumenter knyttet til CRMA definerer Vefsn og Alcoa Mosjøen som avgjørende for europeisk forsyningssikkerhet.
+* **Mosjøen som nøkkelnode:** Ved Alcoa Mosjøen er systemkritisk for over **13 prosent av Europas samlede primæraluminium** produksjon. EU-dokumenter knyttet til CRMA definerer Vefsn og Alcoa Mosjøen som avgjørende for europeisk forsyningssikkerhet.
 * **Ekstrem sårbarhet ved strømbrudd:** Aluminiumsproduksjon krever uavbrutt kraft. Mister anlegget strøm i mer enn **2 til 3 timer**, størkner den flytende aluminiumsmassen i ovnene, noe som fører til katastrofale og langvarige ødeleggelser.
 
 ---
