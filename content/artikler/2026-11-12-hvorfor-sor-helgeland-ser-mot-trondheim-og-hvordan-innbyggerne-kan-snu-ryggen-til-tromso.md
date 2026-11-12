@@ -2,24 +2,25 @@
 draft: false
 title: 🏔️ Hvorfor Sør-Helgeland ser mot Trondheim – og hvordan innbyggerne kan
   snu ryggen til Tromsø
-summary: For pasienter i Vefsn, Grane, Hattfjelldal og kystkommunene i sør
-  oppleves Tromsø og Universitetssykehuset Nord-Norge (UNN) fjernt, tungvint og
-  sårbart. Mens E6 og Nordlandsbanen leder strake veien sørover til St. Olavs
-  hospital i Trondheim, holdes Helgeland fast i et helsebyråkratisk jerngrep fra
-  nord. Dokumentene viser at UNN selv frykter pasientflukten til Trøndelag – og
-  at lovverket gir hver enkelt pasient lovfestet rett til å velge bort Tromsø
-  allerede i dag.
+summary: For pasienter på Sør-Helgeland – definert som alle kommunene sør for
+  Korgfjellet (Vefsn, Grane, Hattfjelldal, Alstahaug, Leirfjord, Dønna, Herøy,
+  Vega, Vevelstad, Brønnøy, Sømna og Bindal) – oppleves Tromsø og
+  Universitetssykehuset Nord-Norge (UNN) fjernt, tungvint og sårbart. Mens E6 og
+  Nordlandsbanen leder strake veien sørover til St. Olavs hospital i Trondheim,
+  holdes Helgeland fast i et helsebyråkratisk jerngrep fra nord. Dokumentene
+  viser at UNN selv frykter pasientflukten til Trøndelag – og at lovverket gir
+  hver enkelt pasient lovfestet rett til å velge bort Tromsø allerede i dag.
 image: /images/sykehusvalg.png
 kicker: HELSE
 date: 2026-11-12
 ---
 ### 🏛️ 1\. Det strukturelle skiftet: Hvem bestemmer egentlig hvor vi hører hjemme?
 
-Spørsmålet om å koble Helgeland sør for Korgfjellet formelt over til Helse Midt-Norge og St. Olavs hospital er verken nytt eller uten presedens. Likevel styres regiongrensen etter et strengt statlig lovverk som låser grensene fast i nord.
+Spørsmålet om å koble Sør-Helgeland formelt over til Helse Midt-Norge og St. Olavs hospital er verken nytt eller uten presedens. Likevel styres regiongrensen etter et strengt statlig lovverk som låser grensene fast i nord.
 
-* **Foretaksmøtet og lovens rammer:** Etter helseforetaksloven § 4 er det Kongen i statsråd som formelt bestemmer rikets inndeling i helseregioner, der det skal være ett regionalt helseforetak i hver region. Helse- og omsorgsdepartementet utøver statens eierstyring gjennom foretaksmøtene. Etter spesialisthelsetjenesteloven § 2-1 a har det regionale helseforetaket (Helse Nord RHF) et lovpålagt «sørge-for-ansvar» for befolkningen i regionen. En formell endring av opptaksområdet for Vefsn, Grane, Hattfjelldal og resten av Sør-Helgeland krever dermed en kongelig resolusjon eller en formell instruks fra helse- og omsorgsministeren i foretaksmøte.
+* **Foretaksmøtet og lovens rammer:** Etter helseforetaksloven § 4 er det Kongen i statsråd som formelt bestemmer rikets inndeling i helseregioner, der det skal være ett regionalt helseforetak i hver region. Helse- og omsorgsdepartementet utøver statens eierstyring gjennom foretaksmøtene. Etter spesialisthelsetjenesteloven § 2-1 a har det regionale helseforetaket (Helse Nord RHF) et lovpålagt «sørge-for-ansvar» for befolkningen i regionen. En formell endring av opptaksområdet for kommunene på Sør-Helgeland krever dermed en kongelig resolusjon eller en formell instruks fra helse- og omsorgsministeren i foretaksmøte.
 * **«Bindal-presedensen» som forbilde:** En hel kommune på Helgeland har allerede brutt ut i praksis: Bindal kommune hører formelt til Nordland fylke, men benytter Sykehuset Namsos i Helse Midt-Norge som sitt lokalsykehus. Pasientene fra Bindal registreres formelt som gjestepasienter i Helgelandssykehusets statistikker, noe som beviser at helsebyråkratiske grenser kan tilpasses praktisk geografi.
-* **UNNs egen innrømmelse:** Da debatten om sykehusstrukturen på Helgeland sto på som verst, felte Akuttmedisinsk klinikk ved UNN Tromsø en oppsiktsvekkende dom i sin offisielle høringsuttalelse: De slo fast at et nytt samlet sykehus burde lokaliseres sør for Korgfjellet. Ett av UNNs fremste hovedargumenter var eksplisitt å sikre *«reduserte pasientlekkasjer til Helse Midt-Norge»*. Ledelsen i Tromsø har med andre ord lenge visst at befolkningen på Sør- og Indre Helgeland naturlig trekkes mot Trøndelag dersom tilbudet i nord svekkes.
+* **UNNs egen innrømmelse:** Da debatten om sykehusstrukturen på Helgeland sto på som verst, felte Akuttmedisinsk klinikk ved UNN Tromsø en oppsiktsvekkende dom i sin offisielle høringsuttalelse: De slo fast at et nytt samlet sykehus burde lokaliseres sør for Korgfjellet. Ett av UNNs fremste hovedargumenter var eksplisitt å sikre *«reduserte pasientlekkasjer til Helse Midt-Norge»*. Ledelsen i Tromsø har med andre ord lenge visst at befolkningen på Sør-Helgeland naturlig trekkes mot Trøndelag dersom tilbudet i nord oppleves utilgjengelig eller svekkes.
 
 #### 💸 De økonomiske konsekvensene: Millionene som forsvinner sørover
 
@@ -28,7 +29,7 @@ Dersom pasientstrømmene formelt eller uformelt flyttes til Helse Midt-Norge, ry
 * **Gjestepasientoppgjøret:** Etter spesialisthelsetjenesteloven §§ 5-1 og 5-2 må pasientens bostedsregion dekke de faktiske utgiftene til behandling gjennom det etablerte gjestepasientoppgjøret.
 * **Tung millionlekkasje:** Helgelandssykehuset kjøper årlig gjestepasienttjenester innen somatikk, psykisk helsevern og rusbehandling for enorme summer. Foretakets samlede kjøp av gjestepasienttjenester utgjorde 178,5 millioner kroner i 2021 og steg til 190,9 millioner kroner i 2022.
 * **Helse Nords regning:** På regionalt nivå viser foretaksmøtedokumentene at Helse Nords samlede kjøp av gjestepasientoppgjør fra andre regioner utgjorde 185,8 millioner kroner i 2022, 196,4 millioner kroner i 2023, 195,4 millioner kroner i 2024 og 178,3 millioner kroner i 2025.
-* **ISF-inntektene under press:** I tillegg inneholder inntektsposten «ISF egne pasienter» både egen aktivitet og innsatsstyrt finansiering knyttet til gjestepasienter. Dersom anslagsvis 11 000 innbyggere på Sør-Helgeland (rundt 14 prosent av sykehusets opptaksområde) konsekvent velger Trøndelag, tappes Helse Nord for store refusjons- og basisrammeinntekter til fordel for Helse Midt-Norge.
+* **ISF-inntektene under press:** I tillegg inneholder inntektsposten «ISF egne pasienter» både egen aktivitet og innsatsstyrt finansiering knyttet til gjestepasienter. Dersom pasientene på Sør-Helgeland konsekvent velger Trøndelag, tappes Helse Nord for store refusjons- og basisrammeinntekter til fordel for Helse Midt-Norge.
 
 ---
 
@@ -70,12 +71,12 @@ Mange innbyggere på Helgeland tror feilaktig at de er tvunget til å reise dit 
 &gt;  * **Sykehuset Levanger** (Helse Nord-Trøndelag)  
 &gt;  Fastlegen har plikt til å etterkomme ønsket ditt så lenge det aktuelle behandlingstilbudet finnes ved det valgte sykehuset.
 &gt; 3. **Enkelt bytte via «Mitt sykehusvalg» på Helsenorge:**  
-&gt; Dersom du allerede er henvist til Helgelandssykehuset, Nordlandssykehuset i Bodø eller UNN Tromsø, kan du når som helst bytte behandlingssted digitalt via nettløsningen «Mitt sykehusvalg» på Helsenorge. Du kan også kontakte avdelingen der du venter og be om at henvisningen videresendes til sykehuset du ønsker i Trøndelag.
+&gt; Dersom du allerede er henvist til Helgelandssykehuset eller UNN Tromsø, kan du når som helst bytte behandlingssted digitalt via nettløsningen «Mitt sykehusvalg» på Helsenorge. Du kan også kontakte avdelingen der du venter og be om at henvisningen videresendes til sykehuset du ønsker i Trøndelag.
 &gt; 4. **Dekning av reiseutgifter (Pasientreiser):**
 &gt; 
 &gt;  * Etter pasient- og brukerrettighetsloven § 2-6 har du rett til dekning av nødvendige reiseutgifter ved undersøkelse og behandling.
 &gt;  * **Regel om egenandel:** Du får dekket reisen til sykehuset du har valgt, men du betaler en forhøyet egenandel dersom du velger et sykehus som ligger lenger unna enn det geografisk nærmeste tilbudet (med mindre ventetid eller manglende lokalt tilbud begrunner valget).
-&gt;  * For mange pasienter sør for Korgfjellet er en behagelig togreise sørover til Trondheim uansett både rimeligere, mer driftssikker og langt mindre anstrengende enn flyreiser med usikre flybytter til Tromsø.
+&gt;  * For mange pasienter på Sør-Helgeland er en behagelig togreise sørover til Trondheim uansett både rimeligere, mer driftssikker og langt mindre anstrengende enn flyreiser med usikre flybytter til Tromsø.
 
 ---
 
@@ -83,11 +84,11 @@ Mange innbyggere på Helgeland tror feilaktig at de er tvunget til å reise dit 
 
 Debatten om helsetilhørighet handler i bunn og grunn om geografi, bosettingsmønster og pasientsikkerhet:
 
-* **Befolkningen sør for Korgfjellet:** Kommunene Vefsn (med 13 478 innbyggere framskrevet til 2040), Grane (1 333) og Hattfjelldal (1 266), sammen med kyst- og øysamfunnene i Alstahaug, Leirfjord, Dønna, Herøy, Vega, Vevelstad, Brønnøy og Sømna, utgjør til sammen over 40 000 innbyggere.
+* **Sør-Helgelands samlede befolkning:** Kommunene sør for Korgfjellet – Vefsn (med 13 478 innbyggere framskrevet til 2040), Grane (1 333) og Hattfjelldal (1 266), sammen med Alstahaug, Leirfjord, Dønna, Herøy, Vega, Vevelstad, Brønnøy, Sømna og Bindal – utgjør til sammen over 40 000 innbyggere, altså over halvparten av Helgelands samlede befolkning.
 * **Avstandene som rammer:** Analysene fra Oslo Economics dokumenterer de brutale realitetene ved sentralisering nordover: Dersom spesialisthelsetilbudet sentraliseres nord for Korgfjellet, vil hele **16 500 innbyggere** få mer enn to timer reisetid med bilambulanse, og **11 000 innbyggere** vil få mer enn tre timer reisetid. Fra Sømna til Mo i Rana er avstanden svimlende 270 kilometer – det er 40 kilometer lenger enn hele distansen fra Mo i Rana til Bodø.
-* **Naturlig samferdselsakse:** For innbyggerne i Mosjøen, Trofors, Hattfjelldal og sørover mot Namdalen er den kulturelle, handelsmessige og infrastrukturelle aksen orientert sørover langs E6 og Nordlandsbanen.
+* **Naturlig samferdselsakse:** For innbyggerne i Mosjøen, Trofors, Hattfjelldal og kystdistriktene sørover mot Namdalen er den kulturelle, handelsmessige og infrastrukturelle aksen orientert sørover langs E6 og Nordlandsbanen.
 
-Mens helseforetaksbyråkratiet i Helse Nord tviholder på regiongrensene for å sikre pasientgrunnlaget og økonomien ved Universitetssykehuset Nord-Norge i Tromsø, har innbyggerne sør for Korgfjellet lovverket på sin side. Hver eneste gang en pasient ber fastlegen sende henvisningen til St. Olavs hospital eller Namsos, flyttes både makt og helsekroner fra nord til sør.
+Mens helseforetaksbyråkratiet i Helse Nord tviholder på regiongrensene for å sikre pasientgrunnlaget og økonomien ved Universitetssykehuset Nord-Norge i Tromsø, har innbyggerne på Sør-Helgeland lovverket på sin side. Hver eneste gang en pasient ber fastlegen sende henvisningen til St. Olavs hospital eller Namsos, flyttes både makt og helsekroner fra nord til sør.
 
 ---
 
