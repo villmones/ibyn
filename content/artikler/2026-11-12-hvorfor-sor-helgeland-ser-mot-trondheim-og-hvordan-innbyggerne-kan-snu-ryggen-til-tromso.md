@@ -2,9 +2,9 @@
 draft: false
 title: 🏔️ Hvorfor Sør-Helgeland ser mot Trondheim – og hvordan innbyggerne kan
   snu ryggen til Tromsø
-summary: For pasienter på Sør-Helgeland – definert som alle kommunene sør for
-  Korgfjellet (Vefsn, Grane, Hattfjelldal, Alstahaug, Leirfjord, Dønna, Herøy,
-  Vega, Vevelstad, Brønnøy, Sømna og Bindal) – oppleves Tromsø og
+summary: For pasienter på Sør-Helgeland – definert her som alle kommunene sør
+  for Korgfjellet (Vefsn, Grane, Hattfjelldal, Alstahaug, Leirfjord, Dønna,
+  Herøy, Vega, Vevelstad, Brønnøy, Sømna og Bindal) – oppleves Tromsø og
   Universitetssykehuset Nord-Norge (UNN) fjernt, tungvint og sårbart. Mens E6 og
   Nordlandsbanen leder strake veien sørover til St. Olavs hospital i Trondheim,
   holdes Helgeland fast i et helsebyråkratisk jerngrep fra nord. Dokumentene
