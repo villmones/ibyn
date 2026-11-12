@@ -58,24 +58,25 @@ Ruteendringene og flyselskapenes disposisjoner forverrer situasjonen ytterligere
 
 Mange innbyggere på Helgeland tror feilaktig at de er tvunget til å reise dit helseforetaket i nord anviser. Det stemmer ikke ved planlagt utredning og behandling. Lovverket gir deg full valgfrihet.
 
-&gt; ### 💡 FAKTABOKS: RETTEN TIL Å VELGE BEHANDLINGSSTED
-&gt; 
-&gt; 1. **Lovfestet rettighet i pasient- og brukerrettighetsloven § 2-4:**  
-&gt; Alle pasienter med rett til nødvendig helsehjelp har lovfestet rett til å velge ved hvilket offentlig sykehus behandlingen skal foretas. Retten gjelder på tvers av hele landet. Sykehusene i Helse Midt-Norge er lovpålagt å ta imot pasienter fra Helgeland på lik linje med pasienter fra Trøndelag.
-&gt; 2. **Slik ber du fastlegen henvise sørover:**  
-&gt; Når fastlegen vurderer at du har behov for utredning eller operasjon i spesialisthelsetjenesten, kan du kreve at legen sender henvisningen direkte sørover til:
-&gt; 
-&gt;  * **St. Olavs hospital** i Trondheim (regionsykehus)
-&gt;  * **Sykehuset Namsos** (Helse Nord-Trøndelag)
-&gt;  * **Sykehuset Levanger** (Helse Nord-Trøndelag)  
-&gt;  Fastlegen har plikt til å etterkomme ønsket ditt så lenge det aktuelle behandlingstilbudet finnes ved det valgte sykehuset.
-&gt; 3. **Enkelt bytte via «Mitt sykehusvalg» på Helsenorge:**  
-&gt; Dersom du allerede er henvist til Helgelandssykehuset eller UNN Tromsø, kan du når som helst bytte behandlingssted digitalt via nettløsningen «Mitt sykehusvalg» på Helsenorge. Du kan også kontakte avdelingen der du venter og be om at henvisningen videresendes til sykehuset du ønsker i Trøndelag.
-&gt; 4. **Dekning av reiseutgifter (Pasientreiser):**
-&gt; 
-&gt;  * Etter pasient- og brukerrettighetsloven § 2-6 har du rett til dekning av nødvendige reiseutgifter ved undersøkelse og behandling.
-&gt;  * **Regel om egenandel:** Du får dekket reisen til sykehuset du har valgt, men du betaler en forhøyet egenandel dersom du velger et sykehus som ligger lenger unna enn det geografisk nærmeste tilbudet (med mindre ventetid eller manglende lokalt tilbud begrunner valget).
-&gt;  * For mange pasienter på Sør-Helgeland er en behagelig togreise sørover til Trondheim uansett både rimeligere, mer driftssikker og langt mindre anstrengende enn flyreiser med usikre flybytter til Tromsø.
+> ### 💡 FAKTABOKS: RETTEN TIL Å VELGE BEHANDLINGSSTED
+> 
+> 1. **Lovfestet rettighet i pasient- og brukerrettighetsloven § 2-4:**  
+> Alle pasienter med rett til nødvendig helsehjelp har lovfestet rett til å velge ved hvilket offentlig sykehus behandlingen skal foretas. Retten gjelder på tvers av hele landet. Sykehusene i Helse Midt-Norge er lovpålagt å ta imot pasienter fra Helgeland på lik linje med pasienter fra Trøndelag.
+> 2. **Slik ber du fastlegen henvise sørover:**  
+> Når fastlegen vurderer at du har behov for utredning eller operasjon i spesialisthelsetjenesten, kan du kreve at legen sender henvisningen direkte sørover til:
+> 
+>  * **St. Olavs hospital** i Trondheim (regionsykehus)
+>  * **Sykehuset Namsos** (Helse Nord-Trøndelag)
+>  * **Sykehuset Levanger** (Helse Nord-Trøndelag)  
+>  Fastlegen har plikt til å etterkomme ønsket ditt så lenge det aktuelle behandlingstilbudet finnes ved det valgte sykehuset.
+> 3. **Enkelt bytte via «Mitt sykehusvalg» på Helsenorge:**  
+> Dersom du allerede er henvist til Helgelandssykehuset eller UNN Tromsø, kan du når som helst bytte behandlingssted digitalt via nettløsningen «Mitt sykehusvalg» på Helsenorge. Du kan også kontakte avdelingen der du venter og be om at henvisningen videresendes til sykehuset du ønsker i Trøndelag.
+> 4. **Dekning av reiseutgifter (Pasientreiser):**
+> 
+>  * Etter pasient- og brukerrettighetsloven § 2-6 har du rett til dekning av nødvendige reiseutgifter ved undersøkelse og behandling.
+>  * **Regel om egenandel:** Du får dekket reisen til sykehuset du har valgt, men du betaler en forhøyet egenandel dersom du velger et sykehus som ligger lenger unna enn det geografisk nærmeste tilbudet (med mindre ventetid eller manglende lokalt tilbud begrunner valget).
+>  * For mange pasienter på Sør-Helgeland er en behagelig togreise sørover til Trondheim uansett både rimeligere, mer driftssikker og langt mindre anstrengende enn flyreiser med usikre flybytter til Tromsø.
+
 
 ---
 
