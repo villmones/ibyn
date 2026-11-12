@@ -9,11 +9,10 @@ summary: For pasienter i Vefsn, Grane, Hattfjelldal og kystkommunene i sør
   nord. Dokumentene viser at UNN selv frykter pasientflukten til Trøndelag – og
   at lovverket gir hver enkelt pasient lovfestet rett til å velge bort Tromsø
   allerede i dag.
+image: /images/sykehusvalg.png
 kicker: HELSE
 date: 2026-11-12
 ---
-
-
 ### 🏛️ 1\. Det strukturelle skiftet: Hvem bestemmer egentlig hvor vi hører hjemme?
 
 Spørsmålet om å koble Helgeland sør for Korgfjellet formelt over til Helse Midt-Norge og St. Olavs hospital er verken nytt eller uten presedens. Likevel styres regiongrensen etter et strengt statlig lovverk som låser grensene fast i nord.
