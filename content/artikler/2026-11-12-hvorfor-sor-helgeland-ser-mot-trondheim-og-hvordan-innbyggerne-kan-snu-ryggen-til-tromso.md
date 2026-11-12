@@ -35,7 +35,7 @@ Helse Nord tviholder ikke på Sør-Helgeland av omsorg for reiseveien vår, men 
 
 * **Millionstrømmen som allerede går til Trøndelag:** Når pasienter fra Helgeland behandles i andre helseregioner, må Helgelandssykehuset ta regningen gjennom det såkalte gjestepasientoppgjøret. Årsregnskapene avslører at sykehuset vårt hvert eneste år betaler mellom **180 og 196 millioner kroner** direkte til andre helseregioner – i all hovedsak til Helse Midt-Norge, St. Olavs hospital og Sykehuset Namsos (168,9 mill. kr i 2021, 185,8 mill. kr i 2022, 196,4 mill. kr i 2023, 195,4 mill. kr i 2024 og 178,3 mill. kr i 2025).
 * **Pasientene har allerede «snudd ryggen» til nord:** At nesten 200 millioner helsekroner forlater Nord-Norge årlig, beviser at befolkningen på Sør-Helgeland i praksis allerede sogner sørover ved planlagt utredning, operasjoner og spesialisert behandling.
-* **Tromsøs store skrekk:** Dersom Sør-Helgeland formelt overføres til Trøndelag, mister Helse Nord og Universitetssykehuset Nord-Norge (UNN) i Tromsø innbyggertilskuddet for over 40 000 mennesker for godt. Det vil ryste økonomien og pasientvolumet ved landets minste universitetssykehus i grunnvollene.
+* **Tromsøs store skrekk:** Dersom Sør-Helgeland formelt overføres til Trøndelag, mister Helse Nord og Universitetssykehuset Nord-Norge (UNN) i Tromsø innbyggertilskuddet for over 40 000 mennesker for godt.
 
 Å flytte regiongrensen er derfor ikke et radikalt brudd, men bare å ta de formelle og økonomiske konsekvensene av valgene helgelendingene allerede gjør i hverdagen.
 
