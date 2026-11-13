@@ -1,6 +1,6 @@
 ---
 draft: true
-title: 📉Korthuset faller – Sykehuset som regnet feil på en milliard
+title: 📉Korthuset faller – Sykehuset som mangler en milliard
 summary: Nye styrepapirer fra Helgelandssykehuset avslører en økonomisk og
   bygningsmessig katastrofe. Samtidig som sykehusledelsen har brukt år på å
   pynte på kalkylene for utvidelser i Rana, har et vedlikeholdsetterslep på
