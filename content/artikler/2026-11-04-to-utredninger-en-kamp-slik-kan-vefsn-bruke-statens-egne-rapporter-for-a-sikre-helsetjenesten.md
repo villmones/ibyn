@@ -16,7 +16,7 @@ date: 2026-11-04
 ---
 ### 🏛️ Slutt på byråkratprat: Hvilken NOU sier hva, og hva betyr det for Vefsn?
 
-I den offentlige debatten har rapportene fra **Innovasjons- og samskapingsutvalget (NOU 2026:6 *«Den nye velferdskommunen»*)** og **Helsereformutvalget (NOU 2026:12 *«Én helsetjeneste»*)** ofte blitt behandlet som tørre, adskilte byråkratidokumenter. For å skape full klarhet over argumentasjonsrekken har vi spaltet ut eksakt hva hver av utredningene slår fast:
+I den offentlige debatten har rapportene fra **Innovasjons- og samskapingsutvalget (NOU 2026:6 _«Den nye velferdskommunen»_)** og **Helsereformutvalget (NOU 2026:12 _«Én helsetjeneste»_)** ofte blitt behandlet som tørre, adskilte byråkratidokumenter. For å skape full klarhet over argumentasjonsrekken har vi spaltet ut eksakt hva hver av utredningene slår fast:
 
 #### 📌 NOU 2026:6 («Den nye velferdskommunen») – Kommunen som omdreiningspunkt og oppgjør med «pilotsyke»
 
