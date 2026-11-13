@@ -19,9 +19,7 @@ Korthuset faller. Og regningen er det befolkningen og lokalsamfunnene som forven
 
 ---
 
-### 1\. Milliarden som plutselig dukket opp: Investeringskrisen
-
-I årevis har sykehusledelsen forsikret offentligheten om at de har kontroll på bygningsmassen og utstyrsparken. De nye styrepapirene avdekker en helt annen og rystende virkelighet:
+### 1\. Milliarden og Investeringskrisen
 
 Det samlede vedlikeholdsetterslepet og investeringsbehovet for bygg, medisinteknisk utstyr og IKT har passert svimlende **962 millioner kroner** – nær én hel milliard!
 
