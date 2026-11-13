@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: 📉Korthuset faller – Sykehuset som mangler en milliard
 summary: Nye styrepapirer fra Helgelandssykehuset avslører en økonomisk og
   bygningsmessig katastrofe. Samtidig som sykehusledelsen har brukt år på å
