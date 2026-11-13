@@ -28,7 +28,7 @@ Det samlede vedlikeholdsetterslepet og investeringsbehovet for bygg, medisintekn
 * **Kritisk for medisinsk utstyr:** Behovet for utskifting av medisinteknisk utstyr utgjør 130,7 millioner kroner alene, hvorav livs- og helsekritisk utstyr for 9,5 millioner kroner står i fare for havari.
 * **Tom kasse:** Det mest absurde i situasjonen er handlingsrommet. Helseforetaket har en årlig fri investeringsramme på kun **knapt 50 til 55 millioner kroner**.
 
-Hvordan kunne et forfall i milliardklassen oppstå under radaren? Mens ledelsen har brukt enormt med tid og krefter på omstridte omorganiseringsprosesser, avvikling av akuttplasser og lokalpolitiske omkamper, har sykehusbyggene og det tekniske utstyret råtnet på rot. Dagens årlige investeringsramme dekker knapt nok løpende reparasjoner av de mest akutte havariene.
+Mens ledelsen har brukt enormt med tid og krefter på omstridte omorganiseringsprosesser, avvikling av akuttplasser og lokalpolitiske omkamper, har sykehusbyggene og det tekniske utstyret råtnet på rot. Dagens årlige investeringsramme dekker knapt nok løpende reparasjoner av de mest akutte havariene.
 
 ---
 
