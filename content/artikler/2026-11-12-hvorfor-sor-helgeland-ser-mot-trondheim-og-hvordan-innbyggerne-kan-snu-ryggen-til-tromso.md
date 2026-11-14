@@ -61,12 +61,17 @@ Ruteendringene og flyselskapenes disposisjoner forverrer situasjonen ytterligere
 * **Knuteledd i oppløsning:** Med færre avganger, redusert kapasitet og dårligere korrespondanse i Bodø blir pasientreiser fra Helgeland til UNN Tromsø enda mer tidkrevende, uforutsigbare og belastende for syke mennesker.
 * **Prissjokk og monopoltilstander:** Helgelandssykehusets egne styredokumenter har tidligere problematisert overgangene mellom Widerøe og SAS. Når SAS kutter rutene, tvinges pasientreisene i enda større grad over på færre aktører med stivere priser, lengre ventetider og ytterligere forringet reisekomfort. For pasienter i sør framstår togreisen til Trondheim som et overlegent, verdig alternativ.
 
-### 🚗 FUN FACT: BILTUR TIL TROMSØ TAR LIKE LANG TID SOM TIL OSLO
+### 🚗FUN FACT: BILTUR TIL TROMSØ TAR LIKE LANG TID SOM TIL OSLO
 
 > * **Kjøreturen fra Mosjøen til Tromsø** tar i underkant av 11 timer (nærmere bestemt rundt 10 timer og 49 minutter for å tilbakelegge om lag 739 kilometer).
 > * **Kjører du sørover fra Mosjøen i nøyaktig samme tidsrom**, havner du omtrent akkurat på Gardermoen (Oslo lufthavn).
 > * **Veistandard og fart:** Denne strekningen sørover er faktisk en god del lengre i ren avstand – 835 kilometer – men på grunn av raskere fartsgrenser og vesentlig bedre veistandard (E6 og Rv3), tar turen dit ca. 10 timer og 45 minutter.
-> * **Det absurde perspektivet:** På den tiden det tar å kjøre nordover til eget «regionsykehus» i Tromsø, vil du sørover passere byer som Steinkjer, Trondheim og Hamar (som tar drøye 10 timer), og komme deg nesten helt inn til sentrum av Oslo (som totalt tar i overkant av 11 timer).
+> * **Det absurde sykehusperspektivet:** På den tiden det tar å kjøre nordover til eget «regionsykehus» ved UNN i Tromsø, vil du sørover langs veien rekke å passere en hel rekke fullverdige sykehus:  
+>  * **Sykehuset Levanger** i Trøndelag (etter ca. 3,5 timer).
+>  * **St. Olavs hospital** i Trondheim (etter ca. 5 timer).
+>  * Sykehusene på Tynset og Elverum.
+>  * Tomta til det nye **Mjøssykehuset** ved Moelv langs E6 (etter ca. 9 timer og 20 minutter – nesten halvannen time *før* Tromsø-tiden er nådd).
+>  * Og passere Hamar og komme nesten helt inn til **Oslo og Akershus universitetssykehus (Ahus)**, som totalt tar i overkant av 11 timer.
 
 ---
 
