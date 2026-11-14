@@ -71,7 +71,8 @@ Ruteendringene og flyselskapenes disposisjoner forverrer situasjonen ytterligere
 >  * **St. Olavs hospital** i Trondheim (etter ca. 5 timer).
 >  * Tomta til det nye **Mjøssykehuset** ved Moelv langs E6 (etter ca. 10 timer  – ca. en time *før* Tromsø-tiden er nådd).
 >  * Og komme nesten helt inn til **Oslo og Akershus universitetssykehus (Ahus)**, som totalt tar i overkant av 11 timer.
-> __Google Maps
+>
+> — _Google Maps_
 
 ---
 
