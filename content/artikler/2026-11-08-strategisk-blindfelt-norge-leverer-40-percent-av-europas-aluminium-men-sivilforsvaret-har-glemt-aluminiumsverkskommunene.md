@@ -77,7 +77,7 @@ Nye sikkerhetsanalyser og forsvarsrapporter gjør den statlige utelatelsen av Mo
 > port. However, a number a smaller quays are also operated by the port
 > authorities in the vicinity, including Halsøy and Holandsvika which may
 > provide alternative options. Close to the town is also found Drevjamoen
-> leir180, one of the few military garrisons in the northwestern corner of the
+> leir, one of the few military garrisons in the northwestern corner of the
 > Study Region and home to Sør-Hålogaland heimevernsdistrikt (HV-14)
 > as well as a detachment from FLO, the Norwegian Defence Logistics
 > Organisation. This allows for staging operations to be held within the
