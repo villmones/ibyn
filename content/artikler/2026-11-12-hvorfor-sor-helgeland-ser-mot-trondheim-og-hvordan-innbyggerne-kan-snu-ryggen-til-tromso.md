@@ -69,9 +69,8 @@ Ruteendringene og flyselskapenes disposisjoner forverrer situasjonen ytterligere
 > * **Det absurde sykehusperspektivet:** På den tiden det tar å kjøre nordover til eget «regionsykehus» ved UNN i Tromsø, vil du sørover langs veien rekke å passere en hel rekke fullverdige sykehus:  
 >  * **Sykehuset Levanger** i Trøndelag (etter ca. 3,5 timer).
 >  * **St. Olavs hospital** i Trondheim (etter ca. 5 timer).
->  * Sykehusene på Tynset og Elverum.
 >  * Tomta til det nye **Mjøssykehuset** ved Moelv langs E6 (etter ca. 9 timer og 20 minutter – nesten halvannen time *før* Tromsø-tiden er nådd).
->  * Og passere Hamar og komme nesten helt inn til **Oslo og Akershus universitetssykehus (Ahus)**, som totalt tar i overkant av 11 timer.
+>  * Og komme nesten helt inn til **Oslo og Akershus universitetssykehus (Ahus)**, som totalt tar i overkant av 11 timer.
 
 ---
 
