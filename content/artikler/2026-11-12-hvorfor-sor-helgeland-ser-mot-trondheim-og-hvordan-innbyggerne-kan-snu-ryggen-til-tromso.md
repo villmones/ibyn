@@ -63,14 +63,15 @@ Ruteendringene og flyselskapenes disposisjoner forverrer situasjonen ytterligere
 
 ### 🚗FUN FACT: BILTUR TIL TROMSØ TAR LIKE LANG TID SOM TIL OSLO
 
-> * **Kjøreturen fra Mosjøen til Tromsø** tar i underkant av 11 timer (nærmere bestemt rundt 10 timer og 49 minutter for å tilbakelegge om lag 739 kilometer).
+> * **Kjøreturen fra Mosjøen til Tromsø** tar i overkant av 11 timer for å tilbakelegge om lag 751 kilometer).
 > * **Kjører du sørover fra Mosjøen i nøyaktig samme tidsrom**, havner du omtrent akkurat på Gardermoen (Oslo lufthavn).
-> * **Veistandard og fart:** Denne strekningen sørover er faktisk en god del lengre i ren avstand – 835 kilometer – men på grunn av raskere fartsgrenser og vesentlig bedre veistandard (E6 og Rv3), tar turen til på Gardermoen (Oslo lufthavn) samme tid.
+> * **Veistandard og fart:** Denne strekningen sørover er faktisk en god del lengre i ren avstand – 833 kilometer – men på grunn av raskere fartsgrenser og vesentlig bedre veistandard (E6 og Rv3), tar turen til på Gardermoen (Oslo lufthavn) samme tid.
 > * **Det absurde sykehusperspektivet:** På den tiden det tar å kjøre nordover til eget «regionsykehus» ved UNN i Tromsø, vil du sørover langs veien rekke å passere en hel rekke fullverdige sykehus:  
->  * **Sykehuset Levanger** i Trøndelag (etter ca. 3,5 timer).
+>  * **Sykehuset Levanger** i Trøndelag (etter ca. 4 timer).
 >  * **St. Olavs hospital** i Trondheim (etter ca. 5 timer).
->  * Tomta til det nye **Mjøssykehuset** ved Moelv langs E6 (etter ca. 9 timer og 20 minutter – nesten halvannen time *før* Tromsø-tiden er nådd).
+>  * Tomta til det nye **Mjøssykehuset** ved Moelv langs E6 (etter ca. 10 timer  – ca. en time *før* Tromsø-tiden er nådd).
 >  * Og komme nesten helt inn til **Oslo og Akershus universitetssykehus (Ahus)**, som totalt tar i overkant av 11 timer.
+> __Google Maps
 
 ---
 
