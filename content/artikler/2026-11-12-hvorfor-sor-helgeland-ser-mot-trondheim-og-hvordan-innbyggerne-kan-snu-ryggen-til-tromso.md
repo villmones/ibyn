@@ -65,7 +65,7 @@ Ruteendringene og flyselskapenes disposisjoner forverrer situasjonen ytterligere
 
 > * **Kjøreturen fra Mosjøen til Tromsø** tar i underkant av 11 timer (nærmere bestemt rundt 10 timer og 49 minutter for å tilbakelegge om lag 739 kilometer).
 > * **Kjører du sørover fra Mosjøen i nøyaktig samme tidsrom**, havner du omtrent akkurat på Gardermoen (Oslo lufthavn).
-> * **Veistandard og fart:** Denne strekningen sørover er faktisk en god del lengre i ren avstand – 835 kilometer – men på grunn av raskere fartsgrenser og vesentlig bedre veistandard (E6 og Rv3), tar turen dit ca. 10 timer og 45 minutter.
+> * **Veistandard og fart:** Denne strekningen sørover er faktisk en god del lengre i ren avstand – 835 kilometer – men på grunn av raskere fartsgrenser og vesentlig bedre veistandard (E6 og Rv3), tar turen til Oslo tilnæret samme tid.
 > * **Det absurde sykehusperspektivet:** På den tiden det tar å kjøre nordover til eget «regionsykehus» ved UNN i Tromsø, vil du sørover langs veien rekke å passere en hel rekke fullverdige sykehus:  
 >  * **Sykehuset Levanger** i Trøndelag (etter ca. 3,5 timer).
 >  * **St. Olavs hospital** i Trondheim (etter ca. 5 timer).
