@@ -1,6 +1,6 @@
 ---
 draft: true
-title: 🔍 De sjekker debattanten, ikke krisen i sykehuset.
+title: 🔍 De sjekker debattanten, ikke saken det skrives om.
 summary: Når etablerte redaksjoner ringer samfunnsdebattanten, er det ikke for å
   undersøke milliardkrisen i offentlige styrepapirer – men for å kontrollere om
   debattanten har sjekket kildene sine. Hvem beskytter mediene egentlig når de
