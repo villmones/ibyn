@@ -25,7 +25,7 @@ Men hvordan reagerer den etablerte offentligheten når nye stemmer tar i bruk di
 
 I den klassiske medieteorien har pressen en definert rolle som samfunnets «fjerde statsmakt» og offentlighetens fremste portvokter. Portvokterrollen har historisk vært begrunnet med behovet for kvalitetssikring, etisk forankring og siling av informasjon før den når fellesskapet.
 
-De siste årene har det imidlertid tegnet seg et tankevekkende mønster: Når uavhengige aktører eller private blogger løfter fram oppsiktsvekkende funn fra offentlige dokumenter ved hjelp av språkteknologi, rettes det journalistiske søkelyset påfallende ofte mot *avsenderen* og *verktøyet*, snarere enn mot *substansen* i det som avdekkes.
+De siste årene har det imidlertid tegnet seg et tankevekkende mønster: Når uavhengige aktører eller private blogger løfter fram funn fra offentlige dokumenter ved hjelp av språkteknologi, rettes det journalistiske søkelyset påfallende ofte mot *avsenderen* og *verktøyet*, snarere enn mot *substansen* i det som avdekkes.
 
 Når etablerte redaksjoner tar kontakt, avslører spørsmålene deres prioriteringen: Det spørres kanskje om tallene er riktige, men ikke av nysgjerrighet eller et ønske om å undersøke saken videre – utelukkende for å kontrollere om debattanten selv har sjekket kildene sine.
 
@@ -54,7 +54,7 @@ Men når verktøyet utelukkende brukes til å analysere faktiske, uomtvistelige 
 
 I over et århundre har redaktørstyrte medier hatt tilnærmet monopol på produksjon og distribusjon av offentlig samfunnskritikk. De har bestemt hvilke styresaker som fortjener en overskrift, hvilke tall som skal problematiseres, og hvilke som forblir bortgjemt i en bisetning.
 
-Når denne eneretten utfordres av teknologi som gjør hvermannsen i stand til å gjøre like grundige dokumentstudier som et distriktskontor, oppleves det åpenbart truende for den etablerte profesjonsidentiteten.
+Når denne eneretten utfordres av teknologi som gjør hvermannsen i stand til å gjøre like grundige dokumentstudier som et lokalavis, oppleves det åpenbart truende for den etablerte profesjonsidentiteten.
 
 ---
 
