@@ -62,7 +62,6 @@ Ruteendringene og flyselskapenes disposisjoner forverrer situasjonen ytterligere
 * **Prissjokk og monopoltilstander:** Helgelandssykehusets egne styredokumenter har tidligere problematisert overgangene mellom Widerøe og SAS. Når SAS kutter rutene, tvinges pasientreisene i enda større grad over på færre aktører med stivere priser, lengre ventetider og ytterligere forringet reisekomfort. For pasienter i sør framstår togreisen til Trondheim som et overlegent, verdig alternativ.
 
 > ### 🚗FUN FACT: BILTUR TIL TROMSØ TAR LIKE LANG TID SOM TIL OSLO
-
 > * **Kjøreturen fra Mosjøen til Tromsø** tar ca. 11 timer for å tilbakelegge om lag 751 kilometer).
 > * **Kjører du sørover fra Mosjøen i nøyaktig samme tidsrom**, havner du omtrent akkurat på Gardermoen (Oslo lufthavn).
 > * **Veistandard og fart:** Denne strekningen sørover er faktisk en god del lengre i ren avstand – 833 kilometer – men på grunn av raskere fartsgrenser og vesentlig bedre veistandard (E6 og Rv3), tar turen til på Gardermoen (Oslo lufthavn) samme tid.
