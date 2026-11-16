@@ -91,12 +91,13 @@ Men dokumentene beviser at Vefsn-politikerne har hatt helt rett hele veien. Komm
 
 ---
 
-### Kildeliste / Dokumentgrunnlag
+### 📚 Kildeliste og dokumentgrunnlag
 
-* **Helgelandssykehuset HF – Styresaker 28\. oktober 2026:**  
-  * *Styresak 86-2026 Virksomhetsrapport per september 2026* (Inkludert kapittel 8 «Inntektsanalyse: Utviklingen i aktivitetsinntekter per september 2026»).
-  * *Investeringsstrategi og investeringsbudsjett 2026–2029 / 2027–2034* (Dokumentasjon på samlet vedlikeholdsetterslep på 867–962 mill. kr, tilstandsgrad 3, samt investeringsrammer).
-* **Helgelandssykehuset HF – Historiske styresaker (2017–2025):**  
-  * *Styresak 116/2017, 69/2018, 114/2024 og 42/2024:* Kjøp av Fløy B (Selfors sykehjem) for 5 mill. kr i 2020, samt bevilgninger til fasader, strakstiltak og operasjonsstuer i Mo i Rana.
-  * *Styresak 106/2021, 11/2023, 114/2024 og 34/2025:* Prosessen, leiemodellene og kostnadsrammene vedrørende ambulansestasjonen i Mosjøen.
-* **Helse Nord RHF:** *Økonomisk langtidsplan og rammevedtak 2025–2026*.
+Opplysningene og tallmaterialet i denne artikkelen bygger på offentlige styresaker, protokoller og offisielle utredninger fra Helgelandssykehuset HF og Helse Nord RHF:
+
+* **Helgelandssykehuset HF – Styresak 86-2026 (Virksomhetsrapport per september 2026):** *Dokumenterer:* Månedlige driftsavvik, pasientlekkasje og spesielt kapittel 8 («Inntektsanalyse: Utviklingen i aktivitetsinntekter per september 2026») som viser svikt i innsatsstyrt finansiering (ISF-svikt) og inntektstap for foretaket.
+* **Helgelandssykehuset HF – Investeringsstrategi og budsjett (2026–2029 og 2027–2034):** *Dokumenterer:* Foretakets beregning av et samlet bygningsmessig vedlikeholdsetterslep på 867–962 millioner kroner, registreringer av tilstandsgrad 3 (akutt oppgraderingsbehov), medisinteknisk utstyr som har passert teknisk levetid, samt årlige investeringsrammer på kun 50–57 millioner kroner.
+* **Helgelandssykehuset HF – Styresak 34/2025 (Innspill til økonomisk langtidsplan 2026–2029):** *Dokumenterer:* Styrets enstemmige vedtak om å anmode Helse Nord om en ekstraordinær investeringsramme på 1 000 millioner kroner (én milliard kroner) over fem år (200 millioner kroner årlig) for å berge eksisterende sykehusbygg og utstyrspark.
+* **Helgelandssykehuset HF – Ambulansestasjonen i Mosjøen (Styresak 106/2021, 11/2023, 114/2024 og 34/2025):** *Dokumenterer:* Den historiske prosessen fra opprinnelige vedtak om nybygg i egenregi (20–35 millioner kroner) til overgangen til en ekstern leiemodell, der ledelsen eksplisitt begrunnet modellen med å frigjøre investeringsmidler til medisinteknisk utstyr, til tross for Arbeidstilsynets pålegg om uforsvarlige arbeidsforhold.
+* **Helgelandssykehuset HF – Bygningsinvesteringer på Mo i Rana (Styresak 116/2017, 69/2018, 42/2024 og 114/2024):** *Dokumenterer:* Kjøpet av Fløy B (Selfors sykehjem) for 5 millioner kroner i 2020 for å legge til rette for sykehusfunksjoner, samt løpende bevilgninger til fasader, operasjonsstuer og strakstiltak på Mo.
+* **Helse Nord RHF – Økonomisk langtidsplan og rammevedtak (2025–2026):** *Dokumenterer:* Det overordnede regionale investeringsstoppet, tildeling av årlige låne- og investeringsrammer til lokalsykehusene, og utsettelsen av store strukturprosjekter.
