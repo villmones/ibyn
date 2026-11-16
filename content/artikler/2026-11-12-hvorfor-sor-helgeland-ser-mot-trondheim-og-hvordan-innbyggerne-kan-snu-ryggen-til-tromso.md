@@ -61,7 +61,7 @@ Ruteendringene og flyselskapenes disposisjoner forverrer situasjonen ytterligere
 * **Knuteledd i oppløsning:** Med færre avganger, redusert kapasitet og dårligere korrespondanse i Bodø blir pasientreiser fra Helgeland til UNN Tromsø enda mer tidkrevende, uforutsigbare og belastende for syke mennesker.
 * **Prissjokk og monopoltilstander:** Helgelandssykehusets egne styredokumenter har tidligere problematisert overgangene mellom Widerøe og SAS. Når SAS kutter rutene, tvinges pasientreisene i enda større grad over på færre aktører med stivere priser, lengre ventetider og ytterligere forringet reisekomfort. For pasienter i sør framstår togreisen til Trondheim som et overlegent, verdig alternativ.
 
-### 🚗FUN FACT: BILTUR TIL TROMSØ TAR LIKE LANG TID SOM TIL OSLO
+> ### 🚗FUN FACT: BILTUR TIL TROMSØ TAR LIKE LANG TID SOM TIL OSLO
 
 > * **Kjøreturen fra Mosjøen til Tromsø** tar ca. 11 timer for å tilbakelegge om lag 751 kilometer).
 > * **Kjører du sørover fra Mosjøen i nøyaktig samme tidsrom**, havner du omtrent akkurat på Gardermoen (Oslo lufthavn).
