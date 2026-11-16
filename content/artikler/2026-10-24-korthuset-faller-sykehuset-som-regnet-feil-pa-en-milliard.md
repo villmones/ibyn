@@ -1,12 +1,12 @@
 ---
 draft: false
 title: 📉Korthuset faller – Sykehuset som mangler en milliard
-summary: Nye styrepapirer fra Helgelandssykehuset avslører en økonomisk og
-  bygningsmessig katastrofe. Samtidig som sykehusledelsen har brukt år på å
-  pynte på kalkylene for utvidelser i Rana, har et vedlikeholdsetterslep på
-  svimlende 962 millioner kroner bygd seg opp i det skjulte. Nå faller
-  skrivebordsmodellene sammen – og forklaringen på hvorfor Vefsn kommune
-  forsøkes skvises for 30 millioner kroner ligger endelig i dagen.
+summary: Nye styrepapirer fra Helgelandssykehuset synliggjør en varslet
+  økonomisk og bygningsmessig krise. Samtidig som store summer har vært bundet
+  opp i planlagte utvidelser på Mo, har et vedlikeholdsetterslep på svimlende
+  962 millioner kroner fått vokse i skyggen. Nå kolliderer skrivebordsmodellene
+  med virkeligheten – og forklarer hvorfor Vefsn kommune opplever å bli sittende
+  med regningen for nødvendig beredskap.
 image: /images/korthuset_faller_hsyk.png
 kicker: HELSE
 date: 2026-10-24
