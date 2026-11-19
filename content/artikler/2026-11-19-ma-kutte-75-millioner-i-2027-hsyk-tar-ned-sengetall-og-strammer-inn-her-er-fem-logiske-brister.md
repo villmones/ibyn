@@ -91,7 +91,7 @@ Den logiske bristen: Helt siden strukturvedtaket og foretaksmøtene i 2020 og 20
 
 For innbyggerne og pasientene i Vefsn, Grane og Hattfjelldal – som etter avviklingen av døgntilbudet i Mosjøen er henvist til å bruke sykehusene på Mo og i Sandnessjøen – vil tiltaksplanen for 2027 få direkte følger:
 
-* 1. 👨‍⚕️ **Dobbelt press på fastlegene:** Når sykehusene kutter i kontroller innen hjerte, mage/tarm og nevrologi, faller oppfølgingen tilbake på fastlegene i Vefsn, Grane og Hattfjelldal. Dette er kommuner som i utgangspunktet har krevende rekruttering og pressede legetjenester.
+* 1. 👨‍⚕️ **Dobbelt press på fastlegene:** Når sykehusene kutter i kontroller innen hjerte, mage/tarm og nevrologi, faller oppfølgingen tilbake på fastlegene i Vefsn, Grane og Hattfjelldal. Dette er kommuner som i utgangspunktet har pressede legetjenester.
 * 2. 🛏️ **Trangere sengeforhold ved innleggelse:** Innbyggere som fraktes til Mo i Rana eller Sandnessjøen for akutt eller planlagt behandling, vil møte sengeposter med færre senger, strengere krav til liggetid og et økt press på tidlig hjemsending.
 * 3. 🏥 **Videreføring av nærtilbud og lokal trygghet:** Dagkirurgi, dialyse, kreftbehandling, skadepoliklinikk og psykisk helsevern i Mosjøen videreføres som forutsatt. Pasienter som skal gjennomgå robotinngrep i Rana vil i tillegg få all for- og etterbehandling lokalt ved sykehuset i Mosjøen, mens Vefsn kommune allerede har sikret lokal legevaktberedskap gjennom egen legevaktsentral etablert i 2025.
 
