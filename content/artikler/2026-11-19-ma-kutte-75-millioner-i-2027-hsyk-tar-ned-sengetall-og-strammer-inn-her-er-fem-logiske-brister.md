@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "📉 Må kutte 75 millioner i 2027: HSYK tar ned sengetall og strammer inn
   – her er fem logiske brister"
 summary: Sakspapirene til styremøtet i Helgelandssykehuset HF (HSYK) 25.
@@ -8,7 +8,7 @@ summary: Sakspapirene til styremøtet i Helgelandssykehuset HF (HSYK) 25.
   må foretaket hente inn et samlet omstillingsbeløp på 75,0 millioner kroner.
 image: /images/spareplan_sykehus_kutt.png
 kicker: HELSE
-date: 2026-11-19
+date: 2026-11-18
 ---
 Bak de overordnede overskriftene om «kapasitetsstyring» og det nye toårige bærekraftsprogrammet «Vi bygger bæreevne 2027–2028» ligger det konkrete tiltak som vil merkes direkte i pasientbehandlingen: Senger ved kirurgisk sengepost og intensiv tas formelt ned, variable lønnskostnader skal halveres, vikarbyråinnleie av sykepleiere stoppes helt, og sykehuskontroller for pasienter med hjerte-, fordøyelses- og nevrologiske lidelser skal strammes inn og lempes over på fastlegene i kommunene.
 
