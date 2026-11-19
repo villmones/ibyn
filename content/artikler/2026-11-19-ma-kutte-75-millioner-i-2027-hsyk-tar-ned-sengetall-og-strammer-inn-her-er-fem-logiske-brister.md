@@ -47,7 +47,7 @@ Medisinsk klinikk må levere det nest største bidraget gjennom:
 
 Totalt legges det opp til at helseforetakets samlede bemanningsforbruk skal reduseres fra 1 831 brutto månedsverk (per oktober 2026) til budsjettmålet på 1 773 månedsverk i 2027. Det innebærer at minst 58 månedsverk må fjernes.
 
-3. 🔍 **Fem logiske brister i helseforetakets spareplan**
+3. 🔍 **Fem logiske brister i helseforetakets plan**
 
 Når tiltaksplanen for 2027 holdes opp mot foretakets historiske styresaker, vedtatte strategier og faktiske pasientstrømmer, trer fem fundamentale logiske brister og inkonsekvenser frem:
 
