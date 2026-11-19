@@ -14,7 +14,7 @@ Bak de overordnede overskriftene om «kapasitetsstyring» og det nye toårige b�
 
 Samtidig viser en grundig analyse av styrepapirene at ledelsens spareplan bygger på en rekke motstridende premisser, logiske brister og brudd med tidligere styrevedtak.
 
-1. 📊 Bakteppet: Fra minus 40 millioner til krav om 25 millioner i pluss
+1. 📊 **Bakteppet: Fra minus 40 millioner til krav om 25 millioner i pluss**
 
 Det økonomiske omstillingsbehovet for 2027 er en direkte konsekvens av at Helgelandssykehuset i 2026 ikke klarer å levere det vedtatte budsjettmålet om et overskudd på 20,0 millioner kroner.
 
@@ -22,7 +22,7 @@ I henhold til virksomhetsrapporten for oktober 2026 (styresak 96-2026) endte okt
 
 Når Helse Nord RHF i styresak 128-2026 har fastsatt et ufravikelig resultatkrav for 2027 på 25,0 millioner kroner i overskudd, oppstår en brutto omstillingsutfordring på 75,0 millioner kroner (differansen mellom en underliggende drift på ca. -40 til -50 mill. kr og målet på +25 mill. kr).
 
-2. ✂️ Kuttkatalogen for 2027: Slik skal 75 millioner hentes inn
+2. ✂️ **Kuttkatalogen for 2027: Slik skal 75 millioner hentes inn**
 
 I styresak 97-2026 («Bærekrafts program 2027–2028 og løypemelding tiltaksplan 2027») presenterer ledelsen den foreløpige tiltaksplanen. Selv om ledelsen har identifisert en bruttoliste med tiltak på til sammen 85,0 millioner kroner, slår saksutredningen fast at tiltakene per 18. november kun vil levere et budsjett i null. Foretaket har dermed en udekket, uløst omstilling på 25,0 millioner kroner for å innfri eierkravet fra Helse Nord.
 
@@ -47,7 +47,7 @@ Medisinsk klinikk må levere det nest største bidraget gjennom:
 
 Totalt legges det opp til at helseforetakets samlede bemanningsforbruk skal reduseres fra 1 831 brutto månedsverk (per oktober 2026) til budsjettmålet på 1 773 månedsverk i 2027. Det innebærer at minst 58 månedsverk må fjernes.
 
-3. 🔍 Fem logiske brister i helseforetakets spareplan
+3. 🔍 **Fem logiske brister i helseforetakets spareplan**
 
 Når tiltaksplanen for 2027 holdes opp mot foretakets historiske styresaker, vedtatte strategier og faktiske pasientstrømmer, trer fem fundamentale logiske brister og inkonsekvenser frem:
 
@@ -87,13 +87,13 @@ Parallelt med tiltaksplanen for 2027 behandler styret i sak 95-2026 tilbudet om 
 
 Den logiske bristen: Helt siden strukturvedtaket og foretaksmøtene i 2020 og 2025 har foretaksledelsen og Helse Nord fastholdt at Helgelandssykehuset skal bygges på en likeverdig todelt modell mellom Rana og Sandnessjøen. Ved å tildele det teknologiske spydspissutstyret til Rana alene, og kreve at kirurger og pasienter fra Sandnessjøen og Mosjøen må reise til Mo, etableres det en ubalanse som ledelsen selv innrømmer kan svekke rekrutteringen og skape uro ved akuttsykehuset i Sandnessjøen.
 
-4. 📍 Konsekvenser for Vefsn, Grane og Hattfjelldal
+4. 📍 **Konsekvenser for Vefsn, Grane og Hattfjelldal**
 
 For innbyggerne og pasientene i Vefsn, Grane og Hattfjelldal – som etter avviklingen av døgntilbudet i Mosjøen er henvist til å bruke sykehusene på Mo og i Sandnessjøen – vil tiltaksplanen for 2027 få direkte følger:
 
-1. 👨‍⚕️ **Dobbelt press på fastlegene:** Når sykehusene kutter i kontroller innen hjerte, mage/tarm og nevrologi, faller oppfølgingen tilbake på fastlegene i Vefsn, Grane og Hattfjelldal. Dette er kommuner som i utgangspunktet har krevende rekruttering og pressede legetjenester.
-2. 🛏️ **Trangere sengeforhold ved innleggelse:** Innbyggere som fraktes til Mo i Rana eller Sandnessjøen for akutt eller planlagt behandling, vil møte sengeposter med færre senger, strengere krav til liggetid og et økt press på tidlig hjemsending.
-3. 🏥 **Videreføring av nærtilbud og lokal trygghet:** Dagkirurgi, dialyse, kreftbehandling, skadepoliklinikk og psykisk helsevern i Mosjøen videreføres som forutsatt. Pasienter som skal gjennomgå robotinngrep i Rana vil i tillegg få all for- og etterbehandling lokalt ved sykehuset i Mosjøen, mens Vefsn kommune allerede har sikret lokal legevaktberedskap gjennom egen legevaktsentral etablert i 2025.
+* 1. 👨‍⚕️ **Dobbelt press på fastlegene:** Når sykehusene kutter i kontroller innen hjerte, mage/tarm og nevrologi, faller oppfølgingen tilbake på fastlegene i Vefsn, Grane og Hattfjelldal. Dette er kommuner som i utgangspunktet har krevende rekruttering og pressede legetjenester.
+* 2. 🛏️ **Trangere sengeforhold ved innleggelse:** Innbyggere som fraktes til Mo i Rana eller Sandnessjøen for akutt eller planlagt behandling, vil møte sengeposter med færre senger, strengere krav til liggetid og et økt press på tidlig hjemsending.
+* 3. 🏥 **Videreføring av nærtilbud og lokal trygghet:** Dagkirurgi, dialyse, kreftbehandling, skadepoliklinikk og psykisk helsevern i Mosjøen videreføres som forutsatt. Pasienter som skal gjennomgå robotinngrep i Rana vil i tillegg få all for- og etterbehandling lokalt ved sykehuset i Mosjøen, mens Vefsn kommune allerede har sikret lokal legevaktberedskap gjennom egen legevaktsentral etablert i 2025.
 
 
 📚 **Kildegrunnlag og offisielle styredokumenter**
