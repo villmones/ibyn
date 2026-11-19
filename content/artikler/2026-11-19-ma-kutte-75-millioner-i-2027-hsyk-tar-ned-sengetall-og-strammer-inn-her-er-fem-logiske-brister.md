@@ -95,7 +95,8 @@ For innbyggerne og pasientene i Vefsn, Grane og Hattfjelldal – som etter avvik
 2. 🛏️ **Trangere sengeforhold ved innleggelse:** Innbyggere som fraktes til Mo i Rana eller Sandnessjøen for akutt eller planlagt behandling, vil møte sengeposter med færre senger, strengere krav til liggetid og et økt press på tidlig hjemsending.
 3. 🏥 **Videreføring av nærtilbud og lokal trygghet:** Dagkirurgi, dialyse, kreftbehandling, skadepoliklinikk og psykisk helsevern i Mosjøen videreføres som forutsatt. Pasienter som skal gjennomgå robotinngrep i Rana vil i tillegg få all for- og etterbehandling lokalt ved sykehuset i Mosjøen, mens Vefsn kommune allerede har sikret lokal legevaktberedskap gjennom egen legevaktsentral etablert i 2025.
 
-5. 📚 Kildegrunnlag og offisielle styredokumenter
+
+📚 **Kildegrunnlag og offisielle styredokumenter**
 
 Opplysningene og tallmaterialet i denne artikkelen bygger utelukkende på offentlige styresaker, protokoller og offisielle utredninger fra Helgelandssykehuset HF og Helse Nord RHF:
 
