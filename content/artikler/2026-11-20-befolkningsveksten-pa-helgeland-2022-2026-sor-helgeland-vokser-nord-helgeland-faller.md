@@ -4,7 +4,7 @@ title: "📈 Befolkningsveksten på Helgeland (2022–2026): Sør-Helgeland voks
   Nord-Helgeland faller"
 summary: Sør-Helgeland vokser – Nord-Helgeland faller bakpå. Oppdatert med
   offisielle SSB-tall per 3. kvartal 2026
-image: /images/vekst_i_sør.jpg
+image: /images/vekst_i_sor.jpg
 kicker: SAMFUNN
 date: 2026-11-20
 ---
