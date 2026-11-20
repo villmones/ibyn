@@ -61,6 +61,12 @@ Regionen omfatter Rana, Hemnes, Lurøy, Nesna, Rødøy og Træna:
 
 ---
 
+## 🏙️ Kommune for kommune: Hvem vokser og hvem krymper?
+
+![Helgeland Demografi Illustrasjon](../images/befolkningsendring_per_kommune_2026_kv3.png)
+
+---
+
 ## 2\. 📋 Kommunetabell: Helgeland og nabokommunene (2022 – 3\. kvartal 2026)
 
 Tabellen nedenfor gir den fullstendige oversikten over befolkningsutviklingen for samtlige kommuner i det utvidede kildedatasetter. Tallene for 2022 er hentet fra SSBs offisielle årstall per 1\. januar, mens tallene for 2023, 2024, 2025 og 2026 (1\. januar) representerer befolkningen ved utgangen av foregående 4\. kvartal. Kolonnen for 2026 Q3 viser fasiten per 30\. september 2026:
