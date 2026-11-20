@@ -35,6 +35,10 @@ I denne analysen er to nabokommuner i datasettet skilt ut fra de regionale samle
 
 Når disse to kommunene holdes utenfor de regionale opptaksområdene for Helgelandssykehuset, fremstår fordelingen mellom sør og nord slik:
 
+## 📊 Hovedtallene i korthet (2022–2026)
+
+![Helgeland Demografi Illustrasjon](../images/befolkningsutvikling_sor_vs_nord_2026_kv3.png)
+
 ### Sør-Helgeland (11 kommuner sør for Korgfjellet)
 
 Regionen omfatter Vefsn, Alstahaug, Leirfjord, Dønna, Brønnøy, Herøy, Vega, Sømna, Vevelstad, Hattfjelldal og Grane:
