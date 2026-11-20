@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: 📈 Befolkningsvekst på Helgeland (2022–2026)
 summary: Sør-Helgeland vokser - Nord-Helgeland stagnerer
 image: /images/vekst_i_sør.jpg
