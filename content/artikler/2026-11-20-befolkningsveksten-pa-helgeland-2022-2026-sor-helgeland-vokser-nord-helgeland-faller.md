@@ -8,7 +8,7 @@ image: /images/vekst_i_sør.jpg
 kicker: SAMFUNN
 date: 2026-11-20
 ---
-Ferske registreringstall fra Statistisk sentralbyrå (SSB) per 3\. kvartal 2026 (per 30\. september 2026) bekrefter og forsterker en historisk demografisk omveltning på Helgeland. Mens sykehusutredninger, statlige etater og fylkeskommunale strategier i årevis har bygget på en etablert forestilling om at Mo i Rana og Nord-Helgeland er landsdelens udiskutable vekstsenter, viser de faktiske befolkningstallene det stikk motsatte:
+Ferske registreringstall fra Statistisk sentralbyrå (SSB) per 3\. kvartal 2026 (per 30\. september 2026) bekrefter og forsterker en historisk demografisk omveltning på Helgeland. 
 
 * **Sør-Helgeland (11 kommuner sør for Korgfjellet):** Har opplevd en samlet befolkningsvekst på **+692 innbyggere (+1,72 %)** fra 1\. januar 2022 til utgangen av september 2026.
 * **Nord-Helgeland (6 kommuner nord for Korgfjellet):** Har i samme periode hatt en netto befolkningsnedgang på **\-103 innbyggere (-0,29 %)**.
