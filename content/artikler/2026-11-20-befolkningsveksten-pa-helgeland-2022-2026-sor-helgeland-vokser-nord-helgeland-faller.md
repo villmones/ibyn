@@ -1,6 +1,6 @@
 ---
 draft: false
-title: 📈 Befolkningsveksten på Helgeland (2022–2026)
+title: 📈 Befolkning på Helgeland (2022–2026)
 summary: Oppdatert med offisielle SSB-tall per 3. kvartal 2026
 image: /images/vekst_i_sor.jpg
 kicker: SAMFUNN
