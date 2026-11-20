@@ -167,7 +167,7 @@ Den sterke veksten i randkommuner som Leirfjord, Dønna, Herøy og Hemnes viser 
 
 Opplysningene og tallmaterialet i denne artikkelen bygger på offentlige statistikker og utredninger:
 
-* **Statistisk sentralbyrå (SSB) – Tabell 01222:** Befolkning og endringer i kommuner og kvartaler. Kvartalstall for 4\. kvartal 2022 til 3\. kvartal 2026 (oppdatert november 2026, inkludert Meløy). Inkluderer fødte, døde, innvandring, utvandring, innenlandsk inn- og utflytting, samt folketall ved inngangen og utgangen av hvert kvartal.
+* **Statistisk sentralbyrå (SSB) – Tabell 01222:** Befolkning og endringer i kommuner og kvartaler. Kvartalstall for 4\. kvartal 2022 til 3\. kvartal 2026 (oppdatert november 2026). Inkluderer fødte, døde, innvandring, utvandring, innenlandsk inn- og utflytting, samt folketall ved inngangen og utgangen av hvert kvartal.
 * **Statistisk sentralbyrå (SSB) – Tabell 07459:** Folketall per 1\. januar (historiske baseline-tall for 2022).
 * **Helgelandssykehuset HF – Styresak 86-2026 og 96-2026:** Virksomhetsrapporter og pasientstrømanalyser for 2026.
 * **Oslo Economics (2018):** «Analyse av lokalisering av et stort akuttsykehus på Helgeland», dokumentasjon av pasientlekkasjer fra Sør-Helgeland (særlig Bindal) til Sykehuset Namsos.
