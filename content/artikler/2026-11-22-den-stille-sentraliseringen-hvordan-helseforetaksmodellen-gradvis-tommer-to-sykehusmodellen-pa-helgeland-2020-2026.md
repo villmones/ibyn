@@ -27,13 +27,29 @@ Vedtaket fastslo at Helgelandssykehuset skulle organiseres som ett helseforetak 
 * Et akuttsykehus lokalisert i **Sandnessjøen og omegn**.
 * Et akuttsykehus lokalisert i **Mo i Rana**.
 
-### Hva med Mosjøen i 2020? Det store tomrommet
+### Hvorfor ble Mosjøen utelatt? Tanken om et felles nybygg sør for Korgfjellet
+
+Et av de mest brennbare spørsmålene i ettertid er hvorfor Mosjøen ikke ble nevnt med et eget akuttsykehus i 2020-vedtaket. Svaret forklares av den politiske forhistorien og den opprinnelige alliansen sør for Korgfjellet.
+
+I årene 2018–2019 sto tolv kommuner på Helgeland – anført av Vefsn, Alstahaug og kyst- og sør-kommunene – samlet bak et felles krav om å etablere ett stort, felles akuttsykehus for hele regionen plassert sentralt sør for Korgfjellet. Målet var å forhindre at Mo i Rana ble enehersker, samtidig som man ville samle ressursene i et framtidsrettet storsykehus som erstattet de gamle, nedslitte sykehusbyggene i både Mosjøen og Sandnessjøen.
+
+Da Bent Høie i januar 2020 valgte å vrake ett-sykehusmodellen til fordel for to akuttsykehus, videreførte han likevel kjerneideen bak kompromisset sør for Korgfjellet gjennom formuleringen **«Sandnessjøen og omegn»**. Tilføyelsen «og omegn» var ingen tilfeldighet:
+
+* Vedtaket låste sykehuset på Mo til dagens tomt på Selfors, men lot søkeområdet for det sørlige akuttsykehuset stå åpent i en egen konseptfase.
+* Den uttalte forutsetningen var at det nye kystsykehuset kunne plasseres i aksen mot Mosjøen – nærmere bestemt i Leirfjord ved Toventunnelen (Tovåsen).
+* Med en reisetid på om lag 30–35 minutter fra Mosjøen var tanken at dette nye sykehusbygget i realiteten skulle bli et **felles akuttsykehus for både Alstahaug, kysten og Vefsn/indre Helgeland**.
+
+Fordi det nye akuttsykehuset «i omegnen» var forutsatt å dekke Mosjøen og opptaksområdet på indre Helgeland, anså man det verken nødvendig eller økonomisk realistisk å opprettholde et eget, parallelt somatisk akuttsykehus inne i Mosjøen by.
+
+### Det store tomrommet i 2020: Ingen spesialistløfter til Mosjøen
+
+Konsekvensen av denne forutsetningen var at Mosjøen ble stående helt uten forpliktende spesialistfunksjoner i selve 2020-vedtaket. I ettertid har det fra enkelte hold blitt fremstilt som om Mosjøen allerede i 2020 ble tilgodesett med en definert rolle med dagkirurgi, skadepoliklinikk og spesialisttjenester. En gransking av de faktiske dokumentene viser at dette ikke stemmer.
 
 I foretaksmøtet 27\. januar 2020 sluttet helseminister Bent Høie seg formelt til styrevedtaket i Helse Nord RHF (sak 137-2019). Der var Mosjøen overhodet ikke omtalt som et sykehus med konkrete spesialistfunksjoner, men ble utelukkende henvist til et åpent, uforpliktende utredningspunkt for samlokalisering med kommunen:
 
 > *«I konseptfasen skal det utredes etablering av polikliniske somatikk-tilbud samlokalisert med kommunale helsetjenester i Mosjøen. Som del av utredningen vurderes også det somatiske tilbudet til pasienter innen psykisk helsevern.»*
 
-I saksframlegget til Helse Nord ble dette tilbudet eksplisitt definert som et **distriktsmedisinsk senter (DMS)**, og det ble uttrykkelig fastslått at det *ikke* skulle være spesialisthelsetjenestesenger i Mosjøen. Høies vedtak i 2020 innebar i realiteten at akuttsykehuset i Mosjøen ble lagt ned, uten at det ble gitt noe konkret innhold i retur. Det var ingen forpliktelser om dagkirurgi, ingen skadepoliklinikk, ingen egne subspesialiteter, og ingen døgnkontinuerlig slagalarm. Byen og fagmiljøet ble i praksis henvist til et usikkert utredningsspor i en udefinert fremtid.
+I saksframlegget til Helse Nord ble dette tilbudet eksplisitt definert som et **distriktsmedisinsk senter (DMS)**, og det ble uttrykkelig fastslått at det *ikke* skulle være spesialisthelsetjenestesenger i Mosjøen. Høies vedtak i 2020 innebar i realiteten at akuttsykehuset i Mosjøen ble lagt ned, uten at det ble gitt noe konkret innhold i retur i det eksisterende bygget. Det var ingen forpliktelser om dagkirurgi, ingen skadepoliklinikk, ingen egne subspesialiteter, og ingen døgnkontinuerlig slagalarm. Byen og fagmiljøet ble i praksis henvist til et usikkert utredningsspor i en udefinert fremtid – alt i påvente av det nye fellessykehuset som skulle reise seg «i omegnen».
 
 Det var først fire år senere – da helse- og omsorgsminister **Jan Christian Vestre** grep direkte inn i foretaksmøtene 3\. juli og 30\. august 2024, og den påfølgende funksjons- og oppgavefordelingen ble vedtatt i 2025 (HSYK styresak 2/2025 og foretaksmøtet 24\. mars 2025) – at Mosjøen for første gang fikk et bindende, definert innhold som spesialisthelsetjeneste. Vestre sørget for at sykehuset ble tilkjent en konkret katalog: dagkirurgi innen ortopedi, urologi, plastikkirurgi og generell kirurgi, skadepoliklinikk, indremedisinsk poliklinikk med ø-hjelpsfunksjon, døgnbasert slagalarm med CT, dialyse, kreft- og infusjonsbehandling, samt regionale funksjoner innen nevrologi, øye og hud, og videreføring av psykisk helsevern og TSB.
 
@@ -54,9 +70,17 @@ Rådgivningsselskapet Sweco leverte sin omfattende rapport i april 2021 (*«Tomt
 * I Leirfjord ble samtlige ni tomteforslag – inkludert fem tomter på Tovåsen, to på Leland, Langseteråsen og Leines – silt ut allerede før finsilingen. Sweco begrunnet dette med brudd på statlige planretningslinjer for kompakte byer og styrking av regionsentre, flyoperative advarsler fra Norsk Luftambulanse om fallvinder og turbulens for helikopter ved Tovåsen og Leland, samt skyhøye kostnader for å etablere tosidig vann, avløp og høyspent.
 * I Sandnessjøen sto man igjen med alternativer som krevde komplisert transformasjon i etablert bymiljø eller utfordrende grunnforhold.
 
-Tomtestriden bandt opp enorme administrative ressurser, skapte dyp splid mellom kommunene på Helgeland, og førte til at planleggingsprosessen ble forsinket med nesten to år.
+### Forutsetningen som brast for indre Helgeland
+
+Swecos utradering av samtlige tomter på Tovåsen og i Leirfjord fikk dramatiske konsekvenser for hele strukturen. Med dette falt selve hovedforutsetningen for at Mosjøen og indre Helgeland hadde akseptert å gi fra seg sitt eget akuttsykehus i 2020:
+
+* Tanken om et felles, framtidsrettet nybygg i aksen mellom byene ble knust. Sykehuset ble i stedet låst til Sandnessjøen by.
+* Dermed økte reisetiden for befolkningen i Vefsn, Grane og Hattfjelldal vesentlig sammenlignet med et sykehus ved Toventunnelen.
+* Tomtestriden bandt opp enorme administrative ressurser, skapte dyp splid mellom kommunene på Helgeland, og førte til at planleggingsprosessen ble forsinket med over to år.
 
 Mens saken sto i stampe, skjedde det to ting i makroøkonomien som skulle få fatale følger: Byggekostnadsindeksen eksploderte etter pandemien, og Norges Bank hevet styringsrenten. Da tomteprosessen omsider landet på å videreutvikle dagens tomt i Sandnessjøen, hadde prisen på et nytt sykehusbygg steget så mye at helseforetaket i realiteten ikke lenger hadde økonomisk løfteevne til å realisere det.
+
+Mosjøen og indre Helgeland sto dermed igjen med det verste av to verdener: Det lovede nye felles akuttsykehuset på Tovåsen ble aldri bygget, samtidig som helseforetaket beholdt 2020-vedtakets premiss om at akutt- og døgntilbudet i Mosjøen skulle avvikles.
 
 ---
 
@@ -129,8 +153,8 @@ For å løse rekrutteringsutfordringene ved de to andre akuttsykehusene (Mo i Ra
 
 Logikken fremsto absurd for enhver som kjenner distriktsdemografi:
 
-* I en allerede tynt befolket region med store rekrutteringsproblemer fjernet man i praksis **en stor stabil industri- og vekstkommunen på Helgeland (Vefsn)** som rekrutteringsarena for leger i spesialisering, overleger, anestesipersonell og spesialsykepleiere i akuttmedisin.
-* Både Vefsn (+249 innb. / +1,88 %) og Alstahaug (+202 innb. / +2,75 %) har i årene 2022–2026 hatt solid befolkningsvekst. Det er nettopp Helgelands sentrumskommuner – Vefsn, Alstahaug, Leirfjord (+98 innb. / +4,34 %) og Hemnes (+80 innb. / +1,81 %) – som har opplevd størst vekst de siste årene, mens Mo i Rana er den eneste av de tre opprinnelige sykehusbyene med markant befolkningsnedgang (-327 innb. / -1,25 %). Vefsn representerer et robust industri- og vekstsenter med et differensiert arbeidsmarked som tradisjonelt tiltrekker seg etablerere med partnere i andre yrkesgrupper.
+* I en allerede tynt befolket region med store rekrutteringsproblemer fjernet man i praksis **den største og mest stabile industri- og vekstkommunen på Helgeland (Vefsn)** som rekrutteringsarena for leger i spesialisering, overleger, anestesipersonell og spesialsykepleiere i akuttmedisin.
+* Både Mosjøen (Vefsn) og Sandnessjøen (Alstahaug) har hatt solid befolkningsvekst i årene 2022–2026, med henholdsvis **+249 innbyggere (+1,88 %)** og **+202 innbyggere (+2,75 %)**. Det er i realiteten hele den sammenvevde sentrumsaksen på Helgeland som vokser: Naboliggende **Leirfjord** har økt med **98 innbyggere (+4,34 %)** og **Hemnes** med **80 innbyggere (+1,81 %)**. Samlet har disse fire sentrumskommunene vokst med over 600 innbyggere. Den eneste av de tre opprinnelige sykehusbyene som opplever markant befolkningsnedgang, er **Mo i Rana**, med et fall på **\-327 innbyggere (-1,25 %)**. Vefsn representerer et robust industri- og vekstsenter med et differensiert arbeidsmarked som tradisjonelt tiltrekker seg etablerere med partnere i andre yrkesgrupper.
 * Ved å radere ut akuttsykehuset i Mosjøen, gjorde man det umulig for leger og spesialsykepleiere som ønsket å bo og stifte familie i Mosjøen å jobbe innen akuttmedisin i sitt nærområde.
 
 ### 🚗 Myten om pendling: Helsearbeiderne forsvant ut av sykehusene
@@ -184,7 +208,7 @@ Da saken kom til Helse Nord RHF (sak 22-2025), nektet styremedlem Jan Oddvar Sø
 
 For å døyve protestene og kompensere for at Mo i Rana hadde stukket av med både ortopedien, tarmkreftkirurgien og brorparten av pasientene fra Vefsn, fattet styret i sak 2/2025 et uttrykkelig kompensasjonsvedtak:
 
-&gt; *«Det kirurgiske fagområdet i Sandnessjøen trenger en større bredde i virksomheten for å sikre faglig bærekraft på sikt (...) All urologisk akutt- og døgnkirurgi overføres til Sandnessjøen.»*
+> *«Det kirurgiske fagområdet i Sandnessjøen trenger en større bredde i virksomheten for å sikre faglig bærekraft på sikt (...) All urologisk akutt- og døgnkirurgi overføres til Sandnessjøen.»*
 
 Hele urologimiljøet (urinveier, blære og prostata), som tidligere hadde sin døgnbase i Mosjøen med 236 årlige inngrep, ble formelt vedtatt overført til Sandnessjøen. Dette skulle være kystens faglige spydspiss. Men som sak 95-2026 om operasjonsroboten dokumenterer, ble dette vedtaket ignorert så snart neste investering skulle fordeles.
 
@@ -197,9 +221,10 @@ En ufravikelig forutsetning fra Stortinget, regjeringen og helseforetaket da aku
 Fasiten i 2025 og 2026 dokumenterer et markant tillitsbrudd:
 
 1. **Kanselleringen av ambulansestasjonen til 35 millioner kroner:** Helgelandssykehuset hadde opprinnelig planlagt og budsjettert en ny, moderne ambulansestasjon i Mosjøen til 35 millioner kroner. I styredokumentene fra november 2023 vedtok foretaket imidlertid å **kansellere hele egeninvesteringen**. Den interne begrunnelsen var oppsiktsvekkende: Foretaket måtte frigjøre sine knappe investeringsmidler til å dekke prekære behov for medisinteknisk utstyr ved sykehusene.
-2. **Kravet om kommunal overprising:** I stedet for å bygge selv, forlangte HSYK at Vefsn kommune skulle reise bygget for deretter å leie det ut til sykehuset. Forhandlingene brøt sammen i den såkalte «90 cm-saken», der helseforetaket krevde vilkår og leiepriser som etter kommunens beregninger ville påføre skattebetalerne i Vefsn en ekstraregning på 30 millioner kroner.
-3. **Ulovlige arbeidsforhold og frosne medisiner:** Konsekvensen ble at ambulansepersonellet i Mosjøen ble værende i sterkt nedslitte, midlertidige lokaler. Arbeidstilsynet har utstedt gjentatte pålegg, og tillitsvalgte har varslet om ulovlige boforhold for vaktlagene og akutt fare for pasientsikkerheten: Om vinteren har livsviktige akuttmedisiner i utrykningskjøretøyene frosset til is fordi garasjefasilitetene mangler tilstrekkelig oppvarming.
-4. **HSYKs oppsigelse i Sandnessjøen og Vefsns regionale redningsplanke:** Mens Vefsn kommune på eget initiativ besluttet å etablere en egen kommunal legevaktsentral i Mosjøen som åpnet 1\. desember 2025, driftet Helgelandssykehuset legevaktsentralen (116 117) lokalisert i Sandnessjøen for 11 kommuner på ytre og Sør-Helgeland. Som ledd i sine interne innsparinger i prehospital klinikk sa Helgelandssykehuset i 2026 opp denne driftsavtalen med virkning fra 1\. mars 2027, for å velte kostnadene og ansvaret over på kommunene. I stedet for et akuttmedisinsk vakuum trådte Vefsn kommune til: 9 av disse 11 kommunene har nå vedtatt å slutte seg til Vefsn legevaktsentral fra 1\. mars 2027\. Det illustrerer det absurde i situasjonen: Mens helseforetaket trekker seg ut og kutter i den akuttmedisinske kjeden for å pynte på egne driftsregnskaper – stikk i strid med NOU 2026: 12, som anbefaler at sykehusene skal ha et helhetlig driftsansvar for legevaktsentralene – må en enkeltkommune (Vefsn) overta ansvaret og berge den felles akuttformidlingen for regionen.
+2. **Kravet om kommunal overprising og den fastlåste konflikten:** I stedet for å bygge selv, forlangte HSYK at Vefsn kommune skulle reise bygget for deretter å leie det ut til sykehuset. Forhandlingene brøt sammen i den såkalte «90 cm-saken», der helseforetaket krevde vilkår og leiepriser som etter kommunens beregninger ville påføre skattebetalerne i Vefsn en ekstraregning på 30 millioner kroner, samtidig som kommunen avslo dispensasjon for avstandskravet til nabogrensen for å sikre en helhetlig utvikling av sykehustomta.
+3. **Statsforvalterens overstyring og lavkostnadslinjen (november 2026):** Den 9\. november 2026 skar Statsforvalteren i Nordland igjennom, overstyrte Vefsn kommune og ga Helgelandssykehuset endelig klarsignal til å bygge en ny ambulansegarasje på sykehustomta i Mosjøen. Vedtaket illustrerer foretakets lavkostnadslinje i et nøtteskall: I stedet for det opprinnelige helhetlige løftet med en fullverdig ambulansestasjon til 35 millioner kroner eller et samlet kommunalt helsehus, presset foretaket igjennom en ren nødløsning for å innfri Arbeidstilsynets pålegg og hindre at livsviktige medisiner fryser til is i utrykningskjøretøyene om vinteren.
+4. **Ulovlige arbeidsforhold som tvang fram nødvedtaket:** Bakgrunnen for at saken toppet seg hos Statsforvalteren, var de uholdbare forholdene ambulansepersonellet i Mosjøen har måttet arbeide under i årevis etter at akuttsykehuset ble vedtatt nedlagt. Arbeidstilsynet har utstedt gjentatte pålegg om ulovlige boforhold for vaktlagene, og tillitsvalgte har gjentatte ganger slått alarm om akutt fare for pasientsikkerheten fordi manglende oppvarming i garasjene har ført til frosne akuttmedisiner.
+5. **HSYKs oppsigelse i Sandnessjøen og Vefsns regionale redningsplanke:** Mens Vefsn kommune på eget initiativ besluttet å etablere en egen kommunal legevaktsentral i Mosjøen som åpnet 1\. desember 2025, driftet Helgelandssykehuset legevaktsentralen (116 117) lokalisert i Sandnessjøen for 11 kommuner på ytre og Sør-Helgeland. Som ledd i sine interne innsparinger i prehospital klinikk sa Helgelandssykehuset i 2026 opp denne driftsavtalen med virkning fra 1\. mars 2027, for å velte kostnadene og ansvaret over på kommunene. I stedet for et akuttmedisinsk vakuum trådte Vefsn kommune til: 9 av disse 11 kommunene har nå vedtatt å slutte seg til Vefsn legevaktsentral fra 1\. mars 2027\. Det illustrerer det absurde i situasjonen: Mens helseforetaket trekker seg ut og kutter i den akuttmedisinske kjeden for å pynte på egne driftsregnskaper – stikk i strid med NOU 2026: 12, som anbefaler at sykehusene skal ha et helhetlig driftsansvar for legevaktsentralene – må en enkeltkommune (Vefsn) overta ansvaret og berge den felles akuttformidlingen for regionen.
 
 ---
 
@@ -242,7 +267,7 @@ I tillegg viser foretakets offisielle produksjonstall i styresak 96-2026 at **Sa
 
 I kirurgisk klinikks faglige underlagsnotat advarte kirurgene mot å innføre robot ved kun én lokasjon:
 
-&gt; *«Å anskaffe en robot fremfor to har større fordeler ved den lokasjonen som får ta i bruk gaven (...) Etter hvert som tiden går mener vi sykehuslokasjonen som ikke får motta gaven vil oppleve en grad av de samme ulempene som begge sykehus vil uten robotkirurgi (...) med tilhørende vikarbruk og økt pasientlekkasje.»*
+> *«Å anskaffe en robot fremfor to har større fordeler ved den lokasjonen som får ta i bruk gaven (...) Etter hvert som tiden går mener vi sykehuslokasjonen som ikke får motta gaven vil oppleve en grad av de samme ulempene som begge sykehus vil uten robotkirurgi (...) med tilhørende vikarbruk og økt pasientlekkasje.»*
 
 Likevel innstilte ledelsen på én robot til Rana, stikk i strid med direktørens formelle løfter fra 2023 om streng likebehandling mellom giverne.
 
