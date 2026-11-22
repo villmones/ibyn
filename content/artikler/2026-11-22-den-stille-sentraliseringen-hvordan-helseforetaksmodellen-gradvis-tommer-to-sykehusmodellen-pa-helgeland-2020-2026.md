@@ -8,7 +8,7 @@ image: /images/demontering_velferd_helgeland.png
 kicker: HELSE
 date: 2026-11-22
 ---
-På det politiske planet og i festtalene har bestillingen fra skiftende helseministre og Stortinget ligget fast i seks år: Helgeland skal ha en desentralisert sykehusstruktur basert på to likeverdige og framtidsrettede akuttsykehus – ett i Mo i Rana og ett i Sandnessjøen og omegn – supplert med et lokalt poliklinisk og dagmedisinsk tilbud i Mosjøen. Da daværende helse- og omsorgsminister Bent Høie fattet det formelle strukturvedtaket i foretaksmøtet 27\. januar 2020, ble det uttrykkelig presisert at de to akuttsykehusene skulle utvikles parallelt, med likeverdig akuttberedskap i kirurgi, indremedisin og fødsler. Dette prinsippet ble på nytt stadfestet av helseminister Jan Christian Vestre i foretaksmøtene 3\. juli og 30\. august 2024, og formelt nedfelt i styresak 22-2025 i Helse Nord RHF.
+På det politiske planet og i festtalene har bestillingen fra skiftende helseministre og Stortinget ligget fast i seks år: Helgeland skal ha en sykehusstruktur basert på to likeverdige og framtidsrettede akuttsykehus – ett i Mo i Rana og ett i Sandnessjøen og omegn. Da daværende helse- og omsorgsminister Bent Høie fattet det formelle strukturvedtaket i foretaksmøtet 27\. januar 2020, ble det uttrykkelig presisert at de to akuttsykehusene skulle utvikles parallelt, med likeverdig akuttberedskap i kirurgi, indremedisin og fødsler. Dette to-sykehusprinsippet ble på nytt stadfestet av helseminister Jan Christian Vestre i foretaksmøtene 3\. juli og 30\. august 2024, og formelt nedfelt i styresak 22-2025 i Helse Nord RHF.
 
 Går man imidlertid bak de politiske protokollene og gransker den faktiske sakskjeden i styrepapirer, virksomhetsrapporter, faglige utredninger og økonomiske langtidsplaner fra 2020 til slutten av 2026, avdekkes et helt annet bilde. Mellom de politiske målbildene og den kliniske hverdagen har det vokst frem et markant strukturelt sprik.
 
@@ -27,8 +27,19 @@ Vedtaket fastslo at Helgelandssykehuset skulle organiseres som ett helseforetak 
 * Et akuttsykehus lokalisert i **Sandnessjøen og omegn**.
 * Et akuttsykehus lokalisert i **Mo i Rana**.
 
+### Hva med Mosjøen i 2020? Det store tomrommet
 
-Kjernen i Høies vedtak var det såkalte **likeverdighetsprinsippet**: Begge akuttsykehusene skulle ha døgnkontinuerlig akuttberedskap i indremedisin og anestesi, akuttkirurgi og fødeavdeling. Det ble lagt til grunn at foretaket skulle gjennomføre store nyinvesteringer for å gi likeverdige fasiliteter, anslått til en samlet ramme på mellom 3,5 og 4 milliarder kroner.
+I foretaksmøtet 27\. januar 2020 sluttet helseminister Bent Høie seg formelt til styrevedtaket i Helse Nord RHF (sak 137-2019). Der var Mosjøen overhodet ikke omtalt som et sykehus med konkrete spesialistfunksjoner, men ble utelukkende henvist til et åpent, uforpliktende utredningspunkt for samlokalisering med kommunen:
+
+> *«I konseptfasen skal det utredes etablering av polikliniske somatikk-tilbud samlokalisert med kommunale helsetjenester i Mosjøen. Som del av utredningen vurderes også det somatiske tilbudet til pasienter innen psykisk helsevern.»*
+
+I saksframlegget til Helse Nord ble dette tilbudet eksplisitt definert som et **distriktsmedisinsk senter (DMS)**, og det ble uttrykkelig fastslått at det *ikke* skulle være spesialisthelsetjenestesenger i Mosjøen. Høies vedtak i 2020 innebar i realiteten at akuttsykehuset i Mosjøen ble lagt ned, uten at det ble gitt noe konkret innhold i retur. Det var ingen forpliktelser om dagkirurgi, ingen skadepoliklinikk, ingen egne subspesialiteter, og ingen døgnkontinuerlig slagalarm. Byen og fagmiljøet ble i praksis henvist til et usikkert utredningsspor i en udefinert fremtid.
+
+Det var først fire år senere – da helse- og omsorgsminister **Jan Christian Vestre** grep direkte inn i foretaksmøtene 3\. juli og 30\. august 2024, og den påfølgende funksjons- og oppgavefordelingen ble vedtatt i 2025 (HSYK styresak 2/2025 og foretaksmøtet 24\. mars 2025) – at Mosjøen for første gang fikk et bindende, definert innhold som spesialisthelsetjeneste. Vestre sørget for at sykehuset ble tilkjent en konkret katalog: dagkirurgi innen ortopedi, urologi, plastikkirurgi og generell kirurgi, skadepoliklinikk, indremedisinsk poliklinikk med ø-hjelpsfunksjon, døgnbasert slagalarm med CT, dialyse, kreft- og infusjonsbehandling, samt regionale funksjoner innen nevrologi, øye og hud, og videreføring av psykisk helsevern og TSB.
+
+### Likeverdighetsprinsippet og konstruksjonsfeilen
+
+Kjernen i Høies vedtak for de to gjenværende sykehusene var det såkalte **likeverdighetsprinsippet**: Begge akuttsykehusene i Mo i Rana og Sandnessjøen skulle ha døgnkontinuerlig akuttberedskap i indremedisin og anestesi, akuttkirurgi og fødeavdeling. Det ble lagt til grunn at foretaket skulle gjennomføre store nyinvesteringer for å gi likeverdige fasiliteter, anslått til en samlet ramme på mellom 3,5 og 4 milliarder kroner («Nye Helgelandssykehuset 2025»).
 
 Men vedtaket inneholdt en innebygd konstruksjonsfeil: Helseforetaksmodellen gir ikke statsråden fullmakt til å bevilge byggepenger over statsbudsjettet. Investeringsmidlene måtte sykehuset tjene inn selv gjennom framtidige driftsoverskudd. Dermed ble en politisk drøm om to likeverdige sykehus sendt rett inn i foretaksmodellens bedriftsøkonomiske kvern.
 
