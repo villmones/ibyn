@@ -1,7 +1,7 @@
 ---
 draft: false
 title: "🏥 Den stille sentraliseringen: Hvordan helseforetaksmodellen gradvis
-  tømmer to-sykehusmodellen på Helgeland (2020–2026)"
+  tømmer to-sykehusmodellen på Helgeland"
 summary: En undersøkende analyse av styringsdokumenter, funksjonsfordelinger og
   økonomiske rammebetingelser i Helse Nord og Helgelandssykehuset HF.
 image: /images/demontering_velferd_helgeland.png
