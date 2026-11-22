@@ -31,7 +31,7 @@ Vedtaket fastslo at Helgelandssykehuset skulle organiseres som ett helseforetak 
 
 Et av de mest brennbare spørsmålene i ettertid er hvorfor Mosjøen ikke ble nevnt med et eget akuttsykehus i 2020-vedtaket. Svaret forklares av den politiske forhistorien og den opprinnelige alliansen sør for Korgfjellet.
 
-I årene 2018–2019 sto tolv kommuner på Helgeland – anført av Vefsn, Alstahaug og kyst- og sør-kommunene – samlet bak et felles krav om å etablere ett stort, felles akuttsykehus for hele regionen plassert sentralt sør for Korgfjellet. Målet var å samle ressursene i et framtidsrettet storsykehus som erstattet de gamle, nedslitte sykehusbyggene i både Mosjøen og Sandnessjøen.
+I årene 2018–2019 sto tolv kommuner på Helgeland – anført av Vefsn, Alstahaug og kyst- og sør-kommunene – samlet bak et felles krav om å etablere ett stort, felles akuttsykehus for hele regionen plassert sentralt sør for Korgfjellet. Målet var å forhindre at Mo i Rana ble enehersker, samtidig som man ville samle ressursene i et framtidsrettet storsykehus som erstattet de gamle, nedslitte sykehusbyggene i både Mosjøen og Sandnessjøen.
 
 Da Bent Høie i januar 2020 valgte å vrake ett-sykehusmodellen til fordel for to akuttsykehus, videreførte han likevel kjerneideen bak kompromisset sør for Korgfjellet gjennom formuleringen **«Sandnessjøen og omegn»**. Tilføyelsen «og omegn» var ingen tilfeldighet:
 
@@ -153,7 +153,7 @@ For å løse rekrutteringsutfordringene ved de to andre akuttsykehusene (Mo i Ra
 
 Logikken fremsto absurd for enhver som kjenner distriktsdemografi:
 
-* I en allerede tynt befolket region med store rekrutteringsproblemer fjernet man i praksis **den store og mest stabile industri- og vekstkommunen på Helgeland (Vefsn)** som rekrutteringsarena for leger i spesialisering, overleger, anestesipersonell og spesialsykepleiere i akuttmedisin.
+* I en allerede tynt befolket region med store rekrutteringsproblemer fjernet man i praksis **den stor og mest stabile industri- og vekstkommunen på Helgeland (Vefsn)** som rekrutteringsarena for leger i spesialisering, overleger, anestesipersonell og spesialsykepleiere i akuttmedisin.
 * Både Mosjøen (Vefsn) og Sandnessjøen (Alstahaug) har hatt solid befolkningsvekst i årene 2022–2026, med henholdsvis **+249 innbyggere (+1,88 %)** og **+202 innbyggere (+2,75 %)**. Det er i realiteten hele den sammenvevde sentrumsaksen på Helgeland som vokser: Naboliggende **Leirfjord** har økt med **98 innbyggere (+4,34 %)** og **Hemnes** med **80 innbyggere (+1,81 %)**. Samlet har disse fire sentrumskommunene vokst med over 600 innbyggere. Den eneste av de tre opprinnelige sykehusbyene som opplever markant befolkningsnedgang, er **Mo i Rana**, med et fall på **\-327 innbyggere (-1,25 %)**. Vefsn representerer et robust industri- og vekstsenter med et differensiert arbeidsmarked som tradisjonelt tiltrekker seg etablerere med partnere i andre yrkesgrupper.
 * Ved å radere ut akuttsykehuset i Mosjøen, gjorde man det umulig for leger og spesialsykepleiere som ønsket å bo og stifte familie i Mosjøen å jobbe innen akuttmedisin i sitt nærområde.
 
