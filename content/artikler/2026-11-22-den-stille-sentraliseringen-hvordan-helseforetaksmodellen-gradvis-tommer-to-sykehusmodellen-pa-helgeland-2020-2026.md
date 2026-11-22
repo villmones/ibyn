@@ -26,9 +26,7 @@ Vedtaket fastslo at Helgelandssykehuset skulle organiseres som ett helseforetak 
 
 * Et akuttsykehus lokalisert i **Sandnessjøen og omegn**.
 * Et akuttsykehus lokalisert i **Mo i Rana**.
-* Videreføring av et **desentralisert spesialisthelsetjenestetilbud i Mosjøen**.
 
-I debatten og i etterfølgende saksdokumenter har det fra enkelte hold feilaktig blitt hevdet at Mosjøen ble vedtatt omgjort til et distriktsmedisinsk senter (DMS). Det stemmer ikke. Vefsn kommune og fagmiljøene avviste eksplisitt en ren kommunal DMS-modell, og 2020-vedtaket forutsatte at Mosjøen skulle forbli en integrert del av spesialisthelsetjenesten i Helgelandssykehuset, med dagkirurgi, poliklinikk, skadepoliklinikk og lokalmedisinske tjenester.
 
 Kjernen i Høies vedtak var det såkalte **likeverdighetsprinsippet**: Begge akuttsykehusene skulle ha døgnkontinuerlig akuttberedskap i indremedisin og anestesi, akuttkirurgi og fødeavdeling. Det ble lagt til grunn at foretaket skulle gjennomføre store nyinvesteringer for å gi likeverdige fasiliteter, anslått til en samlet ramme på mellom 3,5 og 4 milliarder kroner.
 
