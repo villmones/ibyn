@@ -43,7 +43,7 @@ Fordi det nye akuttsykehuset «i omegnen» var forutsatt å dekke Mosjøen og op
 
 ### Det store tomrommet i 2020: Ingen spesialistløfter til Mosjøen
 
-Konsekvensen av denne forutsetningen var at Mosjøen ble stående helt uten forpliktende spesialistfunksjoner i selve 2020-vedtaket. I ettertid har det fra enkelte hold blitt fremstilt som om Mosjøen allerede i 2020 ble tilgodesett med en definert rolle med dagkirurgi, skadepoliklinikk og spesialisttjenester. En gransking av de faktiske dokumentene viser at dette ikke stemmer.
+Konsekvensen av denne forutsetningen var at Mosjøen ble stående helt uten forpliktende spesialistfunksjoner i selve 2020-vedtaket.
 
 I foretaksmøtet 27\. januar 2020 sluttet helseminister Bent Høie seg formelt til styrevedtaket i Helse Nord RHF (sak 137-2019). Der var Mosjøen overhodet ikke omtalt som et sykehus med konkrete spesialistfunksjoner, men ble utelukkende henvist til et åpent, uforpliktende utredningspunkt for samlokalisering med kommunen:
 
