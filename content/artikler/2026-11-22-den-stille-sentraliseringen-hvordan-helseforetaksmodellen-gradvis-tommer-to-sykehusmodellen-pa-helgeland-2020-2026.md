@@ -31,7 +31,7 @@ Vedtaket fastslo at Helgelandssykehuset skulle organiseres som ett helseforetak 
 
 Et av de mest brennbare spørsmålene i ettertid er hvorfor Mosjøen ikke ble nevnt med et eget akuttsykehus i 2020-vedtaket. Svaret forklares av den politiske forhistorien og den opprinnelige alliansen sør for Korgfjellet.
 
-I årene 2018–2019 sto tolv kommuner på Helgeland – anført av Vefsn, Alstahaug og kyst- og sør-kommunene – samlet bak et felles krav om å etablere ett stort, felles akuttsykehus for hele regionen plassert sentralt sør for Korgfjellet. Målet var å forhindre at Mo i Rana ble enehersker, samtidig som man ville samle ressursene i et framtidsrettet storsykehus som erstattet de gamle, nedslitte sykehusbyggene i både Mosjøen og Sandnessjøen.
+I årene 2018–2019 sto tolv kommuner på Helgeland – anført av Vefsn, Alstahaug og kyst- og sør-kommunene – samlet bak et felles krav om å etablere ett stort, felles akuttsykehus for hele regionen plassert sentralt sør for Korgfjellet. Målet var å samle ressursene i et framtidsrettet storsykehus som erstattet de gamle, nedslitte sykehusbyggene i både Mosjøen og Sandnessjøen.
 
 Da Bent Høie i januar 2020 valgte å vrake ett-sykehusmodellen til fordel for to akuttsykehus, videreførte han likevel kjerneideen bak kompromisset sør for Korgfjellet gjennom formuleringen **«Sandnessjøen og omegn»**. Tilføyelsen «og omegn» var ingen tilfeldighet:
 
