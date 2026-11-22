@@ -129,7 +129,7 @@ For å løse rekrutteringsutfordringene ved de to andre akuttsykehusene (Mo i Ra
 
 Logikken fremsto absurd for enhver som kjenner distriktsdemografi:
 
-* I en allerede tynt befolket region med store rekrutteringsproblemer fjernet man i praksis **den største og mest stabile industri- og vekstkommunen på Helgeland (Vefsn)** som rekrutteringsarena for leger i spesialisering, overleger, anestesipersonell og spesialsykepleiere i akuttmedisin.
+* I en allerede tynt befolket region med store rekrutteringsproblemer fjernet man i praksis **en stor stabil industri- og vekstkommunen på Helgeland (Vefsn)** som rekrutteringsarena for leger i spesialisering, overleger, anestesipersonell og spesialsykepleiere i akuttmedisin.
 * Både Vefsn (+249 innb. / +1,88 %) og Alstahaug (+202 innb. / +2,75 %) har i årene 2022–2026 hatt solid befolkningsvekst. Det er nettopp Helgelands sentrumskommuner – Vefsn, Alstahaug, Leirfjord (+98 innb. / +4,34 %) og Hemnes (+80 innb. / +1,81 %) – som har opplevd størst vekst de siste årene, mens Mo i Rana er den eneste av de tre opprinnelige sykehusbyene med markant befolkningsnedgang (-327 innb. / -1,25 %). Vefsn representerer et robust industri- og vekstsenter med et differensiert arbeidsmarked som tradisjonelt tiltrekker seg etablerere med partnere i andre yrkesgrupper.
 * Ved å radere ut akuttsykehuset i Mosjøen, gjorde man det umulig for leger og spesialsykepleiere som ønsket å bo og stifte familie i Mosjøen å jobbe innen akuttmedisin i sitt nærområde.
 
