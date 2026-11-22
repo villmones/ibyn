@@ -80,7 +80,7 @@ Swecos utradering av samtlige tomter på Tovåsen og i Leirfjord fikk dramatiske
 
 Mens saken sto i stampe, skjedde det to ting i makroøkonomien som skulle få fatale følger: Byggekostnadsindeksen eksploderte etter pandemien, og Norges Bank hevet styringsrenten. Da tomteprosessen omsider landet på å videreutvikle dagens tomt i Sandnessjøen, hadde prisen på et nytt sykehusbygg steget så mye at helseforetaket i realiteten ikke lenger hadde økonomisk løfteevne til å realisere det.
 
-Mosjøen og indre Helgeland sto dermed igjen med det verste av to verdener: Det lovede nye felles akuttsykehuset på Tovåsen ble aldri bygget, samtidig som helseforetaket beholdt 2020-vedtakets premiss om at akutt- og døgntilbudet i Mosjøen skulle avvikles.
+**Mosjøen og indre Helgeland sto dermed igjen med det verste av to verdener: Det lovede nye felles akuttsykehuset på Tovåsen ble aldri bygget, samtidig som helseforetaket beholdt 2020-vedtakets premiss om at akutt- og døgntilbudet i Mosjøen skulle avvikles.**
 
 ---
 
