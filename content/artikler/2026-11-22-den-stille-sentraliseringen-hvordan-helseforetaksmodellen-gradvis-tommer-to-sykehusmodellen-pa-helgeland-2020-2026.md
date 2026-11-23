@@ -49,7 +49,7 @@ I foretaksmøtet 27. januar 2020 sluttet helseminister Bent Høie seg formelt ti
 
 > *«I konseptfasen skal det utredes etablering av polikliniske somatikk-tilbud samlokalisert med kommunale helsetjenester i Mosjøen. Som del av utredningen vurderes også det somatiske tilbudet til pasienter innen psykisk helsevern.»*
 
-I saksframlegget til Helse Nord ble dette tilbudet eksplisitt definert som et **distriktsmedisinsk senter (DMS)**, og det ble uttrykkelig fastslått at det *ikke* skulle være spesialisthelsetjenestesenger i Mosjøen. Høies vedtak i 2020 innebar i realiteten at akuttsykehuset i Mosjøen ble lagt ned, uten at det ble gitt noe konkret innhold i retur i det eksisterende bygget. Det var ingen forpliktelser om dagkirurgi, ingen skadepoliklinikk, ingen egne subspesialiteter, og ingen døgnkontinuerlig slagalarm. Byen og fagmiljøet ble i praksis henvist til et usikkert utredningsspor i en udefinert fremtid – alt i påvente av det nye fellessykehuset som skulle reise seg «i omegnen».
+I saksframlegget til Helse Nord ble dette tilbudet eksplitt definert som et **distriktsmedisinsk senter (DMS)**, og det ble uttrykkelig fastslått at det *ikke* skulle være spesialisthelsetjenestesenger i Mosjøen. Høies vedtak i 2020 innebar i realiteten at akuttsykehuset i Mosjøen ble lagt ned, uten at det ble gitt noe konkret innhold i retur i det eksisterende bygget. Det var ingen forpliktelser om dagkirurgi, ingen skadepoliklinikk, ingen egne subspesialiteter, og ingen døgnkontinuerlig slagalarm. Byen og fagmiljøet ble i praksis henvist til et usikkert utredningsspor i en udefinert fremtid – alt i påvente av det nye fellessykehuset som skulle reise seg «i omegnen».
 
 Det var først fire år senere – da helse- og omsorgsminister **Jan Christian Vestre** grep direkte inn i foretaksmøtene 3. juli og 30. august 2024, og den påfølgende funksjons- og oppgavefordelingen ble vedtatt i 2025 (HSYK styresak 2/2025 og foretaksmøtet 24. mars 2025) – at Mosjøen for første gang fikk et bindende, definert innhold som spesialisthelsetjeneste. Vestre sørget for at sykehuset ble tilkjent en konkret katalog: dagkirurgi innen ortopedi, urologi, plastikkirurgi og generell kirurgi, skadepoliklinikk, indremedisinsk poliklinikk med ø-hjelpsfunksjon, døgnbasert slagalarm med CT, dialyse, kreft- og infusjonsbehandling, samt regionale funksjoner innen nevrologi, øye og hud, og videreføring av psykisk helsevern og TSB.
 
@@ -67,7 +67,7 @@ Første akt i forsinkelsesspillet handlet om hvor kystsykehuset i «Sandnessjøe
 
 Rådgivningsselskapet Sweco leverte sin omfattende rapport i april 2021 (*«Tomteutredning for nytt sykehus i Sandnessjøen og omegn»*, vedlegg til styresak 34-2021 i Helgelandssykehuset). Utredningen vurderte over 20 ulike tomtealternativer i Alstahaug og nabokommunen Leirfjord:
 
-- I Leirfjord ble samtlige ni tomteforslag – inkludert fem tomter på Tovåsen, to på Leland, Langseteråsen og Leines – silt ut allerede før finsilingen. Sweco begrunnet dette med brudd på statlige planretningslinjer for kompakte byer og styrking av regionsentre, flyoperative advarsler fra Norsk Luftambulanse om fallvinder og turbulens for helikopter ved Tovåsen og Leland, samt skyhøye kostnader for å etablere tosidig vann, avløp og høyspent.
+- I Leirfjord ble samtlige ni tomteforslag – inkludert fem tomter på Tovåsen, to på Leland, Langsetåsen og Leines – silt ut allerede før finsilingen. Sweco begrunnet dette med brudd på statlige planretningslinjer for kompakte byer og styrking av regionsentre, flyoperative advarsler fra Norsk Luftambulanse om fallvinder og turbulens for helikopter ved Tovåsen og Leland, samt skyhøye kostnader for å etablere tosidig vann, avløp og høyspent.
 - I Sandnessjøen sto man igjen med alternativer som krevde komplisert transformasjon i etablert bymiljø eller utfordrende grunnforhold.
 
 ### Forutsetningen som brast for indre Helgeland
@@ -130,7 +130,7 @@ Denne rammen strekker knapt til å tette lekkende tak, oppgradere IKT-systemer o
 
 I det opprinnelige strukturvedtaket fra 2020 var den bærende politiske og faglige forutsetningen at Mosjøens akutt- og døgnfunksjoner over tid skulle erstattes av et splitter nytt felles akuttsykehus sør for Korgfjellet («Sandnessjøen og omegn»), planlagt i nærområdet ved Tovåsen/Leirfjord. Som dokumentert i kapittel 1 vedtok Bent Høie i 2020 aldri noe konkret desentralisert spesialisttilbud eller dagkirurgi for Mosjøen – byen ble kun henvist til et åpent utredningspunkt for samlokalisering med kommunale helsetjenester.
 
-Da tomtealternativene i Leirfjord ble forkastet og nybyggplanene for «Nye Helgelandssykehuset 2025» endelig havarerte på grunn av manglende statlig finansiering, oppsto det en helt ny og utilsiktet situasjon: I stedet for at akuttilbudet ble overført til et nytt fellesbygg i rimelig avstand for befolkningen i Vefsn, valgte helseforetaket og Helse Nord å presse gjennom en ren administrativ og fysisk avvikling av akutt- og døgndriften i Mosjøen i dagens eksisterende lokaler.
+Da tomtealternativene i Leirfjord ble forkastet og nybyggplanene for «Nye Helgelandssykehuset 2025» endelig havarerte på grunn av manglende statlig finansiering, oppsto det en helt ny og utilsiktet situasjon: I stedet for at akuttilbudet ble overført til et nytt fellesbygg i rimelig avstand for befolkningen i Vefsn, valgte helseforetaket og Helse Nord å presse gjennom en ren administrativ og fysisk avvikling av akutt- og døgndriften i Mosjøen i dagens lokaler.
 
 Det var dette som utløste den operative iverksettelsen i styresak 2/2025 («Funksjons- og oppgavefordeling i Helgelandssykehuset HF»), behandlet i styremøtet 24. januar 2025. Samtidig var det først etter direkte inngripen fra helseminister Jan Christian Vestre i 2024 og foretaksmøtet 24. mars 2025 at Mosjøen ble tilkjent en forpliktende katalog som et reelt spesialistsykehus for planlagt virksomhet, med dagkirurgi, skadepoliklinikk og døgnkontinuerlig slagalarm med CT. I saksgangen ble likevel **akutt- og døgnfunksjonene ved sykehuset i Mosjøen formelt og fysisk avviklet**. Døgninnleggelser i indremedisin og akuttkirurgi opphørte, og pasientstrømmene ble tvangsdirigert ut av byen.
 
@@ -188,7 +188,7 @@ Dersom man vurderer nedleggelsen i Mosjøen etter helseforetaksmodellens egne be
 - **Eksplosjon i transportkostnader:** Pasientreiser og ambulansetransport for å frakte pasienter forbi det nedlagte sykehuset i Mosjøen og videre til Mo i Rana og Sandnessjøen har påført helsevesenet enorme ekstrakostnader.
 - **Tap av ISF-inntekter:** Som styresak 86-2026 dokumenterer, har foretaket tapt over **13 millioner kroner i sviktende ISF-inntekter**, blant annet fordi pasienter fra indre og søndre Helgeland lekker ut til Trøndelag fremfor å reise nordover til Mo.
 
-Når nedleggelsen verken sparte penger, ikke løste bemanningskrisen, ikke ga kortere ventetider, men tvert imot overbelastet nabosykehusene og raserte beredskapen på indre Helgeland – hva var da den egentlige gevinsten?
+Når nedleggelsen verken sparte penger, løste bemanningskrisen eller ga kortere ventetider, men tvert imot overbelastet nabosykehusene og raserte beredskapen på indre Helgeland – hva var da den egentlige gevinsten?
 
 ### 🎯 Målet bak kulissene: Sentraliseringens skjulte agenda
 
@@ -234,7 +234,7 @@ Høsten 2026 innhentet den økonomiske virkeligheten foretaket med full tyngde.
 
 I Helse Nord RHFs økonomiske langtidsplan krever eieren at Helgelandssykehuset skal levere et netto overskudd på **25,0 millioner kroner i 2027**. Samtidig viser **virksomhetsrapporten per oktober 2026 (styresak 96-2026)** at foretaket styrer mot et årsunderskudd i 2026 på **minus 40,0 millioner kroner** – hele 60 millioner kroner svakere enn opprinnelig budsjettert.
 
-For å lukke dette gapet la administrerende direktør Lena E. Nielsen den 25. november 2026 frem **styresak 97-2026 («Bærekrafts program 2027–2028 og løypemelding tiltaksplan 2027»)**. Saken presenterer et historisk kuttprogram på **75,0 millioner kroner i 2027**:
+For å lukke dette gapet la administrerende direktør Lena E. Nielsen den 25. november 2026 frem **styresak 97-2026 («Bærekraftsprogram 2027–2028 og løypemelding tiltaksplan 2027»)**. Saken presenterer et historisk kuttprogram på **75,0 millioner kroner i 2027**:
 
 - **Sengekutt:** Det innføres «dynamisk kapasitetstilpasning». Senger ved kirurgisk sengepost og intensivpost tas formelt ned, og sengetall skal dimensjoneres etter tilgjengelig fast personell, ikke etter pasientbehov.
 - **Innstramming på innleggelser:** Antall liggedøgn og observasjonsopphold i akuttmottakene skal reduseres drastisk.
@@ -259,4 +259,141 @@ Robotsaken avdekker samtlige elementer i foretakets administrative mønster:
 
 Administrasjonen begrunner valget av Mo i Rana med at lokasjonen har det største pasientvolumet for robotinngrep, basert på et utvalg av **390 spesifikke bløtvevsprosedyrer** (tarm og brokk), der Mo i Rana har 228 inngrep mot Sandnessjøens 94.
 
-Men Mo i Rana har flertall innenfor akkurat disse 390 inngrepene utelukkende fordi styret i 2022 flyttet tarmkreftkirurgien dit. Samtidig utelot administrasjonen gynekologi (der Sandness
+Men Mo i Rana har flertall innenfor akkurat disse 390 inngrepene utelukkende fordi styret i 2022 flyttet tarmkreftkirurgien dit. Samtidig utelot administrasjonen gynekologi (der Sandnessjøen har 64 prosent høyere volum med 390 inngrep mot 238 i 2023) og urologi (som styret i 2025 vedtok skulle ligge i Sandnessjøen).
+
+I tillegg viser foretakets offisielle produksjonstall i styresak 96-2026 at **Sandnessjøen er foretakets mest produktive kirurgiske sykehus**, med **2 097 operasjoner hittil i 2026** (12 % over budsjett) mot **1 880 operasjoner i Mo i Rana** (3,8 % bak budsjett).
+
+### 2. ⚠️ Tilsidesettelsen av faglige advarsler
+
+I kirurgisk klinikks faglige underlagsnotat advarte kirurgene mot å innføre robot ved kun én lokasjon:
+
+> *«Å anskaffe en robot fremfor to har større fordeler ved den lokasjonen som får ta i bruk gaven (...) Etter hvert som tiden går mener vi sykehuslokasjonen som ikke får motta gaven vil oppleve en grad av de samme ulempene som begge sykehus vil uten robotkirurgi (...) med tilhørende vikarbruk og økt pasientlekkasje.»*
+
+Likevel innstilte ledelsen på én robot til Rana, stikk i strid med direktørens formelle løfter fra 2023 om streng likebehandling mellom giverne.
+
+### 3. 💰 Finansiell usikkerhet og gavetilbudene
+
+I saksframlegget ble det lagt til grunn at Alstahaug kommunes opprinnelige tilbud om inntil 21 millioner kroner i kommunale fondsmidler var gått ut, mens det ble innstilt på å takke ja til tilbudet fra Helgeland Sykehusaksjon i Mo i Rana.
+
+Samtidig viser de økonomiske realitetene at aksjonen i Rana per 19. november 2026 hadde **4,0 millioner kroner på konto** (hvorav 2,0 millioner kroner er et tilskudd fra Rana kommune), mens resterende 20 millioner kroner besto av uinnkrevde næringslivsløfter. Når helseforetakets egne kalkyler viser at anskaffelsen av robot med nødvendig tilleggsutstyr vil koste mellom **17 og 37 millioner kroner**, og i tillegg påføre foretaket mellom **5,4 og 7,4 millioner kroner i årlige drifts- og lisensutgifter**, påtar foretaket seg en betydelig økonomisk risiko midt under et historisk spareprogram.
+
+---
+
+## 9. 💥 Systemkollapsen: Helseforetaksmodellen ved veis ende – når bedriftsøkonomi trumfer pasientbehandling
+
+Historien om Helgelandssykehuset fra 2020 til 2026 er ikke en isolert lokal tragedie. Den er det definitive beviset på at **helseforetaksmodellen fra 2002 har krasjet i møtet med sitt eget samfunnsoppdrag**.
+
+Modellen ble i sin tid innført for å effektivisere sykehussektoren ved å overføre prinsipper fra aksjeloven og privat forretningsdrift. Sykehusene ble definert som selvstendige rettssubjekter som skulle styres etter bedriftsøkonomiske bunnlinjer, med styrer dominert av næringslivsledere, og med et kunstig «kunde-leverandør-forhold» regulert gjennom innsatsstyrt finansiering (ISF) og stykkpris.
+
+### Den fundamentale systembristen
+
+Kjernen i havariet – som nå dokumenteres grundig i **NOU 2026: 12 «Én helsetjeneste»** (Helsereformutvalget) – er at helseforetaksmodellen tvinger sykehusledelsen til å løse en umulig ligning:
+
+1. **Loven krever likeverdig pasientbehandling og beredskap:** Spesialisthelsetjenesteloven pålegger foretaket å yte forsvarlige, døgnkontinuerlige og likeverdige spesialisthelsetjenester til hele befolkningen, uavhengig av bosted og geografi.
+2. **Foretaksmodellen krever bedriftsøkonomisk overskudd:** Eieren (Helse Nord RHF) krever at foretaket skal levere 25 millioner kroner i årlig overskudd for å bygge opp egenkapital og betjene fremtidig gjeld.
+
+Når disse to kravene kolliderer, har styringssystemet vist at **økonomien alltid trumfer pasientbehandlingen**:
+
+- For å nå avkastningskravet kutter foretaket i beredskap, stenger senger, kutter i døgnopphold for eldre og kronikere, forbyr vikarer og kansellerer livsviktige investeringer som ambulansestasjonen i Mosjøen.
+- Sykehusene tvinges til å oppføre seg som konkurrerende bedriftsfilialer som kjemper om lønnsomme DRG-poeng, fremfor å samarbeide om pasientenes beste.
+- Leger og sykepleiere pålegges å registrere diagnoser og koder for å maksimere ISF-refusjoner, mens pasienter skrives ut for tidlig for å spare liggedøgn – helt til ISF-svikten innhenter regnskapet fordi færre innleggelser gir lavere inntekter.
+
+Som Helsereformutvalgets flertall slår fast i NOU 2026: 12, har denne bedriftsøkonomiske logikken ført til en massiv tillitskrise, faglig utmattelse og udemokratisk sentralisering. Flertallet foreslår derfor å **legge ned de regionale helseforetakene (RHF-ene)**, avvikle ISF-systemet for øyeblikkelig hjelp, og finansiere sykehusbygg direkte over statsbudsjettet, slik man gjør i universitetssektoren.
+
+På Helgeland ser man konsekvensen av at denne reformen kommer for sent: Foretaksmodellen har i praksis fått herje fritt og demontere to-sykehusmodellen bit for bit.
+
+---
+
+## 10. ♟️ Sluttspillet: Hva skjer når Helgeland står igjen med kun ett akuttsykehus?
+
+Dersom dagens administrative kurs fortsetter uhindret, er endepunktet gitt: Sandnessjøen vil gradvis miste sine akuttkirurgiske vaktlinjer og døgnfunksjoner, og Helgeland vil i realiteten stå igjen med **kun ett samlet akuttsykehus, lokalisert i Mo i Rana**.
+
+For tilhengerne av stordrift fremstilles dette ofte som den endelige, rasjonelle løsningen som vil gi et robust fagmiljø, løse rekrutteringskrisen og samle ressursene. Men en grundig helsefaglig, samfunnsøkonomisk og demografisk analyse avdekker at **et ensomt akuttsykehus i Mo i Rana vil gå rett inn i en ny, fatal overlevelseskrise**.
+
+Her er analysen av hva som faktisk vil skje:
+
+### 1. 🚗 Det demografiske fundamentet kollapser: 11 000–15 000 pasienter forsvinner til Trøndelag
+
+I den uavhengige utredningen fra **Oslo Economics** (*«Analyse av lokalisering av et stort akuttsykehus på Helgeland»*, oktober 2018) ble konsekvensene av å samle all akuttvirksomhet i Mo i Rana grundig tallfestet:
+
+- **Avstandssjokket:** For befolkningen på Sør-Helgeland (Brønnøy, Sømna, Vega, Vevelstad og Bindal) vil reisetiden til Mo i Rana bli uoverstigelig – opp mot tre til fire timer hver vei, inkludert værutsatte fergestrekninger og store geografiske avstander.
+- **Flukten til Sykehuset Namsos:** Oslo Economics dokumenterte at dersom sykehuset samles på Mo, vil innbyggerne i Brønnøy og Sømna få kortere eller mer hensiktsmessig reisevei sørover til **Sykehuset Namsos** i Helse Midt-Norge. Sammen med Bindal (som allerede sokner sørover) betyr dette en direkte pasientlekkasje på **11 000 innbyggere – tilsvarende 14 prosent av hele Helgelandssykehusets befolkning**.
+- **Indre Helgeland følger etter:** I tillegg viser erfaringene at pasienter fra Grane, Hattfjelldal og Vefsn, som har direkte tilknytning til E6 og Nordlandsbanen sørover, vil benytte seg av lovfestet fritt behandlingsvalg og søke seg til sykehusene i Trøndelag (Namsos, Levanger og St. Olavs hospital i Trondheim) fremfor å reise nordover til Mo.
+
+### 2. 📏 Brudd med Nasjonal helse- og sykehusplan: Mo i Rana blir for lite
+
+Her oppstår det store paradokset:
+
+- I henhold til **Nasjonal helse- og sykehusplan** kreves det et opptaksområde på minst **80 000 til 100 000 innbyggere** for å opprettholde et robust stort akuttsykehus med fullverdig akuttkirurgi, traumesenter og subspesialiteter.
+- Helgeland har i dag bare ca. 76 400 innbyggere (når Bindal holdes utenfor).
+- Dersom 11 000 til 15 000 innbyggere sør for Korgfjellet og på kysten lekker ut til Helse Midt-Norge, faller det reelle opptaksområdet for sykehuset i Mo i Rana til **under 62 000 innbyggere**.
+
+Mo i Rana vil dermed sitte igjen med et pasientgrunnlag som er **altfor lite til å oppfylle nasjonale volum- og kompetansekrav** for subspesialiteter. I stedet for å skape et «stort og robust» sykehus, ender man opp med et sykehus som er bygd for en befolkning som i praksis ikke bruker det.
+
+### 3. 💸 Den økonomiske dødsspiralen: Tapt ISF og skyhøye gjestepasientregninger
+
+I helseforetaksmodellen vil denne pasientflukten utløse en umiddelbar økonomisk krise for sykehuset på Mo:
+
+1. **Tap av aktivitetsinntekter:** Når pasientene reiser til Namsos eller Trondheim, mister Helgelandssykehuset ISF-inntektene (som allerede i dag svikter med 13 millioner kroner årlig, jf. styresak 86-2026).
+2. **Gjestepasientregningen:** Helse Nord må betale kostbare gjestepasientoppgjør til Helse Midt-Norge for hver eneste helgelending som behandles i Trøndelag.
+3. **Faste kostnader består:** Sykehuset i Mo i Rana må opprettholde døgnkontinuerlige vaktlag, operasjonsstuer, intensivavdeling og kostbar bygningsmasse, men med en dramatisk redusert inntektsstrøm.
+
+Resultatet er at foretaket havner i en kronisk underskuddskrise, som igjen vil utløse krav om nye kutt i pasienttilbudet.
+
+### 4. 🚨 Transport- og beredskapskollapsen
+
+Et samlet sykehus i Mo i Rana vil kreve en massiv overføring av ressurser til prehospital transport:
+
+- Oslo Economics beregnet at lokalisering i Mo i Rana vil påføre samfunnet mellom **110 og 260 millioner kroner (i 40-års nåverdi)** i økte ambulanse- og transportkostnader sammenlignet med et sykehus på kysten.
+- Ambulansebilene på kysten og i distriktene vil bli bundet opp i timevis på landeveien for å transportere pasienter til Mo, noe som tømmer lokalsamfunnene for akutt beredskap.
+- Ved uvær som innstiller fergene og ambulansebåtene, eller ved uforutsette hendelser i veinettet, vil akutt syke pasienter på kysten og Sør-Helgeland oppleve betydelig økt risiko som følge av de lange transportavstandene uten tilgang til lokal kirurgisk eller medisinsk stabilisering.
+
+### 5. 🌊 Den neste sentraliseringsbølgen: Mo i Rana slukes av Bodø
+
+Hvordan vil så et ensomt sykehus i Mo i Rana overleve på sikt? Svaret fra sykehusstrukturens ubønnhørlige logikk er nedslående: **Det vil ikke overleve som et fullverdig akuttsykehus.**
+
+Når pasientgrunnlaget på Mo krymper til rundt 60 000 innbyggere, og legemangelen vedvarer, vil Helse Nord og fagdirektørene i neste omgang trekke den samme konklusjonen som de tidligere trakk om Mosjøen og Sandnessjøen:
+
+- Volumet er for lavt til å forsvare avansert kirurgi.
+- Vaktlinjene er for sårbare og kostbare å drifte for et så lite befolkningsgrunnlag.
+- Funksjonene må derfor «av pasientsikkerhetshensyn» overføres videre nordover til **Nordlandssykehuset i Bodø** eller **Universitetssykehuset Nord-Norge (UNN) i Tromsø**.
+
+Dermed fullføres det ultimate paradokset: Ved å demontere akuttsykehuset i Sandnessjøen for å samle alt i Mo i Rana, river man bort det demografiske eksistensgrunnlaget for hele Helgeland som selvstendig sykehusområde. Man ender ikke opp med et sterkt sykehus på Mo, men med en uunngåelig prosess der også Mo i Rana til slutt degraderes til et underordnet lokalsykehus for Bodø.
+
+---
+
+## 11. ❓ De ubesvarte spørsmålene
+
+Utviklingen fra 2020 til 2026 etterlater en rekke avgjørende spørsmål som styret i Helgelandssykehuset HF, styret i Helse Nord RHF og helse- og omsorgsminister Jan Christian Vestre må svare offentligheten på:
+
+1. **Til helse- og omsorgsministeren:** Når regjeringen gjentatte ganger har slått fast at Helgeland skal ha to likeverdige akuttsykehus, hvordan kan statsråden akseptere at helseforetaksmodellens økonomiske mekanismer skritt for skritt overprøver dette vedtaket og samler funksjonene i Mo i Rana?
+2. **Til styret i Helse Nord RHF:** Erkjenner det regionale helseforetaket at de rigide avkastningskravene (25 millioner i årlig overskudd) og den manglende bygningsfinansieringen i realiteten gjør det umulig å opprettholde to likeverdige akuttsykehus på Helgeland?
+3. **Til ledelsen om rekrutterings- og bemanningsbristen:** Hvordan kunne helseforetaket forsvare å legge ned akuttilbudet i Mosjøen for å «løse bemanningskrisen», når resultatet beviselig ble at over 17 000 innbyggere på indre Helgeland ble fjernet fra akuttsykehusenes rekrutteringsbase, fagfolkene forsvant ut av spesialisthelsetjenesten framfor å pendle, og pasientbelastningen fra Vefsn på Mo i Rana eksploderte med 1 336 prosent uten at økonomien ble bedret?
+4. **Til styret i Helgelandssykehuset HF om robotvedtaket:**
+   - Hvordan kan styret forsvare å tildele foretakets teknologiske spydspiss (operasjonsroboten) til den lokasjonen som henger bak produksjonsmålene i 2026, mens Sandnessjøen – som leverer 12 prosent over budsjettert kirurgisk aktivitet og huser regionens største kvinneklinikk – forbigås?
+   - Hvordan skal kirurgisk klinikk finansiere de årlige driftskostnadene for en robot på Mo i et år der klinikken må gjennomføre historiske kutt på nesten 40 millioner kroner?
+5. **Til forvaltningen om sluttspillet:** Har Helse Nord og departementet tatt inn over seg analysene fra Oslo Economics, som dokumenterer at en samling av akuttilbudet i Mo i Rana vil skyve 11 000–15 000 pasienter over til Trøndelag, undergrave opptaksområdet etter nasjonale standarder, og starte en ny sentraliseringsbølge der funksjonene uunngåelig flyttes videre til Bodø?
+
+Så lenge disse spørsmålene forblir ubesvart, vil mistilliten på Helgeland fortsette å vokse. For innbyggerne og fagmiljøene fremstår det nå åpenbart: Det politiske løftet om to likeverdige akuttsykehus er i ferd med å bli ofret på helseforetaksmodellens alter.
+
+---
+
+### 📚 Dokumentasjonsgrunnlag
+
+- **Helse- og omsorgsdepartementet:** Foretaksmøteprotokoller for Helse Nord RHF (sak 11/2020 den 27.01.2020, samt foretaksmøtene 03.07.2024 og 30.08.2024).
+- **Helse Nord RHF:** Styresak 194-2019 (struktur Helgeland), styresak 86-2022 (kolorektal cancer), styresak 22-2025 (funksjonsfordeling), styresak 11.06.2026 (Økonomisk langtidsplan 2027–2030).
+- **Helgelandssykehuset HF:**
+  - Styresak 34-2021 (Tomteutredning Sandnessjøen og omegn v/ Sweco).
+  - Styresak 78-2023 og 90-2023 (Gavemidler robot og dialog).
+  - Styresak 44-2024 (Utsettelse av robotsak).
+  - Styresak 2-2025 (Funksjons- og oppgavefordeling i Helgelandssykehuset HF, vedtatt 24.01.2025).
+  - Styresak 74-2026 og 86-2026 (Virksomhetsrapporter august og september 2026, inkl. inntektsanalyse og ISF-svikt).
+  - Styresak 77-2026 (Budsjett 2027 og økonomisk bærekraft).
+  - Styresak 95-2026 (Mottak av gavemidler til operasjonsrobot, møte 25.11.2026).
+  - Styresak 96-2026 (Virksomhetsrapport per oktober 2026).
+  - Styresak 97-2026 (Bærekraftsprogram 2027–2028 og tiltaksplan 2027).
+- **Offentlige utredninger:**
+  - NOU 2026: 12 *«Én helsetjeneste»* (Helsereformutvalget).
+  - Oslo Economics (2018): *«Analyse av lokalisering av et stort akuttsykehus på Helgeland»*.
+- **Faglige notater:** Kirurgisk klinikk HSYK (notater september 2023 og november 2026 om robotassistert bløtdelskirurgi).
+- **Kommunale dokumenter og korrespondanse:** Alstahaug kommunes kommunestyrevedtak (2023) og korrespondanse; Vefsn kommunes saksdokumenter vedrørende ambulansestasjon og legevaktsentral (2023–2026).
