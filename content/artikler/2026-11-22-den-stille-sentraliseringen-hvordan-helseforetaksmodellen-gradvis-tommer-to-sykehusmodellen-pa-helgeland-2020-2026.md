@@ -43,7 +43,7 @@ Fordi det nye akuttsykehuset «i omegnen» var forutsatt å dekke Mosjøen og op
 
 ### Det store tomrommet i 2020: Ingen spesialistløfter til Mosjøen
 
-Konsekvensen av denne forutsetningen var at Mosjøen ble stående helt uten forpliktende spesialistfunksjoner i selve 2020-vedtaket.
+Konsekvensen av denne forutsetningen var at Mosjøen ble stående helt uten forpliktende spesialistfunksjoner i selve 2020-vedtaket. I ettertid har det fra enkelte hold blitt fremstilt som om Mosjøen allerede i 2020 ble tilgodesett med en definert rolle med dagkirurgi, skadepoliklinikk og spesialisttjenester. En gransking av de faktiske dokumentene viser at dette ikke stemmer.
 
 I foretaksmøtet 27\. januar 2020 sluttet helseminister Bent Høie seg formelt til styrevedtaket i Helse Nord RHF (sak 137-2019). Der var Mosjøen overhodet ikke omtalt som et sykehus med konkrete spesialistfunksjoner, men ble utelukkende henvist til et åpent, uforpliktende utredningspunkt for samlokalisering med kommunen:
 
@@ -128,11 +128,11 @@ Denne rammen strekker knapt til å tette lekkende tak, oppgradere IKT-systemer o
 
 ## 5\. 🏥 2024–2025: Den operative avviklingen i Mosjøen, de skiftende argumentene og det store rekrutteringsparadokset (Sak 2/2025)
 
-Den overordnede, prinsipielle beslutningen om å fjerne akuttfunksjonene fra Mosjøen og redusere sykehuset til et desentralisert dagtilbud ble fattet på politisk toppnivå allerede av helse- og omsorgsminister Bent Høie i foretaksmøtet 27\. januar 2020 (sak 11/2020). Denne strukturelle linjen ble deretter ettertrykkelig stadfestet av helse- og omsorgsminister Jan Christian Vestre i foretaksmøtene 3\. juli og 30\. august 2024.
+I det opprinnelige strukturvedtaket fra 2020 var den bærende politiske og faglige forutsetningen at Mosjøens akutt- og døgnfunksjoner over tid skulle erstattes av et splitter nytt felles akuttsykehus sør for Korgfjellet («Sandnessjøen og omegn»), planlagt i nærområdet ved Tovåsen/Leirfjord. Som dokumentert i kapittel 1 vedtok Bent Høie i 2020 aldri noe konkret desentralisert spesialisttilbud eller dagkirurgi for Mosjøen – byen ble kun henvist til et åpent utredningspunkt for samlokalisering med kommunale helsetjenester (DMS).
 
-Men mens nedleggelsen av akuttsykehuset i Mosjøen opprinnelig ble presentert som en del av et framtidig milliardløft med splitter nye sykehusbygg («Nye Helgelandssykehuset 2025»), ble realiteten en helt annen da nybyggene havarerte. Da det i 2024 ble klart at staten ikke ville bevilge penger over statsbudsjettet og foretaket ikke maktet å oppfylle eierens strenge lånekrav, måtte driften tilpasses eksisterende, nedslitte lokaler.
+Da tomtealternativene i Leirfjord ble forkastet og nybyggplanene for «Nye Helgelandssykehuset 2025» endelig havarerte på grunn av manglende statlig finansiering, oppsto det en helt ny og utilsiktet situasjon: I stedet for at akuttilbudet ble overført til et nytt fellesbygg i rimelig avstand for befolkningen i Vefsn, valgte helseforetaket og Helse Nord å presse gjennom en ren administrativ og fysisk avvikling av akutt- og døgndriften i Mosjøen i dagens eksisterende, nedslitte lokaler.
 
-Det var dette som utløste den praktiske og operative iverksettelsen i styresak 2/2025 («Funksjons- og oppgavefordeling i Helgelandssykehuset HF»), behandlet i styremøtet 24\. januar 2025\. Her ble Høies og Vestres politiske bestilling omsatt til klinisk handling i den eksisterende bygningsmassen: **akutt- og døgnfunksjonene ved sykehuset i Mosjøen ble formelt og fysisk avviklet**. Døgninnleggelser i indremedisin og akuttkirurgi opphørte, og sykehuset ble omgjort til et tilbud basert på planlagt dagkirurgi, poliklinikk og lokalmedisinske tjenester.
+Det var dette som utløste den operative iverksettelsen i styresak 2/2025 («Funksjons- og oppgavefordeling i Helgelandssykehuset HF»), behandlet i styremøtet 24\. januar 2025\. Samtidig var det først etter direkte inngripen fra helseminister Jan Christian Vestre i 2024 og foretaksmøtet 24\. mars 2025 at Mosjøen ble tilkjent en forpliktende katalog som et reelt spesialistsykehus for planlagt virksomhet, med dagkirurgi, skadepoliklinikk og døgnkontinuerlig slagalarm med CT. I saksgangen ble likevel **akutt- og døgnfunksjonene ved sykehuset i Mosjøen formelt og fysisk avviklet**. Døgninnleggelser i indremedisin og akuttkirurgi opphørte, og pasientstrømmene ble tvangsdirigert ut av byen.
 
 En gransking av saksgangen og retorikken rundt nedleggelsen avdekker imidlertid en bemerkelsesverdig opportunisme i argumentasjonen, samt en rekke dype logiske brister som har forverret situasjonen for hele foretaket.
 
@@ -153,7 +153,7 @@ For å løse rekrutteringsutfordringene ved de to andre akuttsykehusene (Mo i Ra
 
 Logikken fremsto absurd for enhver som kjenner distriktsdemografi:
 
-* I en allerede tynt befolket region med store rekrutteringsproblemer fjernet man i praksis **en stor og stabil industri- og vekstkommunen på Helgeland (Vefsn)** som rekrutteringsarena for leger i spesialisering, overleger, anestesipersonell og spesialsykepleiere i akuttmedisin.
+* I en allerede tynt befolket region med store rekrutteringsproblemer fjernet man i praksis **den store og stabile industri- og vekstkommunen på Helgeland (Vefsn)** som rekrutteringsarena for leger i spesialisering, overleger, anestesipersonell og spesialsykepleiere i akuttmedisin.
 * Både Mosjøen (Vefsn) og Sandnessjøen (Alstahaug) har hatt solid befolkningsvekst i årene 2022–2026, med henholdsvis **+249 innbyggere (+1,88 %)** og **+202 innbyggere (+2,75 %)**. Det er i realiteten hele den sammenvevde sentrumsaksen på Helgeland som vokser: Naboliggende **Leirfjord** har økt med **98 innbyggere (+4,34 %)** og **Hemnes** med **80 innbyggere (+1,81 %)**. Samlet har disse fire sentrumskommunene vokst med over 600 innbyggere. Den eneste av de tre opprinnelige sykehusbyene som opplever markant befolkningsnedgang, er **Mo i Rana**, med et fall på **\-327 innbyggere (-1,25 %)**. Vefsn representerer et robust industri- og vekstsenter med et differensiert arbeidsmarked som tradisjonelt tiltrekker seg etablerere med partnere i andre yrkesgrupper.
 * Ved å radere ut akuttsykehuset i Mosjøen, gjorde man det umulig for leger og spesialsykepleiere som ønsket å bo og stifte familie i Mosjøen å jobbe innen akuttmedisin i sitt nærområde.
 
