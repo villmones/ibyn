@@ -128,7 +128,7 @@ Denne rammen strekker knapt til å tette lekkende tak, oppgradere IKT-systemer o
 
 ## 5\. 🏥 2024–2025: Den operative avviklingen i Mosjøen, de skiftende argumentene og det store rekrutteringsparadokset (Sak 2/2025)
 
-I det opprinnelige strukturvedtaket fra 2020 var den bærende politiske og faglige forutsetningen at Mosjøens akutt- og døgnfunksjoner over tid skulle erstattes av et splitter nytt felles akuttsykehus sør for Korgfjellet («Sandnessjøen og omegn»), planlagt i nærområdet ved Tovåsen/Leirfjord. Som dokumentert i kapittel 1 vedtok Bent Høie i 2020 aldri noe konkret desentralisert spesialisttilbud eller dagkirurgi for Mosjøen – byen ble kun henvist til et åpent utredningspunkt for samlokalisering med kommunale helsetjenester (DMS).
+I det opprinnelige strukturvedtaket fra 2020 var den bærende politiske og faglige forutsetningen at Mosjøens akutt- og døgnfunksjoner over tid skulle erstattes av et splitter nytt felles akuttsykehus sør for Korgfjellet («Sandnessjøen og omegn»), planlagt i nærområdet ved Tovåsen/Leirfjord. Som dokumentert i kapittel 1 vedtok Bent Høie i 2020 aldri noe konkret desentralisert spesialisttilbud eller dagkirurgi for Mosjøen – byen ble kun henvist til et åpent utredningspunkt for samlokalisering med kommunale helsetjenester.
 
 Da tomtealternativene i Leirfjord ble forkastet og nybyggplanene for «Nye Helgelandssykehuset 2025» endelig havarerte på grunn av manglende statlig finansiering, oppsto det en helt ny og utilsiktet situasjon: I stedet for at akuttilbudet ble overført til et nytt fellesbygg i rimelig avstand for befolkningen i Vefsn, valgte helseforetaket og Helse Nord å presse gjennom en ren administrativ og fysisk avvikling av akutt- og døgndriften i Mosjøen i dagens eksisterende, nedslitte lokaler.
 
