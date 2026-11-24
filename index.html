@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <!-- Open Graph / Facebook Meta Tags  -->
-    <meta property="og:title" content="iByn – KI basert blogg med fokus på Mosjøen og Vefsn">
-    <meta property="og:description" content="KI basert blogg med fokus på Mosjøen og Vefsn.">
+    <meta property="og:title" content="iByn – Lokal analyse og dokumentasjon med fokus på Mosjøen og Vefsn">
+    <meta property="og:description" content="Lokal analyse og dokumentasjon med fokus på Mosjøen og Vefsn.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.ibyn.no/">
     <meta property="og:image" content="https://www.ibyn.no/images/ibyn-logo.png">
@@ -703,7 +703,7 @@
         <div class="header-content-wrapper">
             <div class="masthead-inner">
                 <a href="/" class="masthead-title" onclick="filterCategory('ALL'); this.blur(); return false;">iByn</a>
-                <div class="masthead-sub">KI basert blogg med fokus på Mosjøen og Vefsn</div>
+                <div class="masthead-sub">KI basert  med fokus på Mosjøen og Vefsn</div>
             </div>
 
             <!-- Category Navigation Bar -->
@@ -757,7 +757,7 @@
     </div>
 
 <footer>
-        &copy; 2026 Geir Villmones / iByn – KI-basert blogg med fokus på Mosjøen og Vefsn 
+        &copy; 2026 Geir Villmones / iByn – Lokal analyse og dokumentasjon med fokus på Mosjøen og Vefsn 
         <span style="opacity: 0.5; margin: 0 0.5rem;">|</span> 
         <a href="/om" onclick="navigateTo('/om'); return false;" style="color: var(--accent-color); text-decoration: none; font-weight: 600;">Om / Ansvarsfraskrivelse</a>
         <span style="opacity: 0.5; margin: 0 0.5rem;">|</span> 
@@ -982,7 +982,7 @@
                             <h2><a href="${targetUrl}" ${targetAttr} class="article-link">${art.title}${icon}</a></h2>
                             ${summaryText ? `<p class="ingress">${summaryText}</p>` : ''}
                         </div>
-                        ${art.date ? `<div class="byline">🤖 <a href="/ki-journalisten" onclick="navigateTo('/ki-journalisten'); return false;" style="color: var(--accent-color); text-decoration: none; font-weight: 700;">MØT VÅR KI-BLOGGER</a> &bull; Publisert ${formatNorwegianDate(art.date)}</div>` : ''}
+                        ${art.date ? `<div class="byline">🤖 &bull; Publisert ${formatNorwegianDate(art.date)}</div>` : ''}
                     </div>
                 </article>
             `;
@@ -1022,7 +1022,7 @@
                             <h1><a href="${leadTargetUrl}" ${leadTargetAttr} class="article-link">${newest.title}${leadIcon}</a></h1>
                             ${newestSummary ? `<p class="ingress">${newestSummary}</p>` : ''}
                         </div>
-                        ${newest.date ? `<div class="byline" style="margin-bottom: 0; margin-top: 1.2rem;">🤖 <a href="/ki-journalisten" onclick="navigateTo('/ki-journalisten'); return false;" style="color: var(--accent-color); text-decoration: none; font-weight: 700;">MØT VÅR KI-BLOGGER</a> &bull; Publisert ${formatNorwegianDate(newest.date)}</div>` : ''}
+                        ${newest.date ? `<div class="byline" style="margin-bottom: 0; margin-top: 1.2rem;">🤖 &bull; Publisert ${formatNorwegianDate(newest.date)}</div>` : ''}
                     </div>
                 </article>
             `;
@@ -1111,7 +1111,7 @@
 
         function renderKiPage() {
             const fullContainer = document.getElementById('full-article-container');
-            document.title = 'Møt KI-bloggern – iByn';
+            document.title = 'Møt – iByn';
 
             fullContainer.innerHTML = `
                 <article class="full-article">
