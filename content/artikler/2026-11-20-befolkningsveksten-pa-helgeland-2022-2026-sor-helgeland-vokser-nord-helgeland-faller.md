@@ -29,7 +29,7 @@ Denne veksten er imidlertid ekstremt skjevfordelt. I realiteten står kommunene 
 I denne analysen er to nabokommuner i datasettet skilt ut fra de regionale samletallene for Helgelandssykehusets kjerneområde:
 
 1. **Bindal (1 365 innbyggere):** Selv om Bindal historisk og administrativt tilhører Nordland fylke, har befolkningen i all hovedsak kortere reisevei til Sykehuset Namsos i Helse Midt-Norge. Pasientstrømmene og Oslo Economics' analyser dokumenterer at Bindal i praksis sokner til Trøndelag.
-2. **Meløy (6 073 innbyggere):** Meløy kommune ligger i Salten og er en del av opptaksområdet til Nordlandssykehuset HF i Bodø. Både prehospitale tjenester, akuttinnleggelser og planlagt spesialistbehandling for Meløys innbyggere er formelt og praktisk rettet nordover mot Bodø.
+2. **Meløy (6 073 innbyggere):** Meløy kommune ligger på Helgeland men er en del av opptaksområdet til Nordlandssykehuset HF i Bodø. Både prehospitale tjenester, akuttinnleggelser og planlagt spesialistbehandling for Meløys innbyggere er formelt og praktisk rettet nordover mot Bodø.
 
 Når disse to kommunene holdes utenfor de regionale opptaksområdene for Helgelandssykehuset, fremstår fordelingen mellom sør og nord slik:
 
