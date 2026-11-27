@@ -2,14 +2,14 @@
 <html lang="no">
 <head>
     <meta charset="UTF-8">
-    <!-- Open Graph / Facebook Meta Tags  -->
+    <!-- Open Graph / Facebook Meta Tags -->
     <meta property="og:title" content="iByn – Lokal analyse og dokumentasjon med fokus på Mosjøen og Vefsn">
     <meta property="og:description" content="Lokal analyse og dokumentasjon med fokus på Mosjøen og Vefsn.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.ibyn.no/">
     <meta property="og:image" content="https://www.ibyn.no/images/ibyn-logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iByn – Blogg med fokus på Mosjøen og Vefsn</title>
+    <title>iByn – Lokal analyse og dokumentasjon med fokus på Mosjøen og Vefsn</title>
     <!-- Favicon with iB -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -415,8 +415,7 @@
             background: #f8fafc;
             font-style: italic;
             color: #334155;
-                }
-        
+        }
 
         .full-article .article-body p {
             margin-bottom: 1.25rem;
@@ -448,18 +447,56 @@
             height: auto !important;
         }
 
-        /* Make tables horizontally scrollable on mobile */
+        /* Markdown Table Wrapper & Fullscreen Controls */
+        .ibyn-table-wrap {
+            position: relative;
+            margin: 1.5rem 0;
+        }
+
+        .ibyn-table-toolbar {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-bottom: 0.4rem;
+        }
+
+        .ibyn-table-expand-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: 0.78rem;
+            font-weight: 600;
+            color: var(--muted-color);
+            background: #f8fafc;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            padding: 0.28rem 0.65rem;
+            cursor: pointer;
+            transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+        }
+
+        .ibyn-table-expand-btn:hover {
+            background: #f1f5f9;
+            color: var(--accent-color);
+            border-color: #cbd5e1;
+        }
+
+        .ibyn-table-scroll {
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        /* Table styling inside articles */
         .article-body table {
             width: 100%;
             border-collapse: collapse;
             font-family: system-ui, -apple-system, sans-serif;
             font-size: 0.9rem;
-            margin: 1.5rem 0;
+            margin: 0;
             background-color: #ffffff;
             box-shadow: 0 1px 3px rgba(0,0,0,0.04);
-            max-width: 100%;
-            display: block;
-            overflow-x: auto;
             white-space: nowrap;
         }
 
@@ -485,6 +522,69 @@
 
         .article-body tr:hover {
             background-color: #f1f5f9;
+        }
+
+        /* Fullscreen Table Overlay */
+        #table-backdrop {
+            display: none;
+            position: fixed;
+            inset: 0;
+            z-index: 1090;
+            background-color: rgba(15, 23, 42, 0.72);
+            backdrop-filter: blur(3px);
+        }
+
+        #table-backdrop.is-open {
+            display: block;
+        }
+
+        .ibyn-table-wrap.is-fullscreen {
+            position: fixed;
+            inset: 1.5rem;
+            z-index: 1100;
+            margin: 0;
+            padding: 1.25rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-top: 4px solid var(--accent-color);
+            border-radius: 6px;
+            box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .ibyn-table-wrap.is-fullscreen .ibyn-table-toolbar {
+            margin-bottom: 0.75rem;
+            padding-bottom: 0.6rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .ibyn-table-wrap.is-fullscreen .ibyn-table-expand-btn {
+            background: var(--accent-color);
+            color: #ffffff;
+            border-color: var(--accent-color);
+            font-size: 0.85rem;
+            padding: 0.35rem 0.85rem;
+        }
+
+        .ibyn-table-wrap.is-fullscreen .ibyn-table-expand-btn:hover {
+            opacity: 0.9;
+        }
+
+        .ibyn-table-wrap.is-fullscreen .ibyn-table-scroll {
+            flex: 1;
+            overflow: auto;
+        }
+
+        .ibyn-table-wrap.is-fullscreen table {
+            font-size: 0.96rem;
+            white-space: normal;
+        }
+
+        .ibyn-table-wrap.is-fullscreen th {
+            position: sticky;
+            top: 0;
+            z-index: 1;
         }
 
         .article-body img {
@@ -676,6 +776,12 @@
             }
 
             .lead-story h1, .full-article h1 { font-size: 1.75rem; }
+
+            /* Maximize screen space for fullscreen tables on mobile */
+            .ibyn-table-wrap.is-fullscreen {
+                inset: 0.5rem;
+                padding: 0.75rem;
+            }
         }
 
         @media (max-width: 640px) {
@@ -756,7 +862,10 @@
         <img id="lightbox-img" src="" alt="Forstørret bilde">
     </div>
 
-<footer>
+    <!-- FULLSCREEN TABLE BACKDROP -->
+    <div id="table-backdrop" onclick="closeFullscreenTable()"></div>
+
+    <footer>
         &copy; 2026 Geir Villmones / iByn – Lokal analyse og dokumentasjon med fokus på Mosjøen og Vefsn 
         <span style="opacity: 0.5; margin: 0 0.5rem;">|</span> 
         <a href="/om" onclick="navigateTo('/om'); return false;" style="color: var(--accent-color); text-decoration: none; font-weight: 600;">Om / Ansvarsfraskrivelse</a>
@@ -935,6 +1044,66 @@
             articleImages.forEach(img => {
                 img.style.cursor = 'zoom-in';
                 img.onclick = (e) => { e.stopPropagation(); openLightbox(img.src); };
+            });
+        }
+
+        // Close any open fullscreen table overlay and restore body scroll
+        function closeFullscreenTable() {
+            const openWrap = document.querySelector('.ibyn-table-wrap.is-fullscreen');
+            const backdrop = document.getElementById('table-backdrop');
+            if (openWrap) {
+                openWrap.classList.remove('is-fullscreen');
+                const btn = openWrap.querySelector('.ibyn-table-expand-btn');
+                if (btn) {
+                    btn.textContent = '⛶ Fullskjerm';
+                    btn.setAttribute('aria-label', 'Vis tabell i fullskjerm');
+                }
+            }
+            if (backdrop) backdrop.classList.remove('is-open');
+            document.body.style.overflow = '';
+        }
+
+        // Wrap rendered Markdown tables with a scroll container and fullscreen toggle button
+        function enhanceMarkdownTables(container) {
+            if (!container) return;
+            const tables = container.querySelectorAll('.article-body table');
+            const backdrop = document.getElementById('table-backdrop');
+
+            tables.forEach((table) => {
+                if (table.closest('.ibyn-table-wrap')) return;
+
+                const wrap = document.createElement('div');
+                wrap.className = 'ibyn-table-wrap';
+
+                const toolbar = document.createElement('div');
+                toolbar.className = 'ibyn-table-toolbar';
+
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.className = 'ibyn-table-expand-btn';
+                btn.textContent = '⛶ Fullskjerm';
+                btn.setAttribute('aria-label', 'Vis tabell i fullskjerm');
+
+                btn.addEventListener('click', () => {
+                    const isAlreadyOpen = wrap.classList.contains('is-fullscreen');
+                    closeFullscreenTable();
+                    if (!isAlreadyOpen) {
+                        wrap.classList.add('is-fullscreen');
+                        btn.textContent = '✕ Lukk';
+                        btn.setAttribute('aria-label', 'Lukk fullskjermvisning');
+                        if (backdrop) backdrop.classList.add('is-open');
+                        document.body.style.overflow = 'hidden';
+                    }
+                });
+
+                const scrollContainer = document.createElement('div');
+                scrollContainer.className = 'ibyn-table-scroll';
+
+                toolbar.appendChild(btn);
+                table.parentNode.insertBefore(wrap, table);
+                wrap.appendChild(toolbar);
+                scrollContainer.appendChild(table);
+                wrap.appendChild(scrollContainer);
             });
         }
 
@@ -1194,6 +1363,7 @@
                 </article>
             `;
             setupImageZoom();
+            enhanceMarkdownTables(fullContainer);
         }
 
         function getRequestedSlug() {
@@ -1209,6 +1379,10 @@
         }
 
         function handleRoute() {
+            // Ensure any open modal overlays are closed on route change
+            closeFullscreenTable();
+            closeLightbox();
+
             const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
             const pathSlug = decodeURIComponent(window.location.pathname.replace(/^\/+|\/+$/g, ''));
             const frontpageView = document.getElementById('frontpage-view');
@@ -1390,6 +1564,14 @@
                 }
             }
         }
+
+        // Close fullscreen table or image lightbox on Escape key
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') {
+                closeFullscreenTable();
+                closeLightbox();
+            }
+        });
 
         window.addEventListener('popstate', handleRoute);
         window.addEventListener('hashchange', handleRoute);
