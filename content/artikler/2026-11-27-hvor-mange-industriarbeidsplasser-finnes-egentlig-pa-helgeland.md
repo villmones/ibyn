@@ -167,6 +167,16 @@ Forskjellen forsterkes av en klassisk begrepsglidning i media og politikk. Mo In
 
 Problemet oppstår når politikere, debattanter og kommentatorer i neste ledd forkorter dette til at «Mo i Rana har 2 900 industriarbeidere». Dermed sammenlignes et bredt klyngetall som inkluderer snekkere, IT-konsulenter og regnskapsførere, direkte med ren industristatistikk fra andre kommuner, og bildet forskyves.
 
+4. 🌐 Det usynlige økosystemet i andre kommuner: Hjelpekjedene finnes overalt – men bare Rana har et gjerde rundt dem
+
+Et helt avgjørende, men ofte oversett poeng, er at tilsvarende støtte- og hjelpekjeder finnes rundt hjørnesteinsbedriftene i samtlige andre industrikommuner på Helgeland. Forskjellen er at de der ikke er samlet innenfor en avgrenset industripark med et felles administrasjonsselskap og felles markedsføring:
+
+* I Vefsn (Mosjøen): Rundt Alcoa Mosjøen og den øvrige prosessindustrien har det gjennom tiår vokst frem et tett økosystem av spesialiserte mekaniske verksteder, elektroinstallatører, automasjonsbedrifter, betongelementprodusenter, anleggsentreprenører, kran- og transportselskaper samt teknisk og kjemisk service. Men fordi disse bedriftene er lokalisert på Moence, i sentrum eller på Næstby – og ikke bak et felles adgangskontrollert industriparkgjerde – føres de i statistikken under sine ordinære næringskoder (bygg og anlegg, transport, teknisk konsulentvirksomhet) og summeres aldri inn i et felles, profilert tall for industrisysselsetting.
+* På kysten (Herøy, Lurøy, Træna og Alstahaug): Den maritime næringsmiddel- og oppdrettsindustrien er omgitt av et massivt støtteapparat av brønnbåtrederier, dykkerselskaper, notbøterier, kjøle- og fryseteknikere, emballasjeleverandører og spesialtransporter. I Alstahaug betjenes oljebasen på Horvnes og skipsverftene av sertifiseringsorganer, riggservice, sveiseverksteder og baseoperatører.
+* I skog- og innlandskommunene (Grane, Hattfjelldal og Hemnes): Treforedlingen og sagbrukene har tilsvarende hjelpekjeder innen tømmertransport, maskinentreprenører, skogsdrift og mekanisk service.
+
+Når samfunnsdebatten sammenligner Mo Industriparks klyngetall (som favner hele dette økosystemet av entreprenører og tjenesteleverandører) med andre kommuners snevre industritall (hvor kun de som jobber direkte i selve smelteverket eller filetfabrikken regnes med), sammenlignes epler og pærer. Hadde man definert tilsvarende industrielle økosystemer for Vefsn eller kysten og talt opp alle leverandører som primært leverer til industrien, ville sysselsettingstallene for disse distriktene også blitt betydelig høyere enn SSBs rene industristatistikk.
+
 4. 📐 Metode og begreper: Slik måles arbeidsplasser
 
 For å unngå misforståelser er det nyttig å kjenne til hvordan offisiell norsk arbeidsmarkedsstatistikk er bygget opp:
@@ -190,8 +200,8 @@ Gjennomgangen av SSBs faktiske registertall for perioden 2016–2025 gir et nøk
 Rana (1 613 industriansatte) og Vefsn (949 industriansatte) er regionens ubestridte industrielle tyngdepunkter. Ser man spesifikt på den kraftkrevende metallurgiske prosessindustrien (SN 24), er Vefsn (769 ansatte) og Rana (672 ansatte) nesten like store, med Vefsn som den største enkeltprodusenten av metaller. Rana har i tillegg en unik posisjon innen malmbryting (400 ansatte) og maskin-/metallvareindustri.
 2. 🌊 Kysten og distriktene er mer industritunge enn mange tror:
 Målt i prosentvis andel av arbeidsstokken er kyst- og distriktskommunene blant landets aller mest industrispesialiserte. Herøy (25,1 prosent), Træna (21,1 prosent), Grane (20,9 prosent), Lurøy (15,2 prosent), Sømna (14,8 prosent) og Vefsn (14,0 prosent) har alle en høyere industriandel enn Rana (11,9 prosent i ren industri, 14,9 prosent inkludert gruvedrift).
-3. 🔄 Klynger er økosystemer – ikke bare fabrikker:
-Når Mo Industripark samler 2 900 ansatte, skyldes det at moderne industri krever et massivt støtteapparat av entreprenører, transportører, teknologer og rådgivere. Det gjør ikke klyngen mindre verdifull, men det understreker at en betydelig del av arbeidsplassene er tjenester som leverer til industrien, snarere enn industriarbeidere i tradisjonell forstand.
+3. 🔄 Klynger er økosystemer – og hjelpekjedene finnes overalt:
+Når Mo Industripark samler 2 900 ansatte, skyldes det at moderne industri krever et massivt støtteapparat av entreprenører, transportører, teknologer og rådgivere bak samme port. Men nøyaktig de samme støttekjedene finnes rundt smelteverket i Mosjøen, rundt lakseslakteriene i Herøy og Lurøy, og rundt offshorebasen i Alstahaug – de er bare spredt på ordinære næringsarealer og summeres ikke under én felles merkevare. Å sammenligne et fullt klyngetall med andre kommuners rene fabrikktall gir et fortegnet bilde av hvor verdiene og arbeidsplassene på Helgeland faktisk skapes.
 
 I en tid der Helgeland står overfor krevende diskusjoner om fordeling av kraftnett, samferdselsinvesteringer, utdanningstilbud og beredskap, er presis begrepsbruk en forutsetning for gode beslutninger. Næringslivet på Helgeland er verken et ensidig byfenomen eller en ren råvareperiferi – det er en finmasket, gjensidig avhengig verdikjede der smelteverk i innlandet, høyteknologiske lakseslakterier i havgapet og gruver i fjellet til sammen utgjør Nord-Norges sterkeste industrimotor.
 
