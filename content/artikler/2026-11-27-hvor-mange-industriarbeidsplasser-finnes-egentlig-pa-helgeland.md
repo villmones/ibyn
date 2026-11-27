@@ -4,7 +4,6 @@ title: 🏭 Hvor mange industriarbeidsplasser finnes egentlig på Helgeland?
 summary: Her er fasiten fra Statistisk sentralbyrå (SSB) for samtlige kommuner
   for perioden 2016–2025 – og forklaringen på hvorfor industritallene i den
   offentlige debatten ofte spriker.
-image: /images/helgeland_industri-1.png
 kicker: SAMFUNN
 date: 2026-11-27
 ---
