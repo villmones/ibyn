@@ -1,9 +1,9 @@
 ---
 draft: false
 title: 🏭 Hvor mange industriarbeidsplasser finnes egentlig på Helgeland?
-summary: Her er fasiten fra Statistisk sentralbyrå (SSB) for samtlige kommuner
-  for perioden 2016–2025 – og forklaringen på hvorfor industritallene i den
-  offentlige debatten ofte spriker.
+summary: Her er fasiten fra Statistisk sentralbyrå (SSB) for samtlige kommuner i
+  2025 – og forklaringen på hvorfor industritallene i den offentlige debatten
+  ofte spriker.
 image: /images/helgeland_industri-2.png
 kicker: SAMFUNN
 date: 2026-11-27
@@ -14,7 +14,7 @@ I offentlige presentasjoner og debattinnlegg omtales for eksempel Mo Industripar
 
 Hva er de faktiske tallene?
 
-Statistisk sentralbyrås (SSB) offisielle registerstatistikk for sysselsetting etter arbeidssted (tabell 13470) gir en presis, etterprøvbar og sammenlignbar fasit for samtlige 18 kommuner på Helgeland (alle kommuner unntatt Meløy, som statistisk ofte knyttes til Salten). Nedenfor følger en helhetlig gjennomgang av industri- og bergverkssysselsettingen i 2025, utviklingen over tiårsperioden 2016–2025, samt en nøktern forklaring på hva som ligger bak forskjellen mellom klyngeoversikter og offisiell statistikk.
+Statistisk sentralbyrås (SSB) offisielle registerstatistikk for sysselsetting etter arbeidssted (tabell 13470) gir en presis, etterprøvbar og sammenlignbar fasit for samtlige 18 kommuner på Helgeland (alle kommuner unntatt Meløy, som statistisk ofte knyttes til Salten). Nedenfor følger en helhetlig gjennomgang av industri- og bergverkssysselsettingen i 2025, en detaljert kartlegging av delnæringene, samt en nøktern forklaring på hva som ligger bak forskjellen mellom klyngeoversikter og offisiell statistikk.
 
 ---
 
@@ -48,24 +48,24 @@ Tabellen under viser den fullstendige fordelingen for samtlige 18 kommuner i 202
 | **1836 Rødøy**        | 12                   | 0                             | 12                                  | 482                              | 2,5 %                 | 2,5 %                |
 | **Helgeland samlet**  | **3 805**            | **605**                       | **4 410**                           | **37 399**                       | **10,2 %**            | **11,8 %**           |
 
-*Kilde: Statistisk sentralbyrå (SSB), tabell 13470: Sysselsatte per 4\. kvartal etter arbeidssted og næring (SN2007).*
+*Kilde: Statistisk sentralbyrå (SSB), tabell 13470: Sysselsatte per 4\. kvartal 2025 etter arbeidssted og næring (SN2007).*
 
 ### 🗺️ Regionale mønstre i 2025
 
 Dataene avdekker et mangefasettert næringsliv med fire distinkte industrielle klynger på Helgeland:
 
 1. **🏭 De to store metall- og prosessbyene:** Rana og Vefsn står i en særklasse i absolutte tall. Tilsammen huser disse to kommunene **2 562 av Helgelands 3 805 rene industriarbeidsplasser** (67,3 prosent).
-  * I **Vefsn (Mosjøen)** er metallindustrien (SN 24, dominert av Alcoa Mosjøen) den desidert største enkeltnæringen med **769 ansatte**. Det er verdt å merke seg at Vefsn har flere ansatte i ren metallproduksjon enn Rana. I tillegg har Vefsn 45 i mineralproduktindustri, 31 i metallvarer, 28 i maskinindustri og 24 i maskinreparasjon.
+  * I **Vefsn (Mosjøen)** er metallindustrien (SN 24, dominert av Alcoa Mosjøen) den desidert største enkeltnæringen med **769 ansatte**. Vefsn har dermed flest ansatte i ren metallproduksjon på Helgeland. I tillegg har Vefsn 45 ansatte i mineralproduktindustri, 31 i metallvarer, 28 i maskinindustri og 24 i maskinreparasjon.
   * I **Rana (Mo i Rana)** er metallindustrien (SN 24, Celsa Armeringsstål, Elkem m.fl.) størst med **672 ansatte**, etterfulgt av metallvareindustri (SN 25) med **309 ansatte**, maskinreparasjon og -installasjon (SN 33) med **218 ansatte**, og plastindustri (SN 22) med **133 ansatte**. Rana er dessuten regionens ubestridte sentrum for **bergverksdrift (SN 07)**, der Rana Gruber alene står bak brorparten av kommunens **400 bergverksarbeidsplasser**.
 2. **🐟 Kystens maritime næringsmiddel- og oppdrettsmotor:** Målt som *andel* av det lokale arbeidsmarkedet er det ikke innlandsbyene, men øy- og kystkommunene som er mest industrialiserte på Helgeland.
   * **Herøy** topper regionen med en industriandel på **25,1 prosent**, primært drevet av **151 arbeidsplasser i næringsmiddelindustri** (fiskeforedling, inkludert Mowi på Hestøya) og 24 i tekstilindustri.
   * **Træna** følger tett bak med **21,1 prosent** industriandel, der 51 arbeidsplasser er knyttet til foredling av pelagisk fisk og hvitfisk.
   * **Lurøy** har **171 industriarbeidsplasser** (15,2 prosent andel), hvorav 137 i næringsmiddelindustri (lakseslakteri og foredling på Lovund og Kvarøy).
-  * **Sømna** har **112 industriarbeidsplasser** (14,8 prosent andel), jevnt fordelt mellom meieri/næringsmiddel (49 ansatte ved Tine Sømna) og maskinreparasjon (50 ansatte).
+  * **Sømna** har **112 industriarbeidsplasser** (14,8 prosent andel), fordelt mellom meieri/næringsmiddel (49 ansatte ved Tine Sømna), maskinreparasjon (50 ansatte) og mekanisk industri.
 3. **🌲 Innlandets tre- og råvareforedling:** Sør for Vefsn finner man sterke tradisjonsrike miljøer innen trelast og trevare:
   * **Grane** har en industriandel på **20,9 prosent**, der **98 av kommunens 101 industriansatte** jobber i trelast- og trevareindustrien (blant annet sagbruk og treforedling på Trofors).
   * **Hattfjelldal** sysselsetter **62 personer i industrien** (11,5 prosent andel), samtlige i trevareindustrien (Arbor-konsernet).
-  * **Hemnes** har **127 industriarbeidsplasser** (9,3 prosent andel), fordelt på næringsmiddel/slakteri (96 ansatte), møbelindustri (10) og metallvarer (7).
+  * **Hemnes** har **127 industriarbeidsplasser** (9,3 prosent andel), fordelt på næringsmiddel/slakteri (96 ansatte), møbelindustri (10), metallvarer (7) og mineralprodukter (5).
 4. **⚓ Offshorebase og industriservice på ytre Helgeland:**
   * **Alstahaug (Sandnessjøen)** har **297 arbeidsplasser** innen industri og utvinning (7,5 prosent andel). Kommunens profil skiller seg ut ved å ha **85 ansatte innen utvinning og bergverk** – hvorav 63 jobber med spesialiserte tjenester tilknyttet olje- og gassutvinning (basetjenestene på Horvnes) og 22 i direkte utvinning. I tillegg har Alstahaug 78 ansatte i transportmiddelindustri (skipsverft og båtbygging) og 69 innen maskinreparasjon.
   * **Brønnøy** har et markant innslag av **bergverksdrift med 63 ansatte** (Brønnøy Kalk i Akselfjorden), samt 90 i industri (næringsmiddel, maskin og tekstil).
@@ -73,56 +73,43 @@ Dataene avdekker et mangefasettert næringsliv med fire distinkte industrielle k
 
 ---
 
-## 2\. 📈 Utviklingen 2016–2025: Det store tiårsbildet
+## 2\. ⚙️ Hva produserer Helgeland? Delnæringene i 2025
 
-Hvordan har industrien på Helgeland utviklet seg gjennom de siste ti årene? Perioden 2016–2025 har vært preget av store makroøkonomiske svingninger: oljebrems, pandemi, råvareprisboom, energikrise og grønn omstilling.
+Går man bak samletallene, avdekker registerstatistikken for 2025 nøyaktig hvilke industrigrener som danner fundamentet for verdiskapingen på Helgeland.
 
-Ser man Helgeland under ett, viser tallene en bemerkelsesverdig stabilitet med en svak netto oppgang:
+Tabellen under viser samtlige delnæringer innen industri (SN 10–33) og bergverk/utvinning (SN 05–09) på Helgeland i 2025, rangert etter antall sysselsatte:
 
-* **Ren industri (10–33):** Økte fra **3 795 ansatte i 2016** til **3 805 ansatte i 2025** – en netto tilvekst på **10 arbeidsplasser (+0,3 prosent)**.
-* **Samlet industri og bergverk (05–33):** Økte fra **4 221 ansatte i 2016** til **4 410 ansatte i 2025** – en økning på **189 arbeidsplasser (+4,5 prosent)**, i hovedsak drevet av vekst i gruvedrift og mineralske tjenester.
+| Næringskode og bransje (SN2007)                         | Sysselsatte på Helgeland (2025) | Andel av ren industri / sektor | Hovedlokaliseringer                                                                                    |
+| ------------------------------------------------------- | ------------------------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| **24 Metallindustri**                                   | **1 441**                       | 37,9 %                         | Vefsn (769), Rana (672)                                                                                |
+| **10 Næringsmiddelindustri**                            | **638**                         | 16,8 %                         | Herøy (151), Lurøy (137), Hemnes (96), Rana (90), Træna (51), Sømna (49), Brønnøy (32), Alstahaug (19) |
+| **33 Maskinreparasjon og -installasjon**                | **465**                         | 12,2 %                         | Rana (218), Alstahaug (69), Nesna (58), Sømna (50), Vefsn (24), Lurøy (15), Brønnøy (13), Herøy (11)   |
+| **25 Metallvareindustri**                               | **397**                         | 10,4 %                         | Rana (309), Alstahaug (32), Vefsn (31), Brønnøy (10), Herøy (8), Hemnes (7)                            |
+| **07 Bryting av metallholdig malm** *(bergverk)*        | **370**                         | *61,2 % av bergverk*           | Rana (370 – Rana Gruber)                                                                               |
+| **16 Trelast- og trevareindustri**                      | **243**                         | 6,4 %                          | Grane (98), Hattfjelldal (62), Rana (58), Bindal (9), Lurøy (7), Vefsn (6)                             |
+| **22 Gummivare- og plastindustri**                      | **148**                         | 3,9 %                          | Rana (133), Lurøy (8), Herøy (7)                                                                       |
+| **08 Bryting og bergverksdrift ellers** *(bergverk)*    | **147**                         | *24,3 % av bergverk*           | Brønnøy (63 – Brønnøy Kalk), Nesna (40), Rana (27), Leirfjord (14), Vefsn (3)                          |
+| **23 Mineralproduktindustri**                           | **125**                         | 3,3 %                          | Rana (64), Vefsn (45), Alstahaug (11), Hemnes (5)                                                      |
+| **28 Maskinindustri**                                   | **90**                          | 2,4 %                          | Vefsn (28), Rana (21), Brønnøy (18), Bindal (10), Sømna (7), Alstahaug (3), Rødøy (3)                  |
+| **30 Transportmiddelindustri ellers**                   | **78**                          | 2,1 %                          | Alstahaug (78 – skipsverft og båtbygging)                                                              |
+| **13 Tekstilindustri**                                  | **72**                          | 1,9 %                          | Herøy (24), Vefsn (20), Brønnøy (14), Vevelstad (7), Lurøy (4), Sømna (3)                              |
+| **09 Tjenester til bergverk og utvinning** *(bergverk)* | **66**                          | *10,9 % av bergverk*           | Alstahaug (63 – basetjenester Horvnes), Rana (3)                                                       |
+| **20 Kjemisk industri**                                 | **33**                          | 0,9 %                          | Rana (33)                                                                                              |
+| **31 Møbelindustri**                                    | **31**                          | 0,8 %                          | Vefsn (15), Hemnes (10), Brønnøy (3), Rana (3)                                                         |
+| **06 Utvinning av råolje og naturgass** *(utvinning)*   | **22**                          | *3,6 % av bergverk*            | Alstahaug (22)                                                                                         |
+| **11 Drikkevareindustri**                               | **15**                          | 0,4 %                          | Sømna (3), Nesna (3), Rana (0)                                                                         |
+| **32 Annen industri**                                   | **14**                          | 0,4 %                          | Rana (9), Vefsn (5)                                                                                    |
+| **14 Bekledningsindustri**                              | **6**                           | 0,2 %                          | Hemnes (3), Vefsn (3)                                                                                  |
+| **15 Lær- og lærvareindustri**                          | **3**                           | 0,1 %                          | Vefsn (3)                                                                                              |
+| **18 Trykking, grafisk industri**                       | **3**                           | 0,1 %                          | Hemnes (3)                                                                                             |
+| **27 Elektroteknisk industri**                          | **3**                           | 0,1 %                          | Rana (3)                                                                                               |
 
-Bak disse samletallene skjuler det seg imidlertid store strukturelle forskyvninger mellom kommunene og mellom de ulike industrigrenene:
+### 🏔️ Geografisk balanse i 2025: Sør vs. Nord for Korgfjellet
 
-| Kommune              | Ren ind. 2016 | Ren ind. 2025 | Endring ren ind. | Endring ren ind. (%) | Samlet 2016 | Samlet 2025 | Endring samlet | Endring samlet (%) |
-| -------------------- | ------------- | ------------- | ---------------- | -------------------- | ----------- | ----------- | -------------- | ------------------ |
-| **Bindal**           | 19            | 23            | +4               | +21,1 %              | 19          | 23          | +4             | +21,1 %            |
-| **Sømna**            | 100           | 112           | +12              | +12,0 %              | 100         | 112         | +12            | +12,0 %            |
-| **Brønnøy**          | 62            | 90            | +28              | +45,2 %              | 111         | 153         | +42            | +37,8 %            |
-| **Vega**             | 15            | 13            | \-2              | \-13,3 %             | 15          | 13          | \-2            | \-13,3 %           |
-| **Vevelstad**        | 10            | 7             | \-3              | \-30,0 %             | 10          | 7           | \-3            | \-30,0 %           |
-| **Herøy**            | 152           | 201           | +49              | +32,2 %              | 152         | 201         | +49            | +32,2 %            |
-| **Alstahaug**        | 156           | 212           | +56              | +35,9 %              | 181         | 297         | +116           | +64,1 %            |
-| **Leirfjord**        | 7             | 0             | \-7              | \-100,0 %            | 20          | 14          | \-6            | \-30,0 %           |
-| **Vefsn**            | 996           | 949           | \-47             | \-4,7 %              | 1 002       | 952         | \-50           | \-5,0 %            |
-| **Grane**            | 114           | 101           | \-13             | \-11,4 %             | 114         | 101         | \-13           | \-11,4 %           |
-| **Hattfjelldal**     | 97            | 62            | \-35             | \-36,1 %             | 97          | 62          | \-35           | \-36,1 %           |
-| **Dønna**            | 7             | 0             | \-7              | \-100,0 %            | 7           | 0           | \-7            | \-100,0 %          |
-| **Nesna**            | 37            | 61            | +24              | +64,9 %              | 66          | 101         | +35            | +53,0 %            |
-| **Hemnes**           | 218           | 127           | \-91             | \-41,7 %             | 218         | 127         | \-91           | \-41,7 %           |
-| **Rana**             | 1 549         | 1 613         | +64              | +4,1 %               | 1 853       | 2 013       | +160           | +8,6 %             |
-| **Lurøy**            | 170           | 171           | +1               | +0,6 %               | 170         | 171         | +1             | +0,6 %             |
-| **Træna**            | 75            | 51            | \-24             | \-32,0 %             | 75          | 51          | \-24           | \-32,0 %           |
-| **Rødøy**            | 11            | 12            | +1               | +9,1 %               | 11          | 12          | +1             | +9,1 %             |
-| **Helgeland samlet** | **3 795**     | **3 805**     | **+10**          | **+0,3 %**           | **4 221**   | **4 410**   | **+189**       | **+4,5 %**         |
+Deler man Helgeland langs den naturlige samferdsels- og fjellovergangen ved Korgfjellet, viser 2025-tallene en oppsiktsvekkende jevn fordeling mellom nord og sør:
 
-*Kilde: Statistisk sentralbyrå (SSB), tabell 13470.*
-
-### 🔍 Hva har drevet endringene?
-
-Går man dypere inn i delnæringene, ser man at Helgelands industri har gjennomgått en markant omstrukturering mellom 2016 og 2025:
-
-* **⚡ Sterk vekst i metallindustrien (+373 årsverk / +34,9 %):** Metallproduksjonen (SN 24) har vært regionens store vekstmotor. På Helgeland samlet økte antall ansatte i metallindustrien fra 1 068 i 2016 til **1 441 i 2025**.
-  * I **Vefsn** økte metallindustrien fra 563 til **769 ansatte (+206)**.
-  * I **Rana** økte metallindustrien fra 505 til **672 ansatte (+167)**. Når Vefsn likevel har en marginal nedgang i samlet industri (-47), skyldes det en statistisk omklassifisering eller nedgang innen maskinreparasjon/installasjon (fra 197 til 24) og trelast (fra 44 til 6), mens den metallurgiske kjernen har styrket seg kraftig.
-* **🔩 Ekspansjon i metallvareproduksjon (+159 årsverk / +66,8 %):** Produksjon av metallvarer (SN 25) økte fra 238 til **397 ansatte**, i all hovedsak konsentrert til Rana, som økte fra 185 til **309 ansatte**.
-* **⛏️ Oppgang i bergverk og utvinningstjenester (+179 årsverk / +42,0 %):**
-  * Bryting av metallholdig malm (SN 07, Rana Gruber) økte fra 301 til **370 ansatte (+69)**.
-  * Bryting og bergverksdrift ellers (SN 08, kalk og pukk) økte fra 108 til **147 ansatte (+39)**, med vekst i Brønnøy (49 til 63) og Nesna (29 til 40).
-  * Tjenester tilknyttet bergverk og utvinning (SN 09, basetjenester på Horvnes i Alstahaug) økte fra 5 til **66 ansatte (+61)**.
-* **🪵 Fall i trevare- og møbelindustrien (-238 årsverk):** Trelast- og trevareindustrien (SN 16) har opplevd tøffe tider nasjonalt som følge av brems i byggebransjen. På Helgeland falt sysselsettingen fra 444 til **243 ansatte (-45,3 %)**. Nedgangen rammet særlig Hemnes (fra 75 til 3 ansatte), Hattfjelldal (fra 91 til 62) og Rana (fra 96 til 58). Møbelindustrien (SN 31) falt tilsvarende fra 68 til 31 ansatte.
-* **📰 Strukturell sanering av grafisk industri (-229 årsverk):** Den største enkeltreduksjonen kom innen trykking og grafisk industri (SN 18), som falt fra 232 til **3 ansatte** på Helgeland. Dette skyldes primært digitalisering og nedleggelse/omstrukturering av større trykkerienheter i Rana, som i 2016 alene bokførte 215 ansatte i denne koden mot 0 i 2025.
-* **🐟 Sjømatforedling holder stand:** Næringsmiddelindustrien (SN 10) holdt seg stabil med 638 ansatte i 2025 (mot 664 i 2016). Vekst i Herøy (+30, opp til 151) og Sømna (+10, opp til 49) kompenserte for nedgang i Træna (fra 64 til 51) og Rana (fra 131 til 90).
+* **Sør for Korgfjellet (12 kommuner):** Huser **1 770 industriarbeidsplasser** (46,5 prosent av Helgelands rene industri) og **165 bergverksarbeidsplasser** (totalt 1 935 i samlet industri og råvareutvinning). Sør-Helgeland har dessuten regionens største konsentrasjon av **metallindustri (769 ansatte / 53,4 prosent)**, samt sterke klynger innen treforedling (166 ansatte i Grane, Hattfjelldal og Vefsn), offshorebase/verft (Alstahaug) og sjømat (Herøy og Sømna).
+* **Nord for Korgfjellet (6 kommuner):** Huser **2 035 industriarbeidsplasser** (53,5 prosent) og **440 bergverksarbeidsplasser** (totalt 2 475 i samlet sektor). Nord-Helgeland domineres av Rana med 1 613 industriansatte og 400 i bergverk, supplert av betydelig sjømatforedling på Lovund, Kvarøy og Træna (222 ansatte i Lurøy og Træna) samt verksted- og industrimiljøer i Hemnes og Nesna.
 
 ---
 
@@ -130,15 +117,15 @@ Går man dypere inn i delnæringene, ser man at Helgelands industri har gjennomg
 
 Et av de mest gjentatte tallene i den nordnorske industridebatten er at Mo Industripark (MIP) huser «rundt 110 bedrifter med ca. 2 900 ansatte». Tallet brukes flittig i festtaler, næringspolitiske innspill og i debatten om samfunnsfunksjoner.
 
-Samtidig viser SSBs offisielle tall for 2025 at det i *hele Rana kommune* – inkludert bedrifter utenfor industriparken – bare finnes:
+Samtidig viser SSBs offisielle tall for 2025 at det i *hele Rana kommune* – inkludert bedrifter utenfor industriparken – finnes:
 
 * **1 613 sysselsatte i ren industri (10–33)**
 * **400 sysselsatte i bergverksdrift og utvinning (05–09)**
 * **Totalt 2 013 industri- og bergverksarbeidsplasser**
 
-Hvordan kan industriparken alene oppgi 2 900 ansatte når hele kommunen bare har 2 013 industriarbeidsplasser?
+Hvordan kan industriparken alene oppgi 2 900 ansatte når hele kommunen har 2 013 industri- og bergverksarbeidsplasser samlet?
 
-Svaret handler verken om feilinformasjon eller juks med tall, men om **fire grunnleggende forskjeller i statistisk avgrensning, definisjoner og tellemåter**:
+Svaret handler verken om feilinformasjon eller juks med tall, men om **fire grunnleggende forskjeller i statistisk avgrensning, definisjoner og organisering**:
 
 ### 1\. 🏗️ Bransjebredde: Industriparken rommer mye mer enn industri
 
@@ -153,7 +140,7 @@ I SSBs næringsstandard (SN2007) klassifiseres disse under helt andre sektorer e
 * **Eiendomsdrift, vakt og renhold (SN 68 og 81):** Selve parkforvaltningen (Mo Industripark AS), vakt- og sikringstjenester, industrivern og industrielt renhold (over **410 arbeidsplasser** i Rana).
 * **Bemanningsbyråer og utleie (SN 77–78):** Personellutleie rettet mot revisjonsstanser og prosjekter.
 
-Mange av disse har sitt daglige virke bak portene i industriparken eller leverer direkte til industribedriftene der, men i nasjonal statistikk er de *ikke* industriarbeidere – de er sjåfører, elektrikere, ingeniører, renholdere, vektere, IT-konsulenter og prosjektledere. Samtidig betjener disse bransjene selvsagt også det øvrige samfunnet og næringslivet i Rana utenfor industriparken, som boligbygging, ordinær varetransport og generell IT- og konsulentvirksomhet.
+Mange av disse har sitt daglige virke bak portene i industriparken eller leverer direkte til industribedriftene der, men i nasjonal statistikk er de *ikke* registrert som industriarbeidere – de er sjåfører, elektrikere, ingeniører, renholdere, vektere, IT-konsulenter og prosjektledere. Samtidig betjener disse tjeneste- og entreprenørnæringene selvsagt også det øvrige samfunnet og næringslivet i Rana utenfor industriparken.
 
 ### 2\. 📍 Konserntall vs. fysisk arbeidssted
 
@@ -195,11 +182,12 @@ For å unngå misforståelser er det nyttig å kjenne til hvordan offisiell nors
 
 ## 5\. 💡 Oppsummering: Hvorfor presise tall betyr noe
 
-Gjennomgangen av SSBs faktiske registertall for perioden 2016–2025 gir et nøkternt og nyansert bilde av Helgelands industrielle ryggrad:
+Gjennomgangen av SSBs faktiske registertall for 2025 gir et nøkternt og nyansert bilde av Helgelands industrielle ryggrad:
 
 1. **⚖️ To jevnstore kjemper i prosessindustrien:** Rana (1 613 industriansatte) og Vefsn (949 industriansatte) er regionens ubestridte industrielle tyngdepunkter. Ser man spesifikt på den kraftkrevende metallurgiske prosessindustrien (SN 24), er Vefsn (769 ansatte) og Rana (672 ansatte) nesten like store, med Vefsn som den største enkeltprodusenten av metaller. Rana har i tillegg en unik posisjon innen malmbryting (400 ansatte) og maskin-/metallvareindustri.
 2. **🌊 Kysten og distriktene er mer industritunge enn mange tror:** Målt i prosentvis andel av arbeidsstokken er kyst- og distriktskommunene blant landets aller mest industrispesialiserte. Herøy (25,1 prosent), Træna (21,1 prosent), Grane (20,9 prosent), Lurøy (15,2 prosent), Sømna (14,8 prosent) og Vefsn (14,0 prosent) har alle en høyere industriandel enn Rana (11,9 prosent i ren industri, 14,9 prosent inkludert gruvedrift).
-3. **🔄 Klynger er økosystemer – og hjelpekjedene finnes overalt:** Når Mo Industripark samler 2 900 ansatte, skyldes det at moderne industri krever et massivt støtteapparat av entreprenører, transportører, teknologer og rådgivere bak samme port. Men nøyaktig de samme støttekjedene finnes rundt smelteverket i Mosjøen, rundt lakseslakteriene i Herøy og Lurøy, og rundt offshorebasen i Alstahaug – de er bare spredt på ordinære næringsarealer og summeres ikke under én felles merkevare. Å sammenligne et fullt klyngetall med andre kommuners rene fabrikktall gir et fortegnet bilde av hvor verdiene og arbeidsplassene på Helgeland faktisk skapes.
+3. **🔄 Klynger er økosystemer – ikke bare fabrikker:** Når Mo Industripark samler 2 900 ansatte, skyldes det at moderne industri krever et massivt støtteapparat av entreprenører, transportører, teknologer og rådgivere. Det gjør ikke klyngen mindre verdifull, men det understreker at en betydelig del av arbeidsplassene er tjenester som leverer *til* industrien, snarere enn industriarbeidere i tradisjonell forstand.
+4. **🏔️ To komplementære industriregioner:** Delt langs Korgfjellet står Nord-Helgeland for 53,5 prosent og Sør-Helgeland for 46,5 prosent av den rene industrien. Helgeland er dermed ikke en énkjerne-region, men et to-kjerne industrilandskap bundet sammen av E6 og jernbane.
 
 I en tid der Helgeland står overfor krevende diskusjoner om fordeling av kraftnett, samferdselsinvesteringer, utdanningstilbud og beredskap, er presis begrepsbruk en forutsetning for gode beslutninger. Næringslivet på Helgeland er verken et ensidig byfenomen eller en ren råvareperiferi – det er en finmasket, gjensidig avhengig verdikjede der smelteverk i innlandet, høyteknologiske lakseslakterier i havgapet og gruver i fjellet til sammen utgjør Nord-Norges sterkeste industrimotor.
 
@@ -208,7 +196,7 @@ I en tid der Helgeland står overfor krevende diskusjoner om fordeling av kraftn
 ### 📚 Kilder og dokumentasjonsgrunnlag
 
 * **Statistisk sentralbyrå (SSB):**
-  * *Tabell 13470: Sysselsatte per 4\. kvartal, etter næring (SN2007), region og år (2016–2025)*. Registerbasert sysselsettingsstatistikk etter arbeidssted for samtlige 18 kommuner på Helgeland.
+  * *Tabell 13470: Sysselsatte per 4\. kvartal 2025, etter næring (SN2007) og region*. Registerbasert sysselsettingsstatistikk etter arbeidssted for samtlige 18 kommuner på Helgeland.
   * *Standard for næringsgruppering (SN2007)*: Avgrensning og definisjon av næringshovedområde B (Bergverksdrift og utvinning, kode 05–09), næringshovedområde C (Industri, bearbeiding og produksjon, kode 10–33), bygg- og anleggsvirksomhet (kode 41–43) samt tjenesteytende næringer.
   * *Retningslinjer og definisjoner for registerbasert arbeidsmarkedsstatistikk (a-ordningen)*: Regelverk for kobling mot underenhet/virksomhetsnummer (arbeidsstedskommune vs. bostedskommune).
 * **Mo Industripark AS (MIP):**
