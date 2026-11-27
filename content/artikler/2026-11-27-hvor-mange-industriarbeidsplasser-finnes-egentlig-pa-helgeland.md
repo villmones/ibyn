@@ -138,7 +138,7 @@ Samtidig viser SSBs offisielle tall for 2025 at det i *hele Rana kommune* – in
 
 Hvordan kan industriparken alene oppgi 2 900 ansatte når hele kommunen bare har 2 013 industriarbeidsplasser?
 
-Svaret handler verken om feilinformasjon eller juks med tall, men om **tre grunnleggende forskjeller i statistisk avgrensning, definisjoner og tellemåter**:
+Svaret handler verken om feilinformasjon eller juks med tall, men om **fire grunnleggende forskjeller i statistisk avgrensning, definisjoner og tellemåter**:
 
 ### 1\. 🏗️ Bransjebredde: Industriparken rommer mye mer enn industri
 
@@ -153,7 +153,7 @@ I SSBs næringsstandard (SN2007) klassifiseres disse under helt andre sektorer e
 * **Eiendomsdrift, vakt og renhold (SN 68 og 81):** Selve parkforvaltningen (Mo Industripark AS), vakt- og sikringstjenester, industrivern og industrielt renhold (over **410 arbeidsplasser** i Rana).
 * **Bemanningsbyråer og utleie (SN 77–78):** Personellutleie rettet mot revisjonsstanser og prosjekter.
 
-Alle disse menneskene har sitt daglige virke bak portene i industriparken og skaper store verdier, men i nasjonal statistikk er de *ikke* industriarbeidere – de er sjåfører, elektrikere, ingeniører, renholdere, vektere, IT-konsulenter og prosjektledere.
+Mange av disse har sitt daglige virke bak portene i industriparken eller leverer direkte til industribedriftene der, men i nasjonal statistikk er de *ikke* industriarbeidere – de er sjåfører, elektrikere, ingeniører, renholdere, vektere, IT-konsulenter og prosjektledere. Samtidig betjener disse bransjene selvsagt også det øvrige samfunnet og næringslivet i Rana utenfor industriparken, som boligbygging, ordinær varetransport og generell IT- og konsulentvirksomhet.
 
 ### 2\. 📍 Konserntall vs. fysisk arbeidssted
 
