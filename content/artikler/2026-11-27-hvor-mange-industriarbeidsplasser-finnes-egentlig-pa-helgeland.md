@@ -5,7 +5,7 @@ summary: Her er fasiten fra Statistisk sentralbyrå (SSB) for samtlige kommuner 
   2025 – og forklaringen på hvorfor industritallene i den offentlige debatten
   ofte spriker.
 image: /images/helgeland_industri-2.png
-kicker: SAMFUNN
+kicker: INDUSTRI
 date: 2026-11-27
 ---
 I samfunnsdebatten på Helgeland inntar industrien en helt spesiell posisjon. Spørsmål om sykehusstruktur, kraftlinjer, samferdsel, havneutbygginger og statlige lokaliseringer begrunnes ofte med henvisning til regionens industrielle tyngdepunkt. Samtidig sirkulerer det høyst ulike tall for hvor mange industriarbeidsplasser regionen faktisk har.
